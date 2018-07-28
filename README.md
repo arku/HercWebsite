@@ -1,4 +1,4 @@
-# herc
+# HercWebsite
 
 ## Project setup
 ```
