@@ -1,20 +1,16 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
-    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-    <TopSection></TopSection>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-import TopSection from "./views/Home.vue";
+import Home from "./views/Home.vue";
 
 export default {
   name: "app",
   components: {
-    // HelloWorld
-    TopSection
+    Home
   }
 };
 </script>
