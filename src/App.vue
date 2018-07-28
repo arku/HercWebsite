@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+    <Home/>
   </div>
 </template>
 
@@ -18,11 +18,15 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-body {
-  background-color: #091141;
-  color: #f3c736;
-  font-family: "Montserrat", sans-serif;
+* {
+  font-family: "Montserrat", sans-serif !important;
+    color: #f3c736;
 }
+
+html {
+  background-color: #091141 !important;
+}
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

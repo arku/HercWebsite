@@ -34,11 +34,14 @@ h1 {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
+  color: #f3c736;
 }
 
-h3{
-    text-transform: uppercase;
-    font-weight: 100;
+h3 {
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #f3c736;
+  font-size: 20px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -60,6 +63,10 @@ h3{
     padding-bottom: 80px;
     font-size: 40px;
   }
+
+  h3 {
+    font-size: 18px;
+  }
 }
 
 /*** Responsive Styles Smartphone Only ***/
@@ -68,6 +75,10 @@ h3{
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 30px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 }
 

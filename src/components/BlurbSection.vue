@@ -3,13 +3,24 @@
         <div id="content">
             <div class="columns">
                 <div class="column">
-<p>test</p>
+                    <p>test</p>
                 </div>
                 <div class="column">
-<p>test</p>
+                    <p>test</p>
                 </div>
                 <div class="column">
-<p>test</p>
+                    <p>test</p>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <p>test</p>
+                </div>
+                <div class="column">
+                    <p>test</p>
+                </div>
+                <div class="column">
+                    <p>test</p>
                 </div>
             </div>
         </div>
