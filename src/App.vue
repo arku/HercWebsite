@@ -20,7 +20,6 @@ export default {
 
 * {
   font-family: "Montserrat", sans-serif !important;
-    color: #f3c736;
 }
 
 html {

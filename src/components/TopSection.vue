@@ -26,7 +26,7 @@ export default {
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
-  height: 80vh;
+  height: 85vh;
 }
 
 h1 {
