@@ -13,16 +13,11 @@ export default {
 </script>
 
 <style scoped>
-    #hiw-section{
-        height: 80vh;
-    }
-
     #content{
         padding-top: 50px;
     }
 
     #content img{
         width: 100%;
-
     }
 </style>

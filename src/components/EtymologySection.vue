@@ -42,7 +42,6 @@ h1 {
   text-align: center;
   color: #f3c736;
   text-transform: uppercase;
-  margin-bottom: 50px;
 }
 
 .blurb {
@@ -54,7 +53,7 @@ h1 {
   margin: 5%;
   margin-bottom: auto;
   padding: 20px;
-  width: 50px;
+  
 }
 
 .blurb-image {
@@ -80,5 +79,46 @@ h1 {
   line-height: 1.5em;
   font-weight: 700;
   font-size: 11px;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+}
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .blurb-title {
+    font-size: 15px;
+  }
+}
+
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .blurb-title {
+    font-size: 18px;
+  }
+}
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+  h1 {
+    font-size: 30px;
+  }
 }
 </style>
