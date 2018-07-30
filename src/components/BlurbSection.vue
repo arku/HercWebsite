@@ -6,21 +6,21 @@
                     <div class="image is-128x128 blurb-image">
                         <img src="../assets/blurb/blockchain.png">
                     </div>
-                    <h1 class="blurb-title">A new era in supply chain ecosystems</h1>
+                    <h2 class="blurb-title">A new era in supply chain ecosystems</h2>
                     <p class="blurb-text">From Agri-Food to Technology value chains, HERC can be used for any physical interchangeable item and any entity type of organization in virtually any local, regional, or Global Value Chain.</p>
                 </div>
                 <div class="column blurb">
                     <div class="image is-128x128 blurb-image">
                         <img src="../assets/blurb/weight-balance.png">
                     </div>
-                    <h1 class="blurb-title">100% Provable, <br>24-hours a day</h1>
+                    <h2 class="blurb-title">100% Provable, <br>24-hours a day</h2>
                     <p class="blurb-text">Enabling transparent and efficient supply chain management functions.</p>
                 </div>
                 <div class="column blurb">
                     <div class="image is-128x128 blurb-image">
                         <img src="../assets/blurb/research.png">
                     </div>
-                    <h1 class="blurb-title">Measure, Verify , Track</h1>
+                    <h2 class="blurb-title">Measure, Verify , Track</h2>
                     <p class="blurb-text">Blockchain software for tracking physical inventory in a Supply Chain with a digital source to store and review verification information.</p>
                 </div>
             </div>
@@ -29,21 +29,21 @@
                     <div class="image is-128x128 blurb-image">
                         <img src="../assets/blurb/decentralized.png">
                     </div>
-                    <h1 class="blurb-title">Dedicated to decentralized distribution</h1>
+                    <h2 class="blurb-title">Dedicated to decentralized distribution</h2>
                     <p class="blurb-text">A robust ecosystem for entities dedicated to decentralized distribution and attaining effective supply chain planning production for commodities.</p>
                 </div>
                 <div class="column blurb">
                     <div class="image is-128x128 blurb-image">
                         <img src="../assets/blurb/innovation.png">
                     </div>
-                    <h1 class="blurb-title">Revolutionizing the global value chain</h1>
+                    <h2 class="blurb-title">Revolutionizing the global value chain</h2>
                     <p class="blurb-text">HERC helps to create a more secure and streamlined ecosystem and is the easiest way to verify supply chain items and proving their existence, possession, storage and insurance in crypto units.</p>
                 </div>
                 <div class="column blurb">
                     <div class="image is-128x128 blurb-image">
                         <img src="../assets/blurb/corruption.png">
                     </div>
-                    <h1 class="blurb-title">Helping Eradicate Racketeering & Collusion</h1>
+                    <h2 class="blurb-title">Helping Eradicate Racketeering & Collusion</h2>
                     <p class="blurb-text">Empowering & entrusting the public with control of the Global Value Chain.</p>
                 </div>
             </div>
@@ -57,7 +57,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #blurb-section {
   padding-top: 50px;
   padding-bottom: 50px;
