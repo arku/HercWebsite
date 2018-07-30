@@ -1,7 +1,7 @@
 <template>
     <div id="table-section">
         <div id="content">
-            <table class="table is-bordered is-hoverable">
+            <table class="table is-bordered">
                 <thead>
                     <tr>
                         <th>
@@ -22,9 +22,37 @@
                         <td>Action:</td>
                     </tr>
                     <tr>
-                        <td>Action:</td>
-                        <td>Action:</td>
-                        <td>Action:</td>
+                        <td>Size:</td>
+                        <td>Size:</td>
+                        <td>Size:</td>
+                    </tr>
+                    <tr>
+                        <td>Cost/kb:</td>
+                        <td>Cost/kb:</td>
+                        <td>Cost/kb:</td>
+                    </tr>
+                    <tr>
+                        <td>Cost associated:</td>
+                        <td>Cost associated:</td>
+                        <td>Cost associated:</td>
+                    </tr>
+                    <tr>
+                        <td>Cost of Token:</td>
+                        <td>Cost of Token:</td>
+                    </tr>
+                    <tr>
+                        <td>FCT needed</td>
+                        <td>STORJ needed</td>
+                    </tr>
+                    <tr>
+                        <td>HERC needed</td>
+                        <td>HERC needed</td>
+                        <td>HERC needed</td>
+                    </tr>
+                    <tr>
+                        <td>ETH Gas Price</td>
+                        <td>ETH Gas Price</td>
+                        <td>ETH Gas Price</td>
                     </tr>
                 </tbody>
             </table>
@@ -50,7 +78,24 @@ table {
   border: 2px solid black;
 }
 
+table th{
+    border-color: black;
+}
+
+table td{
+    color: white;
+    text-align: center;
+    border-color: black;
+}
+
+ table td:hover{
+    background-color: #f3c736;
+    color: black;
+}
+
 table img {
   margin: auto;
 }
+
+
 </style>

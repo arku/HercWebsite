@@ -6,6 +6,8 @@
         <EtymologySection></EtymologySection>
         <ProtocolCostSection></ProtocolCostSection>
         <TableSection></TableSection>
+        <VideoSection></VideoSection>
+        <RoadmapSection></RoadmapSection>
     </div>
 </template>
 <script>
@@ -15,6 +17,8 @@ import HowItWorksSection from "@/components/HowItWorksSection.vue";
 import EtymologySection from "@/components/EtymologySection.vue";
 import ProtocolCostSection from "@/components/ProtocolCostSection.vue";
 import TableSection from "@/components/TableSection.vue";
+import VideoSection from "@/components/VideoSection.vue";
+import RoadmapSection from "@/components/RoadmapSection.vue";
 
 export default {
   name: "home",
@@ -24,7 +28,9 @@ export default {
     HowItWorksSection,
     EtymologySection,
     ProtocolCostSection,
-    TableSection
+    TableSection,
+    VideoSection,
+    RoadmapSection
   }
 };
 </script>
