@@ -7,6 +7,9 @@
             <div id="image-placeholder">
                 <img src="../assets/cost-per-protocol.png">
             </div>
+            <div class="is-128x128">
+                <img src="../assets/down-arrow.png">
+            </div>
         </div>
     </div>
 </template>
@@ -24,6 +27,7 @@ export default {
 
 #image-placeholder {
   background-color: #1c224b;
+  margin-bottom: 5%;
 }
 
 h1 {

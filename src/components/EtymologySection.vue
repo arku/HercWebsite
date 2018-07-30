@@ -82,9 +82,7 @@ h1 {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-  /* .blurb-title {
-    font-size: 12px;
-  } */
+
 }
 
 /*** Responsive Styles Tablet Only ***/
