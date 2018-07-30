@@ -6,19 +6,19 @@
             </div>
             <div class="columns">
                <div class="column blurb">
-                  <img class="blurb-image" src="../assets/check-circle.png">
+                  <img class="blurb-image image is-128x128" src="../assets/check-circle.png">
                   <h2 class="blurb-title">Helping</h2>
                </div>
                <div class="column blurb">
-                  <img class="blurb-image" src="../assets/check-circle.png">
+                  <img class="blurb-image image is-128x128" src="../assets/check-circle.png">
                   <h2 class="blurb-title">Eradicate</h2>
                </div>
                <div class="column blurb">
-                  <img class="blurb-image" src="../assets/check-circle.png">
+                  <img class="blurb-image image is-128x128" src="../assets/check-circle.png">
                   <h2 class="blurb-title">Racketeering</h2>
                </div>
                <div class="column blurb">
-                  <img class="blurb-image" src="../assets/check-circle.png">
+                  <img class="blurb-image image is-128x128" src="../assets/check-circle.png">
                   <h2 class="blurb-title">Collusion</h2>
                </div>
             </div>
@@ -42,6 +42,7 @@ h1 {
   text-align: center;
   color: #f3c736;
   text-transform: uppercase;
+  margin-bottom: 50px;
 }
 
 .blurb {
@@ -50,14 +51,12 @@ h1 {
   border-width: 1px !important;
   border: 1px solid #f3c736;
   border-radius: 5px;
-  margin: 5%;
+  margin: 2%;
   margin-bottom: auto;
   padding: 20px;
-  
 }
 
 .blurb-image {
-  width: 100%;
   margin: auto;
   margin-bottom: 10%;
 }
@@ -66,19 +65,10 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   color: #091141;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 1em;
   margin-bottom: 3%;
   font-size: 18px;
-}
-
-.blurb-text {
-  color: #091141;
-  text-align: center;
-  text-transform: uppercase;
-  line-height: 1.5em;
-  font-weight: 700;
-  font-size: 11px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -87,10 +77,14 @@ h1 {
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
+ 
 }
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  /* .blurb-title {
+    font-size: 12px;
+  } */
 }
 
 /*** Responsive Styles Tablet Only ***/
