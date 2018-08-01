@@ -30,7 +30,7 @@ h1 {
 
 iframe {
   border: 1px solid #f3c736;
-  box-shadow: 0px 12px 18px -15px #000 !important;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

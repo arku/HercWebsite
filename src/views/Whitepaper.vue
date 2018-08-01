@@ -1,7 +1,6 @@
 <template>
     <div class="whitepaper">
-        <TopSection></TopSection>
-        
+        <WhitepaperSection></WhitepaperSection>
     </div>
 </template>
 <script>

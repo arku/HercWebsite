@@ -13,7 +13,7 @@
                 <p class="help is-danger">This email is invalid</p>
               </div>
             <div class="control center-field">
-              <button class="button is-link">Submit</button>
+              <button class="button is-link">Subscribe</button>
             </div>
           </div>
         </div>
@@ -38,12 +38,14 @@ export default {
 }
 
 #top-section input {
-  width: 25%;
+  width: 300px;
+  height: 50px;
   text-align: center;
   background-color: transparent;
   color: #f3c736;
   border-color: #f3c736;
   border-radius: 0;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 input::placeholder {
@@ -57,6 +59,10 @@ input::placeholder {
   background-color: transparent;
   color: #f3c736;
   border-color: #f3c736;
+  text-transform: uppercase;
+  width: 300px;
+  height: 50px;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 #top-section button:hover {
@@ -80,7 +86,7 @@ h3 {
   margin-bottom: 50px;
 }
 
-.center-field{
+.center-field {
   text-align: center;
 }
 

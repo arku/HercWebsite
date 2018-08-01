@@ -19,11 +19,11 @@ export default new Router({
         component: Whitepaper,
     }
     ],
-    scrollBehavior(to, from, savedPosition) {
-        // Do no scroll back if navigation is for same page navigation
-        if (to.hash[0] !== '#') {
-            return { x: 0, y: 0 }
-        }
+    // scrollBehavior(to, from, savedPosition) {
+    //     // Do no scroll back if navigation is for same page navigation
+    //     if (to.hash[0] !== '#') {
+    //         return { x: 0, y: 0 }
+    //     }
 
-    }
+    // }
 });

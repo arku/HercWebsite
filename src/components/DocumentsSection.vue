@@ -38,7 +38,7 @@ export default {
   border-color: #f3c736;
   font-weight: 500;
   font-size: 20px;
-  box-shadow: 0px 12px 18px -15px #000 !important;
+  box-shadow: 0px 12px 18px -6px #000;
   margin: 5%;
 }
 
