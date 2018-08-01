@@ -50,7 +50,6 @@ h1 {
   box-shadow: 0px 12px 18px -15px #000 !important;
   border-width: 1px !important;
   border: 1px solid #f3c736;
-  border-radius: 5px;
   margin: 2%;
   margin-bottom: auto;
   padding: 20px;
