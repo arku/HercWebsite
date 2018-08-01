@@ -78,24 +78,44 @@ table {
   border: 2px solid black;
 }
 
-table th{
-    border-color: black;
+table th {
+  border-color: black;
 }
 
-table td{
-    color: white;
-    text-align: center;
-    border-color: black;
+table td {
+  color: white;
+  text-align: center;
+  border-color: black;
 }
 
- table td:hover{
-    background-color: #f3c736;
-    color: black;
+table td:hover {
+  background-color: #f3c736;
+  color: black;
 }
 
 table img {
   margin: auto;
 }
 
-
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+}
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+  table td{
+      font-size: 12px;
+  }
+}
 </style>

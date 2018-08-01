@@ -7,21 +7,15 @@
             <div>
                 <h3>Leave Your Email to Stay <br> Updated With Latest News!</h3>
               <div class="field">
-    <div class="control has-icons-left has-icons-right">
-    <input class="input is-danger" type="email" placeholder="Email" value="">
-    <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
-    </span>
-    <span class="icon is-small is-right">
-      <i class="fas fa-exclamation-triangle"></i>
-    </span>
-  </div>
-  <p class="help is-danger">This email is invalid</p>
-</div>
-  <div class="control">
-    <button class="button is-link">Submit</button>
-  </div>
+                <div class="control center-field">
+                  <input class="input is-danger" type="email" placeholder="Email" value="">
+                </div>
+                <p class="help is-danger">This email is invalid</p>
+              </div>
+            <div class="control center-field">
+              <button class="button is-link">Submit</button>
             </div>
+          </div>
         </div>
     </div>
 </template>
@@ -47,17 +41,17 @@ export default {
   width: 25%;
   text-align: center;
   background-color: transparent;
-  color:#f3c736;
+  color: #f3c736;
   border-color: #f3c736;
   border-radius: 0;
 }
 
-input::placeholder{
+input::placeholder {
   color: #f3c736;
   font-size: 14px;
 }
 
-#top-section button{
+#top-section button {
   font-size: 20px;
   border-radius: 0;
   background-color: transparent;
@@ -65,7 +59,7 @@ input::placeholder{
   border-color: #f3c736;
 }
 
-#top-section button:hover{
+#top-section button:hover {
   color: white;
   border-color: white;
 }
@@ -86,6 +80,10 @@ h3 {
   margin-bottom: 50px;
 }
 
+.center-field{
+  text-align: center;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -96,7 +94,7 @@ h3 {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-  #top-section input{
+  #top-section input {
     width: 40%;
   }
 }
@@ -113,7 +111,7 @@ h3 {
     font-size: 18px;
   }
 
-  #top-section input{
+  #top-section input {
     width: 50%;
   }
 }
@@ -130,7 +128,7 @@ h3 {
     font-size: 18px;
   }
 
-  #top-section input{
+  #top-section input {
     width: 50%;
   }
 }
@@ -143,7 +141,7 @@ h3 {
     font-size: 30px;
   }
 
-  #top-section input{
+  #top-section input {
     width: 80%;
   }
 }
