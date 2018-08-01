@@ -6,6 +6,21 @@
             </div>
             <div>
                 <h3>Leave Your Email to Stay <br> Updated With Latest News!</h3>
+              <div class="field">
+    <div class="control has-icons-left has-icons-right">
+    <input class="input is-danger" type="email" placeholder="Email" value="">
+    <span class="icon is-small is-left">
+      <i class="fas fa-envelope"></i>
+    </span>
+    <span class="icon is-small is-right">
+      <i class="fas fa-exclamation-triangle"></i>
+    </span>
+  </div>
+  <p class="help is-danger">This email is invalid</p>
+</div>
+  <div class="control">
+    <button class="button is-link">Submit</button>
+  </div>
             </div>
         </div>
     </div>
@@ -26,7 +41,33 @@ export default {
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
-  height: 85vh;
+}
+
+#top-section input {
+  width: 25%;
+  text-align: center;
+  background-color: transparent;
+  color:#f3c736;
+  border-color: #f3c736;
+  border-radius: 0;
+}
+
+input::placeholder{
+  color: #f3c736;
+  font-size: 14px;
+}
+
+#top-section button{
+  font-size: 20px;
+  border-radius: 0;
+  background-color: transparent;
+  color: #f3c736;
+  border-color: #f3c736;
+}
+
+#top-section button:hover{
+  color: white;
+  border-color: white;
 }
 
 h1 {
@@ -42,6 +83,7 @@ h3 {
   font-weight: 100;
   color: #f3c736;
   font-size: 20px;
+  margin-bottom: 50px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -54,6 +96,9 @@ h3 {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  #top-section input{
+    width: 40%;
+  }
 }
 
 /*** Responsive Styles Tablet Only ***/
@@ -66,6 +111,10 @@ h3 {
 
   h3 {
     font-size: 18px;
+  }
+
+  #top-section input{
+    width: 50%;
   }
 }
 
@@ -80,6 +129,10 @@ h3 {
   h3 {
     font-size: 18px;
   }
+
+  #top-section input{
+    width: 50%;
+  }
 }
 
 /*** Responsive Styles Smartphone Portrait ***/
@@ -88,6 +141,10 @@ h3 {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 30px;
+  }
+
+  #top-section input{
+    width: 80%;
   }
 }
 </style>
