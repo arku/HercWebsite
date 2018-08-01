@@ -140,9 +140,6 @@ export default {
 </script>
 
 <style scoped>
-#team-section {
-}
-
 span {
   font-size: 45px;
   color: #f3c736;
