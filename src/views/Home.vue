@@ -8,6 +8,7 @@
         <VideoSection></VideoSection>
         <RoadmapSection></RoadmapSection>
         <DocumentsSection></DocumentsSection>
+        <TeamSection></TeamSection>
         <GithubSection></GithubSection>
         <FooterSection></FooterSection>
     </div>
@@ -23,6 +24,7 @@ import RoadmapSection from "@/components/RoadmapSection.vue";
 import DocumentsSection from "@/components/DocumentsSection.vue";
 import GithubSection from "@/components/GithubSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
+import TeamSection from "@/components/TeamSection.vue";
 
 export default {
   name: "home",
@@ -36,7 +38,8 @@ export default {
     RoadmapSection,
     DocumentsSection,
     GithubSection,
-    FooterSection
+    FooterSection,
+    TeamSection
   }
 };
 </script>
