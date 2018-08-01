@@ -8,22 +8,123 @@
                         <span>Herc</span>
                     </div>
                     <div id="meni">
-                        <a href="">All</a>
+                        <div>
+                            <a href="">All</a>
+                        </div>
+                        <div>
+                            <a href="">Advisors</a>
+                        </div>
+                        <div>
+                            <a href="">Board of Directors</a>
+                        </div>
+                        <div>
+                            <a href="">Developers</a>
+                        </div>
+                        <div>
+                            <a href="">Directors</a>
+                        </div>
+                        <div>
+                            <a href="">Key Management</a>
+                        </div>
+                        <div>
+                            <a href="">Technical Advisors</a>
+                        </div>
                     </div>
                 </div>
                 <div id="right-column" class="column">
                     <div>
                         <span>Team</span>
                     </div>
-                    <div class="columns">
-                        <div class="column">
-                            <p>Test</p>
+                    <div id="team-holder">
+                        <div class="columns">
+                            <div class="column center">
+                                <img src="../assets/team/anthem.jpg">
+                                <p class="bold">Anthem Blanchard</p>
+                                <p>CEO</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/cynthia.jpg">
+                                <p class="bold">Cynthia Blanchard</p>
+                                <p>President</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/peter-buckley.png">
+                                <p class="bold">Peter Buckley</p>
+                                <p>President</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/anthem.jpg">
+                                <p class="bold">Anthem Blanchard</p>
+                                <p>CEO</p>
+                            </div>
                         </div>
-                        <div class="column">
-                            
+                        <div class="columns">
+                            <div class="column center">
+                                <img src="../assets/team/anthem.jpg">
+                                <p class="bold">Anthem Blanchard</p>
+                                <p>CEO</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/cynthia.jpg">
+                                <p class="bold">Cynthia Blanchard</p>
+                                <p>President</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/peter-buckley.png">
+                                <p class="bold">Peter Buckley</p>
+                                <p>President</p>
+                            </div>
                         </div>
-                        <div class="column">
-                            
+                        <div class="columns">
+                            <div class="column center">
+                                <img src="../assets/team/anthem.jpg">
+                                <p class="bold">Anthem Blanchard</p>
+                                <p>CEO</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/cynthia.jpg">
+                                <p class="bold">Cynthia Blanchard</p>
+                                <p>President</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/peter-buckley.png">
+                                <p class="bold">Peter Buckley</p>
+                                <p>President</p>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column center">
+                                <img src="../assets/team/anthem.jpg">
+                                <p class="bold">Anthem Blanchard</p>
+                                <p>CEO</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/cynthia.jpg">
+                                <p class="bold">Cynthia Blanchard</p>
+                                <p>President</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/peter-buckley.png">
+                                <p class="bold">Peter Buckley</p>
+                                <p>President</p>
+                            </div>
+                        </div>
+                        <div class="columns">
+                            <div class="column center">
+                                <img src="../assets/team/anthem.jpg">
+                                <p class="bold">Anthem Blanchard</p>
+                                <p>CEO</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/cynthia.jpg">
+                                <p class="bold">Cynthia Blanchard</p>
+                                <p>President</p>
+                            </div>
+                            <div class="column center">
+                                <img src="../assets/team/peter-buckley.png">
+                                <p class="bold">Peter Buckley</p>
+                                <p>President</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -60,11 +161,36 @@ span {
 #meni {
   text-align: left;
   padding: 40px;
+  padding-right: 10px;
 }
 
 #meni a {
   color: #f3c736;
   text-transform: uppercase;
+  line-height: 5em;
+  font-size: 16px;
+}
+
+#meni a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+#team-holder {
+  padding: 40px;
+  color: #091141;
+}
+
+#team-holder img {
+  border: 3px solid #f3c736;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  text-align: center;
 }
 
 #right-column {
