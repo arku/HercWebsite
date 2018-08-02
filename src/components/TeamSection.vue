@@ -1,13 +1,22 @@
 <template>
     <div id="team-section">
         <div id="content">
+            <div>
+                <h1>Team</h1>
+            </div>
             <div class="columns">
-                
                 <div class="column">
-                    <div>
-                        <h1>Team</h1>
-                    </div>
-                                    </div>
+                    
+                </div>
+                <div class="column">
+                    
+                </div>
+                <div class="column">
+                    
+                </div>
+                <div class="column">
+                    
+                </div>
             </div>
         </div>
     </div>
@@ -26,59 +35,12 @@ h1 {
   text-transform: uppercase;
 }
 
-#left-column {
-  text-align: right;
-}
-
-#left-column span {
-  text-align: right;
-  width: 100%;
-}
-
-#meni {
-  text-align: left;
-  padding: 40px;
-  padding-right: 10px;
-}
-
-#meni a {
-  color: #f3c736;
-  text-transform: uppercase;
-  line-height: 5em;
-  font-size: 16px;
-}
-
-#meni a:hover {
-  color: white;
-  font-weight: bold;
-}
-
-#team-holder {
-  padding: 40px;
-  color: #091141;
-}
-
-#team-holder img {
-  border: 3px solid #f3c736;
-}
-
 .bold {
   font-weight: bold;
 }
 
 .center {
   text-align: center;
-}
-
-#right-column {
-  background-color: #fafafa;
-  text-align: left;
-}
-
-#right-column span {
-  text-align: left;
-  width: 100%;
-  color: #091141;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
