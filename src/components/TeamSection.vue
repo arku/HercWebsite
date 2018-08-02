@@ -6,7 +6,12 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    
+                    <img src="../assets/team/anthem.jpg">
+                    <h2>Anthem Blanchard</h2>
+                    <h3>CEO</h3>
+                    <span class="icon">
+                        <i class="fas fa-home"></i>
+                    </span>
                 </div>
                 <div class="column">
                     
@@ -35,12 +40,26 @@ h1 {
   text-transform: uppercase;
 }
 
+h2 {
+  font-size: 20px;
+  color: #f3c736;
+}
+
+h3 {
+  color: #f3c736;
+  font-size: 16px;
+}
+
 .bold {
   font-weight: bold;
 }
 
 .center {
   text-align: center;
+}
+
+#team-section img {
+  border: 4px solid #f3c736;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
