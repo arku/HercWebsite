@@ -20,7 +20,7 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-* {
+h1,h2,h3,h4,p,span {
   font-family: "Montserrat", sans-serif !important;
 }
 
