@@ -9,6 +9,7 @@
         <RoadmapSection></RoadmapSection>
         <DocumentsSection></DocumentsSection>
         <TeamSection></TeamSection>
+        <ContactSection></ContactSection>
         <GithubSection></GithubSection>
         <FooterSection></FooterSection>
     </div>
@@ -22,6 +23,7 @@ import TableSection from "@/components/TableSection.vue";
 import VideoSection from "@/components/VideoSection.vue";
 import RoadmapSection from "@/components/RoadmapSection.vue";
 import DocumentsSection from "@/components/DocumentsSection.vue";
+import ContactSection from "@/components/ContactSection.vue";
 import GithubSection from "@/components/GithubSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import TeamSection from "@/components/TeamSection.vue";
@@ -37,6 +39,7 @@ export default {
     VideoSection,
     RoadmapSection,
     DocumentsSection,
+    ContactSection,
     GithubSection,
     FooterSection,
     TeamSection
