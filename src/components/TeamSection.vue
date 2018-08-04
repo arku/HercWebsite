@@ -302,6 +302,7 @@ export default {
 
 #team-section img:hover {
   border-color: #091141;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 h1 {

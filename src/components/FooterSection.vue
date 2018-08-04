@@ -6,6 +6,12 @@
                     <div class="column">
                         <img src="../assets/herc-logo.png">
                         <div>
+                            <a href="">Privacy Policy</a>
+                        </div>
+                        <div>
+                            <a href="">Terms of Use</a>
+                        </div>
+                        <div>
                             <a href="">Metamask</a>
                         </div>
                         <div>
@@ -64,7 +70,7 @@ export default {
 
 #footer-section img {
   margin-bottom: 5%;
-  width: 60%;
+  width: 30%;
 }
 
 #footer-section a {
@@ -84,9 +90,9 @@ h3 {
   margin-bottom: 10%;
 }
 
-p{
-    font-size: 14px;
-    color: #f3c736;
+p {
+  font-size: 14px;
+  color: #f3c736;
 }
 
 .footer {

@@ -120,6 +120,11 @@ h3 {
   #top-section input {
     width: 50%;
   }
+
+  #top-section button{
+    font-size: 18px;
+    width: 200px;
+  }
 }
 
 /*** Responsive Styles Smartphone Only ***/
@@ -137,6 +142,11 @@ h3 {
   #top-section input {
     width: 50%;
   }
+
+  #top-section button{
+    font-size: 16px;
+    width: 200px;
+  }
 }
 
 /*** Responsive Styles Smartphone Portrait ***/
@@ -149,6 +159,10 @@ h3 {
 
   #top-section input {
     width: 80%;
+  }
+
+  #top-section button{
+    font-size: 16px;
   }
 }
 </style>
