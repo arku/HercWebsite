@@ -8,12 +8,13 @@
 
 <script>
 export default {
-  name: "RoadmapSection"
-};
+    name: 'RoadmapSection'
+}
 </script>
 
+
 <style scoped>
-#roadmap-section{
-    padding: 50px;
-}
+    #roadmap-section{
+        padding: 50px;
+    }
 </style>
