@@ -44,6 +44,9 @@
                         <div>
                             <a href="">Instagram</a>
                         </div>
+                        <div>
+                            <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw">YouTube</a>
+                        </div>
                     </div>
                     <div class="column">
                         <h3>Stay in touch</h3>

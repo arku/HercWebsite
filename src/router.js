@@ -21,7 +21,7 @@ export default new Router({
     },
     {
         path: '/policy',
-        name: 'polic',
+        name: 'policy',
         component: Policy,
     }
     ],
