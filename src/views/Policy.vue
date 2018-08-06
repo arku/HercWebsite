@@ -1,17 +1,17 @@
 <template>
-    <div class="privacy">
-        <PrivacySection></PrivacySection>
+    <div class="policy">
+        <PolicySection></PolicySection>
         <FooterSection></FooterSection>
     </div>
 </template>
 <script>
-import PrivacySection from "@/components/PrivacySection.vue";
+import PolicySection from "@/components/PolicySection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 
 export default {
-  name: "privacy",
+  name: "policy",
   components: {
-    PrivacySection,
+    PolicySection,
     FooterSection
   }
 };

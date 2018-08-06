@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Whitepaper from './views/Whitepaper.vue'
+import Policy from './views/Policy.vue'
 
 Vue.use(Router);
 
@@ -17,6 +18,11 @@ export default new Router({
         path: '/whitepaper',
         name: 'whitepaper',
         component: Whitepaper,
+    },
+    {
+        path: '/policy',
+        name: 'polic',
+        component: Policy,
     }
     ],
     // scrollBehavior(to, from, savedPosition) {
