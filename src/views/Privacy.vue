@@ -1,17 +1,17 @@
 <template>
-    <div class="whitepaper">
-        <WhitepaperSection></WhitepaperSection>
+    <div class="privacy">
+        <PrivacySection></PrivacySection>
         <FooterSection></FooterSection>
     </div>
 </template>
 <script>
-import WhitepaperSection from "@/components/WhitepaperSection.vue";
+import PrivacySection from "@/components/PrivacySection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 
 export default {
-  name: "whitepaper",
+  name: "privacy",
   components: {
-    WhitepaperSection,
+    PrivacySection,
     FooterSection
   }
 };
