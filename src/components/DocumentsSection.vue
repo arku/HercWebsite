@@ -43,8 +43,9 @@ export default {
 }
 
 #content a:hover {
-  color: white;
-  border-color: white;
+  color: #091141;
+  border-color: #091141;
+  background-color: #f3c736;
 }
 
 #content img {

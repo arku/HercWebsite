@@ -106,6 +106,7 @@ a:hover{
 .dugme-hover:hover{
     color: #091141 !important;
     background-color: white !important;
+    box-shadow: 0px 12px 18px -6px #000;
 }
 
 #navbarExampleTransparentExample{
@@ -115,5 +116,6 @@ a:hover{
 .button.is-primary{
     background-color: #f3c736;
     color: #091141;
+    border-radius: 0px;
 }
 </style>
