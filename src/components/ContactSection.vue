@@ -35,10 +35,7 @@
                         <h2>Chat With Us</h2>
                         <div>
                             <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                                <img src="../assets/telegram.png" class="image is-64x64">
-                            </a>
-                            <a href="https://discordapp.com/invite/BDvg2xg" target="_blank">
-                                <img src="../assets/discord.png" class="image is-64x64">
+                              <i class="fab fa-telegram fa-2x"></i>
                             </a>
                         </div>
                     </div>
@@ -70,27 +67,22 @@ export default {
   transform: scale(1.2);
 }
 
-#social {
-  margin-bottom: 5%;
-}
-
 h1 {
   font-size: 45px;
   color: #f3c736;
   text-transform: uppercase;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 h2 {
   font-size: 26px;
   text-transform: uppercase;
   color: #f3c736;
-  margin-bottom: 2%;
+  line-height: 1.7em;
 }
 
 i {
   color: #f3c736;
-  margin-bottom: 5%;
   transition: transform 0.2s;
 }
 
