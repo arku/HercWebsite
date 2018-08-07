@@ -1,5 +1,6 @@
 <template>
     <div class="home">
+        <NavBar></NavBar>
         <TopSection></TopSection>
         <BlurbSection></BlurbSection>
         <EtymologySection></EtymologySection>
@@ -15,6 +16,7 @@
     </div>
 </template>
 <script>
+import NavBar from "@/components/NavBar.vue";
 import TopSection from "@/components/TopSection.vue";
 import BlurbSection from "@/components/BlurbSection.vue";
 import EtymologySection from "@/components/EtymologySection.vue";
@@ -31,6 +33,7 @@ import TeamSection from "@/components/TeamSection.vue";
 export default {
   name: "home",
   components: {
+    NavBar,
     TopSection,
     BlurbSection,
     EtymologySection,
