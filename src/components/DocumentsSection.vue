@@ -9,7 +9,7 @@
                     <a class="button">Token Sale Policy</a>
                 </div>
                 <div class="column">
-                    <a class="button">White Paper</a>
+                    <a class="button" href="/whitepaper">White Paper</a>
                 </div>
             </div>
             <div>

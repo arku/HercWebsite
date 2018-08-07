@@ -13,6 +13,9 @@
         <ContactSection></ContactSection>
         <GithubSection></GithubSection>
         <FooterSection></FooterSection>
+        <back-to-top bottom="100px" right="10px">
+          <button type="button" class="btn btn-info btn-to-top"><i class="fa fa-chevron-up"></i></button>
+        </back-to-top>
     </div>
 </template>
 <script>
@@ -49,3 +52,21 @@ export default {
   }
 };
 </script>
+
+<style>
+.btn-to-top {
+  width: 40px;
+  height: 40px;
+  border-color: #f3c736;
+  background-color: transparent;
+  color: #f3c736;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn-to-top:hover{
+  box-shadow: 0px 12px 18px -6px #000;
+  background-color: #f3c736;
+  color: #091141;
+}
+</style>

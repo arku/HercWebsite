@@ -7,51 +7,62 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Herc_whitepaper_Dutch_x1.pdf"><img src="../assets/flags/dutch.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Herc_whitepaper_Dutch_x1.pdf">
+                    <img src="../assets/flags/dutch.png"></a>
                     <h2>Dutch</h2>
                 </div>
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x1.pdf"><img src="../assets/flags/english.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x1.pdf">
+                    <img src="../assets/flags/english.png"></a>
                     <h2>English</h2>
                 </div>
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Herc_whitepaper_Estonian_x1.pdf"><img src="../assets/flags/estonia.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Herc_whitepaper_Estonian_x1.pdf">
+                    <img src="../assets/flags/estonia.png"></a>
                     <h2>Estonian</h2>
                 </div>
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/french-whitepaper.pdf"><img src="../assets/flags/france.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/french-whitepaper.pdf">
+                    <img src="../assets/flags/france.png"></a>
                     <h2>French</h2>
                 </div>
             </div>
             <div class="columns">
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules-Whitepaper-German.pdf"><img src="../assets/flags/germany.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules-Whitepaper-German.pdf">
+                    <img src="../assets/flags/germany.png"></a>
                     <h2>German</h2>
                 </div>
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/japanese-whitepaper.pdf"><img src="../assets/flags/japan.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/japanese-whitepaper.pdf">
+                    <img src="../assets/flags/japan.png"></a>
                     <h2>Japanese</h2>
                 </div>
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/korean-whitepaper.pdf"><img src="../assets/flags/south-korea.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/korean-whitepaper.pdf">
+                    <img src="../assets/flags/south-korea.png"></a>
                     <h2>Korean</h2>
                 </div>
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules-Whitepaper_Cantonese.pdf"><img src="../assets/flags/china.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules-Whitepaper_Cantonese.pdf">
+                    <img src="../assets/flags/china.png"></a>
                     <h2>Mandarin</h2>
                 </div>
             </div>
             <div class="columns">
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules-Whitepaper-Portuguese.pdf"><img src="../assets/flags/portugal.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules-Whitepaper-Portuguese.pdf">
+                    <img src="../assets/flags/portugal.png"></a>
                     <h2>Portuguese</h2>
                 </div>
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules-Whitepaper-Russian.pdf"><img src="../assets/flags/russia.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules-Whitepaper-Russian.pdf">
+                    <img src="../assets/flags/russia.png"></a>
                     <h2>Russian</h2>
                 </div>
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules_Whitepaper_Spanish.pdf"><img src="../assets/flags/spain.png"></a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules_Whitepaper_Spanish.pdf">
+                    <img src="../assets/flags/spain.png"></a>
                     <h2>Spanish</h2>
                 </div>
             </div>
@@ -85,7 +96,7 @@ h2 {
   font-size: 24px;
 }
 
-h2:hover{
+h2:hover {
   color: white;
 }
 
