@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import Home from './views/Home.vue';
 import Whitepaper from './views/Whitepaper.vue'
 import Policy from './views/Policy.vue'
+import FAQ from './views/FAQ.vue'
 
 Vue.use(Router);
 
@@ -23,13 +24,11 @@ export default new Router({
         path: '/policy',
         name: 'policy',
         component: Policy,
+    },
+    {
+        path: '/lol',
+        name: 'faq',
+        component: FAQ
     }
     ],
-    // scrollBehavior(to, from, savedPosition) {
-    //     // Do no scroll back if navigation is for same page navigation
-    //     if (to.hash[0] !== '#') {
-    //         return { x: 0, y: 0 }
-    //     }
-
-    // }
 });
