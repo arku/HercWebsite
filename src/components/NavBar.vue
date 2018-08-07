@@ -39,7 +39,7 @@
                     <div class="navbar-item">
                         <div class="field is-grouped">
                         <p class="control">
-                            <a class="button is-primary" href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+                            <a class="button is-primary dugme-hover" href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                             <span class="icon">
                                 <i class="fab fa-telegram"></i>
                             </span>
@@ -49,7 +49,7 @@
                             </a>
                         </p>
                         <p class="control">
-                            <a class="button is-primary" href="/whitepaper">
+                            <a class="button is-primary dugme-hover" href="/whitepaper">
                             <span class="icon">
                                 <i class="far fa-file-alt"></i>
                             </span>
@@ -77,6 +77,14 @@ nav {
   background-color: transparent;
 }
 
+#navbar{
+border-bottom: 1px solid #111;
+}
+
+.navbar{
+    padding-left: 50px;
+}
+
 .navbar-item img{
     max-height: 2.6rem;
 }
@@ -95,6 +103,11 @@ a:hover{
     color:white !important;
 }
 
+.dugme-hover:hover{
+    color: #091141 !important;
+    background-color: white !important;
+}
+
 #navbarExampleTransparentExample{
     padding-left: 50px;
 }
@@ -102,10 +115,5 @@ a:hover{
 .button.is-primary{
     background-color: #f3c736;
     color: #091141;
-}
-
-.button:hover .is-primary:hover{
-    background-color: #091141 !important;
-    color: white !important;
 }
 </style>
