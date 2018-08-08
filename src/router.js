@@ -4,6 +4,7 @@ import Home from './views/Home.vue';
 import Whitepaper from './views/Whitepaper.vue'
 import Policy from './views/Policy.vue'
 import FAQ from './views/FAQ.vue'
+import Metamask from './views/Metamask.vue'
 
 Vue.use(Router);
 
@@ -29,6 +30,11 @@ export default new Router({
         path: '/lol',
         name: 'faq',
         component: FAQ
+    },
+    {
+        path: '/metamask',
+        name: 'metamask',
+        component: Metamask
     }
     ],
 });
