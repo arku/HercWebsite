@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <div class="column">
-                        <h3>Stay in touch</h3>
+                        <h3>Stay updated</h3>
 
                     </div>
                 </div>
