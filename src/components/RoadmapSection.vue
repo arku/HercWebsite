@@ -23,7 +23,7 @@
                 <div class="column">
                     <div class="bg-color left-border">
                         <img src="../assets/check-icon.png" class="image is-64x64">
-                        <h1 class="left-text">February 2018</h1>
+                        <h1 class="right-text">February 2018</h1>
                         <p>Test Net & Security Audits</p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                 <div class="column">
                     <div class="bg-color left-border">
                         <img src="../assets/check-icon.png" class="image is-64x64">
-                        <h1 class="left-text">Q2 2018</h1>
+                        <h1 class="right-text">Q2 2018</h1>
                         <p>Private Presale</p>
                     </div>
                 </div>
@@ -78,14 +78,14 @@ export default {
 <style scoped>
 #roadmap-section {
   padding: 100px;
-  padding-left: 150px;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
   color: #091141;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .h1title {
@@ -97,7 +97,6 @@ h1 {
 }
 
 img {
-  width: 50%;
   float: left;
 }
 
@@ -105,6 +104,11 @@ img {
   background-color: #f3c736;
   padding: 50px;
   box-shadow: 0px 12px 18px -6px #000;
+  border: 10px solid black;
+}
+
+.bg-color:hover{
+    border-color: #fafafa;
 }
 
 .left-border {
@@ -118,14 +122,42 @@ img {
 }
 
 .left-text {
-  text-align: left;
+  text-align: center;
 }
 
 .right-text {
-  text-align: right;
+  text-align: center;
 }
 
 .glue {
   margin-bottom: 0 !important;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+}
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+    h1{
+        font-size: 40px;
+    }
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+    h1{
+        font-size: 30px;
+    }
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+    h1{
+        font-size: 30px;
+    }
 }
 </style>
