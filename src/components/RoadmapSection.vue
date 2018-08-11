@@ -7,7 +7,7 @@
             <div class="columns is-gapless glue">
                 <div class="column">
                     <div class="bg-color right-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64">
+                        <img src="../assets/check-icon.png" class="image is-64x64 img-right">
                         <h1 class="left-text">January 2018</h1>
                         <p>Bug Bounty & Test Net</p>
                     </div>
@@ -22,7 +22,7 @@
                 </div>
                 <div class="column">
                     <div class="bg-color left-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64">
+                        <img src="../assets/check-icon.png" class="image is-64x64 img-left">
                         <h1 class="right-text">February 2018</h1>
                         <p>Test Net & Security Audits</p>
                     </div>
@@ -31,7 +31,7 @@
             <div class="columns is-gapless glue">
                 <div class="column">
                     <div class="bg-color right-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64">
+                        <img src="../assets/check-icon.png" class="image is-64x64 img-right">
                         <h1 class="left-text">March 2018</h1>
                         <p>Private Presale</p>
                     </div>
@@ -46,7 +46,7 @@
                 </div>
                 <div class="column">
                     <div class="bg-color left-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64">
+                        <img src="../assets/check-icon.png" class="image is-64x64 img-left">
                         <h1 class="right-text">Q2 2018</h1>
                         <p>Private Presale</p>
                     </div>
@@ -55,7 +55,7 @@
             <div class="columns is-gapless glue">
                 <div class="column">
                     <div class="bg-color right-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64">
+                        <img src="../assets/check-icon.png" class="image is-64x64 img-right">
                         <h1 class="left-text">Q3 2018</h1>
                         <p>Private Presale</p>
                     </div>
@@ -81,7 +81,7 @@ export default {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 26px;
   text-align: center;
   color: #091141;
   text-transform: uppercase;
@@ -96,19 +96,27 @@ h1 {
   margin-bottom: 5%;
 }
 
-img {
+p {
+  font-weight: bold;
+}
+
+.img-left {
   float: left;
+}
+
+.img-right {
+  float: right;
 }
 
 .bg-color {
   background-color: #f3c736;
-  padding: 50px;
+  padding: 20px;
   box-shadow: 0px 12px 18px -6px #000;
   border: 10px solid black;
 }
 
-.bg-color:hover{
-    border-color: #fafafa;
+.bg-color:hover {
+  border-color: #fafafa;
 }
 
 .left-border {
@@ -144,20 +152,56 @@ img {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-    h1{
-        font-size: 40px;
-    }
+  h1 {
+    font-size: 20px;
+  }
+
+  .bg-color {
+    padding: 5px;
+    border-width: 0px;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  .img-right .img-left {
+    float: none;
+    margin: auto;
+  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    h1{
-        font-size: 30px;
-    }
+  h1 {
+    font-size: 20px;
+  }
+
+  .bg-color {
+    padding: 5px;
+    border-width: 0px;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  img {
+    float: left !important;
+    margin: auto;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-    h1{
-        font-size: 30px;
-    }
+  h1 {
+    font-size: 20px;
+  }
+
+  .bg-color {
+    padding: 5px;
+    border-width: 0px;
+    margin: auto;
+    margin-bottom: 5%;
+  }
+
+  img {
+    float: none !important;
+    margin: auto !important;
+  }
 }
 </style>
