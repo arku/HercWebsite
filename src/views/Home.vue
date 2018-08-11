@@ -7,6 +7,7 @@
         <ProtocolCostSection></ProtocolCostSection>
         <TableSection></TableSection>
         <VideoSection></VideoSection>
+        <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
         <DocumentsSection></DocumentsSection>
         <TeamSection></TeamSection>
@@ -27,6 +28,7 @@ import ProtocolCostSection from "@/components/ProtocolCostSection.vue";
 import TableSection from "@/components/TableSection.vue";
 import VideoSection from "@/components/VideoSection.vue";
 import RoadmapSection from "@/components/RoadmapSection.vue";
+import RoadmapHorizontalSection from "@/components/RoadmapHorizontalSection.vue";
 import DocumentsSection from "@/components/DocumentsSection.vue";
 import ContactSection from "@/components/ContactSection.vue";
 import GithubSection from "@/components/GithubSection.vue";
@@ -43,6 +45,7 @@ export default {
     ProtocolCostSection,
     TableSection,
     VideoSection,
+    RoadmapHorizontalSection,
     RoadmapSection,
     DocumentsSection,
     ContactSection,
