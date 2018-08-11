@@ -20,7 +20,7 @@
               <h2>January 2018</h2>
             </div>
             <div class="gold-border">
-              <h3>Bug Bounty & Test Net</h3>
+              <h3>Bug Bounty<br>&<br>Test Net</h3>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
@@ -29,7 +29,7 @@
               <h2>February 2018</h2>
             </div>
             <div class="gold-border">
-              <h3>Test Net & Security Audits</h3>
+              <h3>Test Net <br class="hide">&<br>Security Audits</h3>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
@@ -38,7 +38,7 @@
               <h2>March 2018</h2>
             </div>
             <div class="gold-border">
-              <h3>Private Presale</h3><br>
+              <h3>Private Presale</h3><br><br>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
@@ -143,9 +143,6 @@ export default {
 </script>
 
 <style scoped>
-#horizontal-roadmap {
-  padding: 50px;
-}
 
 h1 {
   font-size: 45px;
@@ -165,7 +162,7 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   color: #f3c736;
   text-transform: uppercase;
@@ -173,8 +170,8 @@ h3 {
 }
 
 .placeholder {
-  width: 942px;
-  height: 400px;
+  /* width: 942px;
+  height: 400px; */
   padding: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -183,8 +180,17 @@ h3 {
 .gold-border {
   border: 1px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
-  padding: 10px;
+  padding: 20px;
   height: 200px;
+}
+
+img{
+  position: relative;
+  bottom: 1px;
+}
+
+.hide{
+  display: inherit;
 }
 
 ol,
@@ -213,9 +219,7 @@ blockquote:after {
   content: "";
   content: none;
 }
-a img {
-  border: none;
-}
+
 article {
   display: block;
 }
@@ -480,6 +484,17 @@ article img {
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  h2{
+    font-size: 20px;
+  }
+
+  h3{
+    font-size: 18px;
+  }
+
+  .hide{
+    display: none;
+  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
