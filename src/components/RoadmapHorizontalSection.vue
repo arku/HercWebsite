@@ -38,7 +38,7 @@
               <h2>March 2018</h2>
             </div>
             <div class="gold-border">
-              <h3>Private Presale</h3><br><br>
+              <h3>Private Presale</h3><br><br class="hide">
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
@@ -106,30 +106,30 @@
           </div>
         </div>
 			</article>
-			<article>
+			<!-- <article>
 			
 			<img src="https://0.s3.envato.com/files/84450220/img/Dummy3-942X400.jpg"/>
 			</article>
 			<article>
 			
 			<img src="https://0.s3.envato.com/files/84450220/img/Dummy4-942X400.jpg"/>
-			</article>
+			</article> -->
 		</div>
 	</div>
 </div>
 <div id="commands">
-	<label for='slide1'></label>
-	<label for='slide2'></label>
-	<label for='slide3'></label>
-	<label for='slide4'></label>
-	<label for='slide5'></label>
+	<label for='slide1' id="first-arrow"></label>
+	<label for='slide2' id="second-arrow"></label>
+	<label for='slide3' id="third-arrow"></label>
+	<!-- <label for='slide4'></label>
+	<label for='slide5'></label> -->
 </div>
 <div id="active">
 	<label for='slide1'></label>
 	<label for='slide2'></label>
 	<label for='slide3'></label>
-	<label for='slide4'></label>
-	<label for='slide5'></label>
+	<!-- <label for='slide4'></label>
+	<label for='slide5'></label> -->
 </div>
 </article>
         </div>
@@ -143,13 +143,11 @@ export default {
 </script>
 
 <style scoped>
-
 h1 {
   font-size: 45px;
   text-align: center;
   color: #f3c736;
   text-transform: uppercase;
-  margin-bottom: 5%;
 }
 
 h2 {
@@ -170,8 +168,6 @@ h3 {
 }
 
 .placeholder {
-  /* width: 942px;
-  height: 400px; */
   padding: 100px;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -181,15 +177,15 @@ h3 {
   border: 1px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
   padding: 20px;
-  height: 200px;
+  height: 220px;
 }
 
-img{
+img {
   position: relative;
   bottom: 1px;
 }
 
-.hide{
+.hide {
   display: inherit;
 }
 
@@ -484,25 +480,34 @@ article img {
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-  h2{
+  h2 {
     font-size: 20px;
   }
 
-  h3{
+  h3 {
     font-size: 18px;
   }
 
-  .hide{
+  .hide {
     display: none;
   }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
+  .hide {
+    display: none;
+  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
+  #horizontal-roadmap {
+    display: none;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+  #horizontal-roadmap {
+    display: none;
+  }
 }
 </style>

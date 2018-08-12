@@ -78,6 +78,7 @@ export default {
 <style scoped>
 #roadmap-section {
   padding: 100px;
+  display: none;
 }
 
 h1 {
@@ -171,6 +172,10 @@ p {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
+  #roadmap-section {
+    display: block;
+  }
+
   h1 {
     font-size: 20px;
   }
@@ -189,6 +194,10 @@ p {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+  #roadmap-section {
+    display: block;
+  }
+
   h1 {
     font-size: 20px;
   }
