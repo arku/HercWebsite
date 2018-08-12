@@ -143,6 +143,10 @@ export default {
 </script>
 
 <style scoped>
+#horizontal-roadmap{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 h1 {
   font-size: 45px;
   text-align: center;
@@ -156,7 +160,7 @@ h2 {
   color: #f3c736;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 h3 {
@@ -169,8 +173,8 @@ h3 {
 
 .placeholder {
   padding: 100px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .gold-border {
@@ -187,6 +191,10 @@ img {
 
 .hide {
   display: inherit;
+}
+
+#first-arrow, #second-arrow, #third-arrow{
+  margin-top: 100px !important;
 }
 
 ol,
@@ -278,7 +286,7 @@ article img {
 #commands {
   margin: -25% 0 0 0;
   width: 100%;
-  height: 50px;
+  height: 90px;
 }
 #commands label {
   display: none;
@@ -423,7 +431,7 @@ article img {
   #slider #commands {
     margin: -25% 0 0 5%;
     width: 90%;
-    height: 50px;
+    height: 90px;
   }
   #slider #commands label {
     -moz-transform: scale(0.9);
@@ -497,6 +505,10 @@ article img {
   .hide {
     display: none;
   }
+
+  #first-arrow, #second-arrow, #third-arrow{
+  margin-top: 60px !important;
+}
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
