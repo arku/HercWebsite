@@ -67,16 +67,15 @@ export default {
     this.$nextTick(function() {
       // Code that will run only after the
       // entire view has been rendered
-      roundUp()
-    },
 
-    function roundUp(num, precision) {
-        precision = Math.pow(10, precision);
-        return Math.ceil(num * precision) / precision;
-        alert('Round up done!');
-      }
-    
-    );
+      alert("lol!");
+    });
+  },
+  roundUp: function(num, precision) {
+    precision = Math.pow(10, precision);
+    return Math.ceil(num * precision) / precision;
+    alert("Round up done!");
+    console.log("test");
   }
 };
 
