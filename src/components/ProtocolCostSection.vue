@@ -7,8 +7,8 @@
             <div id="image-placeholder">
                 <img src="../assets/cost-per-protocol.png">
             </div>
-            <div class="is-128x128">
-                <img src="../assets/down-arrow.png">
+            <div>
+                <img src="../assets/down-arrow.png" class="image is-64x64">
             </div>
         </div>
     </div>
@@ -23,6 +23,8 @@ export default {
 <style scoped>
 #protocol-section {
   padding: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 #image-placeholder {
@@ -38,6 +40,10 @@ h1 {
   margin-bottom: 50px;
 }
 
+img {
+  margin: auto;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -48,6 +54,10 @@ h1 {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  #protocol-section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }
 
 /*** Responsive Styles Tablet Only ***/
@@ -62,12 +72,22 @@ h1 {
   h1 {
     font-size: 30px;
   }
+
+  #protocol-section {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 }
 
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
   h1 {
     font-size: 30px;
+  }
+
+  #protocol-section {
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 </style>
