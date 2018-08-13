@@ -62,7 +62,7 @@
 
 <script>
 export default {
-  name: "TableSection",
+  name: "TableSection"
   // mounted: function() {
   //   this.$nextTick(function() {
   //     // Code that will run only after the

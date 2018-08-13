@@ -6,19 +6,19 @@
             </div>
             <div class="columns">
                <div class="column blurb">
-                  <img class="blurb-image image is-128x128" src="../assets/check-circle.png">
+                  <img class="blurb-image image " src="../assets/etymology/h.png">
                   <h2 class="blurb-title">Helping</h2>
                </div>
                <div class="column blurb">
-                  <img class="blurb-image image is-128x128" src="../assets/check-circle.png">
+                  <img class="blurb-image image " src="../assets/etymology/e.png">
                   <h2 class="blurb-title">Eradicate</h2>
                </div>
                <div class="column blurb">
-                  <img class="blurb-image image is-128x128" src="../assets/check-circle.png">
+                  <img class="blurb-image image " src="../assets/etymology/r.png">
                   <h2 class="blurb-title">Racketeering</h2>
                </div>
                <div class="column blurb">
-                  <img class="blurb-image image is-128x128" src="../assets/check-circle.png">
+                  <img class="blurb-image image " src="../assets/etymology/c.png">
                   <h2 class="blurb-title">Collusion</h2>
                </div>
             </div>
@@ -46,10 +46,6 @@ h1 {
 }
 
 .blurb {
-  background-color: #fafafa !important;
-  box-shadow: 0px 12px 18px -6px #000;
-  border-width: 1px !important;
-  border: 1px solid #f3c736;
   margin: 2%;
   margin-bottom: auto;
   padding: 20px;
@@ -63,11 +59,23 @@ h1 {
 .blurb-title {
   text-transform: uppercase;
   text-align: center;
-  color: #091141;
+  color: #f3c736;
   font-weight: 900;
   line-height: 1em;
   margin-bottom: 3%;
   font-size: 18px;
+}
+
+img {
+  border-radius: 50%;
+  -webkit-transition: -webkit-transform 0.8s ease-in-out;
+  -ms-transition: -ms-transform 0.8s ease-in-out;
+  transition: transform 0.8s ease-in-out;
+}
+img:hover {
+  transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -76,12 +84,10 @@ h1 {
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
- 
 }
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-
 }
 
 /*** Responsive Styles Tablet Only ***/
