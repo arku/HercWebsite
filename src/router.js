@@ -27,7 +27,7 @@ export default new Router({
         component: Policy,
     },
     {
-        path: '/lol',
+        path: '/qa',
         name: 'faq',
         component: FAQ
     },

@@ -6,19 +6,19 @@
             </div>
             <div class="columns">
                <div class="column blurb">
-                  <img class="blurb-image image " src="../assets/etymology/h.png">
+                  <img class="blurb-image image" src="../assets/etymology/h.png">
                   <h2 class="blurb-title">Helping</h2>
                </div>
                <div class="column blurb">
-                  <img class="blurb-image image " src="../assets/etymology/e.png">
+                  <img class="blurb-image image" src="../assets/etymology/e.png">
                   <h2 class="blurb-title">Eradicate</h2>
                </div>
                <div class="column blurb">
-                  <img class="blurb-image image " src="../assets/etymology/r.png">
+                  <img class="blurb-image image" src="../assets/etymology/r.png">
                   <h2 class="blurb-title">Racketeering</h2>
                </div>
                <div class="column blurb">
-                  <img class="blurb-image image " src="../assets/etymology/c.png">
+                  <img class="blurb-image image" src="../assets/etymology/c.png">
                   <h2 class="blurb-title">Collusion</h2>
                </div>
             </div>
@@ -35,6 +35,9 @@ export default {
 <style scoped>
 #etymology-section {
   padding: 50px;
+  /* background-image: url('../assets/etymology/crane.png');
+  background-repeat: no-repeat;
+  background-size: inherit; */
 }
 
 h1 {

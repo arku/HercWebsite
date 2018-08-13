@@ -6,25 +6,25 @@
                     <div class="column">
                         <img src="../assets/herc-logo.png">
                         <div>
-                            <a href="">Privacy Policy</a>
+                            <a href="/policy">Privacy Policy</a>
                         </div>
                         <div>
                             <a href="">Terms of Use</a>
                         </div>
                         <div>
-                            <a href="">Metamask</a>
+                            <a href="/metamask">Metamask</a>
                         </div>
                         <div>
-                            <a href="">F.A.Q</a>
+                            <a href="/qa">F.A.Q</a>
                         </div>
                     </div>
                     <div class="column">
                         <h3>Company</h3>
                         <div>
-                            <a href="">Team</a>
+                            <a href="/#team-section">Team</a>
                         </div>
                         <div>
-                            <a href="">Contact</a>
+                            <a href="/#contact-section">Contact</a>
                         </div>
                         <div>
                             <a href="">Careers</a>
