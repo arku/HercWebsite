@@ -63,20 +63,20 @@
 <script>
 export default {
   name: "TableSection",
-  mounted: function() {
-    this.$nextTick(function() {
-      // Code that will run only after the
-      // entire view has been rendered
+  // mounted: function() {
+  //   this.$nextTick(function() {
+  //     // Code that will run only after the
+  //     // entire view has been rendered
 
-      alert("lol!");
-    });
-  },
-  roundUp: function(num, precision) {
-    precision = Math.pow(10, precision);
-    return Math.ceil(num * precision) / precision;
-    alert("Round up done!");
-    console.log("test");
-  }
+  //     alert("lol!");
+  //   });
+  // },
+  // roundUp: function(num, precision) {
+  //   precision = Math.pow(10, precision);
+  //   return Math.ceil(num * precision) / precision;
+  //   alert("Round up done!");
+  //   console.log("test");
+  // }
 };
 
 // jQuery(function($) {
