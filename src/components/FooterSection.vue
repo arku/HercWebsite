@@ -93,10 +93,10 @@ export default {
 }
 
 h3 {
-  color: white;
+  color: #f3c736;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 p {

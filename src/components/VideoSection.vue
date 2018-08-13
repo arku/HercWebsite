@@ -83,5 +83,9 @@ iframe {
   iframe{
       height: 180px;
   }
+
+  #video-section{
+      padding: 0px;
+  }
 }
 </style>
