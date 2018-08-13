@@ -34,10 +34,10 @@ export default {
 
 <style scoped>
 #etymology-section {
-  padding: 50px;
-  /* background-image: url('../assets/etymology/crane.png');
+  padding: 100px;
+  background-image: url("../assets/etymology/crane.png");
   background-repeat: no-repeat;
-  background-size: inherit; */
+  background-size: inherit;
 }
 
 h1 {
@@ -45,18 +45,7 @@ h1 {
   text-align: center;
   color: #f3c736;
   text-transform: uppercase;
-  margin-bottom: 50px;
-}
-
-.blurb {
-  margin: 2%;
-  margin-bottom: auto;
-  padding: 20px;
-}
-
-.blurb-image {
-  margin: auto;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 .blurb-title {
@@ -119,6 +108,10 @@ img:hover {
 @media all and (max-width: 479px) {
   h1 {
     font-size: 30px;
+  }
+
+  #etymology-section{
+    padding: 50px;
   }
 }
 </style>

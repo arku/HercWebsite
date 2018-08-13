@@ -85,7 +85,7 @@ img {
   text-transform: uppercase;
   text-align: center;
   color: #091141;
-  font-weight: 700;
+  font-weight: bold;
   line-height: 1em;
   margin-bottom: 3%;
   font-size: 18px;
@@ -137,7 +137,7 @@ img {
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
   .blurb-title {
-    font-size: 10px;
+    font-size: 16px;
   }
 }
 </style>

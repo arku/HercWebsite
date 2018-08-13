@@ -155,6 +155,7 @@ h3 {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 30px;
+    
   }
 
   #top-section input {

@@ -196,6 +196,7 @@ p {
 @media all and (max-width: 479px) {
   #roadmap-section {
     display: block;
+    padding: 55px;
   }
 
   h1 {

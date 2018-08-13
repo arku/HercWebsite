@@ -69,6 +69,7 @@ iframe {
   }
 
   iframe{
+      width: 300px;
       height: 300px;
   }
 }
@@ -80,7 +81,7 @@ iframe {
   }
 
   iframe{
-      height: 250px;
+      height: 180px;
   }
 }
 </style>

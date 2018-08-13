@@ -129,10 +129,13 @@ i:hover {
 @media all and (max-width: 479px) {
   h1 {
     font-size: 30px;
+    margin-bottom: 10%;
+    line-height: 1.2em;
   }
 
   h2 {
     font-size: 20px;
+    margin-bottom: 2%;
   }
 }
 </style>
