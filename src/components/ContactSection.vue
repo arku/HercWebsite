@@ -8,23 +8,27 @@
                 <div class="column" id="social">
                     <h2>Social Networks</h2>
                     <span class="icon is-large">
-                      <a href="https://www.facebook.com/HERCTOKEN/">
-                        <i class="fab fa-linkedin fa-2x"></i>
+                      <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
+                        <i class="fab fa-facebook fa-2x"></i>
                       </a>
-                        
                     </span>
                     <span class="icon is-large">
-                      <a href="https://twitter.com/HERC_Hercules">
+                      <a href="https://twitter.com/HERC_Hercules" target="_blank">
                         <i class="fab fa-twitter fa-2x"></i>
                       </a>
                     </span>
                     <span class="icon is-large">
-                      <a href="https://www.instagram.com/herctoken/">
+                      <a href="https://www.instagram.com/herctoken/" target="_blank">
                         <i class="fab fa-instagram fa-2x"></i>
                       </a>
                     </span>
                     <span class="icon is-large">
-                      <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw">
+                      <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                      </a>
+                    </span>
+                    <span class="icon is-large">
+                      <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">
                         <i class="fab fa-youtube fa-2x"></i>
                       </a>
                     </span>

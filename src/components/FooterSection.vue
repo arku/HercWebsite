@@ -30,22 +30,28 @@
                             <a href="">Careers</a>
                         </div>
                         <div>
-                            <a href="">Whitepaper</a>
+                            <a href="/whitepaper">Whitepaper</a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/hercone" target="_blank">GitHub</a>
                         </div>
                     </div>
                     <div class="column">
                         <h3>Connect</h3>
                         <div>
-                            <a href="">Facebook</a>
+                            <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">Facebook</a>
                         </div>
                         <div>
-                            <a href="">Twitter</a>
+                            <a href="https://twitter.com/HERC_Hercules" target="_blank">Twitter</a>
                         </div>
                         <div>
-                            <a href="">Instagram</a>
+                            <a href="" target="_blank">Instagram</a>
                         </div>
                         <div>
-                            <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw">YouTube</a>
+                            <a href="" target="_blank">LinkedIn</a>
+                        </div>
+                        <div>
+                            <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">YouTube</a>
                         </div>
                     </div>
                     <div class="column">

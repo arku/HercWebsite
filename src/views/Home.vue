@@ -12,7 +12,6 @@
         <DocumentsSection></DocumentsSection>
         <TeamSection></TeamSection>
         <ContactSection></ContactSection>
-        <GithubSection></GithubSection>
         <FooterSection></FooterSection>
         <back-to-top bottom="100px" right="10px">
           <button type="button" class="btn btn-info btn-to-top"><i class="fa fa-chevron-up"></i></button>
@@ -31,7 +30,6 @@ import RoadmapSection from "@/components/RoadmapSection.vue";
 import RoadmapHorizontalSection from "@/components/RoadmapHorizontalSection.vue";
 import DocumentsSection from "@/components/DocumentsSection.vue";
 import ContactSection from "@/components/ContactSection.vue";
-import GithubSection from "@/components/GithubSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import TeamSection from "@/components/TeamSection.vue";
 
@@ -49,7 +47,6 @@ export default {
     RoadmapSection,
     DocumentsSection,
     ContactSection,
-    GithubSection,
     FooterSection,
     TeamSection
   }
