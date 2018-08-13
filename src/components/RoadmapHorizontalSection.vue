@@ -143,7 +143,7 @@ export default {
 </script>
 
 <style scoped>
-#horizontal-roadmap{
+#horizontal-roadmap {
   padding-top: 50px;
   padding-bottom: 50px;
 }
@@ -193,7 +193,9 @@ img {
   display: inherit;
 }
 
-#first-arrow, #second-arrow, #third-arrow{
+#first-arrow,
+#second-arrow,
+#third-arrow {
   margin-top: 100px !important;
 }
 
@@ -506,9 +508,19 @@ article img {
     display: none;
   }
 
-  #first-arrow, #second-arrow, #third-arrow{
-  margin-top: 60px !important;
-}
+  #first-arrow,
+  #second-arrow,
+  #third-arrow {
+    margin-top: 60px !important;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3{
+    font-size: 16px;
+  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
