@@ -17,7 +17,9 @@ export default {
 
 <style scoped>
 #video-section {
-  padding: 50px;
+  padding: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 h1 {
@@ -35,20 +37,35 @@ iframe {
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
-    iframe{
-        height: 750px;;
-    }
+  iframe {
+    height: 600px;
+  }
 }
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
+  iframe {
+    height: 500px;
+  }
+
+  #video-section {
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-    iframe{
-        height: 400px;
-    }
+  iframe {
+    height: 400px;
+  }
+
+  #video-section {
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 
 /*** Responsive Styles Tablet Only ***/
@@ -57,8 +74,14 @@ iframe {
     font-size: 40px;
   }
 
-  iframe{
-      height: 350px;;
+  iframe {
+    height: 350px;
+  }
+
+  #video-section {
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -68,9 +91,14 @@ iframe {
     font-size: 30px;
   }
 
-  iframe{
-      width: 300px;
-      height: 300px;
+  iframe {
+    height: 300px;
+  }
+
+  #video-section {
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
 
@@ -80,12 +108,11 @@ iframe {
     font-size: 30px;
   }
 
-  iframe{
-      height: 180px;
+  iframe {
+    height: 180px;
   }
 
-  #video-section{
-      padding: 0px;
-  }
+  #video-section {
+}
 }
 </style>

@@ -96,7 +96,7 @@ img {
   text-align: center;
   text-transform: uppercase;
   line-height: 1.5em;
-  font-weight: 700;
+  font-weight: 900;
   font-size: 11px;
 }
 
@@ -110,12 +110,18 @@ img {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+
 }
 
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
   .blurb-title {
-    font-size: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .blurb-text{
+      line-height: 1.1em;
   }
 
   .blurb {
@@ -126,7 +132,18 @@ img {
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
   .blurb-title {
-    font-size: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .blurb-text{
+      font-size: 14px;
+      line-height: 1.2em;
+  }
+
+  #blurb-section{
+      padding: 100px;
+      padding-bottom: 0px;
   }
 
   .columns {
@@ -137,7 +154,18 @@ img {
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
   .blurb-title {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .blurb-text{
+      font-size: 14px;
+      line-height: 1.1em;
+  }
+
+  #blurb-section{
+      padding: 30px;
+      padding-bottom: 0px;
   }
 }
 </style>

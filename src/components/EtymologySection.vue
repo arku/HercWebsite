@@ -46,6 +46,8 @@ h1 {
   color: #f3c736;
   text-transform: uppercase;
   margin-bottom: 5%;
+  line-height: 1em;
+  font-weight: bold;
 }
 
 .blurb-title {
@@ -76,6 +78,11 @@ img:hover {
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
+  #etymology-section{
+    padding: 150px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 /*** Responsive Styles Tablet And Below ***/

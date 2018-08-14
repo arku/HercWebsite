@@ -134,7 +134,9 @@ export default {
 
 <style scoped>
 #table-section {
-  padding: 50px;
+  padding: 200px;
+  padding-bottom: 100px;
+  padding-top: 50px;
 }
 
 table {
@@ -182,9 +184,19 @@ table img {
 }
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
+  #table-section {
+    padding: 100px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  #table-section {
+    padding: 50px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {

@@ -31,10 +31,11 @@ export default {
   background-size: initial;
   background-position: bottom left;
   background-repeat: no-repeat;
+  background-color: #091141;
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 #top-section input {
@@ -46,6 +47,8 @@ export default {
   border-color: #f3c736;
   border-radius: 0;
   box-shadow: 0px 12px 18px -6px #000;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 input::placeholder {
@@ -63,11 +66,13 @@ input::placeholder {
   width: 300px;
   height: 50px;
   box-shadow: 0px 12px 18px -6px #000;
+  font-weight: bold;
 }
 
 #top-section button:hover {
-  color: white;
-  border-color: white;
+  color: #091141;
+  border-color: #f3c736;
+  background-color: #f3c736;
 }
 
 h1 {
@@ -76,11 +81,11 @@ h1 {
   padding-top: 100px;
   padding-bottom: 100px;
   color: #f3c736;
+  font-weight: bold;
 }
 
 h3 {
   text-transform: uppercase;
-  font-weight: 100;
   color: #f3c736;
   font-size: 20px;
   margin-bottom: 50px;
