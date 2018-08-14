@@ -111,8 +111,5 @@ iframe {
   iframe {
     height: 180px;
   }
-
-  #video-section {
-}
 }
 </style>
