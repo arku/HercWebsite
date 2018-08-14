@@ -373,5 +373,9 @@ i:hover {
   h1 {
     font-size: 30px;
   }
+
+  #team-section{
+      padding: 50px;
+  }
 }
 </style>
