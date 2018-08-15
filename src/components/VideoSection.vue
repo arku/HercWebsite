@@ -4,7 +4,7 @@
             <div>
                 <h1>How it Works</h1>
             </div>
-            <iframe width="80%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
     </div>
 </template>
@@ -27,7 +27,7 @@ h1 {
   text-align: center;
   color: #f3c736;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 5%;
 }
 
 iframe {
@@ -96,7 +96,7 @@ iframe {
   }
 
   #video-section {
-    padding: 50px;
+    padding: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
