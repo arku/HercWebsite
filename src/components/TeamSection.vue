@@ -93,7 +93,7 @@
                 </div>
             </div>
             <h4>Board of Directors</h4>
-             <div class="columns">
+             <div class="columns" id="board">
                 <div class="column">
                     <img src="../assets/team/anthem.jpg">
                     <h2>Anthem Blanchard</h2>
@@ -307,6 +307,10 @@ export default {
   box-shadow: 0px 12px 18px -6px #000;
 }
 
+#board{
+    padding: 100px;
+}
+
 h1 {
   font-size: 45px;
   color: #091141;
@@ -376,6 +380,10 @@ i:hover {
 
   #team-section{
       padding: 50px;
+  }
+
+  #board{
+      padding: 0;
   }
 }
 </style>

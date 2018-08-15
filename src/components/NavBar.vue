@@ -35,7 +35,7 @@
                         </a>
                     </div>
 
-                    <div class="navbar-end">
+                    <!-- <div class="navbar-end">
                         <div class="navbar-item">
                             <div class="field is-grouped">
                                 <p class="control">
@@ -58,7 +58,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </nav>
         </div>
@@ -90,6 +90,14 @@ nav {
 
 .navbar-burger {
   color: #f3c736;
+}
+
+.navbar-start{
+    margin: auto;
+}
+
+.navbar-brand{
+    margin-left: 10%;
 }
 
 a {
@@ -135,19 +143,8 @@ a:hover {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-    /* img{
-        margin: auto;
-    }
-
-    .navbar{
-        padding: 0;
-        text-align: center;
-    }
-
-    .navbar-item{
-        margin: auto;
-        width: 100%;
-
-    } */
+    .navbar-brand{
+    margin-left: 25%;
+}
 }
 </style>

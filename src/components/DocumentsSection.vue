@@ -4,12 +4,14 @@
             <div>
                 <h1>Documents</h1>
             </div>
-            <div class="columns is-gapless">
-                <div class="column">
-                    <a class="button">Token Sale Policy</a>
-                </div>
-                <div class="column">
+            <div class="columns">
+              <div class="column">
                     <a class="button" href="/whitepaper">White Paper</a>
+                  </div>
+            </div>
+            <div class="columns">
+                  <div class="column">
+                    <a class="button">Token Sale Policy</a>
                 </div>
             </div>
             <div>
@@ -27,7 +29,9 @@ export default {
 
 <style scoped>
 #documents-section {
-  padding: 50px;
+  padding: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 #content a {
@@ -39,7 +43,6 @@ export default {
   font-weight: 500;
   font-size: 20px;
   box-shadow: 0px 12px 18px -6px #000;
-  margin: 5%;
 }
 
 #content a:hover {
@@ -60,6 +63,13 @@ h1 {
   margin-bottom: 50px;
 }
 
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -68,9 +78,9 @@ h1 {
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-    #content img{
-        width: 100%;
-    }
+  #content img {
+    width: 100%;
+  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
@@ -83,11 +93,19 @@ h1 {
   h1 {
     font-size: 30px;
   }
+
+  #documents-section {
+    padding: 50px;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
   h1 {
     font-size: 30px;
+  }
+
+  #documents-section {
+    padding: 50px;
   }
 }
 </style>
