@@ -76,6 +76,7 @@ h1 {
   color: #f3c736;
   text-transform: uppercase;
   margin-bottom: 2%;
+  font-weight: bold;
 }
 
 h2 {

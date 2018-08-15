@@ -93,7 +93,7 @@
                 </div>
             </div>
             <h4>Board of Directors</h4>
-             <div class="columns" id="board">
+             <div class="columns">
                 <div class="column">
                     <img src="../assets/team/anthem.jpg">
                     <h2>Anthem Blanchard</h2>
@@ -292,7 +292,7 @@ export default {
 
 <style scoped>
 #team-section {
-  padding: 250px;
+  padding: 200px;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: white;
@@ -307,14 +307,11 @@ export default {
   box-shadow: 0px 12px 18px -6px #000;
 }
 
-#board{
-    padding: 100px;
-}
-
 h1 {
   font-size: 45px;
   color: #091141;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 h2 {
@@ -331,7 +328,7 @@ h3 {
 h4 {
   font-size: 24px;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   color: black;
 }
 
@@ -353,21 +350,46 @@ i:hover {
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
+  #team-section {
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
+  #team-section {
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  #team-section {
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
+  #team-section {
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   h1 {
     font-size: 40px;
   }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
+  #team-section {
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   h1 {
     font-size: 30px;
   }
@@ -378,12 +400,8 @@ i:hover {
     font-size: 30px;
   }
 
-  #team-section{
-      padding: 50px;
-  }
-
-  #board{
-      padding: 0;
+  #team-section {
+    padding: 50px;
   }
 }
 </style>

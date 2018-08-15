@@ -152,6 +152,7 @@ h1 {
   text-align: center;
   color: #f3c736;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 h2 {

@@ -28,6 +28,7 @@ h1 {
   color: #f3c736;
   text-transform: uppercase;
   margin-bottom: 5%;
+  font-weight: bold;
 }
 
 iframe {

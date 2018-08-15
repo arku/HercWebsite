@@ -6,7 +6,7 @@
             </div>
             <div class="columns">
               <div class="column">
-                    <a class="button" href="/whitepaper">White Paper</a>
+                    <router-link to="/whitepaper/" class="button">White Paper</router-link>
                   </div>
             </div>
             <div class="columns">
@@ -61,6 +61,7 @@ h1 {
   color: #f3c736;
   text-transform: uppercase;
   margin-bottom: 50px;
+  font-weight: bold;
 }
 
 .align-left {

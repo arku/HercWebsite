@@ -38,6 +38,8 @@ h1 {
   color: #f3c736;
   text-transform: uppercase;
   margin-bottom: 50px;
+  font-weight: bold;
+  line-height: 1em;
 }
 
 img {
@@ -86,8 +88,8 @@ img {
   }
 
   #protocol-section {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 }
 </style>

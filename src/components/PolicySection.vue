@@ -211,6 +211,7 @@ export default {
   color: #f3c736;
   margin-bottom: 5%;
   text-align: center;
+  font-weight: bold;
 }
 
 #policy-section h2 {

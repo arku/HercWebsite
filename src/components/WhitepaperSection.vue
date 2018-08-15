@@ -87,6 +87,8 @@ h1 {
   color: #f3c736;
   text-transform: uppercase;
   line-height: 2em;
+  font-weight: bold;
+  text-align: center;
 }
 
 h2 {

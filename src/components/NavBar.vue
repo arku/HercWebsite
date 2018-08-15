@@ -144,7 +144,7 @@ a:hover {
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
     .navbar-brand{
-    margin-left: 25%;
+    margin-left: 20%;
 }
 }
 </style>

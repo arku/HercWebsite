@@ -145,7 +145,7 @@ h1 {
   font-size: 45px;
   color: #f3c736;
   text-transform: uppercase;
-  line-height: 2em;
+  font-weight: bold;
 }
 
 #helper {
