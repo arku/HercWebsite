@@ -61,19 +61,19 @@ export default {
 #blurb-section {
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .blurb {
   background-color: #fafafa !important;
-  height: 350px !important;
+  height: 320px !important;
   box-shadow: 0px 12px 18px -6px #000;
   border-width: 1px !important;
   border: 1px solid #f3c736;
-  margin: 5%;
+  margin: 3%;
   margin-bottom: auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 img {
@@ -166,6 +166,11 @@ img {
   #blurb-section{
       padding: 30px;
       padding-bottom: 0px;
+  }
+
+  .blurb{
+      margin: 10%;
+      height: 350px !important;
   }
 }
 </style>

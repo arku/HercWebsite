@@ -34,7 +34,9 @@ export default {
 
 <style scoped>
 #etymology-section {
-  padding: 100px;
+  padding: 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-image: url("../assets/etymology/crane.png");
   background-repeat: no-repeat;
   background-size: inherit;

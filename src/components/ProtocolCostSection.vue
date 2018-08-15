@@ -23,8 +23,8 @@ export default {
 <style scoped>
 #protocol-section {
   padding: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 250px;
+  padding-right: 250px;
 }
 
 #image-placeholder {

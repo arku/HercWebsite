@@ -292,7 +292,7 @@ export default {
 
 <style scoped>
 #team-section {
-  padding: 200px;
+  padding: 250px;
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: white;
