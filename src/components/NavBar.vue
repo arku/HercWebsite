@@ -66,9 +66,21 @@
 </template>
 
 <script>
+import JQuery from "jquery";
+let $ = JQuery;
+
 export default {
   name: "NavBar"
 };
+
+$(document).ready(function() {
+  // Check for click events on the navbar burger icon
+  $(".navbar-burger").click(function() {
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    $(".navbar-burger").toggleClass("is-active");
+    $(".navbar-menu").toggleClass("is-active");
+  });
+});
 </script>
 
 <style scoped>
@@ -80,10 +92,6 @@ nav {
   border-bottom: 1px solid #111;
 }
 
-.navbar {
-  padding-left: 50px;
-}
-
 .navbar-item img {
   max-height: 2.6rem;
 }
@@ -92,12 +100,12 @@ nav {
   color: #f3c736;
 }
 
-.navbar-start{
-    margin: auto;
+.navbar-start {
+  margin: auto;
 }
 
-.navbar-brand{
-    margin-left: 10%;
+.navbar-brand {
+  margin-left: 10%;
 }
 
 a {
@@ -116,10 +124,6 @@ a:hover {
   box-shadow: 0px 12px 18px -6px #000;
 }
 
-#navbarExampleTransparentExample {
-  padding-left: 50px;
-}
-
 .button.is-primary {
   background-color: #f3c736;
   color: #091141;
@@ -132,6 +136,29 @@ a:hover {
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
 }
+
+@media all and (max-width: 1087px) {
+  #navbarExampleTransparentExample {
+    background-color: transparent;
+    border-bottom: 1px solid #f3c736;
+    border-top: 1px solid #f3c736;
+  }
+
+  .navbar-brand {
+    /* margin: auto; */
+    float: none;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .navbar-item{
+      margin: auto;
+  }
+
+  .navbar-burger{
+      margin-left: -3.25rem;
+  }
+}
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
 }
@@ -143,8 +170,5 @@ a:hover {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-    .navbar-brand{
-    margin-left: 20%;
-}
 }
 </style>
