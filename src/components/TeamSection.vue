@@ -329,7 +329,8 @@ h4 {
   font-size: 24px;
   margin-top: 2%;
   margin-bottom: 5%;
-  color: black;
+  color: #f3c736;
+  font-weight: bold;
 }
 
 i {
