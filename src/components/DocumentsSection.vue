@@ -9,11 +9,11 @@
                     <router-link to="/whitepaper/" class="button">White Paper</router-link>
                   </div>
             </div>
-            <div class="columns">
+            <!-- <div class="columns">
                   <div class="column">
                     <a class="button">Token Sale Policy</a>
                 </div>
-            </div>
+            </div> -->
             <div>
                 <img src="../assets/infographic.png">
             </div>
