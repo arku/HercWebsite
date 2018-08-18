@@ -62,7 +62,7 @@ export default {
   background-color: #091141;
 }
 
-.columns{
+.columns {
   box-shadow: 0px 12px 18px -6px #000;
 }
 
@@ -110,6 +110,10 @@ p {
 @media all and (max-width: 767px) {
   #roadmap-section {
     display: block;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f3c736;
   }
 
   h1 {
@@ -125,7 +129,9 @@ p {
 @media all and (max-width: 479px) {
   #roadmap-section {
     display: block;
-    padding: 55px;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     background-color: #f3c736;
   }
 
