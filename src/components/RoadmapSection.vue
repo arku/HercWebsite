@@ -4,64 +4,41 @@
             <div>
                 <h1 class="h1title">Process</h1>
             </div>
-            <div class="columns is-gapless glue">
-                <div class="column">
-                    <div class="bg-color right-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64 img-right">
-                        <h1 class="left-text">January 2018</h1>
+            <div class="columns ">
+                <div class="column ">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>January 2018</h1>
                         <p>Bug Bounty & Test Net</p>
                     </div>
                 </div>
                 <div class="column">
-
-                </div>
-            </div>
-            <div class="columns is-gapless glue">
-                <div class="column">
-                    
-                </div>
-                <div class="column">
-                    <div class="bg-color left-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64 img-left">
-                        <h1 class="right-text">February 2018</h1>
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>February 2018</h1>
                         <p>Test Net & Security Audits</p>
                     </div>
                 </div>
-            </div>
-            <div class="columns is-gapless glue">
                 <div class="column">
-                    <div class="bg-color right-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64 img-right">
-                        <h1 class="left-text">March 2018</h1>
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>March 2018</h1>
                         <p>Private Presale</p>
                     </div>
                 </div>
                 <div class="column">
-
-                </div>
-            </div>
-            <div class="columns is-gapless glue">
-                <div class="column">
-                    
-                </div>
-                <div class="column">
-                    <div class="bg-color left-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64 img-left">
-                        <h1 class="right-text">Q2 2018</h1>
-                        <p>Private Presale</p>
-                    </div>
-                </div>
-            </div>
-            <div class="columns is-gapless glue">
-                <div class="column">
-                    <div class="bg-color right-border">
-                        <img src="../assets/check-icon.png" class="image is-64x64 img-right">
-                        <h1 class="left-text">Q3 2018</h1>
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q2 2018</h1>
                         <p>Private Presale</p>
                     </div>
                 </div>
                 <div class="column">
-
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q3 2018</h1>
+                        <p>Private Presale</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -77,8 +54,20 @@ export default {
 
 <style scoped>
 #roadmap-section {
-  padding: 100px;
+  padding: 50px;
   display: none;
+}
+
+.column {
+  background-color: #091141;
+}
+
+.columns{
+  box-shadow: 0px 12px 18px -6px #000;
+}
+
+i {
+  color: #f3c736;
 }
 
 h1 {
@@ -102,47 +91,6 @@ p {
   font-weight: bold;
 }
 
-.img-left {
-  float: left;
-}
-
-.img-right {
-  float: right;
-}
-
-.bg-color {
-  background-color: #f3c736;
-  padding: 20px;
-  box-shadow: 0px 12px 18px -6px #000;
-  border: 10px solid black;
-}
-
-.bg-color:hover {
-  border-color: #fafafa;
-}
-
-.left-border {
-  border-left: 10px solid #fafafa;
-  margin-left: -5px;
-}
-
-.right-border {
-  border-right: 10px solid #fafafa;
-  margin-right: -5px;
-}
-
-.left-text {
-  text-align: center;
-}
-
-.right-text {
-  text-align: center;
-}
-
-.glue {
-  margin-bottom: 0 !important;
-}
-
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -157,18 +105,6 @@ p {
   h1 {
     font-size: 20px;
   }
-
-  .bg-color {
-    padding: 5px;
-    border-width: 0px;
-    margin: auto;
-    margin-bottom: 5%;
-  }
-
-  .img-right .img-left {
-    float: none;
-    margin: auto;
-  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
@@ -178,18 +114,11 @@ p {
 
   h1 {
     font-size: 20px;
-  }
-
-  .bg-color {
-    padding: 5px;
-    border-width: 0px;
-    margin: auto;
     margin-bottom: 5%;
   }
 
-  img {
-    float: left !important;
-    margin: auto;
+  .h1title {
+    margin-bottom: 10%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
@@ -197,22 +126,21 @@ p {
   #roadmap-section {
     display: block;
     padding: 55px;
+    background-color: #f3c736;
   }
 
   h1 {
     font-size: 20px;
+    color: #f3c736;
+    text-transform: none;
   }
 
-  .bg-color {
-    padding: 5px;
-    border-width: 0px;
-    margin: auto;
-    margin-bottom: 5%;
+  p {
+    color: white;
   }
 
-  img {
-    float: none !important;
-    margin: auto !important;
+  .h1title {
+    color: #091141;
   }
 }
 </style>
