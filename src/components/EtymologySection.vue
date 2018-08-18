@@ -40,6 +40,7 @@ export default {
   background-image: url("../assets/etymology/crane.png");
   background-repeat: no-repeat;
   background-size: inherit;
+  background: linear-gradient(#091141, #1a245e);
 }
 
 h1 {

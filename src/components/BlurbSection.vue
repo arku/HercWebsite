@@ -110,7 +110,6 @@ img {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-
 }
 
 /*** Responsive Styles Tablet Only ***/
@@ -120,8 +119,8 @@ img {
     font-weight: bold;
   }
 
-  .blurb-text{
-      line-height: 1.1em;
+  .blurb-text {
+    line-height: 1.1em;
   }
 
   .blurb {
@@ -134,16 +133,18 @@ img {
   .blurb-title {
     font-size: 18px;
     font-weight: bold;
+    color: #f3c736;
   }
 
-  .blurb-text{
-      font-size: 14px;
-      line-height: 1.2em;
+  .blurb-text {
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #f3c736;
   }
 
-  #blurb-section{
-      padding: 100px;
-      padding-bottom: 0px;
+  #blurb-section {
+    padding: 100px;
+    padding-bottom: 0px;
   }
 
   .columns {
@@ -156,21 +157,23 @@ img {
   .blurb-title {
     font-size: 18px;
     font-weight: 900;
+    color: #f3c736;
   }
 
-  .blurb-text{
-      font-size: 14px;
-      line-height: 1.1em;
+  .blurb-text {
+    font-size: 14px;
+    line-height: 1.1em;
+    color: #f3c736;
   }
 
-  #blurb-section{
-      padding: 30px;
-      padding-bottom: 0px;
+  #blurb-section {
+    padding: 30px;
+    padding-bottom: 0px;
   }
 
-  .blurb{
-      margin: 10%;
-      height: 350px !important;
+  .blurb {
+    margin: 10%;
+    height: 350px !important;
   }
 }
 </style>

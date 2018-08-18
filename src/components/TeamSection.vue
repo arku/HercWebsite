@@ -2,7 +2,7 @@
     <div id="team-section">
         <div id="content">
             <div>
-                <h1>The Team</h1>
+                <h1>Herc Team</h1>
                 <h4>Key Management</h4>
             </div>
             <div class="columns">
@@ -428,8 +428,30 @@ i:hover {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+  #team-section {
+      background-color: #091141;
+  }
+
   h1 {
     font-size: 30px;
+    color: #f3c736;
+    font-weight: bold;
+  }
+
+  h4{
+      color: white;
+  }
+
+  h2{
+      color: #f3c736;
+  }
+
+  h3{
+      color: white;
+  }
+
+  i{
+      color: white;
   }
 
   #team-section {
