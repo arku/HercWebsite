@@ -4,8 +4,8 @@
             <div>
                 <h1>How it Works</h1>
             </div>
-            <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+              <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
     </div>
 </template>
 
@@ -32,7 +32,7 @@ h1 {
 }
 
 iframe {
-  border: 1px solid #f3c736;
+  border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
 }
 
