@@ -8,36 +8,78 @@
                 <div class="column ">
                     <div>
                         <i class="fas fa-check-circle fa-2x"></i>
-                        <h1>January 2018</h1>
-                        <p>Bug Bounty & Test Net</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
-                        <h1>February 2018</h1>
-                        <p>Test Net & Security Audits</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
-                        <h1>March 2018</h1>
-                        <p>Private Presale</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
-                        <h1>Q2 2018</h1>
-                        <p>Private Presale</p>
-                    </div>
-                </div>
-                <div class="column">
-                    <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
                         <h1>Q3 2018</h1>
-                        <p>Private Presale</p>
+                        <p>MVP HERC / AGLD Development</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q4 2018</h1>
+                        <p>HERC Launch / AGLD Launch</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q1 2019</h1>
+                        <p>HERC v2 / AGLD 25+ Bars</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q2 2019</h1>
+                        <p>HERC v2.5 / Extended Verticals</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q3 2019</h1>
+                        <p>HERC Terminal Operating System / Shipping Containers</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q4 2019</h1>
+                        <p>Beyond Inventory / BEX Ecosystem</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q1 2020</h1>
+                        <p>Olympic Prep / Switch Port</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q2 2020</h1>
+                        <p>Olympics Tokyo / AGLD StableCoin</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q3 2020</h1>
+                        <p>HERC / AGLD / BEX Ecosystem</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q4 2020</h1>
+                        <p>Global User Base</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div>
+                        <i class="fas fa-check-circle fa-2x"></i>
+                        <h1>Q1 2021</h1>
+                        <p>HERC the DAO</p>
                     </div>
                 </div>
             </div>
@@ -89,6 +131,8 @@ h1 {
 
 p {
   font-weight: bold;
+  width: 60%;
+  margin: auto;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -116,7 +160,7 @@ p {
     background-color: #f3c736;
   }
 
- h1 {
+  h1 {
     font-size: 20px;
     color: #f3c736;
     text-transform: none;
@@ -126,7 +170,7 @@ p {
     color: #091141;
   }
 
-  p{
+  p {
     color: white;
   }
 }

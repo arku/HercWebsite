@@ -17,59 +17,28 @@
         <div class="columns placeholder">
           <div class="column">
             <div>
-              <h2>January 2018</h2>
+              <h2>Q3 2018</h2>
             </div>
             <div class="gold-border">
-              <h3>Bug Bounty<br>&<br>Test Net</h3>
+              <h3>MVP Herc<br>&<br>AGLD Development</h3>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
           <div class="column">
             <div>
-              <h2>February 2018</h2>
+              <h2>Q4 2018</h2>
             </div>
             <div class="gold-border">
-              <h3>Test Net <br class="hide">&<br>Security Audits</h3>
+              <h3>HERC Launch <br class="hide">&<br>AGLD Launch</h3><br>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
           <div class="column">
             <div>
-              <h2>March 2018</h2>
+              <h2>Q1 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>Private Presale</h3><br><br class="hide">
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
-            </div>
-          </div>
-        </div>
-			</article>
-			<article>
-        <div class="columns placeholder">
-          <div class="column">
-            <div>
-              <h2>April 2018</h2>
-            </div>
-            <div class="gold-border">
-              <h3>Private Presale</h3><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
-            </div>
-          </div>
-          <div class="column">
-            <div>
-              <h2>May 2018</h2>
-            </div>
-            <div class="gold-border">
-              <h3>Private Presale</h3><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
-            </div>
-          </div>
-          <div class="column">
-            <div>
-              <h2>June 2018</h2>
-            </div>
-            <div class="gold-border">
-              <h3>Private Presale</h3><br>
+              <h3>HERC v2<br>AGLD 25+ Bars</h3><br class="hide"><br>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
@@ -79,28 +48,59 @@
         <div class="columns placeholder">
           <div class="column">
             <div>
-              <h2>July 2018</h2>
+              <h2>Q2 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>Private Presale</h3><br>
+              <h3>HERC v2.5<br>Extended Verticals</h3><br>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
           <div class="column">
             <div>
-              <h2>August 2018</h2>
+              <h2>Q3 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>Private Presale</h3><br>
+              <h3>HERC Terminal Operating System<br>Shipping Containers</h3><br>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
           <div class="column">
             <div>
-              <h2>September 2018</h2>
+              <h2>q4 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>Private Presale</h3><br>
+              <h3>Beyond Inventory<br>BEX Ecosystem</h3><br>
+              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+            </div>
+          </div>
+        </div>
+			</article>
+			<article>
+        <div class="columns placeholder">
+          <div class="column">
+            <div>
+              <h2>Q1 2020</h2>
+            </div>
+            <div class="gold-border">
+              <h3>Olympic Prep<br>Switch Port</h3><br>
+              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+            </div>
+          </div>
+          <div class="column">
+            <div>
+              <h2>Q2 2020</h2>
+            </div>
+            <div class="gold-border">
+              <h3>Olympics Tokyo<br>AGLD StableCoin</h3><br>
+              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+            </div>
+          </div>
+          <div class="column">
+            <div>
+              <h2>Q3 2018</h2>
+            </div>
+            <div class="gold-border">
+              <h3>HERC / AGLD / BEX<br>Ecosystem</b></h3><br>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
@@ -165,7 +165,7 @@ h2 {
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 16px;
   text-align: center;
   color: #f3c736;
   text-transform: uppercase;
@@ -519,7 +519,7 @@ article img {
     font-size: 18px;
   }
 
-  h3{
+  h3 {
     font-size: 16px;
   }
 }
