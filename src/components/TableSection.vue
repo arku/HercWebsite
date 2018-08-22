@@ -22,8 +22,8 @@
                         <td class="ipfs-color">Action:<br>8 variables</td>
                     </tr>
                     <tr>
-                        <td class="factom-color">Size:<br>32 bytes</td>
-                        <td class="storj-color">Size:<br>8,790kb</td>
+                        <td class="factom-color">Size:<br>128 bytes</td>
+                        <td class="storj-color">Size:<br>13484kb</td>
                         <td class="ipfs-color">Size:<br>126 bytes</td>
                     </tr>
                     <tr>
@@ -32,7 +32,7 @@
                         <td class="ipfs-color">Cost/kb:<br>$0.00</td>
                     </tr>
                     <tr>
-                        <td class="factom-color">Cost associated:<br>$0.00032</td>
+                        <td class="factom-color">Cost associated:<br>$0.00128</td>
                         <td class="storj-color">Cost associated:<br>$0.00001758</td>
                         <td class="ipfs-color">Cost associated:<br>$0.00</td>
                     </tr>
@@ -83,20 +83,20 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   var etheriumNeeded = `${data.gasPrice}`;
   var hercPrice = 0.6;
 
-  var factNeeded = 0.000128 / factPrice;
+  var factNeeded = (0.000128 / factPrice)*4;
   var storjNeeded = 0.0007032 / storjPrice;
   var hercBurned = factNeeded / hercPrice;
 
   factNeeded = roundUp(factNeeded, 6);
   storjNeeded = roundUp(storjNeeded, 6);
 
-  var hercNeededFCT = 0.000128 / 0.6 * factPrice;
-  var hercNeededSTORJ = 0.0007032 / 0.6 * storjPrice;
+  var hercNeededFCT = ((0.000128 / 0.6) * factPrice)*4;
+  var hercNeededSTORJ = (0.0007032 / 0.6) * storjPrice;
   var hercNeeded =
-    storjNeeded / hercPrice +
-    factNeeded / hercPrice +
-    etheriumNeeded / hercPrice +
-    hercBurned;
+    ((storjNeeded / hercPrice) +
+    (factNeeded / hercPrice) +
+    (etheriumNeeded / hercPrice) +
+    hercBurned);
 
     hercNeededFCT = roundUp(hercNeededFCT, 6);
     hercNeededSTORJ = roundUp(hercNeededSTORJ, 6);
