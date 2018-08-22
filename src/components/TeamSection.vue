@@ -425,11 +425,16 @@ i:hover {
   h1 {
     font-size: 30px;
   }
+
+  #team-section img:hover {
+    border-color: #fafafa;
+    box-shadow: 0px 12px 18px -6px #000;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
   #team-section {
-      background-color: #091141;
+    background-color: #091141;
   }
 
   h1 {
@@ -438,20 +443,20 @@ i:hover {
     font-weight: bold;
   }
 
-  h4{
-      color: white;
+  h4 {
+    color: white;
   }
 
-  h2{
-      color: #f3c736;
+  h2 {
+    color: #f3c736;
   }
 
-  h3{
-      color: white;
+  h3 {
+    color: white;
   }
 
-  i{
-      color: white;
+  i {
+    color: #fafafa;
   }
 
   #team-section {

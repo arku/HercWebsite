@@ -120,9 +120,13 @@ p {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
+    
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
+    p{
+        font-size: 10px;
+    }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
