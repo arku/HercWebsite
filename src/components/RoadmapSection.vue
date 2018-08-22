@@ -116,13 +116,18 @@ p {
     background-color: #f3c736;
   }
 
-  h1 {
+ h1 {
     font-size: 20px;
-    margin-bottom: 5%;
+    color: #f3c736;
+    text-transform: none;
   }
 
   .h1title {
-    margin-bottom: 10%;
+    color: #091141;
+  }
+
+  p{
+    color: white;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
