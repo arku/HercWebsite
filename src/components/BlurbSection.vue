@@ -126,6 +126,10 @@ img {
   .blurb {
     margin: 2%;
   }
+
+  #blurb-section{
+    padding: 50px;
+  }
 }
 
 /*** Responsive Styles Smartphone Only ***/

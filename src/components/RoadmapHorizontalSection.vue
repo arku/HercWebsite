@@ -29,7 +29,7 @@
               <h2>Q4 2018</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC Launch <br class="hide">&<br>AGLD Launch</h3><br>
+              <h3>HERC Launch <br class="hide">&<br>AGLD Launch</h3>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
@@ -38,7 +38,7 @@
               <h2>Q1 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC v2<br>AGLD 25+ Bars</h3><br class="hide"><br>
+              <h3>HERC v2<br>AGLD 25+ Bars</h3><br class="hide">
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
@@ -60,7 +60,7 @@
               <h2>Q3 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC Terminal Operating System<br>Shipping Containers</h3><br>
+              <h3>HERC Terminal Operating System<br>Shipping Containers</h3>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
@@ -97,20 +97,47 @@
           </div>
           <div class="column">
             <div>
-              <h2>Q3 2018</h2>
+              <h2>Q3 2020</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC / AGLD / BEX<br>Ecosystem</b></h3><br>
+              <h3>HERC / AGLD / BEX<br>Ecosystem</h3><br>
+              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+            </div>
+          </div>
+        </div>
+			</article>
+			<article>
+        <div class="columns placeholder">
+          <div class="column">
+            <div>
+              <h2>Q4 2020</h2>
+            </div>
+            <div class="gold-border">
+              <h3>Global User Base</h3><br><br>
+              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+            </div>
+          </div>
+          <div class="column">
+            <div>
+              <h2>Q1 2021</h2>
+            </div>
+            <div class="gold-border">
+              <h3>HERC the DAO</h3><br><br>
+              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+            </div>
+          </div>
+          <div class="column">
+            <div>
+              <h2>Q2 2022</h2>
+            </div>
+            <div class="gold-border">
+              <h3>Will be announced</h3><br><br>
               <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
         </div>
 			</article>
 			<!-- <article>
-			
-			<img src="https://0.s3.envato.com/files/84450220/img/Dummy3-942X400.jpg"/>
-			</article>
-			<article>
 			
 			<img src="https://0.s3.envato.com/files/84450220/img/Dummy4-942X400.jpg"/>
 			</article> -->
@@ -121,15 +148,15 @@
 	<label for='slide1' id="first-arrow"></label>
 	<label for='slide2' id="second-arrow"></label>
 	<label for='slide3' id="third-arrow"></label>
-	<!-- <label for='slide4'></label>
-	<label for='slide5'></label> -->
+	<label for='slide4' id="fourth-arrow"></label>
+	<!-- <label for='slide5'></label> -->
 </div>
 <div id="active">
 	<label for='slide1'></label>
 	<label for='slide2'></label>
 	<label for='slide3'></label>
-	<!-- <label for='slide4'></label>
-	<label for='slide5'></label> -->
+	<label for='slide4'></label>
+	<!-- <label for='slide5'></label> -->
 </div>
 </article>
         </div>
@@ -179,7 +206,7 @@ h3 {
 }
 
 .gold-border {
-  border: 1px solid #f3c736;
+  border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
   padding: 20px;
   height: 220px;
@@ -196,7 +223,7 @@ img {
 
 #first-arrow,
 #second-arrow,
-#third-arrow {
+#third-arrow, #fourth-arrow {
   margin-top: 100px !important;
 }
 

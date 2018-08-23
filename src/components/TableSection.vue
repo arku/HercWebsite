@@ -77,7 +77,7 @@ roundUp(192.168, 1); //=> 192.2
 $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   data
 ) {
-  var roundedUp;
+
   var factPrice = `${data.factomPrice}`;
   var storjPrice = `${data.storjPrice}`;
   var etheriumNeeded = `${data.gasPrice}`;
@@ -92,11 +92,7 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
 
   var hercNeededFCT = ((0.000128 / 0.6) * factPrice)*4;
   var hercNeededSTORJ = (0.0007032 / 0.6) * storjPrice;
-  var hercNeeded =
-    ((storjNeeded / hercPrice) +
-    (factNeeded / hercPrice) +
-    (etheriumNeeded / hercPrice) +
-    hercBurned);
+  var hercNeeded = ((storjNeeded / hercPrice) + (factNeeded / hercPrice) + (etheriumNeeded / hercPrice) + hercBurned);
 
     hercNeededFCT = roundUp(hercNeededFCT, 6);
     hercNeededSTORJ = roundUp(hercNeededSTORJ, 6);
