@@ -20,8 +20,8 @@
               <h2>Q3 2018</h2>
             </div>
             <div class="gold-border">
-              <h3>MVP Herc<br>&<br>AGLD Development</h3>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>MVP Herc / AGLD Development</h3>
             </div>
           </div>
           <div class="column">
@@ -29,8 +29,8 @@
               <h2>Q4 2018</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC Launch <br class="hide">&<br>AGLD Launch</h3>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>HERC Launch / AGLD Launch</h3>
             </div>
           </div>
           <div class="column">
@@ -38,8 +38,8 @@
               <h2>Q1 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC v2<br>AGLD 25+ Bars</h3><br class="hide">
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>HERC v2 /AGLD 25+ Bars</h3>
             </div>
           </div>
         </div>
@@ -51,8 +51,8 @@
               <h2>Q2 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC v2.5<br>Extended Verticals</h3><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>HERC v2.5/Extended Verticals</h3>
             </div>
           </div>
           <div class="column">
@@ -60,8 +60,8 @@
               <h2>Q3 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC Terminal Operating System<br>Shipping Containers</h3>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>HERC Terminal Operating System/Shipping Containers</h3>
             </div>
           </div>
           <div class="column">
@@ -69,8 +69,8 @@
               <h2>q4 2019</h2>
             </div>
             <div class="gold-border">
-              <h3>Beyond Inventory<br>BEX Ecosystem</h3><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>Beyond Inventory/BEX Ecosystem</h3>
             </div>
           </div>
         </div>
@@ -82,8 +82,8 @@
               <h2>Q1 2020</h2>
             </div>
             <div class="gold-border">
-              <h3>Olympic Prep<br>Switch Port</h3><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>Olympic Prep/Switch Port</h3>
             </div>
           </div>
           <div class="column">
@@ -91,8 +91,8 @@
               <h2>Q2 2020</h2>
             </div>
             <div class="gold-border">
-              <h3>Olympics Tokyo<br>AGLD StableCoin</h3><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>Olympics Tokyo/AGLD StableCoin</h3>
             </div>
           </div>
           <div class="column">
@@ -100,8 +100,8 @@
               <h2>Q3 2020</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC / AGLD / BEX<br>Ecosystem</h3><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>HERC/AGLD/BEX Ecosystem</h3>
             </div>
           </div>
         </div>
@@ -113,8 +113,8 @@
               <h2>Q4 2020</h2>
             </div>
             <div class="gold-border">
-              <h3>Global User Base</h3><br><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>Global User Base</h3>
             </div>
           </div>
           <div class="column">
@@ -122,17 +122,17 @@
               <h2>Q1 2021</h2>
             </div>
             <div class="gold-border">
-              <h3>HERC the DAO</h3><br><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
+              <i class="fas fa-spinner fa-2x"></i>
+              <h3>HERC the DAO</h3>
             </div>
           </div>
           <div class="column">
             <div>
-              <h2>Q2 2022</h2>
+              <h2>Future</h2>
             </div>
             <div class="gold-border">
+              <i class="fas fa-ellipsis-h fa-2x"></i>
               <h3>Will be announced</h3><br><br>
-              <img src="../assets/check-icon-golden.png" class="image is-64x64">  
             </div>
           </div>
         </div>
@@ -192,11 +192,15 @@ h2 {
 }
 
 h3 {
-  font-size: 16px;
+  font-size: 20px;
   text-align: center;
   color: #f3c736;
   text-transform: uppercase;
-  margin-bottom: 10%;
+}
+
+i {
+  color: #f3c736;
+  margin-bottom: 15%;
 }
 
 .placeholder {
@@ -223,7 +227,8 @@ img {
 
 #first-arrow,
 #second-arrow,
-#third-arrow, #fourth-arrow {
+#third-arrow,
+#fourth-arrow {
   margin-top: 100px !important;
 }
 
@@ -525,17 +530,9 @@ article img {
   h3 {
     font-size: 18px;
   }
-
-  .hide {
-    display: none;
-  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  .hide {
-    display: none;
-  }
-
   #first-arrow,
   #second-arrow,
   #third-arrow {
