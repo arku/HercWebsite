@@ -102,6 +102,7 @@ export default {
 
 .column {
   background-color: #091141;
+  border-bottom: 1px solid #f3c736;
 }
 
 .columns {

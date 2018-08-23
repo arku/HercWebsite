@@ -81,7 +81,7 @@ img:hover {
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
-  #etymology-section{
+  #etymology-section {
     padding: 150px;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -94,6 +94,11 @@ img:hover {
 
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
+  #etymology-section {
+    padding: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   h1 {
     font-size: 40px;
   }
@@ -105,12 +110,23 @@ img:hover {
 
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
+  #etymology-section {
+    padding: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   h1 {
     font-size: 30px;
   }
 
   .blurb-title {
     font-size: 18px;
+  }
+
+  img {
+    height: 50%;
+    width: 50%;
+    margin: auto;
   }
 }
 
@@ -120,7 +136,7 @@ img:hover {
     font-size: 30px;
   }
 
-  #etymology-section{
+  #etymology-section {
     padding: 50px;
   }
 }
