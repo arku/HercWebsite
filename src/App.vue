@@ -26,7 +26,7 @@ export default {
       { name: "description", content: "I have things here on my site." },
 
       // OpenGraph data (Most widely used)
-      { property: "og:title", content: "My Page Title ← My Site" },
+      { property: "og:title", content: "My Page Titlelol ← My Site" },
       { property: "og:site_name", content: "My Site" },
       // The list of types is available here: http://ogp.me/#types
       { property: "og:type", content: "website" },
@@ -37,7 +37,7 @@ export default {
       },
       {
         property: "og:image",
-        content: "https://www.my-site.com/my-special-image.jpg"
+        content: "https://www.gannett-cdn.com/-mm-/41742dd7368271e922caa58d70a691bea412efba/c=26-83-300-289/local/-/media/2016/08/09/Naples/Naples/636063633969876080-s3-27690-herc.jpg?width=534&height=401&fit=crop"
       },
       // Often the same as your meta description, but not always.
       { property: "og:description", content: "I have things here on my site." },
