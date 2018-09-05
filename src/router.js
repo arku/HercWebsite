@@ -5,6 +5,7 @@ import Whitepaper from './views/Whitepaper.vue'
 import Policy from './views/Policy.vue'
 import FAQ from './views/FAQ.vue'
 import Metamask from './views/Metamask.vue'
+import CareersSection from './views/Careers.vue'
 
 Vue.use(Router);
 
@@ -35,6 +36,11 @@ export default new Router({
         path: '/metamask',
         name: 'metamask',
         component: Metamask
+    },
+    {
+        path: '/careers',
+        name: 'careers',
+        component: CareersSection
     }
     ],
 });
