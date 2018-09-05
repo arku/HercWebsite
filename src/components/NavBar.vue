@@ -19,7 +19,7 @@
                             Home
                         </a>
                         <a href="/#blurb-section" class="navbar-item">
-                            GVC Overview
+                            About
                         </a>
                         <a href="/#etymology-section" class="navbar-item">
                             Etymology

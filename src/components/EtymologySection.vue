@@ -2,7 +2,7 @@
     <div id="etymology-section">
         <div id="content">
             <div>
-                <h1>Etymology of Herc</h1>
+                <h1>The Definition</h1>
             </div>
             <div class="columns">
                <div class="column blurb">

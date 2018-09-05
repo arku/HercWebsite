@@ -1,6 +1,10 @@
 <template>
     <div id="blurb-section">
         <div id="content">
+          <div>
+            <h1>HERC means:</h1>
+            <p id="subtitle">Helping Eradicate Racketeering Collusion</p>
+          </div>
             <div class="columns">
                 <div class="column blurb">
                     <div class="blurb-image">
@@ -76,6 +80,16 @@ export default {
   padding: 10px;
 }
 
+h1 {
+  font-size: 45px;
+  text-align: center;
+  color: #f3c736;
+  text-transform: uppercase;
+  margin-bottom: 2%;
+  line-height: 1em;
+  font-weight: bold;
+}
+
 img {
   margin: auto;
   margin-bottom: 10%;
@@ -98,6 +112,11 @@ img {
   line-height: 1.5em;
   font-weight: 900;
   font-size: 11px;
+}
+
+#subtitle{
+  color: #f3c736;
+  margin-bottom: 2%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -127,7 +146,7 @@ img {
     margin: 2%;
   }
 
-  #blurb-section{
+  #blurb-section {
     padding: 50px;
   }
 }
