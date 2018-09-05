@@ -4,7 +4,7 @@
             <div>
                 <h1>DECENTRALIZED SUPPLY CHAIN<br> MANAGEMENT SOFTWARE</h1>
             </div>
-            <div>
+            <!-- <div>
                 <h3>Leave Your Email to Stay <br> Updated With Latest News!</h3>
               <div class="field">
                 <div class="control center-field">
@@ -15,7 +15,13 @@
             <div class="control center-field">
               <button class="button is-link">Subscribe</button>
             </div>
-          </div>
+          </div> -->
+
+          <!-- Begin Constant Contact Inline Form Code -->
+          <div id="subscribe-form">
+<div class="ctct-inline-form" data-form-id="1b7fd750-5561-4cd8-a57d-7e6611366a52"></div>
+<!-- End Constant Contact Inline Form Code -->
+</div>
         </div>
     </div>
 </template>
@@ -95,6 +101,20 @@ h3 {
   text-align: center;
 }
 
+#subscribe-form{
+  width: 30%;
+  margin: auto;
+  color: #f3c736;
+}
+
+#form-background{
+  background-color: transparent !important;
+}
+
+.ctct-inline-form{
+  background-color: transparent !important;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -126,7 +146,7 @@ h3 {
     width: 50%;
   }
 
-  #top-section button{
+  #top-section button {
     font-size: 18px;
     width: 200px;
   }
@@ -150,7 +170,7 @@ h3 {
     width: 50%;
   }
 
-  #top-section button{
+  #top-section button {
     font-size: 16px;
     width: 200px;
   }
@@ -162,14 +182,13 @@ h3 {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 30px;
-    
   }
 
   #top-section input {
     width: 80%;
   }
 
-  #top-section button{
+  #top-section button {
     font-size: 16px;
   }
 }
