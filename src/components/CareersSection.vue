@@ -17,7 +17,7 @@
                         <h3>Community Engineer</h3>
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
-                    <div class="column">
+                    <div class="column right">
                         <a href="mailto:daxdax89@msn.com">Apply</a>
                     </div>
                 </div>
@@ -26,7 +26,7 @@
                         <h3>Infrastructure Engineer</h3>
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
-                    <div class="column">
+                    <div class="column right">
                         <a href="mailto:daxdax89@msn.com">Apply</a>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                         <h3>Software Engineer, Blockchain</h3>
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
-                    <div class="column">
+                    <div class="column right">
                         <a href="mailto:daxdax89@msn.com">Apply</a>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                         <h3>Software Engineer, Cryptography</h3>
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
-                    <div class="column">
+                    <div class="column right">
                         <a href="mailto:daxdax89@msn.com">Apply</a>
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                         <h3>Software Engineer, Distributed Systems</h3>
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
-                    <div class="column">
+                    <div class="column right">
                         <a href="mailto:daxdax89@msn.com">Apply</a>
                     </div>
                 </div>
@@ -62,7 +62,7 @@
                         <h3>Software Engineer, IPFS Cluster</h3>
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
-                    <div class="column">
+                    <div class="column right">
                         <a href="mailto:daxdax89@msn.com">Apply</a>
                     </div>
                 </div>
@@ -73,6 +73,102 @@
                     </div>
                     <div class="column">
                         
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Events Director</h3>
+                        <h4><span>Remote</span><span>Events</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Logistics & Events Assistant</h3>
+                        <h4><span>Remote</span><span>Events</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns top-space">
+                    <div class="column left">
+                        <h2>Finance</h2>
+                        <hr>
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Investor Relations Manager</h3>
+                        <h4><span>Remote</span><span>Finance</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns top-space">
+                    <div class="column left">
+                        <h2>General</h2>
+                        <hr>
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Don't see your role here?</h3>
+                        <h4><span>Remote</span><span>General</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns top-space">
+                    <div class="column left">
+                        <h2>Operations</h2>
+                        <hr>
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Business Operations Specialist</h3>
+                        <h4><span>Remote</span><span>Operations</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Community Manager</h3>
+                        <h4><span>Remote</span><span>Operations</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns top-space">
+                    <div class="column left">
+                        <h2>People</h2>
+                        <hr>
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Recruiting Leader</h3>
+                        <h4><span>Remote</span><span>People</span><span>Full-time</span></h4>
                     </div>
                 </div>
             </div>
@@ -132,6 +228,7 @@ a {
   color: white;
   text-transform: uppercase;
   font-weight: bold;
+  margin: auto;
 }
 
 a:hover {
@@ -146,6 +243,10 @@ span {
   text-align: left;
 }
 
+.right {
+  text-align: right;
+}
+
 #job-listing {
   padding: 50px;
   padding-left: 150px;
@@ -153,8 +254,8 @@ span {
   margin: auto;
 }
 
-.top-space{
-    margin-top: 5%;
+.top-space {
+  margin-top: 5%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
