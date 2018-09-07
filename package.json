@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@fortawesome/vue-fontawesome": "^0.1.1",
-    "buefy": "^0.6.6",
+    "buefy": "^0.6.7",
     "jquery": "^3.3.1",
     "vue": "^2.5.17",
     "vue-backtotop": "^1.4.12",
