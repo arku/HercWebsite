@@ -170,6 +170,81 @@
                         <h3>Recruiting Leader</h3>
                         <h4><span>Remote</span><span>People</span><span>Full-time</span></h4>
                     </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns top-space">
+                    <div class="column left">
+                        <h2>Product</h2>
+                        <hr>
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Open Source Product Manager</h3>
+                        <h4><span>Remote</span><span>Product</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Product Manager</h3>
+                        <h4><span>Remote</span><span>Product</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns top-space">
+                    <div class="column left">
+                        <h2>Research</h2>
+                        <hr>
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Research Program Manager</h3>
+                        <h4><span>Remote</span><span>Research</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Research Scientist, Cryptography</h3>
+                        <h4><span>Remote</span><span>Research</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Research Scientist, Distributed Systems</h3>
+                        <h4><span>Remote</span><span>Research</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column left">
+                        <h3>Research Scientist, Networking</h3>
+                        <h4><span>Remote</span><span>Research</span><span>Full-time</span></h4>
+                    </div>
+                    <div class="column right">
+                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                    </div>
                 </div>
             </div>
         </div>
