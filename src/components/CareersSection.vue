@@ -18,7 +18,109 @@
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
                     <div class="column right">
-                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                        <!-- <a href="mailto:daxdax89@msn.com">Apply</a> -->
+                        <a @click="isCardModalActive = true">Apply</a>
+                        <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
+                            <div class="card">
+                                <div>
+                                    <div>
+                                        <h3 class="text-center">Community Engineer</h3>
+                                    </div>
+                                    <div class="modal-text">
+                                        <p><b>We seek an extraordinary Community Engineer to help
+                                             lay the foundation for a more resilient and secure, decentralized version of the web.
+                                        </b></p>
+                                        <h5>Community Engineering at HERC</h5>
+                                        <p>
+                                            Engineering at HERC is not just about writing world-class code. We create software
+                                             systems that tackle significant challenges. In re-decentralizing the web, we work on hundreds
+                                              of open source projects pursuing everything from research to end-user products. Community
+                                               Engineering at HERC is focused on growing and nurturing the community around those
+                                                projects and the broader decentralized web movement. Community engineers at HERC
+                                                 engage both with the technical pieces that make up our systems, and the communities that
+                                                  make them run!
+                                        </p>
+                                        <h5>As a community engineer at HERC, you will...</h5>
+                                        <ul>
+                                            <li>
+                                                Affect the lives of countless people you help bring into this community.
+                                            </li>
+                                            <li>
+                                                Work directly with Project Engineers to grow the community around projects like IPFS and libp2p.
+                                            </li>
+                                            <li>
+                                                Help create a friendly and supportive environment on IRC and other project forums.
+                                            </li>
+                                            <li>
+                                                Take on early issue triage in order to encourage new contributors and flag issues easily tackled by new contributors.
+                                            </li>
+                                            <li>
+                                                Onboard new contributors.
+                                            </li>
+                                            <li>
+                                                Ensure project documentation for APIs and governance stay in line with project practices.
+                                            </li>
+                                            <li>
+                                                Identify and implement bots and automation, augmenting our interactions with the community.
+                                            </li>
+                                            <li>
+                                                Build new dashboards and micro-sites.
+                                            </li>
+                                        </ul>
+                                        <h5>You may be a fit for this role if you have...</h5>
+                                        <ul>
+                                            <li>
+                                                Experience building community in open source projects.
+                                            </li>
+                                            <li>
+                                                Experience developing Open Source Software.
+                                            </li>
+                                            <li>
+                                                Familiarity with peer-to-peer technologies.
+                                            </li>
+                                            <li>
+                                                A level of comfort speaking at conferences and developer summits.
+                                            </li>
+                                            <li>
+                                                Strong written communication skills in short form, medium form, and long form.
+                                            </li>
+                                            <li>
+                                                Experience with JavaScript.
+                                            </li>
+                                        </ul>
+                                        <h5>Bonus Points...</h5>
+                                        <ul>
+                                            <li>
+                                                Familiarity with concepts like merkle trees and CRDT’s.
+                                            </li>
+                                            <li>
+                                                Experience with Go.
+                                            </li>
+                                            <li>
+                                                Experience with octokit.
+                                            </li>
+                                            <li>
+                                                Experience with GitHub’s GraphQL API.
+                                            </li>
+                                            <li>
+                                                Experience running events.
+                                            </li>
+                                        </ul>
+                                        <p class="spacer"><b>What’s it like to work at HERC?</b></p>
+                                        <p class="spacer-bottom">
+                                            HERC's mission is to improve humanity’s most important technology, the Internet. 
+                                            We build protocols, systems, and tools to improve how it works. Today, we are focused on how we
+                                             store, locate, and move information. Our projects include IPFS, Filecoin, libp2p, and more.<br>
+                                            As a distributed team, we hire anywhere in the world, and at different levels of experience
+                                             (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="mailto:daxdax89@msn.com" class="modal-apply">Apply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </b-modal>
                     </div>
                 </div>
                 <div class="columns">
@@ -252,7 +354,12 @@
 </template>
 <script>
 export default {
-  name: "CareersSection"
+  name: "CareersSection",
+  data() {
+    return {
+      isCardModalActive: false
+    };
+  }
 };
 </script>
 <style scoped>
@@ -288,11 +395,23 @@ h4 {
   text-transform: uppercase;
 }
 
+h5 {
+  text-align: left;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
 hr {
   width: 30%;
 }
 
-a {
+ul {
+  list-style-type: disc;
+}
+
+a,
+button {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -306,7 +425,8 @@ a {
   margin: auto;
 }
 
-a:hover {
+a:hover,
+button:hover {
   color: #f3c736;
 }
 
@@ -331,6 +451,38 @@ span {
 
 .top-space {
   margin-top: 5%;
+}
+
+/* .sirina{
+    width: 80%;
+} */
+
+.text-center {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  padding-top: 20px;
+}
+
+.modal-text {
+  background-color: #fafafa;
+  margin-top: 5%;
+  padding: 40px;
+  text-align: left;
+}
+
+.spacer {
+  margin-top: 5%;
+}
+
+.spacer-bottom{
+    margin-bottom: 5%;
+}
+
+.modal-apply {
+  margin: auto;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
