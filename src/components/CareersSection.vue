@@ -24,6 +24,7 @@
                                 <div>
                                     <div>
                                         <h3 class="text-center">Community Engineer</h3>
+                                        <h4 class="text-center"><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                                     </div>
                                     <div class="modal-text">
                                         <p><b>We seek an extraordinary Community Engineer to help
@@ -134,6 +135,7 @@
                                 <div>
                                     <div>
                                         <h3 class="text-center">Infrastructure Engineer</h3>
+                                        <h4 class="text-center"><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                                     </div>
                                     <div class="modal-text">
                                         <p><b>We seek an outstanding Infrastructure Engineer to help lay
@@ -231,6 +233,7 @@
                                 <div>
                                     <div>
                                         <h3 class="text-center">Software Engineer, Blockchain</h3>
+                                        <h4 class="text-center"><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                                     </div>
                                     <div class="modal-text">
                                         <p><b>We seek an outstanding Software Engineer to help us build the next generation of blockchain technology.
@@ -312,7 +315,92 @@
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
                     <div class="column right">
-                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                        <a @click="isCardModalActive = true">Apply</a>
+                        <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
+                            <div class="card">
+                                <div>
+                                    <div>
+                                        <h3 class="text-center">Software Engineer, Cryptography</h3>
+                                        <h4 class="text-center"><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
+                                    </div>
+                                    <div class="modal-text">
+                                        <p><b>Seeking a seasoned software engineer with a specialization in cryptography to help shape the next generation of network protocols.
+                                        </b></p>
+                                        <h5>Engineering at HERC</h5>
+                                        <p>
+                                            Engineering at HERC is not just about writing world-class code. We create software systems
+                                             that tackle significant challenges. We aim to solve those challenges with new technology
+                                              breakthroughs and great user experience design.  We believe in an open-source approach
+                                               to creation. We strike a balance between pragmatism (put it on a ship ⛴), deeply
+                                                informed protocol design, and strict application of strong engineering principles.
+                                                 All of this happens in an environment defined by curiosity, passion, and a love for open source.
+                                        </p>
+                                        <h5>As a Software Engineer (Cryptography) at HERC, you might...</h5>
+                                        <ul>
+                                            <li>
+                                                Build the next generation of peer-to-peer software, working on projects like libp2p, IPFS and Filecoin
+                                            </li>
+                                            <li>
+                                                Participate in the design of applications integrating new cryptographic primitives
+                                            </li>
+                                            <li>
+                                                Integrate research results into real programs
+                                            </li>
+                                            <li>
+                                                Work alongside a cross-functional team including engineering, design, community, product, and business
+                                            </li>
+                                            <li>
+                                                Educate the team on how to design and build systems with security first
+                                            </li>
+                                        </ul>
+                                        <h5>You may be a fit for this role if you have...</h5>
+                                        <ul>
+                                            <li>
+                                                MS degree in Computer Science, Mathematics, or a related field 
+                                            </li>
+                                            <li>
+                                                Demonstrated the ability to implement cryptographic primitives
+                                            </li>
+                                            <li>
+                                                Experience programming in one or more of the following: Go, Rust, C, C++, Haskell, Ocaml
+                                            </li>
+                                            <li>
+                                                Significant experience building secure applications 
+                                            </li>
+                                            <li>
+                                                In-depth knowledge of authentication protocols and applied cryptography
+                                            </li>
+                                            <li>
+                                                Knowledge of the latest attack trends, tools and the threat landscape
+                                            </li>
+                                            <li>
+                                                Proven track record of independently driving projects in a fast-paced environment
+                                            </li>
+                                            <li>
+                                                Excellent communication skills on both technical and non-technical issues
+                                            </li>
+                                        </ul>
+                                         <h5>Bonus Points...</h5>
+                                        <ul>
+                                            <li>
+                                                Experience working and contributing to Open Source projects 
+                                            </li>
+                                        </ul>
+                                        <p class="spacer"><b>What’s it like to work at HERC?</b></p>
+                                        <p class="spacer-bottom">
+                                            HERC's mission is to improve humanity’s most important technology, the Internet. 
+                                            We build protocols, systems, and tools to improve how it works. Today, we are focused on how we
+                                             store, locate, and move information. Our projects include IPFS, Filecoin, libp2p, and more.<br>
+                                            As a distributed team, we hire anywhere in the world, and at different levels of experience
+                                             (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="mailto:daxdax89@msn.com" class="modal-apply">Apply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </b-modal>
                     </div>
                 </div>
                 <div class="columns">
@@ -321,7 +409,110 @@
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
                     <div class="column right">
-                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                        <a @click="isCardModalActive = true">Apply</a>
+                        <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
+                            <div class="card">
+                                <div>
+                                    <div>
+                                        <h3 class="text-center">Software Engineer, Distributed Systems</h3>
+                                        <h4 class="text-center"><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
+                                    </div>
+                                    <div class="modal-text">
+                                        <p><b>Define and build elegant, performant, and resilient systems for tomorrow's web.
+                                        </b></p>
+                                        <p>
+                                            We are hiring Distributed Systems Engineers to work on the JavaScript and Go
+                                             implementations of protocols like IPFS, Filecoin and libp2p.
+                                        </p>
+                                        <p>
+                                            Enthusiasm about the decentralized web and blockchains has brought an influx of people
+                                             who want to _use_ distributed systems but who don't know _how to build_ the necessary
+                                              infrastructure. We are building that infrastructure. To continue that work, we're looking
+                                               for people who thoroughly understand the principles of distributed systems and who will
+                                                lean into the challenges of applying those principles in open-source code that will be
+                                                 deployed worldwide.
+                                        </p>
+                                        <h5>Distributed Systems Engineering at HERC</h5>
+                                        <p>
+                                            Distributed systems engineering lies at the center of many projects at HERC. With IPFS, libp2p,
+                                             Filecoin and other related projects we are laying the foundation for a more resilient, more secure,
+                                              distributed version of the web. This requires rigorous engineering from protocol design through
+                                               all the phases of implementation. We strike a balance between pragmatism (put it on a ship ⛴),
+                                                deeply informed protocol design, and strict application of strong engineering principles. All
+                                                 of this happens in an environment defined by curiosity, passion, and a love for open source.
+                                        </p>
+                                        <h5>As a Distributed Systems Software Engineer at Protocol Labs you might …</h5>
+                                        <ul>
+                                            <li>
+                                                Create elegant, reusable open-source solutions to hard distributed systems problems
+                                            </li>
+                                            <li>
+                                                Contribute to steering and maintenance of the JavaScript or Go implementations of IPFS, Filecoin, libp2p and similar open source projects
+                                            </li>
+                                            <li>
+                                                Participate in the design of performant and resilient applications
+                                            </li>
+                                            <li>
+                                                Integrate research results into real programs
+                                            </li>
+                                            <li>
+                                                Provide code reviews, guidance, and encouragement for open source contributors around the world
+                                            </li>
+                                        </ul>
+                                        <h5>You may be a fit for this role if you have...</h5>
+                                        <ul>
+                                            <li>
+                                                Significant experience building applications using Go, Universal JavaScript, or related languages (required)
+                                            </li>
+                                            <li>
+                                                Solid understanding of distributed systems principles (required)
+                                            </li>
+                                            <li>
+                                                A good understanding of the Web's application model (required)
+                                            </li>
+                                            <li>
+                                                Literacy with cryptographic principles and practices
+                                            </li>
+                                            <li>
+                                                Experience Implementing distributed software systems and applications that overcome the challenges of p2p networking
+                                            </li>
+                                            <li>
+                                                A fiery passion for busting through NATs
+                                            </li>
+                                            <li>
+                                                Experience leading and guiding Open Source projects (preferred)
+                                            </li>
+                                            <li>
+                                                Experience Implementing DHTs, consensus (Raft/PAXOS) and/or blockchain-based protocols (preferred)
+                                            </li>
+                                            <li>
+                                                Experience with 1 or more of the following: Smart Contracts, storage platforms, UNIX file systems, VMs (preferred)
+                                            </li>
+                                            <li>
+                                                Proficiency at tuning network applications for high and low bandwidth settings (preferred)
+                                            </li>
+                                        </ul>
+                                         <h5>Bonus Points...</h5>
+                                        <ul>
+                                            <li>
+                                                Experience working and contributing to Open Source projects 
+                                            </li>
+                                        </ul>
+                                        <p class="spacer"><b>What’s it like to work at HERC?</b></p>
+                                        <p class="spacer-bottom">
+                                            HERC's mission is to improve humanity’s most important technology, the Internet. 
+                                            We build protocols, systems, and tools to improve how it works. Today, we are focused on how we
+                                             store, locate, and move information. Our projects include IPFS, Filecoin, libp2p, and more.<br>
+                                            As a distributed team, we hire anywhere in the world, and at different levels of experience
+                                             (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="mailto:daxdax89@msn.com" class="modal-apply">Apply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </b-modal>
                     </div>
                 </div>
                 <div class="columns">
@@ -330,7 +521,95 @@
                         <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
                     </div>
                     <div class="column right">
-                        <a href="mailto:daxdax89@msn.com">Apply</a>
+                        <a @click="isCardModalActive = true">Apply</a>
+                        <b-modal :active.sync="isCardModalActive" :width="640" scroll="keep">
+                            <div class="card">
+                                <div>
+                                    <div>
+                                        <h3 class="text-center">Software Engineer, IPFS Cluster</h3>
+                                        <h4 class="text-center"><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
+                                    </div>
+                                    <div class="modal-text">
+                                        <p><b>We seek a software engineer to work on the IPFS Cluster project.
+                                        </b></p>
+                                        <h5>Engineering at HERC</h5>
+                                        <p>
+                                            Engineering at Protocol Labs is not just about writing world-class code. We create software
+                                             systems that tackle significant challenges. We aim to solve those challenges with new technology
+                                              breakthroughs and great user experience design.  We believe in an open-source approach to creation.
+                                               We strike a balance between pragmatism, deeply informed protocol design, and strict application of
+                                                strong engineering principles. All of this happens in an environment defined by curiosity,
+                                                 passion, and a love for open source.
+                                        </p>
+                                        <h5>As a Software-Engineer working with Protocol Labs on the ipfs-cluster project you will...</h5>
+                                        <ul>
+                                            <li>
+                                                Use ipfs-cluster to harness the power of a swarm of ipfs nodes, enabling the distribution and replication of datasets among them
+                                            </li>
+                                            <li>
+                                                Learn and contribute to the libp2p stack, working on RPC and consensus protocols on top of libp2p.
+                                            </li>
+                                            <li>
+                                                Build and transform merkle trees so that ipfs-cluster can efficiently work with very large datasets.
+                                            </li>
+                                            <li>
+                                                Scale, improve and implement features that will be key to the storage market powered by filecoin
+                                            </li>
+                                            <li>
+                                                Work on data replication and advanced fault tolerance strategies on ipfs
+                                            </li>
+                                            <li>
+                                                Support users with real-life use cases, writing open-source code that will run in many different environments
+                                            </li>
+                                            <li>
+                                                Plan your own time and focus, working in a loosely coordinated team advancing open-source technologies
+                                            </li>
+                                        </ul>
+                                        <h5>You may be a fit for this role if you have...</h5>
+                                        <ul>
+                                            <li>
+                                                Experience programming in Go
+                                            </li>
+                                            <li>
+                                                Experience working in cluster-software and distributed software (software running in many different machines).
+                                            </li>
+                                            <li>
+                                                Experience working in open-source and using standard open-source tooling (Github…)
+                                            </li>
+                                            <li>
+                                                Automation of infrastructure and related technologies (i.e. terraform, packer, ansible...)
+                                            </li>
+                                        </ul>
+                                         <h5>Bonus Points...</h5>
+                                        <ul>
+                                            <li>
+                                                Experience with file systems and data replication (bonus: distributed data replication)
+                                            </li>
+                                            <li>
+                                                Extensive knowledge/experience working on consensus algorithms
+                                            </li>
+                                            <li>
+                                                Experience working with libp2p and/or parts of the IPFS ecosystem (including IPLD)
+                                            </li>
+                                            <li>
+                                                Experience working remotely and self-managing your time
+                                            </li>
+                                        </ul>
+                                        <p class="spacer"><b>What’s it like to work at HERC?</b></p>
+                                        <p class="spacer-bottom">
+                                            HERC's mission is to improve humanity’s most important technology, the Internet. 
+                                            We build protocols, systems, and tools to improve how it works. Today, we are focused on how we
+                                             store, locate, and move information. Our projects include IPFS, Filecoin, libp2p, and more.<br>
+                                            As a distributed team, we hire anywhere in the world, and at different levels of experience
+                                             (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
+                                        </p>
+                                        <div class="text-center">
+                                            <a href="mailto:daxdax89@msn.com" class="modal-apply">Apply</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </b-modal>
                     </div>
                 </div>
                 <div class="columns top-space">
