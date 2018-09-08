@@ -190,6 +190,12 @@
                     </a>
                 </div>
                 <div class="column">
+                    <img src="../assets/team/viktor.jpg">
+                    <h2>Viktor Kozub</h2>
+                    <h3>Chief Scalability Officer</h3>
+                    <a href="https://www.linkedin.com/in/viktor-kozub-86bb9826/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
                 </div>
             </div>
             <h4>Administrative</h4>
