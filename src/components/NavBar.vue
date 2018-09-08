@@ -34,6 +34,15 @@
                             Team
                         </a>
                     </div>
+                    
+                    <div id="social-top">
+                        <i class="fab fa-telegram fa-2x"></i>
+                        <i class="fab fa-facebook fa-2x"></i>
+                        <i class="fab fa-twitter fa-2x"></i>
+                        <i class="fab fa-instagram fa-2x"></i>
+                        <i class="fab fa-linkedin fa-2x"></i>
+                        <i class="fab fa-youtube fa-2x"></i>
+                    </div>
 
                     <div class="navbar-end">
                         <div class="navbar-item">
@@ -105,7 +114,7 @@ nav {
 }
 
 .navbar-brand {
-  margin-left: 10%;
+  /* margin-left: 5%; */
 }
 
 a {
@@ -128,6 +137,19 @@ a:hover {
   background-color: #f3c736;
   color: #091141;
   border-radius: 0px;
+}
+
+#social-top{
+    padding-top: 15px;
+    color: #f3c736;
+}
+
+#social-top i:hover {
+  color: white;
+}
+
+#social-top i{
+    padding-right: 10px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
