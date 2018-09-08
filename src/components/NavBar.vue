@@ -35,7 +35,7 @@
                         </a>
                     </div>
 
-                    <!-- <div class="navbar-end">
+                    <div class="navbar-end">
                         <div class="navbar-item">
                             <div class="field is-grouped">
                                 <p class="control">
@@ -58,7 +58,7 @@
                                 </p>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
             </nav>
         </div>
