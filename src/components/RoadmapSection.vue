@@ -2,7 +2,7 @@
     <div id="roadmap-section">
         <div id="content">
             <div>
-                <h1 class="h1title">Process</h1>
+                <h1 class="h1title">Roadmap</h1>
             </div>
             <div class="columns ">
                 <div class="column ">

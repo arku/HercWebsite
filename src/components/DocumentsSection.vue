@@ -9,14 +9,6 @@
                     <router-link to="/whitepaper/" class="button">White Paper</router-link>
                   </div>
             </div>
-            <!-- <div class="columns">
-                  <div class="column">
-                    <a class="button">Token Sale Policy</a>
-                </div>
-            </div> -->
-            <div>
-                <img src="../assets/infographic.png">
-            </div>
         </div>
     </div>
 </template>
@@ -38,16 +30,14 @@ export default {
   text-transform: uppercase;
   border-radius: 0;
   background-color: transparent;
-  color: #f3c736;
+  color: #091141;
   border-color: #f3c736;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 20px;
-  box-shadow: 0px 12px 18px -6px #000;
 }
 
 #content a:hover {
   color: #091141;
-  border-color: #091141;
   background-color: #f3c736;
 }
 

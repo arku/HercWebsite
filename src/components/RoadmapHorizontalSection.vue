@@ -2,7 +2,7 @@
     <div id="horizontal-roadmap">
         <div id="content">
           <div>
-            <h1>Process</h1>
+            <h1>Roadmap</h1>
           </div>
           <article id="slider">
 <input checked type='radio' name='slider' id='slide1'/>
@@ -214,7 +214,6 @@ i {
 
 .gold-border {
   border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
   padding: 20px;
   height: 220px;
 }
@@ -359,8 +358,7 @@ article img {
 #slide3:checked ~ #commands label:nth-child(4),
 #slide4:checked ~ #commands label:nth-child(5),
 #slide5:checked ~ #commands label:nth-child(1) {
-  background: url("https://0.s3.envato.com/files/84450220/img/next.png")
-    no-repeat;
+  background: url("../assets/right.png") no-repeat;
   float: right;
   margin: 0 0px 0 0;
   display: block;
@@ -370,7 +368,7 @@ article img {
 #slide3:checked ~ #commands label:nth-child(2),
 #slide4:checked ~ #commands label:nth-child(3),
 #slide5:checked ~ #commands label:nth-child(4) {
-  background: url("https://0.s3.envato.com/files/84450220/img/previous.png")
+  background: url("../assets/left.png")
     no-repeat;
   float: left;
   margin: 0 0 0 -20px;

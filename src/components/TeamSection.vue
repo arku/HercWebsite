@@ -30,6 +30,8 @@
                         <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                 </div>
+            </div>
+            <div class="columns">
                 <div class="column">
                     <img src="../assets/team/logan.jpg">
                     <h2>Logan Golema</h2>
@@ -38,8 +40,6 @@
                         <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                 </div>
-            </div>
-            <div class="columns">
                 <div class="column">
                     <img src="../assets/team/grey.jpg">
                     <h2>Grey Jabesi</h2>
@@ -64,6 +64,8 @@
                         <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                 </div>
+            </div>
+            <div class="columns">
                 <div class="column">
                     <img src="../assets/team/michaelnelson.jpg">
                     <h2>Michael Nelson</h2>
@@ -72,8 +74,6 @@
                         <i class="fab fa-linkedin fa-2x"></i>
                     </a>
                 </div>
-            </div>
-            <div class="columns">
                 <div class="column">
                     <img src="../assets/team/justin.jpg">
                     <h2>Justin Breen</h2>
@@ -97,9 +97,6 @@
                     <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
                         <i class="fab fa-linkedin fa-2x"></i>
                     </a>
-                </div>
-                <div class="column">
-                    
                 </div>
             </div>
             <h4>Board of Directors</h4>

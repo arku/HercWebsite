@@ -31,11 +31,6 @@ h1 {
   font-weight: bold;
 }
 
-iframe {
-  border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
-}
-
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
   iframe {

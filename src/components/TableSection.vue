@@ -135,11 +135,11 @@ table {
   background-color: transparent;
   margin: auto;
   border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
 }
 
 table th {
   border-color: #f3c736;
+  background-color: #091141;
 }
 
 table td {

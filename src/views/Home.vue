@@ -3,7 +3,7 @@
         <NavBar></NavBar>
         <TopSection></TopSection>
         <BlurbSection></BlurbSection>
-        <EtymologySection></EtymologySection>
+        <!-- <EtymologySection></EtymologySection> -->
         <ProtocolCostSection></ProtocolCostSection>
         <TableSection></TableSection>
         <VideoSection></VideoSection>
@@ -23,7 +23,7 @@
 import NavBar from "@/components/NavBar.vue";
 import TopSection from "@/components/TopSection.vue";
 import BlurbSection from "@/components/BlurbSection.vue";
-import EtymologySection from "@/components/EtymologySection.vue";
+// import EtymologySection from "@/components/EtymologySection.vue";
 import ProtocolCostSection from "@/components/ProtocolCostSection.vue";
 import TableSection from "@/components/TableSection.vue";
 import VideoSection from "@/components/VideoSection.vue";
@@ -41,7 +41,7 @@ export default {
     NavBar,
     TopSection,
     BlurbSection,
-    EtymologySection,
+    // EtymologySection,
     ProtocolCostSection,
     TableSection,
     VideoSection,

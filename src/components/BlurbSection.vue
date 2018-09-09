@@ -65,23 +65,21 @@ export default {
 #blurb-section {
   padding-top: 50px;
   padding-bottom: 50px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .blurb {
   background-color: #fafafa !important;
   height: 320px !important;
-  box-shadow: 0px 12px 18px -6px #000;
   border-width: 1px !important;
-  border: 1px solid #f3c736;
   margin: 3%;
   margin-bottom: auto;
   padding: 10px;
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
   /* color: #f3c736; */
   color: #091141;
@@ -109,28 +107,35 @@ img {
 .blurb-text {
   color: #091141;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   line-height: 1.5em;
   font-weight: 900;
-  font-size: 11px;
+  font-size: 14px;
 }
 
 #subtitle {
-  /* color: #f3c736; */
   color: #091141;
   margin-bottom: 2%;
+  font-size: 24px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
+  
 }
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
+  #blurb-section{
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+  }
 }
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  
 }
 
 /*** Responsive Styles Tablet Only ***/
@@ -162,13 +167,13 @@ img {
   .blurb-title {
     font-size: 18px;
     font-weight: bold;
-    color: #f3c736;
+    color: #091141;
   }
 
   .blurb-text {
     font-size: 14px;
     line-height: 1.2em;
-    color: #f3c736;
+    color: #091141;
   }
 
   #blurb-section {
@@ -184,7 +189,7 @@ img {
     font-size: 30px;
   }
 
-  #subtitle{
+  #subtitle {
     margin-bottom: 5%;
   }
 }
@@ -194,13 +199,13 @@ img {
   .blurb-title {
     font-size: 18px;
     font-weight: 900;
-    color: #f3c736;
+    color: #091141;
   }
 
   .blurb-text {
     font-size: 14px;
     line-height: 1.1em;
-    color: #f3c736;
+    color: #091141;
   }
 
   #blurb-section {

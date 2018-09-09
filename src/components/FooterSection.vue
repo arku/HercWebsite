@@ -54,10 +54,6 @@
                             <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">YouTube</a>
                         </div>
                     </div>
-                    <div class="column">
-                        <h3>Stay updated</h3>
-
-                    </div>
                 </div>
                 <p>Copyright HERC All Rights Reserved</p>
             </footer>
@@ -83,7 +79,6 @@ export default {
 }
 
 #footer-section a {
-  /* color: white; */
   color: #091141;
   font-size: 12px;
   font-weight: bold;
@@ -94,7 +89,6 @@ export default {
 }
 
 h3 {
-  /* color: #f3c736; */
   color: #091141;
   text-transform: uppercase;
   font-weight: bold;
@@ -103,7 +97,6 @@ h3 {
 
 p {
   font-size: 14px;
-  /* color: #f3c736; */
   color: #091141;
 }
 

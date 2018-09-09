@@ -46,7 +46,7 @@
 
                     <div class="navbar-end">
                         <div class="navbar-item">
-                            <div class="field is-grouped">
+                            <div class="field is-grouped" id="two-buttons">
                                 <p class="control">
                                     <a class="button is-primary dugme-hover" href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                                     <span class="icon">
@@ -94,7 +94,7 @@ $(document).ready(function() {
 
 <style scoped>
 nav {
-  background-color: transparent;
+  background-color: #091141;
 }
 
 #navbar {
@@ -113,10 +113,6 @@ nav {
   margin: auto;
 }
 
-.navbar-brand {
-  /* margin-left: 5%; */
-}
-
 a {
   color: #f3c736;
   text-transform: uppercase;
@@ -130,7 +126,6 @@ a:hover {
 .dugme-hover:hover {
   color: #091141 !important;
   background-color: white !important;
-  box-shadow: 0px 12px 18px -6px #000;
 }
 
 .button.is-primary {
@@ -139,17 +134,17 @@ a:hover {
   border-radius: 0px;
 }
 
-#social-top{
-    padding-top: 15px;
-    color: #f3c736;
+#social-top {
+  padding-top: 15px;
+  color: #f3c736;
 }
 
 #social-top i:hover {
   color: white;
 }
 
-#social-top i{
-    padding-right: 10px;
+#social-top i {
+  padding-right: 10px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -157,11 +152,14 @@ a:hover {
 }
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
+  #social-top {
+    display: none;
+  }
 }
 
-@media all and (max-width: 1087px) {
+@media all and (max-width: 1099px) {
   #navbarExampleTransparentExample {
-    background-color: transparent;
+    background-color: #091141;
     border-bottom: 1px solid #f3c736;
     border-top: 1px solid #f3c736;
   }
@@ -173,24 +171,43 @@ a:hover {
     margin-left: 0;
   }
 
-  .navbar-item{
-      margin: auto;
+  .navbar-item {
+    margin: auto;
   }
 
-  .navbar-burger{
-      margin-left: -3.25rem;
+  .navbar-burger {
+    margin-left: -3.25rem;
+  }
+
+  #two-buttons{
+      margin: auto;
+      width: 31%;
   }
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+    
+.field .is-grouped{
+    width: 30%;
+    margin: auto;
+}
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
+    
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
+    #two-buttons{
+      margin: auto;
+      width: 43%;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+    #two-buttons{
+      margin: auto;
+      width: 67%;
+  }
 }
 </style>

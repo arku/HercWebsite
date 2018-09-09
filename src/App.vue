@@ -32,7 +32,7 @@ a {
 }
 
 html {
-  background-color: #091141 !important;
+  background-color: white !important;
 }
 
 #app {
