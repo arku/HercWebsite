@@ -177,7 +177,8 @@ export default {
 h1 {
   font-size: 45px;
   text-align: center;
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -185,7 +186,8 @@ h1 {
 h2 {
   font-size: 24px;
   text-align: center;
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 5%;
@@ -194,7 +196,8 @@ h2 {
 h3 {
   font-size: 20px;
   text-align: center;
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
   text-transform: uppercase;
 }
 

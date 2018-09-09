@@ -37,16 +37,17 @@ export default {
   padding: 200px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: url("../assets/etymology/crane.png");
+  /* background-image: url("../assets/etymology/crane.png");
   background-repeat: no-repeat;
-  background-size: inherit;
-  background: linear-gradient(#091141, #1a245e);
+  background-size: inherit; */
+  /* background: linear-gradient(#091141, #1a245e); */
 }
 
 h1 {
   font-size: 45px;
   text-align: center;
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
   text-transform: uppercase;
   margin-bottom: 5%;
   line-height: 1em;
@@ -56,7 +57,8 @@ h1 {
 .blurb-title {
   text-transform: uppercase;
   text-align: center;
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
   font-weight: 900;
   line-height: 1em;
   margin-bottom: 3%;

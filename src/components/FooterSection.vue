@@ -83,7 +83,8 @@ export default {
 }
 
 #footer-section a {
-  color: white;
+  /* color: white; */
+  color: #091141;
   font-size: 12px;
   font-weight: bold;
 }
@@ -93,7 +94,8 @@ export default {
 }
 
 h3 {
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 5%;
@@ -101,13 +103,15 @@ h3 {
 
 p {
   font-size: 14px;
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
 }
 
 .footer {
   background-color: transparent;
   padding-bottom: 20px;
 }
+
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {

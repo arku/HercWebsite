@@ -28,7 +28,8 @@ export default {
 }
 
 #image-placeholder {
-  background-color: #1c224b;
+  /* background-color: #1c224b; */
+  background-color: #fafafa;
   margin-bottom: 5%;
 }
 

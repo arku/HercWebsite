@@ -73,7 +73,8 @@ export default {
 
 h1 {
   font-size: 45px;
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
   text-transform: uppercase;
   margin-bottom: 2%;
   font-weight: bold;
@@ -82,7 +83,8 @@ h1 {
 h2 {
   font-size: 26px;
   text-transform: uppercase;
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
   line-height: 1.7em;
 }
 

@@ -37,7 +37,7 @@ export default {
   background-size: initial;
   background-position: bottom left;
   background-repeat: no-repeat;
-  background-color: #091141;
+  /* background-color: #091141; */
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 0px;
@@ -86,7 +86,8 @@ h1 {
   text-align: center;
   padding-top: 100px;
   padding-bottom: 100px;
-  color: #f3c736;
+  /* color: #f3c736; */
+  color: #091141;
   font-weight: bold;
 }
 
