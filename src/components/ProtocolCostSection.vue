@@ -36,7 +36,7 @@ export default {
 h1 {
   font-size: 45px;
   text-align: center;
-  color: #f3c736;
+  color: #091141;
   text-transform: uppercase;
   margin-bottom: 50px;
   font-weight: bold;
