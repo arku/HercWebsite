@@ -6,6 +6,7 @@ import Policy from './views/Policy.vue'
 import FAQ from './views/FAQ.vue'
 import Metamask from './views/Metamask.vue'
 import CareersSection from './views/Careers.vue'
+import Hipr from './views/Hipr.vue'
 
 Vue.use(Router);
 
@@ -41,6 +42,10 @@ export default new Router({
         path: '/careers',
         name: 'careers',
         component: CareersSection
+    },
+    {
+        path: '/hipr',
+        beforeEnter() { location.href = 'https://s3.us-east-2.amazonaws.com/hercmedia/HIPRDocumentation.pdf' }
     }
     ],
 });
