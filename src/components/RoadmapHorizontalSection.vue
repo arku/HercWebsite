@@ -20,7 +20,7 @@
               <h2>Q3 2018</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-check fa-2x done"></i>
               <h3>MVP Herc / AGLD Development</h3>
             </div>
           </div>
@@ -204,6 +204,10 @@ h3 {
 i {
   color: #f3c736;
   margin-bottom: 15%;
+}
+
+.done{
+  color: green !important;
 }
 
 .placeholder {

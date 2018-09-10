@@ -4,13 +4,13 @@
         <TopSection></TopSection>
         <BlurbSection></BlurbSection>
         <!-- <EtymologySection></EtymologySection> -->
-        <ProtocolCostSection></ProtocolCostSection>
         <TableSection></TableSection>
         <VideoSection></VideoSection>
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
         <PartnersSection></PartnersSection>
         <DocumentsSection></DocumentsSection>
+        <ProtocolCostSection></ProtocolCostSection>
         <TeamSection></TeamSection>
         <ContactSection></ContactSection>
         <FooterSection></FooterSection>

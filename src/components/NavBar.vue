@@ -21,9 +21,6 @@
                         <a href="/#blurb-section" class="navbar-item">
                             About
                         </a>
-                        <a href="/#etymology-section" class="navbar-item">
-                            Etymology
-                        </a>
                         <a href="/#roadmap-section" class="navbar-item">
                             Roadmap
                         </a>

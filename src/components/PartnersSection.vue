@@ -4,7 +4,7 @@
             <div>
                 <h1>Partners</h1>
             </div>
-            <div class="columns">
+            <div class="columns hide">
                 
                 <div class="column">
                     <img src="../assets/partners/factom.png">
@@ -25,7 +25,7 @@
                     <img src="../assets/partners/cayman.png">
                 </div>
             </div>
-            <div class="columns">
+            <div class="columns hide">
                 <div class="column">
                     
                 </div>
@@ -43,6 +43,50 @@
                 </div>
                 <div class="column">
                     
+                </div>
+            </div>
+
+            <!-- Mobile view -->
+
+            <div class="columns is-mobile">
+                
+                <div class="column is-half-mobile">
+                    <img src="../assets/partners/factom.png">
+                </div>
+                <div class="column column is-half-mobile">
+                    <img src="../assets/partners/storj.png">
+                </div>
+            </div>
+            <div class="columns is-mobile">
+                <div class="column is-half-mobile">
+                    <img src="../assets/partners/bfc.png">
+                </div>
+                <div class="column is-half-mobile">
+                    <img src="../assets/partners/coinpayments.png">
+                </div>
+            </div>
+            <div class="columns is-mobile">
+                <div class="column">
+                    <img src="../assets/partners/rivetz.png">
+                </div>
+                <div class="column">
+                    <img src="../assets/partners/cayman.png">
+                </div>
+            </div>
+            <div class="columns is-mobile">
+                <div class="column is-half-mobile">
+                    <img src="../assets/partners/amagi.gif">
+                </div>
+                <div class="column is-half-mobile">
+                    <img src="../assets/partners/shipstation.png">
+                </div>
+            </div>
+            <div class="columns is-mobile">
+                <div class="column is-half-mobile">
+                    <img src="../assets/partners/idology.png">
+                </div>
+                <div class="column is-half-mobile">
+                    <img src="../assets/partners/earlyiq.png">
                 </div>
             </div>
         </div>
@@ -86,6 +130,10 @@ h1 {
 @media all and (max-width: 767px) {
   h1 {
     font-size: 30px;
+  }
+
+  .hide {
+    display: none;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
