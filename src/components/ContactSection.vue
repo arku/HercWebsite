@@ -94,8 +94,7 @@ i {
 }
 
 i:hover {
-  color: white;
-  box-shadow: 0px 12px 18px -6px #000;
+  color: #091141;
   transform: scale(1.2);
 }
 
