@@ -105,10 +105,6 @@ export default {
   border-bottom: 1px solid #f3c736;
 }
 
-.columns {
-  box-shadow: 0px 12px 18px -6px #000;
-}
-
 i {
   color: #f3c736;
 }

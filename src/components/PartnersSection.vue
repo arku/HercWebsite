@@ -4,89 +4,91 @@
             <div>
                 <h1>Partners</h1>
             </div>
-            <div class="columns hide">
-                
-                <div class="column">
-                    <img src="../assets/partners/factom.png">
+            <div class="hide-desktop">
+                <div class="columns">
+                    <div class="column">
+                        <img src="../assets/partners/factom.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/storj.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/bfc.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/coinpayments.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/rivetz.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/cayman.png">
+                    </div>
                 </div>
-                <div class="column">
-                    <img src="../assets/partners/storj.png">
-                </div>
-                <div class="column">
-                    <img src="../assets/partners/bfc.png">
-                </div>
-                <div class="column">
-                    <img src="../assets/partners/coinpayments.png">
-                </div>
-                <div class="column">
-                    <img src="../assets/partners/rivetz.png">
-                </div>
-                <div class="column">
-                    <img src="../assets/partners/cayman.png">
-                </div>
-            </div>
-            <div class="columns hide">
-                <div class="column">
-                    
-                </div>
-                <div class="column">
-                    <img src="../assets/partners/amagi.gif">
-                </div>
-                <div class="column">
-                    <img src="../assets/partners/shipstation.png">
-                </div>
-                <div class="column">
-                    <img src="../assets/partners/idology.png">
-                </div>
-                <div class="column">
-                    <img src="../assets/partners/earlyiq.png">
-                </div>
-                <div class="column">
-                    
+                <div class="columns">
+                    <div class="column">
+                        
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/amagi.gif">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/shipstation.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/idology.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/earlyiq.png">
+                    </div>
+                    <div class="column">
+                        
+                    </div>
                 </div>
             </div>
 
             <!-- Mobile view -->
-
-            <div class="columns is-mobile">
-                
-                <div class="column is-half-mobile">
-                    <img src="../assets/partners/factom.png">
+            <div class="hide-mobile">
+                <div class="columns is-mobile">
+                    
+                    <div class="column is-half-mobile">
+                        <img src="../assets/partners/factom.png">
+                    </div>
+                    <div class="column column is-half-mobile">
+                        <img src="../assets/partners/storj.png">
+                    </div>
                 </div>
-                <div class="column column is-half-mobile">
-                    <img src="../assets/partners/storj.png">
+                <div class="columns is-mobile">
+                    <div class="column is-half-mobile">
+                        <img src="../assets/partners/bfc.png">
+                    </div>
+                    <div class="column is-half-mobile">
+                        <img src="../assets/partners/coinpayments.png">
+                    </div>
                 </div>
-            </div>
-            <div class="columns is-mobile">
-                <div class="column is-half-mobile">
-                    <img src="../assets/partners/bfc.png">
+                <div class="columns is-mobile">
+                    <div class="column">
+                        <img src="../assets/partners/rivetz.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/cayman.png">
+                    </div>
                 </div>
-                <div class="column is-half-mobile">
-                    <img src="../assets/partners/coinpayments.png">
+                <div class="columns is-mobile">
+                    <div class="column is-half-mobile">
+                        <img src="../assets/partners/amagi.gif">
+                    </div>
+                    <div class="column is-half-mobile">
+                        <img src="../assets/partners/shipstation.png">
+                    </div>
                 </div>
-            </div>
-            <div class="columns is-mobile">
-                <div class="column">
-                    <img src="../assets/partners/rivetz.png">
-                </div>
-                <div class="column">
-                    <img src="../assets/partners/cayman.png">
-                </div>
-            </div>
-            <div class="columns is-mobile">
-                <div class="column is-half-mobile">
-                    <img src="../assets/partners/amagi.gif">
-                </div>
-                <div class="column is-half-mobile">
-                    <img src="../assets/partners/shipstation.png">
-                </div>
-            </div>
-            <div class="columns is-mobile">
-                <div class="column is-half-mobile">
-                    <img src="../assets/partners/idology.png">
-                </div>
-                <div class="column is-half-mobile">
-                    <img src="../assets/partners/earlyiq.png">
+                <div class="columns is-mobile">
+                    <div class="column is-half-mobile">
+                        <img src="../assets/partners/idology.png">
+                    </div>
+                    <div class="column is-half-mobile">
+                        <img src="../assets/partners/earlyiq.png">
+                    </div>
                 </div>
             </div>
         </div>
@@ -111,6 +113,10 @@ h1 {
   font-weight: bold;
 }
 
+.hide-mobile {
+  display: none;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -132,8 +138,12 @@ h1 {
     font-size: 30px;
   }
 
-  .hide {
+  .hide-desktop {
     display: none;
+  }
+
+  .hide-mobile{
+      display: unset;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
