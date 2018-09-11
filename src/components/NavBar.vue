@@ -59,7 +59,7 @@
                                     <span class="icon">
                                         <i class="far fa-file-alt"></i>
                                     </span>
-                                    <span>Whitepaper</span>
+                                    <span>Whitepapers</span>
                                     </a>
                                 </p>
                             </div>
@@ -176,35 +176,33 @@ a:hover {
     margin-left: -3.25rem;
   }
 
-  #two-buttons{
-      margin: auto;
-      width: 31%;
+  #two-buttons {
+    margin: auto;
+    width: 31%;
   }
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-    
-.field .is-grouped{
+  .field .is-grouped {
     width: 30%;
     margin: auto;
-}
+  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-    
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    #two-buttons{
-      margin: auto;
-      width: 43%;
+  #two-buttons {
+    margin: auto;
+    width: 43%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-    #two-buttons{
-      margin: auto;
-      width: 67%;
+  #two-buttons {
+    margin: auto;
+    width: 67%;
   }
 }
 </style>
