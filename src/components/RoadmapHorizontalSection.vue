@@ -20,7 +20,7 @@
               <h2>Q3 2018</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x done"></i>
+              <i class="fas fa-check  done"></i>
               <h3>MVP Herc / AGLD Development</h3>
             </div>
           </div>
@@ -29,7 +29,7 @@
               <h2>Q4 2018</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-ellipsis-h "></i>
               <h3>HERC Launch / AGLD Launch</h3>
             </div>
           </div>
@@ -38,7 +38,7 @@
               <h2>Q1 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-spinner"></i>
               <h3>HERC v2 /AGLD 25+ Bars</h3>
             </div>
           </div>
@@ -217,9 +217,10 @@ i {
 }
 
 .gold-border {
-  border: 2px solid #f3c736;
+  border: 1px solid #f3c736;
   padding: 20px;
   height: 220px;
+  background-color: #fafafa;
 }
 
 img {

@@ -42,7 +42,7 @@
                         <img src="../assets/partners/earlyiq.png">
                     </div>
                     <div class="column">
-                        
+                        <img src="../assets/partners/erc777.png" width="40%">
                     </div>
                 </div>
             </div>
@@ -51,18 +51,18 @@
             <div class="hide-mobile">
                 <div class="columns is-mobile">
                     
-                    <div class="column is-half-mobile">
+                    <div class="column">
                         <img src="../assets/partners/factom.png">
                     </div>
-                    <div class="column column is-half-mobile">
+                    <div class="column">
                         <img src="../assets/partners/storj.png">
                     </div>
                 </div>
                 <div class="columns is-mobile">
-                    <div class="column is-half-mobile">
+                    <div class="column">
                         <img src="../assets/partners/bfc.png">
                     </div>
-                    <div class="column is-half-mobile">
+                    <div class="column">
                         <img src="../assets/partners/coinpayments.png">
                     </div>
                 </div>
@@ -75,19 +75,24 @@
                     </div>
                 </div>
                 <div class="columns is-mobile">
-                    <div class="column is-half-mobile">
+                    <div class="column">
                         <img src="../assets/partners/amagi.gif">
                     </div>
-                    <div class="column is-half-mobile">
+                    <div class="column">
                         <img src="../assets/partners/shipstation.png">
                     </div>
                 </div>
                 <div class="columns is-mobile">
-                    <div class="column is-half-mobile">
+                    <div class="column">
                         <img src="../assets/partners/idology.png">
                     </div>
-                    <div class="column is-half-mobile">
+                    <div class="column">
                         <img src="../assets/partners/earlyiq.png">
+                    </div>
+                </div>
+                <div class="columns is-mobile">
+                    <div class="column is-half-mobile">
+                        <img src="../assets/partners/erc777.png" style="width:50%">
                     </div>
                 </div>
             </div>
@@ -142,8 +147,8 @@ h1 {
     display: none;
   }
 
-  .hide-mobile{
-      display: unset;
+  .hide-mobile {
+    display: unset;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
