@@ -31,13 +31,13 @@
                             <img src="../assets/partners/rivetz.png">
                         </a>
                     </div>
+                </div>
+                <div class="columns">
                     <div class="column">
                         <a href="https://www.caymanenterprisecity.com/" target="_blank">
                             <img src="../assets/partners/cayman.png">
                         </a>
                     </div>
-                </div>
-                <div class="columns">
                     <div class="column">
                         <a href="https://www.transformgroup.io/" target="_blank">
                             <img src="../assets/partners/transform.png">
@@ -58,6 +58,8 @@
                             <img src="../assets/partners/idology.png">
                         </a>
                     </div>
+                </div>
+                <div class="columns">
                     <div class="column">
                         <a href="https://www.earlyiq.com/" target="_blank">
                             <img src="../assets/partners/earlyiq.png">
@@ -65,7 +67,22 @@
                     </div>
                     <div class="column">
                         <a href="https://github.com/jacquesd/erc777" target="_blank">
-                            <img src="../assets/partners/erc777.png" style="width:50%">
+                            <img src="../assets/partners/erc777.png" style="width:30%">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.blockchainexchange.us/" target="_blank">
+                            <img src="../assets/partners/bx.png" style="width:30%">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.ethdenver.com/" target="_blank">
+                            <img src="../assets/partners/ethdenver.png" style="width:30%">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="mailto:social@herc.one" target="_blank">
+                            <img src="../assets/partners/you.png" style="width:35%">
                         </a>
                     </div>
                 </div>
@@ -142,6 +159,25 @@
                     <div class="column">
                         <a href="https://www.transformgroup.io/" target="_blank">
                             <img src="../assets/partners/transform.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="columns is-mobile">
+                    <div class="column">
+                        <a href="https://www.blockchainexchange.us/" target="_blank">
+                            <img src="../assets/partners/bx.png">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.ethdenver.com/" target="_blank">
+                            <img src="../assets/partners/ethdenver.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="columns is-mobile">
+                    <div class="column">
+                        <a href="mailto:social@herc.one" target="_blank">
+                            <img src="../assets/partners/you.png" width="50%">
                         </a>
                     </div>
                 </div>
