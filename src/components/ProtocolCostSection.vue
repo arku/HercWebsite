@@ -1,7 +1,7 @@
 <template>
     <div id="protocol-section">
         <div id="content">
-            <div>
+            <!-- <div>
                 <h1>Cost per Protocol Action:</h1>
             </div>
             <div id="image-placeholder">
@@ -9,7 +9,7 @@
             </div>
             <div>
                 <img src="../assets/down-arrow.png" class="image is-64x64">
-            </div>
+            </div> -->
         </div>
     </div>
 </template>

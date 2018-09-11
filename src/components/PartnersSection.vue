@@ -81,9 +81,28 @@
                         </a>
                     </div>
                     <div class="column">
+                        <a href="https://mecasaadvisors.nl/" target="_blank">
+                            <img src="../assets/partners/mecasa.png" style="width:30%">
+                        </a>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column">
+
+                    </div>
+                    <div class="column">
+
+                    </div>
+                    <div class="column">
                         <a href="mailto:social@herc.one" target="_blank">
                             <img src="../assets/partners/you.png" style="width:35%">
                         </a>
+                    </div>
+                    <div class="column">
+
+                    </div>
+                    <div class="column">
+
                     </div>
                 </div>
             </div>
@@ -176,8 +195,13 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
+                        <a href="https://mecasaadvisors.nl/" target="_blank">
+                            <img src="../assets/partners/mecasa.png">
+                        </a>
+                    </div>
+                    <div class="column">
                         <a href="mailto:social@herc.one" target="_blank">
-                            <img src="../assets/partners/you.png" width="50%">
+                            <img src="../assets/partners/you.png">
                         </a>
                     </div>
                 </div>

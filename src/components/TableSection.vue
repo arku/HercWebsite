@@ -1,6 +1,9 @@
 <template>
     <div id="table-section">
         <div id="content">
+          <div>
+            <h1>Cost per Protocol Action:</h1>
+          </div>
             <table class="table is-bordered">
                 <thead>
                     <tr>
@@ -17,14 +20,14 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="factom-color">Action:<br>4 hash files</td>
-                        <td class="storj-color">Action:<br>6 pictures</td>
+                        <td class="factom-color">Action:<br>1 hash files</td>
+                        <td class="storj-color">Action:<br>1 picture</td>
                         <td class="ipfs-color">Action:<br>8 variables</td>
                     </tr>
                     <tr>
                         <td class="factom-color">Size:<br>128 bytes</td>
                         <td class="storj-color">Size:<br>13484kb</td>
-                        <td class="ipfs-color">Size:<br>126 bytes</td>
+                        <td class="ipfs-color">Size:<br>128 bytes</td>
                     </tr>
                     <tr>
                         <td class="factom-color">Cost/kb:<br>$0.001</td>
@@ -77,25 +80,28 @@ roundUp(192.168, 1); //=> 192.2
 $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   data
 ) {
-
   var factPrice = `${data.factomPrice}`;
   var storjPrice = `${data.storjPrice}`;
   var etheriumNeeded = `${data.gasPrice}`;
   var hercPrice = 0.6;
 
-  var factNeeded = (0.000128 / factPrice)*4;
+  var factNeeded = 0.000128 / factPrice * 4;
   var storjNeeded = 0.0007032 / storjPrice;
   var hercBurned = factNeeded / hercPrice;
 
   factNeeded = roundUp(factNeeded, 6);
   storjNeeded = roundUp(storjNeeded, 6);
 
-  var hercNeededFCT = ((0.000128 / 0.6) * factPrice)*4;
-  var hercNeededSTORJ = (0.0007032 / 0.6) * storjPrice;
-  var hercNeeded = ((storjNeeded / hercPrice) + (factNeeded / hercPrice) + (etheriumNeeded / hercPrice) + hercBurned);
+  var hercNeededFCT = 0.000128 / 0.6 * factPrice * 4;
+  var hercNeededSTORJ = 0.0007032 / 0.6 * storjPrice;
+  var hercNeeded =
+    storjNeeded / hercPrice +
+    factNeeded / hercPrice +
+    etheriumNeeded / hercPrice +
+    hercBurned;
 
-    hercNeededFCT = roundUp(hercNeededFCT, 6);
-    hercNeededSTORJ = roundUp(hercNeededSTORJ, 6);
+  hercNeededFCT = roundUp(hercNeededFCT, 6);
+  hercNeededSTORJ = roundUp(hercNeededSTORJ, 6);
 
   $("#factPrice").html(factPrice);
   $("#factPriceMobile").html(factPrice);
@@ -128,6 +134,16 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   padding: 200px;
   padding-bottom: 100px;
   padding-top: 50px;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+  color: #091141;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  font-weight: bold;
+  line-height: 1em;
 }
 
 table {
@@ -191,17 +207,26 @@ table img {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
+  h1 {
+    font-size: 40px;
+  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
+  h1 {
+    font-size: 30px;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+  h1 {
+    font-size: 30px;
+  }
   table td {
     font-size: 12px;
   }
 
-  #table-section{
+  #table-section {
     padding: 20px;
     padding-top: 0px;
     padding-bottom: 20px;
