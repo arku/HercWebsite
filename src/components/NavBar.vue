@@ -21,7 +21,7 @@
                         <a href="/#blurb-section" class="navbar-item">
                             About
                         </a>
-                        <a href="/#roadmap-section" class="navbar-item">
+                        <a href="/#horizontal-roadmap" class="navbar-item">
                             Roadmap
                         </a>
                         <a href="/#documents-section" class="navbar-item">

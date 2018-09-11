@@ -217,7 +217,7 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                     </div>
                 </div>
-                <h4>Advisors</h4>
+                <h4 id="advisors">Advisors</h4>
                 <div class="columns">
                     <div class="column">
                         <img src="../assets/team/joby.jpeg">
@@ -545,7 +545,7 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                     </div>
                 </div>
-                <h4>Advisors</h4>
+                <h4 id="advisors-mobile">Advisors</h4>
                 <div class="columns is-mobile">
                     <div class="column">
                         <img src="../assets/team/joby.jpeg">

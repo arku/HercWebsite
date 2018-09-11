@@ -7,42 +7,66 @@
             <div class="hide-desktop">
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/partners/factom.png">
+                        <a href="#advisors">
+                            <img src="../assets/partners/factom.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/storj.png">
+                        <a href="#advisors">
+                            <img src="../assets/partners/storj.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/bfc.png">
+                        <a href="https://www.bfcgroupholdings.com/" target="_blank">
+                            <img src="../assets/partners/bfc.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/coinpayments.png">
+                        <a href="https://www.coinpayments.net/" target="_blank">
+                            <img src="../assets/partners/coinpayments.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/rivetz.png">
+                        <a href="https://rivetz.com/" target="_blank">
+                            <img src="../assets/partners/rivetz.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/cayman.png">
+                        <a href="https://www.caymanenterprisecity.com/" target="_blank">
+                            <img src="../assets/partners/cayman.png">
+                        </a>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column">
-                        
+                        <a href="https://www.transformgroup.io/" target="_blank">
+                            <img src="../assets/partners/transform.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/amagi.gif">
+                        <a href="https://www.amagimetals.com/" target="_blank">
+                            <img src="../assets/partners/amagi.gif">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/shipstation.png">
+                        <a href="https://www.shipstation.com/" target="_blank">
+                            <img src="../assets/partners/shipstation.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/idology.png">
+                        <a href="https://www.idology.com/" target="_blank">
+                            <img src="../assets/partners/idology.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/earlyiq.png">
+                        <a href="https://www.earlyiq.com/" target="_blank">
+                            <img src="../assets/partners/earlyiq.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/erc777.png" width="40%">
+                        <a href="https://github.com/jacquesd/erc777" target="_blank">
+                            <img src="../assets/partners/erc777.png" style="width:50%">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -50,49 +74,75 @@
             <!-- Mobile view -->
             <div class="hide-mobile">
                 <div class="columns is-mobile">
-                    
                     <div class="column">
-                        <img src="../assets/partners/factom.png">
+                        <a href="#advisors-mobile">
+                            <img src="../assets/partners/factom.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/storj.png">
-                    </div>
-                </div>
-                <div class="columns is-mobile">
-                    <div class="column">
-                        <img src="../assets/partners/bfc.png">
-                    </div>
-                    <div class="column">
-                        <img src="../assets/partners/coinpayments.png">
+                        <a href="#advisors-mobile">
+                            <img src="../assets/partners/storj.png">
+                        </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/partners/rivetz.png">
+                        <a href="https://www.bfcgroupholdings.com/" target="_blank">
+                            <img src="../assets/partners/bfc.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/cayman.png">
+                        <a href="https://www.coinpayments.net/" target="_blank">
+                            <img src="../assets/partners/coinpayments.png">
+                        </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/partners/amagi.gif">
+                        <a href="https://rivetz.com/" target="_blank">
+                            <img src="../assets/partners/rivetz.png">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/shipstation.png">
+                        <a href="https://www.caymanenterprisecity.com/" target="_blank">
+                            <img src="../assets/partners/cayman.png">
+                        </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/partners/idology.png">
+                        <a href="https://www.amagimetals.com/" target="_blank">
+                            <img src="../assets/partners/amagi.gif">
+                        </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/earlyiq.png">
+                        <a href="https://www.shipstation.com/" target="_blank">
+                            <img src="../assets/partners/shipstation.png">
+                        </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
-                    <div class="column is-half-mobile">
-                        <img src="../assets/partners/erc777.png" style="width:50%">
+                    <div class="column">
+                        <a href="https://www.idology.com/" target="_blank">
+                            <img src="../assets/partners/idology.png">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.earlyiq.com/" target="_blank">
+                            <img src="../assets/partners/earlyiq.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="columns is-mobile">
+                    <div class="column">
+                        <a href="https://github.com/jacquesd/erc777" target="_blank">
+                            <img src="../assets/partners/erc777.png" style="width:50%">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <a href="https://www.transformgroup.io/" target="_blank">
+                            <img src="../assets/partners/transform.png">
+                        </a>
                     </div>
                 </div>
             </div>
