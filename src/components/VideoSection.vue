@@ -5,7 +5,25 @@
                 <h1>How it Works</h1>
             </div>
               <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <div>
+              <p>From a technology standpoint, HIPR implements steganography and age of cryptography process
+                 to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
+                  data integrity.
+              </p>
+              <p>
+                As a more secure and newly implemented Consensus model, Proof of Human Work does not waste
+                 electricity and resource to validate transactions. Leveraging the intuition of the Human Brain
+                  and incentivising good actors in the network is our way of protecting against malicious attacks.
+              </p>
+              <p> HIPR is built Unity3D, with C# and Solidity while targeting WebGl, NEthereum for Web3 connectivity.
+                From market research we have found this Consensus model is 90% more efficient as we scale in HIPR
+                 players because more we entertain our community the more integrious our chain data becomes. 
+                Other blockchain projects with similar use cases have only considered private permissioned blockchain technology as a means to scale. 
+                We believe Proof of Human Work will revolutionize the way projects can scale on public blockchain.
+                At 0.001$/kb indexed HERC is >98%+ more cost efficient when compared to Hyperledger's $1000$/month/node model.
+                HERC's protocol consensus model has built in pay per supply chain movement.</p>
             </div>
+        </div>
     </div>
 </template>
 
@@ -29,6 +47,18 @@ h1 {
   text-transform: uppercase;
   margin-bottom: 5%;
   font-weight: bold;
+}
+
+p{
+  text-align: left;
+  font-weight: bold;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 1%;
+}
+
+iframe{
+  margin-bottom: 5%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

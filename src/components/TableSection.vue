@@ -25,8 +25,8 @@
                         <td class="ipfs-color">Action:<br>8 variables</td>
                     </tr>
                     <tr>
-                        <td class="factom-color">Size:<br>128 bytes</td>
-                        <td class="storj-color">Size:<br>13484kb</td>
+                        <td class="factom-color">Size:<br>32 bytes</td>
+                        <td class="storj-color">Size:<br>2378kb</td>
                         <td class="ipfs-color">Size:<br>128 bytes</td>
                     </tr>
                     <tr>
@@ -126,7 +126,6 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   $("#ethGasPriceMobile2").html(etheriumNeeded);
   $("#ethGasPriceMobile3").html(etheriumNeeded);
 });
-// });
 </script>
 
 <style scoped>
