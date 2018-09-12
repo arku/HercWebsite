@@ -187,7 +187,7 @@ a:hover {
 
   #two-buttons {
     margin: auto;
-    width: 31%;
+    width: 30%;
   }
 }
 /*** Responsive Styles Tablet And Below ***/
@@ -199,6 +199,10 @@ a:hover {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
+  #two-buttons {
+    margin: auto;
+    width: 40%;
+  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
@@ -211,7 +215,7 @@ a:hover {
 @media all and (max-width: 479px) {
   #two-buttons {
     margin: auto;
-    width: 89%;
+    width: 77%;
   }
 }
 </style>
