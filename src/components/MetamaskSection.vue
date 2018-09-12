@@ -85,7 +85,7 @@ export default {
 
 h1 {
   font-size: 45px;
-  color: #f3c736;
+  color: #091141;
   text-transform: uppercase;
   margin-bottom: 2%;
   font-weight: bold;
@@ -93,19 +93,18 @@ h1 {
 
 h2 {
   font-size: 30px;
-  color: #f3c736;
+  color: #091141;
   margin-bottom: 2%;
 }
 
 p {
   text-align: left;
-  color: white;
+  color: #091141;
 }
 
 img {
   margin-bottom: 1%;
   border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
 }
 
 .spacer{
