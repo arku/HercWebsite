@@ -55,7 +55,7 @@
                                     </a>
                                 </p>
                                 <p class="control">
-                                    <a class="button is-primary dugme-hover" href="/whitepaper">
+                                    <a class="button is-primary dugme-hover" href="https://demo.herc.one/">
                                     <span class="icon">
                                         <i class="far fa-file-alt"></i>
                                     </span>

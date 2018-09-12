@@ -663,6 +663,8 @@ export default {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: white;
+  /* width: 80%;
+  margin: auto; */
 }
 
 #team-section img {
