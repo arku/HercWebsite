@@ -411,7 +411,7 @@
                     </div>
                 </div>
                 <div class="columns is-mobile">
-                    <div class="column">
+                    <div class="column is-half-mobile">
                         <img src="../assets/team/heath.jpg">
                         <h2>Heath Muchena</h2>
                         <h3>Strategic Communications</h3>

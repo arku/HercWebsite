@@ -6,7 +6,6 @@ import Policy from './views/Policy.vue'
 import FAQ from './views/FAQ.vue'
 import Metamask from './views/Metamask.vue'
 import CareersSection from './views/Careers.vue'
-import Hipr from './views/Hipr.vue'
 
 Vue.use(Router);
 

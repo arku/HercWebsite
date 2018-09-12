@@ -55,12 +55,18 @@
                                     </a>
                                 </p>
                                 <p class="control">
-                                    <a class="button is-primary dugme-hover" href="https://demo.herc.one/">
+                                    <!-- <a class="button is-primary dugme-hover" href="https://demo.herc.one/">
                                     <span class="icon">
                                         <i class="far fa-file-alt"></i>
                                     </span>
-                                    <span>Whitepapers</span>
-                                    </a>
+                                    <span>Whitepaper</span>
+                                    </a> -->
+                                    <router-link to="/whitepaper/" class="button is-primary dugme-hover">
+                                    <span class="icon">
+                                        <i class="far fa-file-alt"></i>
+                                    </span>
+                                    <span>Whitepaper</span>
+                                    </router-link>
                                 </p>
                             </div>
                         </div>
@@ -96,6 +102,9 @@ nav {
 
 #navbar {
   border-bottom: 1px solid #111;
+  /* position: fixed;
+  width: 100%;
+  z-index: 999; */
 }
 
 .navbar-item img {
@@ -202,7 +211,7 @@ a:hover {
 @media all and (max-width: 479px) {
   #two-buttons {
     margin: auto;
-    width: 67%;
+    width: 89%;
   }
 }
 </style>

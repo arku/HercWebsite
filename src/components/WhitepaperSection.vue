@@ -80,6 +80,8 @@ export default {
 #whitepaper-section {
   padding: 100px;
   padding-top: 50px;
+  padding-left:50px;
+  padding-right: 50px;
 }
 
 h1 {
