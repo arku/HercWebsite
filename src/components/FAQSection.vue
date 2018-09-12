@@ -5,7 +5,6 @@
             <p id="helper">Click on questions to expand answers</p>
             <section>
                 <b-collapse :open="false" id="faq-holder">
-                    <!-- <button class="button is-primary" slot="trigger">Click me!</button> -->
                     <div slot="trigger" class="question">
                         <p>What is Hercules (HERC)?</p>
                     </div>
@@ -43,7 +42,6 @@
                     </div>
                 </b-collapse>
                 <b-collapse :open="false" id="faq-holder">
-                    <!-- <button class="button is-primary" slot="trigger">Click me!</button> -->
                     <div slot="trigger" class="question">
                         <p>Why Use Blockchain in Supply Chain Management?</p>
                     </div>
@@ -74,7 +72,6 @@
                     </div>
                 </b-collapse>
                 <b-collapse :open="false" id="faq-holder">
-                    <!-- <button class="button is-primary" slot="trigger">Click me!</button> -->
                     <div slot="trigger" class="question">
                         <p>How HERC Works</p>
                     </div>
@@ -106,7 +103,6 @@
                     </div>
                 </b-collapse>
                 <b-collapse :open="false" id="faq-holder">
-                    <!-- <button class="button is-primary" slot="trigger">Click me!</button> -->
                     <div slot="trigger" class="question">
                         <p>How to Buy HERC</p>
                     </div>
@@ -125,31 +121,25 @@
 
 <script>
 export default {
-  name: "FAQSection",
-  mounted: function() {
-    this.$nextTick(function() {
-      // Code that will run only after the
-      // entire view has been rendered
-      // alert("Hello! I am an alert box!!");
-    });
-  }
+  name: "FAQSection"
 };
 </script>
 
 <style scoped>
 #faq-section {
   padding: 50px;
+  
 }
 
 h1 {
   font-size: 45px;
-  color: #f3c736;
+  color: #091141;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 #helper {
-  color: white;
+  color: #f3c736;
   margin-bottom: 5%;
 }
 
@@ -160,13 +150,12 @@ h1 {
 .question {
   width: 50%;
   margin: auto;
-  border: 2px solid white;
-  color: #091141;
+  border: 1px solid #f3c736;
+  color: #f3c736;
   text-transform: uppercase;
-  background-color: #f3c736;
+  background-color: #091141;
   font-size: 20px;
   padding: 10px;
-  box-shadow: 0px 12px 18px -6px #000;
   font-weight: bold;
 }
 
@@ -174,10 +163,10 @@ h1 {
   width: 50%;
   margin: auto;
   border-radius: 0;
-  border: 2px solid #f3c736;
+  border: 1px solid #f3c736;
   background-color: #fafafa;
-  box-shadow: 0px 12px 18px -6px #000;
   text-align: left;
+  color: #091141;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -196,13 +185,13 @@ h1 {
     line-height: 1em;
   }
 
-  .question{
-      font-size: 18px;
-      width: 60%;
+  .question {
+    font-size: 18px;
+    width: 60%;
   }
 
-  .answer{
-      width: 60%;
+  .answer {
+    width: 60%;
   }
 }
 /*** Responsive Styles Smartphone Only ***/
@@ -212,13 +201,13 @@ h1 {
     line-height: 1.1em;
   }
 
-  .question{
-      font-size: 18px;
-      width: 70%;
+  .question {
+    font-size: 18px;
+    width: 70%;
   }
 
-  .answer{
-      width: 70%;
+  .answer {
+    width: 70%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
@@ -228,13 +217,13 @@ h1 {
     line-height: 1.2em;
   }
 
-   .question{
-      font-size: 18px;
-      width: 100%;
+  .question {
+    font-size: 18px;
+    width: 100%;
   }
 
-  .answer{
-      width: 100%;
+  .answer {
+    width: 100%;
   }
 }
 </style>

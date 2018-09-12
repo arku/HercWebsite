@@ -23,7 +23,7 @@ export default {
 #documents-section {
   padding: 200px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 #content a {
@@ -94,10 +94,12 @@ h1 {
 @media all and (max-width: 479px) {
   h1 {
     font-size: 30px;
+    padding-bottom: 0px;
   }
 
   #documents-section {
     padding: 50px;
+    padding-bottom: 0px;
   }
 }
 </style>
