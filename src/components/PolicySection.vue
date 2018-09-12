@@ -208,7 +208,7 @@ export default {
 
 #policy-section h1 {
   font-size: 45px;
-  color: #f3c736;
+  color: #091141;
   margin-bottom: 5%;
   text-align: center;
   font-weight: bold;
@@ -223,7 +223,7 @@ export default {
 
 #policy-section p {
   line-height: 1.5em;
-  color: white;
+  color: #091141;
 }
 
 #content {
