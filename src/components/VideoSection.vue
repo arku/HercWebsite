@@ -6,6 +6,7 @@
             </div>
               <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div>
+                <img src="../assets/hiprflow.png">
               <p>From a technology standpoint, HIPR implements steganography and age of cryptography process
                  to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
                   data integrity.
@@ -55,6 +56,7 @@ p{
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 1%;
+  color: #091141;
 }
 
 iframe{
@@ -94,6 +96,13 @@ iframe{
   }
 }
 
+img{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 2%;
+
+}
+
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
   h1 {
@@ -125,6 +134,14 @@ iframe{
     padding: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  img{
+    padding: 0px;
+  }
+
+  p{
+    padding: 0px;
   }
 }
 
