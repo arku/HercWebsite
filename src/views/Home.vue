@@ -4,8 +4,8 @@
         <TopSection></TopSection>
         <BlurbSection></BlurbSection>
         <!-- <EtymologySection></EtymologySection> -->
-        <TableSection></TableSection>
         <VideoSection></VideoSection>
+        <TableSection></TableSection>
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
         <PartnersSection></PartnersSection>
