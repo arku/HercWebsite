@@ -5,8 +5,8 @@
                 <h1>How it Works</h1>
             </div>
               <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              <!-- <div>
-                <img src="../assets/hiprflow.png">
+              <div>
+                <img src="../assets/diagram.png">
               <p>From a technology standpoint, HIPR implements steganography and age of cryptography process
                  to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
                   data integrity.
@@ -23,7 +23,7 @@
                 We believe Proof of Human Work will revolutionize the way projects can scale on public blockchain.
                 At 0.001$/kb indexed HERC is >98%+ more cost efficient when compared to Hyperledger's $1000$/month/node model.
                 HERC's protocol consensus model has built in pay per supply chain movement.</p>
-            </div> -->
+            </div>
         </div>
     </div>
 </template>
@@ -50,7 +50,7 @@ h1 {
   font-weight: bold;
 }
 
-p{
+p {
   text-align: left;
   font-weight: bold;
   padding-left: 50px;
@@ -59,7 +59,7 @@ p{
   color: #091141;
 }
 
-iframe{
+iframe {
   margin-bottom: 5%;
 }
 
@@ -96,11 +96,10 @@ iframe{
   }
 }
 
-img{
+img {
   padding-left: 50px;
   padding-right: 50px;
   margin-bottom: 2%;
-
 }
 
 /*** Responsive Styles Tablet Only ***/
@@ -136,11 +135,11 @@ img{
     padding-bottom: 50px;
   }
 
-  img{
+  img {
     padding: 0px;
   }
 
-  p{
+  p {
     padding: 0px;
   }
 }
