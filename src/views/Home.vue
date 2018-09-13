@@ -2,16 +2,20 @@
     <div class="home">
         <NavBar></NavBar>
         <TopSection></TopSection>
+        <CommunitySection></CommunitySection>
         <BlurbSection></BlurbSection>
+        <HercSection></HercSection>
         <!-- <EtymologySection></EtymologySection> -->
         <VideoSection></VideoSection>
         <TableSection></TableSection>
+        <EcosystemSection></EcosystemSection>
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
         <PartnersSection></PartnersSection>
         <DocumentsSection></DocumentsSection>
         <ProtocolCostSection></ProtocolCostSection>
         <TeamSection></TeamSection>
+        <FeaturedSection></FeaturedSection>
         <ContactSection></ContactSection>
         <FooterSection></FooterSection>
         <back-to-top bottom="100px" right="10px">
@@ -34,21 +38,29 @@ import DocumentsSection from "@/components/DocumentsSection.vue";
 import ContactSection from "@/components/ContactSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import TeamSection from "@/components/TeamSection.vue";
+import FeaturedSection from "@/components/FeaturedSection.vue";
+import CommunitySection from "@/components/CommunitySection.vue";
+import HercSection from "@/components/HercSection.vue";
+import EcosystemSection from "@/components/EcosystemSection.vue";
 
 export default {
   name: "home",
   components: {
     NavBar,
     TopSection,
+    CommunitySection,
     BlurbSection,
+    HercSection,
     // EtymologySection,
     ProtocolCostSection,
     TableSection,
+    EcosystemSection,
     VideoSection,
     RoadmapHorizontalSection,
     RoadmapSection,
     PartnersSection,
     DocumentsSection,
+    FeaturedSection,
     ContactSection,
     FooterSection,
     TeamSection

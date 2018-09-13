@@ -7,21 +7,21 @@
           </div>
             <div class="columns">
                 <div class="column blurb">
-                    <div class="blurb-image">
+                    <div class="blurb-image hvr-pulse-shrink">
                         <img src="../assets/blurb/1.png" class="image is-128x128">
                     </div>
                     <h2 class="blurb-title">The Platform</h2>
                     <p class="blurb-text">From Agri-Food to Technology value chains, HERC can be used for any physical interchangeable item and any entity type of organization in virtually any local, regional, or Global Value Chain.</p>
                 </div>
                 <div class="column blurb">
-                    <div class="blurb-image">
+                    <div class="blurb-image hvr-pulse-shrink">
                         <img src="../assets/blurb/2.png" class="image is-128x128">
                     </div>
                     <h2 class="blurb-title">The Token</h2>
                     <p class="blurb-text">Enabling transparent and efficient supply chain management functions.</p>
                 </div>
                 <div class="column blurb">
-                    <div class="blurb-image">
+                    <div class="blurb-image hvr-pulse-shrink">
                         <img src="../assets/blurb/3.png" class="image is-128x128">
                     </div>
                     <h2 class="blurb-title">Token Metrics</h2>
@@ -30,21 +30,21 @@
             </div>
             <div class="columns">
                 <div class="column blurb">
-                    <div class="blurb-image">
+                    <div class="blurb-image hvr-pulse-shrink">
                         <img src="../assets/blurb/4.png" class="image is-128x128">
                     </div>
                     <h2 class="blurb-title">Use Case</h2>
                     <p class="blurb-text">A robust ecosystem for entities dedicated to decentralized distribution and attaining effective supply chain planning production for commodities.</p>
                 </div>
                 <div class="column blurb">
-                    <div class="blurb-image">
+                    <div class="blurb-image hvr-pulse-shrink">
                         <img src="../assets/blurb/5.png" class="image is-128x128">
                     </div>
                     <h2 class="blurb-title">Costs and Technical Breakdown</h2>
                     <p class="blurb-text">HERC helps to create a more secure and streamlined ecosystem and is the easiest way to verify supply chain items and proving their existence, possession, storage and insurance in crypto units.</p>
                 </div>
                 <div class="column blurb">
-                    <div class="blurb-image">
+                    <div class="blurb-image hvr-pulse-shrink">
                         <img src="../assets/blurb/6.png" class="image is-128x128">
                     </div>
                     <h2 class="blurb-title">Helping Eradicate Racketeering & Collusion</h2>
@@ -118,14 +118,44 @@ img {
   font-size: 24px;
 }
 
+/* Pulse Shrink */
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 1.9s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
-  
 }
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
-  #blurb-section{
+  #blurb-section {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
@@ -134,7 +164,6 @@ img {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-  
 }
 
 /*** Responsive Styles Tablet Only ***/

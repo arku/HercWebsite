@@ -44,7 +44,9 @@ export default new Router({
     },
     {
         path: '/hipr',
-        beforeEnter() { location.href = 'https://s3.us-east-2.amazonaws.com/hercmedia/HIPRDocumentation.pdf' }
+        beforeEnter() {
+            location.href = 'https://s3.us-east-2.amazonaws.com/hercmedia/HIPRDocumentation.pdf'
+        }
     }
     ],
 });

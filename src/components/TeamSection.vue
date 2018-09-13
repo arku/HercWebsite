@@ -100,7 +100,13 @@
                         </a>
                     </div>
                 </div>
-                <h4>Board of Directors</h4>
+                <b-collapse :open="false" id="team-holder">
+                    <div slot="trigger" class="question">
+                        <p>See full team</p>
+                    </div>
+                    <div class="notification answer">
+                        <div class="content">
+                            <h4>Board of Directors</h4>
                 <div class="columns">
                     <div class="column">
                         <img src="../assets/team/anthem.jpg">
@@ -315,6 +321,10 @@
 
                     </div>
                 </div>
+                        </div>
+                    </div>
+                </b-collapse>
+                
             </div>
 
             <!-- Mobile View -->
@@ -722,6 +732,34 @@ i:hover {
   display: none;
 }
 
+.question{
+    background-color: transparent;
+    color: #091141;
+}
+
+.question p{
+    border: 1px solid #f3c736;
+    width: 20%;
+    margin: auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+}
+
+.question p:hover{
+    background-color: #f3c736;
+}
+
+.notification{
+    background-color: transparent;
+}
+
+#team-holder{
+    background-color: transparent;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
   #team-section {
@@ -784,7 +822,7 @@ i:hover {
     display: unset;
   }
 
-    h4 {
+  h4 {
     color: white;
   }
 

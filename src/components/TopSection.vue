@@ -1,14 +1,20 @@
 <template>
     <div id="top-section">
         <div id="content">
-            <div>
+          <div class="columns">
+            <div class="column">
+              <iframe width="90%" height="415" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+            <div class="column">
+              <div>
                 <h1>DECENTRALIZED SUPPLY CHAIN<br> MANAGEMENT SOFTWARE</h1>
             </div>
-
-          <!-- Begin Constant Contact Inline Form Code -->
-          <div id="subscribe-form">
-            <div class="ctct-inline-form" data-form-id="1b7fd750-5561-4cd8-a57d-7e6611366a52"></div>
-          <!-- End Constant Contact Inline Form Code -->
+            <!-- Begin Constant Contact Inline Form Code -->
+            <div id="subscribe-form">
+              <div class="ctct-inline-form" data-form-id="1b7fd750-5561-4cd8-a57d-7e6611366a52"></div>
+            <!-- End Constant Contact Inline Form Code -->
+            </div>
+            </div>
           </div>
         </div>
     </div>
@@ -20,16 +26,11 @@ export default {
 </script>
 <style scoped>
 #top-section {
-  /* background-image: url("../assets/cubes.png");
-  background-blend-mode: color-burn;
-  background-size: initial;
-  background-position: bottom left;
-  background-repeat: no-repeat; */
-  /* background-color: #091141; */
   padding-top: 50px;
   padding-bottom: 50px;
   padding-left: 0px;
   padding-right: 0px;
+  background-color: #fafafa;
 }
 
 #top-section button:hover {
@@ -39,11 +40,8 @@ export default {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 35px;
   text-align: center;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  /* color: #f3c736; */
   color: #091141;
   font-weight: bold;
 }
