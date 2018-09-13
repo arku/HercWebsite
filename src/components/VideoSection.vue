@@ -7,7 +7,7 @@
               <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div>
                 <img src="../assets/diagram.png">
-              <p>From a technology standpoint, HIPR implements steganography and age of cryptography process
+              <p>From a technology standpoint, HIPR implements steganography, an age old cryptography process
                  to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
                   data integrity.
               </p>

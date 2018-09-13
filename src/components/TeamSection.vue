@@ -280,7 +280,7 @@
                     <div class="column">
                         <img src="../assets/team/wendy.jpg">
                         <h2>Wendy Craft</h2>
-                        <h3>CEO - Transform</h3>
+                        <h3>CEO - Family Offices</h3>
                         <a href="https://www.linkedin.com/in/wendy-craft-7281176/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -612,7 +612,7 @@
                     <div class="column">
                         <img src="../assets/team/wendy.jpg">
                         <h2>Wendy Craft</h2>
-                        <h3>CEO - Transform</h3>
+                        <h3>CEO - Family Offices</h3>
                         <a href="https://www.linkedin.com/in/wendy-craft-7281176/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
