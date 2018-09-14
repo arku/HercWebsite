@@ -133,6 +133,7 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   padding: 200px;
   padding-bottom: 100px;
   padding-top: 50px;
+  background-color: #fafafa;
 }
 
 h1 {
@@ -150,6 +151,7 @@ table {
   background-color: transparent;
   margin: auto;
   border: 2px solid #f3c736;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 table th {

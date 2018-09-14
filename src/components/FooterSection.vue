@@ -71,6 +71,7 @@ export default {
 #footer-section {
   padding-left: 10px;
   padding-right: 10px;
+  background-color: #091141;
 }
 
 #footer-section img {
@@ -79,7 +80,7 @@ export default {
 }
 
 #footer-section a {
-  color: #091141;
+  color: white;
   font-size: 12px;
   font-weight: bold;
 }
@@ -89,7 +90,7 @@ export default {
 }
 
 h3 {
-  color: #091141;
+  color: #f3c736;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 5%;
@@ -97,7 +98,7 @@ h3 {
 
 p {
   font-size: 14px;
-  color: #091141;
+  color: #f3c736;
 }
 
 .footer {

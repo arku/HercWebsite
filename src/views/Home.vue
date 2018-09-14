@@ -9,6 +9,7 @@
         <VideoSection></VideoSection>
         <TableSection></TableSection>
         <EcosystemSection></EcosystemSection>
+        <HiprSection></HiprSection>
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
         <PartnersSection></PartnersSection>
@@ -42,6 +43,7 @@ import FeaturedSection from "@/components/FeaturedSection.vue";
 import CommunitySection from "@/components/CommunitySection.vue";
 import HercSection from "@/components/HercSection.vue";
 import EcosystemSection from "@/components/EcosystemSection.vue";
+import HiprSection from "@/components/HiprSection.vue";
 
 export default {
   name: "home",
@@ -56,6 +58,7 @@ export default {
     TableSection,
     EcosystemSection,
     VideoSection,
+    HiprSection,
     RoadmapHorizontalSection,
     RoadmapSection,
     PartnersSection,

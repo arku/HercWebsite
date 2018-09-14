@@ -43,7 +43,7 @@ h1 {
   font-weight: bold;
 }
 
-img{
+img {
   opacity: 0.7;
 }
 
@@ -61,7 +61,9 @@ img{
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  padding: 50px;
+  #featured-section {
+    padding: 50px;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {

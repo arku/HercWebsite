@@ -6,7 +6,9 @@
             </div>
             <div class="columns">
               <div class="column">
-                    <router-link to="/whitepaper/" class="button">White Paper</router-link>
+                    <router-link to="/whitepaper/">
+                      <img src="../assets/whitepaper-cover.png">
+                    </router-link>
                   </div>
             </div>
         </div>
@@ -21,28 +23,19 @@ export default {
 
 <style scoped>
 #documents-section {
-  padding: 200px;
-  padding-top: 50px;
+  padding: 50px;
   padding-bottom: 0px;
 }
 
-#content a {
-  text-transform: uppercase;
-  border-radius: 0;
-  background-color: transparent;
-  color: #091141;
-  border-color: #f3c736;
-  font-weight: bold;
-  font-size: 20px;
+img {
+  width: 25%;
+  border: 3px solid #f3c736;
+  box-shadow: 0px 12px 18px -6px #000;
+  transition: transform 0.9s;
 }
 
-#content a:hover {
-  color: #091141;
-  background-color: #f3c736;
-}
-
-#content img {
-  width: 80%;
+img:hover {
+  transform: scale(1.1);
 }
 
 h1 {
@@ -62,6 +55,7 @@ h1 {
 .align-right {
   text-align: right;
 }
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -71,7 +65,7 @@ h1 {
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
   #content img {
-    width: 100%;
+    width: 90%;
   }
 }
 /*** Responsive Styles Tablet Only ***/

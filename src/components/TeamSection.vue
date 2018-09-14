@@ -672,9 +672,7 @@ export default {
   padding: 200px;
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: white;
-  /* width: 80%;
-  margin: auto; */
+  background-color: #fafafa;
 }
 
 #team-section img {

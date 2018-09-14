@@ -72,10 +72,10 @@ export default {
 .blurb {
   background-color: #fafafa !important;
   height: 320px !important;
-  border-width: 1px !important;
   margin: 3%;
   margin-bottom: auto;
   padding: 10px;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 h1 {
