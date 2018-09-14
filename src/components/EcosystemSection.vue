@@ -25,8 +25,20 @@
                                 </div>
                             </div>
                             <div class ="textHolder">
-                                <div class="tabTitle">Asset Creator</div>
-                                <div class="textBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec placerat pharetra magna at ultricies. Morbi bibendum suscipit urna. Sed interdum orci ipsum, non ornare sem mattis sed. Praesent sagittis turpis in sollicitudin pellentesque. Mauris non aliquet dolor. Duis rhoncus orci augue, ut tincidunt enim egestas ac. Morbi ut bibendum metus. Praesent in scelerisque dolor, eu porttitor felis. Curabitur non orci lectus. Maecenas ac ligula vel dui lobortis condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</div>
+                                <div class="tabTitle">Create you own Supply Chain Assets</div>
+                                <div class="textBody">
+                                  <p>
+                                    HERC enables a new generation of business owners with complete data
+                                     integrity solution with per use pricing for every budget
+                                  </p>
+                                </div>
+                                <div class="tabTitle">Create you own Supply Chain Assets</div>
+                                <div class="textBody">
+                                  <p>
+                                    HERC enables a new generation of business owners with complete data
+                                     integrity solution with per use pricing for every budget
+                                  </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -148,15 +160,16 @@ p {
 }
 
 .textHolder {
-  padding: 20px;
+  padding: 80px;
   text-align: justify;
   background-color: white;
 }
 
 .tabTitle {
-  font-size: 20px;
-  font-weight: 600;
-  padding: 0 0 20px 0;
+  font-size: 24px;
+  font-weight: bold;
+  color: #091141;
+  margin-bottom: 5%;
 }
 
 /* Pop */

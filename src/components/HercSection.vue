@@ -25,6 +25,16 @@
                     </p>
                 </div>
             </div>
+            <div>
+                <h1 class="center-text">The Hercules Blockchain</h1>
+                <p>The Hercules Protocol & Platform is a global supply chain repository
+                     providing a complete list of all trackable assets accessible to anyone
+                      with permission.<br>Hercules provides business people with the data integrity advantages of blockchain
+                     technology, enabling their goods to be trusted and exchanged with a world wide
+                      market.
+                </p>
+                <img src="../assets/herc-blockchain.png">
+            </div>
         </div>
     </div>
 </template>
@@ -56,6 +66,15 @@ p {
   margin-bottom:5%;
 }
 
+.center-text{
+    text-align: center;
+}
+
+img{
+    border: 2px solid #f3c736;
+    box-shadow: 0px 12px 18px -6px #000;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -72,6 +91,10 @@ p {
 @media all and (max-width: 767px) {
     #herc-section{
         padding: 50px;
+    }
+
+    .center-text{
+        text-align: left;
     }
 }
 /*** Responsive Styles Smartphone Portrait ***/

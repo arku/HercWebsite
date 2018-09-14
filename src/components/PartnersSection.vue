@@ -2,7 +2,10 @@
     <div id="partners-section">
         <div id="content">
             <div>
-                <h1>Partners</h1>
+                <h1>Featured Partners</h1>
+                <p>Hercules' Partners help to make our platform optimised, secure and
+                     profitable for all  users. We would love to hear from you if you
+                      organization shares our vaules. </p>
             </div>
             <div class="hide-desktop">
                 <div class="columns">
@@ -224,8 +227,13 @@ h1 {
   font-size: 45px;
   color: #091141;
   text-transform: uppercase;
-  margin-bottom: 5%;
   font-weight: bold;
+}
+
+p{
+    margin: auto;
+    margin-bottom: 5%;
+    width: 50%;
 }
 
 .hide-mobile {
@@ -259,6 +267,10 @@ h1 {
 
   .hide-mobile {
     display: unset;
+  }
+
+  p{
+      width: 100%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
