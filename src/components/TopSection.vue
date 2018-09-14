@@ -1,15 +1,14 @@
 <template>
     <div id="top-section">
-        <div id="content">
-          <div>
-              <h1>DECENTRALIZED SUPPLY CHAIN<br> MANAGEMENT SOFTWARE</h1>
-            </div>
+      <div id="content">
+        <div>
+          <h1>DECENTRALIZED SUPPLY CHAIN<br> MANAGEMENT SOFTWARE</h1>
+        </div>
           <div class="columns">
             <div class="column">
               <!-- <iframe width="90%" height="360" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
               <video width="90%" height="360" controls>
                 <source src="../assets/steve.mp4" type="video/mp4">
-                <!-- <source src="movie.ogg" type="video/ogg"> -->
               Your browser does not support the video tag.
               </video>
             </div>
@@ -21,7 +20,7 @@
             </div>
             </div>
           </div>
-        </div>
+      </div>
     </div>
 </template>
 <script>
