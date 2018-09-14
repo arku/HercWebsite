@@ -1,7 +1,7 @@
 <template>
     <div id="hipr-section">
         <h1>Hipr internal control<br>
-                emcrypted performance report
+                encrypted performance report
         </h1>
         <div id="content">
             <img src="../assets/cube.png">

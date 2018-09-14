@@ -6,7 +6,12 @@
             </div>
           <div class="columns">
             <div class="column">
-              <iframe width="90%" height="360" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <!-- <iframe width="90%" height="360" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+              <video width="90%" height="360" controls>
+                <source src="../assets/steve.mp4" type="video/mp4">
+                <!-- <source src="movie.ogg" type="video/ogg"> -->
+              Your browser does not support the video tag.
+              </video>
             </div>
             <div class="column">
             <!-- Begin Constant Contact Inline Form Code -->
@@ -62,6 +67,10 @@ h1 {
   iframe {
     height: 310px;
   }
+
+  video {
+    height: 310px;
+  }
 }
 
 /*** Responsive Styles Tablet And Below ***/
@@ -75,6 +84,11 @@ h1 {
   }
 
   iframe {
+    margin-top: 30px;
+    height: 200px;
+  }
+
+  video {
     margin-top: 30px;
     height: 200px;
   }
@@ -98,10 +112,16 @@ h1 {
     font-size: 30px;
     margin: auto;
     margin-bottom: 5%;
+    line-height: 1.2em;
   }
 
   iframe {
     height: 170px;
+  }
+
+  video {
+    height: 170px;
+    width: 100%;
   }
 }
 

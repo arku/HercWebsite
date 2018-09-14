@@ -171,7 +171,6 @@ a:hover {
   }
 
   .navbar-brand {
-    /* margin: auto; */
     float: none;
     text-align: center;
     margin-left: 0;

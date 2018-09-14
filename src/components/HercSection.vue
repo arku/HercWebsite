@@ -2,8 +2,8 @@
     <div id="herc-section">
         <div id="content">
             <div class="columns">
-                <div class="column">
-                    <img src="../assets/hipr_perfomance_flow.png">
+                <div class="column spacer">
+                    <img src="../assets/HercAdvantages_Diagram.jpg">
                 </div>
                 <div class="column">
                     <h1>What is Hercules?</h1>
@@ -75,6 +75,10 @@ img{
     box-shadow: 0px 12px 18px -6px #000;
 }
 
+.spacer{
+    padding-top: 20px;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -95,6 +99,10 @@ img{
 
     .center-text{
         text-align: left;
+    }
+
+    .spacer{
+        padding-top: 0px;
     }
 }
 /*** Responsive Styles Smartphone Portrait ***/
