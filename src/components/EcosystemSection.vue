@@ -10,15 +10,13 @@
               <b-tabs type="is-toggle" expanded class="gradient">
                 <b-tab-item label="Asset Creator" icon="sitemap" class="item-content">
                   <h2>Create you own Supply Chain Assets</h2>
-                  <p>By entering shipment information into Hercules, business owners can save significant
-                    costs by guaranteeing the data integrity of their supply chains.
+                  <p>HERC enables a new generation of business owners with complete data integrity solution with per use pricing for every budget
                   </p>
                 </b-tab-item>
                 <b-tab-item label="Originator" icon="user">
                   <h2>Oversee your supply chain with perfection</h2>
                   <p>
-                    HERC enables a new generation of business owners with complete data
-                    integrity solution with per use pricing for every budget
+                    By entering shipment information into Hercules, business owners can save significant costs by guaranteeing the data integrity of their supply chains.
                   </p>
                 </b-tab-item>
                 <b-tab-item label="Recipient" icon="hand-holding-heart">

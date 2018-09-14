@@ -4,6 +4,7 @@
         <TopSection></TopSection>
         <CommunitySection></CommunitySection>
         <BlurbSection></BlurbSection>
+        <FeaturedSection></FeaturedSection>
         <HercSection></HercSection>
         <!-- <EtymologySection></EtymologySection> -->
         <VideoSection></VideoSection>
@@ -14,9 +15,9 @@
         <RoadmapSection></RoadmapSection>
         <PartnersSection></PartnersSection>
         <DocumentsSection></DocumentsSection>
-        <ProtocolCostSection></ProtocolCostSection>
+        <!-- <ProtocolCostSection></ProtocolCostSection> -->
+        <BubbleSection></BubbleSection>
         <TeamSection></TeamSection>
-        <FeaturedSection></FeaturedSection>
         <ContactSection></ContactSection>
         <FooterSection></FooterSection>
         <back-to-top bottom="100px" right="10px">
@@ -29,7 +30,7 @@ import NavBar from "@/components/NavBar.vue";
 import TopSection from "@/components/TopSection.vue";
 import BlurbSection from "@/components/BlurbSection.vue";
 // import EtymologySection from "@/components/EtymologySection.vue";
-import ProtocolCostSection from "@/components/ProtocolCostSection.vue";
+// import ProtocolCostSection from "@/components/ProtocolCostSection.vue";
 import TableSection from "@/components/TableSection.vue";
 import VideoSection from "@/components/VideoSection.vue";
 import RoadmapSection from "@/components/RoadmapSection.vue";
@@ -44,6 +45,7 @@ import CommunitySection from "@/components/CommunitySection.vue";
 import HercSection from "@/components/HercSection.vue";
 import EcosystemSection from "@/components/EcosystemSection.vue";
 import HiprSection from "@/components/HiprSection.vue";
+import BubbleSection from "@/components/BubbleSection.vue";
 
 export default {
   name: "home",
@@ -54,7 +56,7 @@ export default {
     BlurbSection,
     HercSection,
     // EtymologySection,
-    ProtocolCostSection,
+    // ProtocolCostSection,
     TableSection,
     EcosystemSection,
     VideoSection,
@@ -62,6 +64,7 @@ export default {
     RoadmapHorizontalSection,
     RoadmapSection,
     PartnersSection,
+    BubbleSection,
     DocumentsSection,
     FeaturedSection,
     ContactSection,

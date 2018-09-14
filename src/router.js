@@ -6,6 +6,7 @@ import Policy from './views/Policy.vue'
 import FAQ from './views/FAQ.vue'
 import Metamask from './views/Metamask.vue'
 import CareersSection from './views/Careers.vue'
+import TokenInfo from './views/TokenInfo.vue';
 
 Vue.use(Router);
 
@@ -47,6 +48,11 @@ export default new Router({
         beforeEnter() {
             location.href = 'https://s3.us-east-2.amazonaws.com/hercmedia/HIPRDocumentation.pdf'
         }
+    },
+    {
+        path: '/tokeninfo',
+        name: 'tokeninfo',
+        component: TokenInfo
     }
     ],
 });

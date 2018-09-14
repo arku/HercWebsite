@@ -24,7 +24,6 @@ export default {
 <style scoped>
 #documents-section {
   padding: 50px;
-  padding-bottom: 0px;
 }
 
 img {
@@ -93,7 +92,6 @@ h1 {
 
   #documents-section {
     padding: 50px;
-    padding-bottom: 0px;
   }
 }
 </style>
