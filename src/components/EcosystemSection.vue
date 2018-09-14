@@ -44,6 +44,12 @@
                     </div>
                 </div>
             </div>
+            <b-tabs type="is-toggle" expanded>
+              <b-tab-item label="Asset Creator" icon="google-photos"></b-tab-item>
+              <b-tab-item label="Music" icon="library-music"></b-tab-item>
+              <b-tab-item label="Videos" icon="video"></b-tab-item>
+              <b-tab-item label="Videos" icon="video"></b-tab-item>
+            </b-tabs>
         </div>
     </div>
 </template>
@@ -96,6 +102,9 @@ $(document).ready(function() {
 </script>
 
 <style scoped>
+$tabs-link-active-color{
+  background-color: yellow;
+}
 #ecosystem-section {
   padding: 50px;
   padding-left: 200px;
