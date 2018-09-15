@@ -193,7 +193,7 @@ i {
 
   #bubble-section {
     padding: 100px;
-    padding-bottom: 0px;
+    border-bottom: 0px;
   }
 
   .columns {
@@ -225,7 +225,6 @@ i {
 
   #bubble-section {
     padding: 30px;
-    padding-bottom: 0px;
   }
 
   .blurb {
