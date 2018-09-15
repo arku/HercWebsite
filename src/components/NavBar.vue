@@ -101,7 +101,7 @@ nav {
 }
 
 #navbar {
-  border-bottom: 1px solid #111;
+  border-bottom: 1px solid #f3c736;
   /* position: fixed;
   width: 100%;
   z-index: 999; */
