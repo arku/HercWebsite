@@ -3,8 +3,7 @@
         <div id="content">
             <div class="columns">
                 <div class="column spacer">
-                    <!-- <img src="../assets/HercAdvantages_Diagram.jpg"> -->
-                    
+                    <img src="../assets/HercAdvantages_Diagram.jpg">
                 </div>
                 <div class="column">
                     <h1>What is Hercules?</h1>
@@ -26,7 +25,8 @@
                     </p>
                 </div>
             </div>
-            <div>
+            <div class="columns">
+                <div class="column">
                 <h1 class="center-text">The Hercules Blockchain</h1>
                 <p>The Hercules Protocol & Platform is a global supply chain repository
                      providing a complete list of all trackable assets accessible to anyone
@@ -34,7 +34,10 @@
                      technology, enabling their goods to be trusted and exchanged with a world wide
                       market.
                 </p>
-                <img src="../assets/herc-blockchain.png">
+                </div>
+                <div class="column">
+                    <img src="../assets/herc-blockchain.png">
+                </div>
             </div>
         </div>
     </div>
@@ -64,20 +67,25 @@ h1 {
 
 p {
   text-align: left;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
-.center-text{
-    text-align: center;
+.center-text {
+  text-align: center;
 }
 
-img{
-    border: 2px solid #f3c736;
-    box-shadow: 0px 12px 18px -6px #000;
+img {
+  border: 2px solid #f3c736;
+  box-shadow: 0px 12px 18px -6px #000;
+  transition: transform 0.9s;
 }
 
-.spacer{
-    padding-top: 20px;
+img:hover {
+  transform: scale(1.05);
+}
+
+.spacer {
+  padding-top: 20px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -94,17 +102,17 @@ img{
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    #herc-section{
-        padding: 50px;
-    }
+  #herc-section {
+    padding: 50px;
+  }
 
-    .center-text{
-        text-align: left;
-    }
+  .center-text {
+    text-align: left;
+  }
 
-    .spacer{
-        padding-top: 0px;
-    }
+  .spacer {
+    padding-top: 0px;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {

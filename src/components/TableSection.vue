@@ -229,7 +229,6 @@ table img {
 
   #table-section {
     padding: 20px;
-    padding-top: 0px;
     padding-bottom: 20px;
   }
 }

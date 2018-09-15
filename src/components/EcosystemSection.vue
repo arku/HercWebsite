@@ -6,6 +6,8 @@
                 <p>HERC is designed to serve the 400+ million online users who
                      already collect, buy and sell digital items.</p>
             </div>
+            <span id="info-note">Drag left or right to see more.<br>
+            <i class="fas fa-arrows-alt-h fa-2x"></i></span>
             <div id="tabs-buefy">
               <b-tabs type="is-toggle" expanded class="gradient">
                 <b-tab-item label="Asset Creator" icon="sitemap" class="item-content">
@@ -96,8 +98,16 @@ p {
 }
 
 #tabs-buefy {
-  width: 70%;
+  width: 80%;
   margin: auto;
+}
+
+#info-note{
+  display: none;
+}
+
+i{
+  color: #f3c736;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -110,6 +120,11 @@ p {
 @media all and (max-width: 980px) {
   #ecosystem-section {
     padding: 50px;
+  }
+
+  #info-note{
+    display: inherit;
+    font-size: 14px;
   }
 }
 /*** Responsive Styles Tablet Only ***/

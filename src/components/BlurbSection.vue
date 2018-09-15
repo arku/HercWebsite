@@ -75,7 +75,7 @@ export default {
   margin: 3%;
   margin-bottom: auto;
   padding: 10px;
-  box-shadow: 0px 12px 18px -6px #000;
+  border: 4px solid #f3c736;
 }
 
 h1 {

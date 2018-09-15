@@ -6,7 +6,9 @@
             </div>
               <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div>
-                <img src="../assets/diagram.png">
+                <div id="diagram-holder">
+                  <img src="../assets/diagram.png">
+                </div>
                 <div class="columns">
                   <div class="column blurb">
                     <p>From a technology standpoint, HIPR implements steganography, an age old cryptography process
@@ -52,19 +54,22 @@ export default {
   padding: 150px;
   padding-top: 50px;
   padding-bottom: 50px;
+  border-top: 2px solid #f3c736;
+  border-bottom: 2px solid #f3c736;
+  background-color: #091141;
 }
 
 h1 {
   font-size: 45px;
   text-align: center;
-  color: #091141;
+  color: #f3c736;
   text-transform: uppercase;
   margin-bottom: 5%;
   font-weight: bold;
 }
 
-.blurb{
-  background-color: #091141;
+.blurb {
+  background-color: #f3c736;
   margin: 2%;
   box-shadow: 0px 12px 18px -6px #000;
   padding: 50px;
@@ -74,15 +79,32 @@ p {
   text-align: center;
   font-weight: bold;
   margin-bottom: 1%;
-  color: white;
+  color: #091141;
 }
 
-.columns{
+.columns {
   background-color: #f3c736;
 }
 
 iframe {
+  box-shadow: 0px 12px 18px -6px #000;
+  border: 1px solid #f3c736;
   margin-bottom: 5%;
+}
+
+img {
+  transition: transform 2s;
+}
+
+img:hover {
+  transform: scale(1.13);
+}
+
+#diagram-holder {
+  background-color: #fafafa;
+  width: 90%;
+  border: 2px solid #f3c736;
+  margin: auto;
   box-shadow: 0px 12px 18px -6px #000;
 }
 
@@ -157,21 +179,13 @@ img {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-
-  img {
-    padding: 0px;
-  }
-
-  p {
-    padding: 0px;
-  }
 }
 
-.blurb{
+.blurb {
   margin: 5%;
 }
 
-.columns{
+.columns {
   padding: 10px;
   background-color: transparent;
 }
