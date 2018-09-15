@@ -6,17 +6,17 @@
                 <p>Please click on your preferred language. Languages are ordered alphabetically.</p>
             </div>
             <div class="columns">
-                <div class="column">
+                <!-- <div class="column">
                     <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Herc_whitepaper_Dutch_x1.pdf">
                     <img src="../assets/flags/dutch.png"></a>
                     <h2>Dutch</h2>
-                </div>
+                </div> -->
                 <div class="column">
                     <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf">
                     <img src="../assets/flags/english.png"></a>
                     <h2>English</h2>
                 </div>
-                <div class="column">
+                <!-- <div class="column">
                     <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Herc_whitepaper_Estonian_x1.pdf">
                     <img src="../assets/flags/estonia.png"></a>
                     <h2>Estonian</h2>
@@ -25,9 +25,9 @@
                     <a href="https://s3.us-east-2.amazonaws.com/hercmedia/french-whitepaper.pdf">
                     <img src="../assets/flags/france.png"></a>
                     <h2>French</h2>
-                </div>
+                </div> -->
             </div>
-            <div class="columns">
+            <!-- <div class="columns">
                 <div class="column">
                     <a href="https://s3.us-east-2.amazonaws.com/hercmedia/Hercules-Whitepaper-German.pdf">
                     <img src="../assets/flags/germany.png"></a>
@@ -65,7 +65,7 @@
                     <img src="../assets/flags/spain.png"></a>
                     <h2>Spanish</h2>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </template>

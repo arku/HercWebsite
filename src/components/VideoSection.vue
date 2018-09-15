@@ -7,22 +7,35 @@
               <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
               <div>
                 <img src="../assets/diagram.png">
-              <p>From a technology standpoint, HIPR implements steganography, an age old cryptography process
-                 to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
-                  data integrity.
-              </p>
-              <p>
-                As a more secure and newly implemented Consensus model, Proof of Human Work does not waste
-                 electricity and resource to validate transactions. Leveraging the intuition of the Human Brain
-                  and incentivising good actors in the network is our way of protecting against malicious attacks.
-              </p>
-              <p> HIPR is built Unity3D, with C# and Solidity while targeting WebGl, NEthereum for Web3 connectivity.
+                <div class="columns">
+                  <div class="column blurb">
+                    <p>From a technology standpoint, HIPR implements steganography, an age old cryptography process
+                      to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
+                        data integrity.
+                    </p>
+                  </div>
+                  <div class="column blurb">
+                    <p>
+                      As a more secure and newly implemented Consensus model, Proof of Human Work does not waste
+                      electricity and resource to validate transactions. Leveraging the intuition of the Human Brain
+                        and incentivising good actors in the network is our way of protecting against malicious attacks.
+                    </p>
+                  </div>
+                </div>
+                <div class="columns">
+                  <div class="column blurb">
+                    <p> HIPR is built Unity3D, with C# and Solidity while targeting WebGl, NEthereum for Web3 connectivity.
                 From market research we have found this Consensus model is 90% more efficient as we scale in HIPR
-                 players because more we entertain our community the more integrious our chain data becomes. 
+                 players because more we entertain our community the more integrious our chain data becomes. </p>
+                 </div>
+                 <div class="column blurb">
+                 <p>
                 Other blockchain projects with similar use cases have only considered private permissioned blockchain technology as a means to scale. 
                 We believe Proof of Human Work will revolutionize the way projects can scale on public blockchain.
                 At 0.001$/kb indexed HERC is >98%+ more cost efficient when compared to Hyperledger's $1000$/month/node model.
                 HERC's protocol consensus model has built in pay per supply chain movement.</p>
+                </div>
+                </div>
             </div>
         </div>
     </div>
@@ -50,13 +63,22 @@ h1 {
   font-weight: bold;
 }
 
+.blurb{
+  background-color: #091141;
+  margin: 2%;
+  box-shadow: 0px 12px 18px -6px #000;
+  padding: 50px;
+}
+
 p {
-  text-align: left;
+  text-align: center;
   font-weight: bold;
-  padding-left: 50px;
-  padding-right: 50px;
   margin-bottom: 1%;
-  color: #091141;
+  color: white;
+}
+
+.columns{
+  background-color: #f3c736;
 }
 
 iframe {
@@ -143,6 +165,15 @@ img {
   p {
     padding: 0px;
   }
+}
+
+.blurb{
+  margin: 5%;
+}
+
+.columns{
+  padding: 10px;
+  background-color: transparent;
 }
 
 /*** Responsive Styles Smartphone Portrait ***/

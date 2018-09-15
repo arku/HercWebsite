@@ -35,6 +35,7 @@ export default {
   padding-left: 50px;
   padding-right: 50px;
   background-color: #fafafa;
+
 }
 
 #top-section button:hover {

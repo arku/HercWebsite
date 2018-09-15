@@ -1,6 +1,9 @@
 <template>
     <div id="bubble-section">
         <div id="content">
+          <div>
+            <h1 class="title">With Hercules, you get . . .</h1>
+          </div>
             <div class="columns">
                 <div class="column blurb">
                     <div class="blurb-image hvr-pulse-shrink">
@@ -44,6 +47,12 @@ export default {
   padding-right: 150px;
   border-top: 2px solid #f3c736;
   border-bottom: 2px solid #f3c736;
+}
+
+.title {
+  color: #f3c736;
+  text-transform: none;
+  font-weight: normal;
 }
 
 .blurb {
