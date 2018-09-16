@@ -14,6 +14,7 @@
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
         <PartnersSection></PartnersSection>
+        <UseCaseSection></UseCaseSection>
         <DocumentsSection></DocumentsSection>
         <!-- <ProtocolCostSection></ProtocolCostSection> -->
         <BubbleSection></BubbleSection>
@@ -46,6 +47,7 @@ import HercSection from "@/components/HercSection.vue";
 import EcosystemSection from "@/components/EcosystemSection.vue";
 import HiprSection from "@/components/HiprSection.vue";
 import BubbleSection from "@/components/BubbleSection.vue";
+import UseCaseSection from "@/components/UseCaseSection.vue";
 
 export default {
   name: "home",
@@ -67,6 +69,7 @@ export default {
     BubbleSection,
     DocumentsSection,
     FeaturedSection,
+    UseCaseSection,
     ContactSection,
     FooterSection,
     TeamSection

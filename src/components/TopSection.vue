@@ -2,6 +2,7 @@
     <div id="top-section">
       <div id="content">
         <div>
+			<h1>Hercules Protocol</h1>
           <h1>DECENTRALIZED SUPPLY CHAIN<br> MANAGEMENT SOFTWARE</h1>
         </div>
           <div class="columns">
@@ -11,7 +12,7 @@
                 <source src="../assets/steve.mp4" type="video/mp4">
               Your browser does not support the video tag.
               </video> -->
-              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	     viewBox="0 0 2000 1200" enable-background="new 0 0 2000 1200" xml:space="preserve">
 		<g>
 
@@ -3959,6 +3960,7 @@ h1 {
   color: #f3c736;
   font-weight: bold;
   margin-bottom: 5%;
+  text-transform: uppercase;
 }
 
 #subscribe-form {
@@ -4190,15 +4192,6 @@ svg{
     font-size: 30px;
   }
 
-  // iframe {
-  //   margin-top: 30px;
-  //   height: 200px;
-  // }
-
-  // video {
-  //   margin-top: 30px;
-  //   height: 200px;
-  // }
 
   #subscribe-form {
     width: 90%;

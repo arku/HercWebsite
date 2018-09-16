@@ -4,7 +4,11 @@
             <div>
                 <h1>How it Works</h1>
             </div>
-              <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <!-- <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+              <video controls poster="../assets/hiw.png">
+                <source src="../assets/steve.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
               <div>
                 <div id="diagram-holder">
                   <img src="../assets/diagram.png">
@@ -86,7 +90,15 @@ p {
   background-color: #f3c736;
 }
 
-iframe {
+/* iframe {
+  box-shadow: 0px 12px 18px -6px #000;
+  border: 1px solid #f3c736;
+  margin-bottom: 5%;
+} */
+
+video {
+  width: 90%;
+  /* height: 515px; */
   box-shadow: 0px 12px 18px -6px #000;
   border: 1px solid #f3c736;
   margin-bottom: 5%;
@@ -110,16 +122,16 @@ img:hover {
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
-  iframe {
+  /* iframe {
     height: 600px;
-  }
+  } */
 }
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
-  iframe {
+  /* iframe {
     height: 500px;
-  }
+  } */
 
   #video-section {
     padding: 100px;
@@ -130,9 +142,9 @@ img:hover {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-  iframe {
+  /* iframe {
     height: 400px;
-  }
+  } */
 
   #video-section {
     padding: 100px;
@@ -153,9 +165,9 @@ img {
     font-size: 40px;
   }
 
-  iframe {
+  /* iframe {
     height: 350px;
-  }
+  } */
 
   #video-section {
     padding: 50px;
@@ -170,8 +182,12 @@ img {
     font-size: 30px;
   }
 
-  iframe {
+  /* iframe {
     height: 300px;
+  } */
+
+  video {
+    width: 90%;
   }
 
   #video-section {
