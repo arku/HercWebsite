@@ -3,7 +3,8 @@
         <div id="content">
             <div class="columns">
                 <div class="column spacer">
-                    <img src="../assets/HercAdvantages_Diagram.jpg">
+                    <!-- <img src="../assets/HercAdvantages_Diagram.jpg"> -->
+                    <img src="../assets/Herc_benefits_720_1.gif">
                 </div>
                 <div class="column">
                     <h1>What is Hercules?</h1>
