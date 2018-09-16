@@ -9,7 +9,7 @@
         <!-- <EtymologySection></EtymologySection> -->
         <VideoSection></VideoSection>
         <TableSection></TableSection>
-        <EcosystemSection></EcosystemSection>
+        <!-- <EcosystemSection></EcosystemSection> -->
         <HiprSection></HiprSection>
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
@@ -60,7 +60,7 @@ export default {
     // EtymologySection,
     // ProtocolCostSection,
     TableSection,
-    EcosystemSection,
+    // EcosystemSection,
     VideoSection,
     HiprSection,
     RoadmapHorizontalSection,
