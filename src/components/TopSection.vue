@@ -2,8 +2,7 @@
     <div id="top-section">
       <div id="content">
         <div>
-			<h1>Hercules Protocol</h1>
-          <h1>DECENTRALIZED SUPPLY CHAIN<br> MANAGEMENT SOFTWARE</h1>
+          <h1>Hercules Protocol<br>DECENTRALIZED SUPPLY CHAIN<br> MANAGEMENT SOFTWARE</h1>
         </div>
           <div class="columns">
             <div class="column">
@@ -3973,7 +3972,7 @@ video {
   border: 2px solid #f3c736;
 }
 
-svg{
+svg {
   width: 100%;
 }
 
@@ -4191,7 +4190,6 @@ svg{
   h1 {
     font-size: 30px;
   }
-
 
   #subscribe-form {
     width: 90%;

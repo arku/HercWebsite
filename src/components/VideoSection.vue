@@ -10,6 +10,7 @@
                 Your browser does not support the video tag.
               </video>
               <div>
+                <h1>How Hercules Works Using Human Initiated Performance Reporting (HIPR)</h1>
                 <div id="diagram-holder">
                   <img src="../assets/diagram.png">
                 </div>

@@ -8,9 +8,10 @@
         <HercSection></HercSection>
         <!-- <EtymologySection></EtymologySection> -->
         <VideoSection></VideoSection>
+        <HiprSection></HiprSection>
         <TableSection></TableSection>
         <!-- <EcosystemSection></EcosystemSection> -->
-        <HiprSection></HiprSection>
+        <DappSection></DappSection>
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
         <PartnersSection></PartnersSection>
@@ -48,6 +49,7 @@ import EcosystemSection from "@/components/EcosystemSection.vue";
 import HiprSection from "@/components/HiprSection.vue";
 import BubbleSection from "@/components/BubbleSection.vue";
 import UseCaseSection from "@/components/UseCaseSection.vue";
+import DappSection from "@/components/DappSection.vue";
 
 export default {
   name: "home",
@@ -72,7 +74,8 @@ export default {
     UseCaseSection,
     ContactSection,
     FooterSection,
-    TeamSection
+    TeamSection,
+    DappSection
   }
 };
 </script>
