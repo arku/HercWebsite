@@ -2,7 +2,8 @@
     <div id="top-section">
       <div id="content">
         <div>
-          <h1>Hercules Protocol<br>DECENTRALIZED SUPPLY CHAIN<br> MANAGEMENT SOFTWARE</h1>
+          <h1>Hercules Protocol</h1>
+		  <p>Decentralized Supply Chain Management Software</p>
         </div>
           <div class="columns">
             <div class="column">
@@ -3958,8 +3959,12 @@ h1 {
   text-align: center;
   color: #f3c736;
   font-weight: bold;
-  margin-bottom: 5%;
   text-transform: uppercase;
+}
+
+p {
+  margin-bottom: 5%;
+  color: #f3c736;
 }
 
 #subscribe-form {

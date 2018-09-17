@@ -1,44 +1,40 @@
 <template>
-    <div id="hipr-section">
-        <h1>HERC's First Internal Control<br> 
-Encrypted Performance Report</h1>
+    <div id="hiw-section">
         <div id="content">
-            <div class="columns">
-                <div class="column">
-                    <img src="../assets/cube.png">
-                </div>
-                <div class="column">
-                    <img src="../assets/hipr_perfomance_flow.png">
-                </div>
+             <div>
+                <h1>How it Works</h1>
             </div>
+              <!-- <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+              <video controls poster="../assets/hiw.png">
+                <source src="../assets/steve.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-  name: "HiprSection"
+  name: "HiwSection"
 };
 </script>
 
 <style scoped>
-#content {
+#hiw-section {
   padding: 50px;
-  background-color: #fafafa;
+  background-color: #091141;
+  padding-top: 0px;
 }
 
 h1 {
-  color: #f3c736;
   font-size: 40px;
+  color: #f3c736;
   font-weight: bold;
-  text-transform: uppercase;
-  background-color: #091141;
-  padding: 20px;
-  line-height: 1.2em;
+  margin-bottom: 5%;
 }
 
-img {
-  
+video {
+  width: 80%;
   border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
 }
@@ -57,16 +53,8 @@ img {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    img{
-        width: 100%;
-    }
-
     h1{
-        font-size: 24px;
-    }
-
-    br{
-        display: none;
+        font-size: 30px;
     }
 }
 /*** Responsive Styles Smartphone Portrait ***/

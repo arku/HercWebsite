@@ -72,12 +72,6 @@
                                     </a>
                                 </p>
                                 <p class="control">
-                                    <!-- <a class="button is-primary dugme-hover" href="https://demo.herc.one/">
-                                    <span class="icon">
-                                        <i class="far fa-file-alt"></i>
-                                    </span>
-                                    <span>Whitepaper</span>
-                                    </a> -->
                                     <router-link to="/whitepaper/" class="button is-primary dugme-hover">
                                     <span class="icon">
                                         <i class="far fa-file-alt"></i>
@@ -170,6 +164,7 @@ a:hover {
   padding-right: 10px;
 }
 
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -215,23 +210,31 @@ a:hover {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  #two-buttons {
+  /* #two-buttons {
     margin: auto;
     width: 40%;
-  }
+  } */
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
   #two-buttons {
+    text-align: center;
+    display: inline;
     margin: auto;
-    width: 43%;
+
+  }
+
+  .control{
+    text-align: center;
+    padding: 5px;
+    margin-right: 0px !important;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  #two-buttons {
+  /* #two-buttons {
     margin: auto;
     width: 77%;
-  }
+  } */
 }
 </style>

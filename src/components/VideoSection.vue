@@ -1,14 +1,7 @@
 <template>
     <div id="video-section">
         <div id="content">
-            <div>
-                <h1>How it Works</h1>
-            </div>
-              <!-- <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
-              <video controls poster="../assets/hiw.png">
-                <source src="../assets/steve.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+           
               <div>
                 <h1>How Hercules Works Using Human Initiated Performance Reporting (HIPR)</h1>
                 <div id="diagram-holder">

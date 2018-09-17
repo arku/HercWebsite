@@ -2,6 +2,7 @@
     <div class="home">
         <NavBar></NavBar>
         <TopSection></TopSection>
+        <HiwSection></HiwSection>
         <CommunitySection></CommunitySection>
         <BlurbSection></BlurbSection>
         <FeaturedSection></FeaturedSection>
@@ -50,6 +51,8 @@ import HiprSection from "@/components/HiprSection.vue";
 import BubbleSection from "@/components/BubbleSection.vue";
 import UseCaseSection from "@/components/UseCaseSection.vue";
 import DappSection from "@/components/DappSection.vue";
+import HiwSection from "@/components/HiwSection.vue";
+
 
 export default {
   name: "home",
@@ -75,7 +78,8 @@ export default {
     ContactSection,
     FooterSection,
     TeamSection,
-    DappSection
+    DappSection,
+    HiwSection
   }
 };
 </script>
