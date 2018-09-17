@@ -4177,13 +4177,6 @@ svg {
 
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
-  // iframe {
-  //   height: 310px;
-  // }
-
-  // video {
-  //   height: 310px;
-  // }
 }
 
 /*** Responsive Styles Tablet And Below ***/
@@ -4217,15 +4210,6 @@ svg {
     margin-bottom: 5%;
     line-height: 1.2em;
   }
-
-  // iframe {
-  //   height: 170px;
-  // }
-
-  // video {
-  //   height: 170px;
-  //   width: 100%;
-  // }
 }
 
 /*** Responsive Styles Smartphone Portrait ***/
