@@ -2,7 +2,7 @@
     <div id="community-section">
         <div id="content"  class="cornered--bottom telegram-back">
             <h2>Become a part of HERC Community</h2>
-            <p>Get in discussion with about HERC</p>
+            <p>Get in discussion with us about HERC</p>
             <div class="columns">
                 <div class="column">
                     <a class="hvr-pulse-shrink" href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw"><i class="fab fa-telegram"></i>Join Telegram</a>

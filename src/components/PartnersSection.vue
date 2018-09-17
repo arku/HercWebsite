@@ -3,9 +3,9 @@
         <div id="content">
             <div>
                 <h1>Featured Partners</h1>
-                <p>Hercules' Partners help to make our platform optimised, secure and
-                     profitable for all  users. We would love to hear from you if you
-                      organization shares our vaules. </p>
+                <p>Our partners help make the Hercules platform optimized, secure and efficient
+                     for all users. We would love to hear from you if your organization shares
+                      our values.</p>
             </div>
             <div class="hide-desktop">
                 <div class="columns">

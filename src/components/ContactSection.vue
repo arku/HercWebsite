@@ -32,6 +32,11 @@
                         <i class="fab fa-youtube fa-2x"></i>
                       </a>
                     </span>
+                    <span class="icon is-large">
+                      <a href="https://medium.com/@herc_token" target="_blank">
+                        <i class="fab fa-medium-m fa-2x"></i>
+                      </a>
+                    </span>
                 </div>
             </div>
             <div class="columns">

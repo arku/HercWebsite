@@ -318,7 +318,12 @@
                         </a>
                     </div>
                     <div class="column">
-
+                        <img src="../assets/team/mikemc.jpg">
+                        <h2>Mike McRoberts</h2>
+                        <h3>Advisor</h3>
+                        <a href="https://www.linkedin.com/in/mikelmcroberts/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                 </div>
                         </div>
@@ -647,10 +652,18 @@
                     </div>
                 </div>
                 <div class="columns is-mobile">
-                    <div class="column is-half-mobile">
+                    <div class="column">
                         <img src="../assets/team/brock.jpg">
                         <h2>Brock Hager</h2>
                         <h3>EDI Analyst</h3>
+                        <a href="https://www.linkedin.com/in/mikelmcroberts/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <img src="../assets/team/mikemc.jpg">
+                        <h2>Mike McRoberts</h2>
+                        <h3>Advisor</h3>
                         <a href="https://www.linkedin.com/in/brockton/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -730,32 +743,32 @@ i:hover {
   display: none;
 }
 
-.question{
-    background-color: transparent;
-    color: #091141;
+.question {
+  background-color: transparent;
+  color: #091141;
 }
 
-.question p{
-    border: 1px solid #f3c736;
-    width: 20%;
-    margin: auto;
-    font-weight: bold;
-    text-transform: uppercase;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 5%;
+.question p {
+  border: 1px solid #f3c736;
+  width: 20%;
+  margin: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 5%;
 }
 
-.question p:hover{
-    background-color: #f3c736;
+.question p:hover {
+  background-color: #f3c736;
 }
 
-.notification{
-    background-color: transparent;
+.notification {
+  background-color: transparent;
 }
 
-#team-holder{
-    background-color: transparent;
+#team-holder {
+  background-color: transparent;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

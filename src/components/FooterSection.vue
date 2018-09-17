@@ -26,9 +26,9 @@
                         <div>
                             <a href="/#contact-section">Contact</a>
                         </div>
-                        <div>
+                        <!-- <div>
                             <a href="">Careers</a>
-                        </div>
+                        </div> -->
                         <div>
                             <a href="/whitepaper">Whitepaper</a>
                         </div>

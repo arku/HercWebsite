@@ -33,12 +33,29 @@
                     </div>
                     
                     <div id="social-top">
+                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                         <i class="fab fa-telegram fa-2x"></i>
+                      </a>
+                      <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
                         <i class="fab fa-facebook fa-2x"></i>
+                      </a>
+                      <a href="https://twitter.com/HERC_Hercules" target="_blank">
                         <i class="fab fa-twitter fa-2x"></i>
+                      </a>
+                      <a href="https://www.instagram.com/herctoken/" target="_blank">
                         <i class="fab fa-instagram fa-2x"></i>
+                      </a>
+                      <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
                         <i class="fab fa-linkedin fa-2x"></i>
+                      </a>
+                      <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">
                         <i class="fab fa-youtube fa-2x"></i>
+                      </a>
+                      <a href="https://medium.com/@herc_token" target="_blank">
+                        <i class="fab fa-medium-m fa-2x"></i>
+                      </a>
+                        
+                        
                     </div>
 
                     <div class="navbar-end">

@@ -24,8 +24,9 @@
                         <i class="fas fa-balance-scale fa-5x"></i>
                     </div>
                     <h2 class="blurb-title">Integrity</h2>
-                    <p class="blurb-text">Today paper, email and off chain digital records can be easily farsed. 
-                    Using Hercules: Irrefutable proof of date , time , geo location, and all data entered.</p>
+                    <p class="blurb-text">Today paper, email and off-chain digital records can
+                       be easily tampered with. Using Hercules: irrefutable proof of date, time, or
+                        geolocation can be recorded and stored immutably.</p>
                 </div>
             </div>
         </div>
