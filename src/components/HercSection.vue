@@ -36,9 +36,6 @@
                       market.
                 </p>
                 </div>
-                <div class="column">
-                    <img src="../assets/herc-blockchain.png">
-                </div>
             </div>
         </div>
     </div>
@@ -74,6 +71,7 @@ p {
 .center-text {
   text-align: center;
 }
+
 
 img {
   border: 2px solid #f3c736;

@@ -4,7 +4,6 @@
              <div>
                 <h1>How it Works</h1>
             </div>
-              <!-- <iframe width="90%" height="515" src="https://www.youtube.com/embed/177Ub1YUdgQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
               <video controls poster="../assets/hiw.png">
                 <source src="../assets/steve.mp4" type="video/mp4">
                 Your browser does not support the video tag.
@@ -34,7 +33,7 @@ h1 {
 }
 
 video {
-  width: 80%;
+  width: 60%;
   border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
 }
@@ -55,6 +54,10 @@ video {
 @media all and (max-width: 767px) {
     h1{
         font-size: 30px;
+    }
+
+    video{
+      width: 90%;
     }
 }
 /*** Responsive Styles Smartphone Portrait ***/
