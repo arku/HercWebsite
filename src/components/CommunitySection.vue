@@ -32,7 +32,7 @@ h2 {
 }
 
 p {
-  margin-bottom: 3%;
+  margin-bottom: 5%;
   color: white;
 }
 
@@ -45,6 +45,8 @@ a {
   padding-bottom: 10px;
   font-weight: bold;
   text-transform: uppercase;
+  z-index: 5;
+  position: relative;
 }
 
 a:hover {
