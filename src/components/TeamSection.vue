@@ -163,7 +163,7 @@
                         <img src="../assets/team/ubi.jpg">
                         <h2>Ubirajara Marisicano Neto</h2>
                         <h3>Software Engineer</h3>
-                        <a href="https://www.linkedin.com/in/julianamei/" target="_blank">
+                        <a href="https://www.linkedin.com/in/ubirajara-marsicano-neto/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -226,10 +226,10 @@
                 <h4 id="advisors">Advisors</h4>
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/joby.jpeg">
-                        <h2>Joby Weeks</h2>
-                        <h3>Chief Marketer - BitClub Mining</h3>
-                        <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">
+                        <img src="../assets/team/mikemc.jpg">
+                        <h2>Mike McRoberts</h2>
+                        <h3>Senior Advisor</h3>
+                        <a href="https://www.linkedin.com/in/mikelmcroberts/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -318,10 +318,10 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/mikemc.jpg">
-                        <h2>Mike McRoberts</h2>
-                        <h3>Advisor</h3>
-                        <a href="https://www.linkedin.com/in/mikelmcroberts/" target="_blank">
+                        <img src="../assets/team/joby.jpeg">
+                        <h2>Joby Weeks</h2>
+                        <h3>Chief Marketer - BitClub Mining</h3>
+                        <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -496,7 +496,7 @@
                         <img src="../assets/team/ubi.jpg">
                         <h2>Ubirajara Marisicano Neto</h2>
                         <h3>Software Engineer</h3>
-                        <a href="https://www.linkedin.com/in/julianamei/" target="_blank">
+                        <a href="https://www.linkedin.com/in/ubirajara-marsicano-neto/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -563,10 +563,10 @@
                 <h4 id="advisors-mobile">Advisors</h4>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/joby.jpeg">
-                        <h2>Joby Weeks</h2>
-                        <h3>Chief Marketer - BitClub Mining</h3>
-                        <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">
+                        <img src="../assets/team/mikemc.jpg">
+                        <h2>Mike McRoberts</h2>
+                        <h3>Senior Advisor</h3>
+                        <a href="https://www.linkedin.com/in/mikelmcroberts" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -660,11 +660,11 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    <div class="column">
-                        <img src="../assets/team/mikemc.jpg">
-                        <h2>Mike McRoberts</h2>
-                        <h3>Advisor</h3>
-                        <a href="https://www.linkedin.com/in/brockton/" target="_blank">
+                     <div class="column">
+                        <img src="../assets/team/joby.jpeg">
+                        <h2>Joby Weeks</h2>
+                        <h3>Chief Marketer - BitClub Mining</h3>
+                        <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
