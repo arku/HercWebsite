@@ -24,11 +24,7 @@
                           items to be tracked and information to be recorded in the Hercules
                            mutilayered least cost routing blockchain protocol.
                     </p>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                <h1 class="center-text">The Hercules Blockchain</h1>
+                    <h1 class="center-text">The Hercules Blockchain</h1>
                 <p>The Hercules Protocol & Platform is a global supply chain repository
                      providing a complete list of all trackable assets accessible to anyone
                       with permission.<br>Hercules provides business people with the data integrity advantages of blockchain
@@ -71,7 +67,6 @@ p {
 .center-text {
   text-align: center;
 }
-
 
 img {
   border: 2px solid #f3c736;

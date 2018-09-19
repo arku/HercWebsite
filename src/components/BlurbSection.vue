@@ -2,9 +2,6 @@
     <div id="blurb-section">
         <div id="content">
           <div>
-            <img id="section-logo" src="../assets/herc-logo.png">
-          </div>
-          <div>
             <h1>HERC means:</h1>
             <p id="subtitle">Helping Eradicate Racketeering Collusion</p>
           </div>
@@ -96,7 +93,7 @@ img {
   margin-bottom: 10%;
 }
 
-#section-logo{
+#section-logo {
   margin-bottom: 1%;
 }
 
