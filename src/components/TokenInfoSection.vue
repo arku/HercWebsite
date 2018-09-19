@@ -25,7 +25,6 @@ export default {
 #token-info-section {
   padding: 50px;
   height: 70vh;
-  color: #091141;
 }
 
 h1 {
