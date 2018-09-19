@@ -172,7 +172,7 @@
                     <div class="column">
                         <img src="../assets/team/julie.jpg">
                         <h2>Juliana Mei</h2>
-                        <h3>User Identity Lead</h3>
+                        <h3>Software Engineer</h3>
                         <a href="https://www.linkedin.com/in/julianamei/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -505,7 +505,7 @@
                     <div class="column">
                         <img src="../assets/team/julie.jpg">
                         <h2>Juliana Mei</h2>
-                        <h3>User Identity Lead</h3>
+                        <h3>Software Engineer</h3>
                         <a href="https://www.linkedin.com/in/julianamei/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
