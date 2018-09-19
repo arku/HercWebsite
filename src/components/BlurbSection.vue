@@ -2,7 +2,7 @@
     <div id="blurb-section">
         <div id="content">
           <div>
-            <img src="../assets/herc-logo.png" id="logo" class="next-particle">
+            <img id="section-logo" src="../assets/herc-logo.png">
           </div>
           <div>
             <h1>HERC means:</h1>
@@ -96,6 +96,10 @@ img {
   margin-bottom: 10%;
 }
 
+#section-logo{
+  margin-bottom: 1%;
+}
+
 .blurb-title {
   text-transform: uppercase;
   text-align: center;
@@ -119,13 +123,6 @@ img {
   color: #091141;
   margin-bottom: 2%;
   font-size: 24px;
-}
-
-canvas {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 
 /* Pulse Shrink */

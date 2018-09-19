@@ -1,17 +1,17 @@
 <template>
     <div id="token-info-section">
-        <div id="content">
+        <!-- <div id="content">
             <h1>HERC Token Information</h1>
             <p><span><b>IMPORTANT NOTICE:</b></span>This is the test network information!</p>
-        </div>
-        <div>
+        </div> -->
+        <!-- <div>
             <ul>
                 <li>Token Name: <b>Hercules</b></li>
                 <li>Token Code: <b>HERC</b></li>
                 <li>Contract Address: <b>0x0C97b0B42140D77dE45Fc669E826225E6bb6B3D2</b></li>
                 <li>Number of Decimal Places: <b>18</b></li>
             </ul>
-        </div>
+        </div> -->
     </div>
 </template>
 
@@ -25,6 +25,7 @@ export default {
 #token-info-section {
   padding: 50px;
   height: 70vh;
+  color: #091141;
 }
 
 h1 {
