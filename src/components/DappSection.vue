@@ -2,7 +2,7 @@
     <div id="dapp-section">
         <div id="content">
             <h1>Check out our mobile dapp</h1>
-            <video controls>
+            <video controls poster="../assets/HERC_dAPP.png">
                 <source src="../assets/dappvideo.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>

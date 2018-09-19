@@ -3,7 +3,7 @@
         <div id="content">
             <h1>Featured Use Case</h1>
         </div>
-        <video controls poster="/">
+        <video controls poster="../assets/HERC_USECASE.png">
             <source src="../assets/usecase.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>

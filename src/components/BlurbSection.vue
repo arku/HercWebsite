@@ -2,6 +2,9 @@
     <div id="blurb-section">
         <div id="content">
           <div>
+            <img src="../assets/herc-logo.png" id="logo" class="next-particle">
+          </div>
+          <div>
             <h1>HERC means:</h1>
             <p id="subtitle">Helping Eradicate Racketeering Collusion</p>
           </div>
@@ -116,6 +119,13 @@ img {
   color: #091141;
   margin-bottom: 2%;
   font-size: 24px;
+}
+
+canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Pulse Shrink */
