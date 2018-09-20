@@ -7,6 +7,7 @@ import FAQ from './views/FAQ.vue'
 import Metamask from './views/Metamask.vue'
 import CareersSection from './views/Careers.vue'
 import TokenInfo from './views/TokenInfo.vue';
+import Landing from './views/Landing.vue';
 
 Vue.use(Router);
 
@@ -53,6 +54,11 @@ export default new Router({
         path: '/tokeninfo',
         name: 'tokeninfo',
         component: TokenInfo
+    },
+    {
+        path: '/landing',
+        name: 'landing',
+        component: Landing
     }
     ],
 });
