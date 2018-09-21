@@ -8,7 +8,8 @@
                 <h1>A blockchain<br> supply chain solution</h1>
                 <div>
                   <div id="buttons-lol">
-                    <button class="left-button">Join Token Sale</button>
+                    <button class="left-button">Talk With Us</button>
+                    <button class="">Join Token Sale</button>
                     <button class="right-button">Read Whitepaper</button>
                   </div>
                   <h2 class="date-info">15 October 2018. 12:00 PST</h2>
@@ -135,10 +136,10 @@ button {
   border: 2px solid #f3c736;
   font-size: 20px;
   text-transform: uppercase;
-  padding-top: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   font-weight: bold;
   color: #091141;
 }
@@ -204,9 +205,42 @@ button:hover {
 }
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
 }
+
+@media all and (max-width: 1099px) {
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+
+  br{
+    display: none;
+  }
+
+  #landing-one{
+    padding: 50px;
+  }
+
+  .countdown-size {
+    width: 80%;
+  }
+}
+
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  h1{
+    font-size: 30px;
+  }
+
+  .countdown-size {
+    width: 100%;
+  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
@@ -217,24 +251,25 @@ button:hover {
     padding: 50px;
   }
 
-  h1{
+  h1 {
     font-size: 30px;
   }
 
-  br{
+  br {
     display: none;
   }
 
-  #logo{
+  #logo {
     width: 90%;
   }
 
-  .left-button, .right-button{
+  .left-button,
+  .right-button {
     border-radius: 0;
     margin: 5%;
   }
 
-  .countdown-size{
+  .countdown-size {
     width: 100%;
   }
 }
