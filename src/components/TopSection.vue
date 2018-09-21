@@ -3918,14 +3918,12 @@ CzAAqYTVOPWO2yYAAAAASUVORK5CYII=" transform="matrix(0.98 0 0 0.98 1024.2817 776.
 
 	</svg>
             </div>
-            <div class="column">
+            <!-- <div class="column">
 				<img src="../assets/pillar-only-small.gif" id="animacija">
-            <!-- Begin Constant Contact Inline Form Code -->
             <div id="subscribe-form">
               <div class="ctct-inline-form" data-form-id="1b7fd750-5561-4cd8-a57d-7e6611366a52"></div>
-            <!-- End Constant Contact Inline Form Code -->
             </div>
-            </div>
+            </div> -->
           </div>
       </div>
     </div>
@@ -3948,6 +3946,10 @@ export default {
   color: #091141;
   border-color: #f3c736;
   background-color: #f3c736;
+}
+
+svg {
+  width: 60% !important;
 }
 
 h1 {
@@ -4212,9 +4214,13 @@ svg {
     line-height: 1.2em;
   }
 
-  #animacija{
-	  width: 60%;
+  svg {
+    width: 90% !important;
   }
+
+  //   #animacija{
+  // 	  width: 60%;
+  //   }
 }
 
 /*** Responsive Styles Smartphone Portrait ***/
