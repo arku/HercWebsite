@@ -12,27 +12,7 @@
                     <button class="right-button">Read Whitepaper</button>
                   </div>
                   <div id="countdown">
-                      <countdown date="2018-10-15 00:00:00"></countdown>
-                      <div id="countdown-template">            
-                        <div class="countdown">
-                          <div class="block">
-                            <p class="digit">{{ days | two_digits }}</p>
-                            <p class="text">Days</p>
-                          </div>
-                          <div class="block">
-                            <p class="digit">{{ hours | two_digits }}</p>
-                            <p class="text">Hours</p>
-                          </div>
-                          <div class="block">
-                            <p class="digit">{{ minutes | two_digits }}</p>
-                            <p class="text">Minutes</p>
-                          </div>
-                          <div class="block">
-                            <p class="digit">{{ seconds | two_digits }}</p>
-                            <p class="text">Seconds</p>
-                          </div>
-                      </div>
-                  </div>
+                      
                   </div>
                 </div>
               </div>
@@ -55,56 +35,6 @@
 export default {
   name: "LandingPageOne"
 };
-
-Vue.component("countdown", {
-  template: "#countdown-template",
-  mounted() {
-    window.setInterval(() => {
-      this.now = Math.trunc(new Date().getTime() / 1000);
-    }, 1000);
-  },
-  props: {
-    date: {
-      type: String
-    }
-  },
-  data() {
-    return {
-      now: Math.trunc(new Date().getTime() / 1000)
-    };
-  },
-  computed: {
-    dateInMilliseconds() {
-      return Math.trunc(Date.parse(this.date) / 1000);
-    },
-    seconds() {
-      return (this.dateInMilliseconds - this.now) % 60;
-    },
-    minutes() {
-      return Math.trunc((this.dateInMilliseconds - this.now) / 60) % 60;
-    },
-    hours() {
-      return Math.trunc((this.dateInMilliseconds - this.now) / 60 / 60) % 24;
-    },
-    days() {
-      return Math.trunc((this.dateInMilliseconds - this.now) / 60 / 60 / 24);
-    }
-  }
-});
-
-Vue.filter("two_digits", value => {
-  if (value < 0) {
-    return "00";
-  }
-  if (value.toString().length <= 1) {
-    return `0${value}`;
-  }
-  return value;
-});
-
-var app = new Vue({
-  el: "#countdown"
-});
 </script>
 
 <style scoped lang="scss">
@@ -155,7 +85,7 @@ button {
   color: #091141;
 }
 
-button:hover {
+button:hover{
   background-color: transparent;
   color: #f3c736;
   border: 2px solid #f3c736;
