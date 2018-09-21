@@ -11,8 +11,27 @@
                     <button class="left-button">Join Token Sale</button>
                     <button class="right-button">Read Whitepaper</button>
                   </div>
+                  <h2 class="date-info">15 October 2018. 12:00 PST</h2>
                   <div id="countdown">
-                      
+                      <p id="demo"></p>
+                      <div class="columns countdown-size is-mobile">
+                        <div class="column">
+                          <p id="days"></p>
+                          <span>Days</span>
+                        </div>
+                        <div class="column">
+                          <p id="hours">20</p>
+                          <span>Hours</span> 
+                        </div>  
+                        <div class="column">
+                          <p id="minutes">20</p>
+                          <span>Minutes</span>
+                        </div>  
+                        <div class="column">
+                          <p id="seconds">55</p>
+                          <span>Seconds</span>
+                        </div>       
+                      </div>
                   </div>
                 </div>
               </div>
@@ -35,9 +54,39 @@
 export default {
   name: "LandingPageOne"
 };
-</script>
 
-<style scoped lang="scss">
+// Set the date we're counting down to
+var countDownDate = new Date("Oct 15, 2018 00:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get todays date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Output the result in an element with id="demo"
+
+  document.getElementById("days").innerHTML = days;
+  document.getElementById("hours").innerHTML = hours;
+  document.getElementById("minutes").innerHTML = minutes;
+  document.getElementById("seconds").innerHTML = seconds;
+
+  // If the count down is over, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+<style scoped>
 #landing-one {
   padding: 100px;
   background-color: #091141;
@@ -57,19 +106,28 @@ h2 {
   font-weight: bold;
   color: white;
   text-align: left;
+  margin: auto;
   margin-bottom: 5%;
+  width: 80%;
 }
 
 p {
   color: white;
   text-align: left;
+  margin: auto;
   margin-bottom: 5%;
+  width: 80%;
+}
+
+span {
+  color: white;
+  font-size: 12px;
 }
 
 img {
   margin: auto;
   margin-bottom: 5%;
-  width: 80%;
+  /* // width: 80%; */
 }
 
 button {
@@ -85,7 +143,7 @@ button {
   color: #091141;
 }
 
-button:hover{
+button:hover {
   background-color: transparent;
   color: #f3c736;
   border: 2px solid #f3c736;
@@ -93,6 +151,10 @@ button:hover{
 
 #logo {
   width: 40%;
+}
+
+#buttons-lol {
+  margin-bottom: 5%;
 }
 
 .left-button {
@@ -103,5 +165,80 @@ button:hover{
 .right-button {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+#demo {
+  text-align: center;
+}
+
+#days,
+#hours,
+#minutes,
+#seconds {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center !important;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f3c736;
+  line-height: 1em;
+}
+
+#holder {
+  display: inline-block;
+}
+
+.countdown-size {
+  margin: auto;
+  width: 50%;
+}
+
+.date-info {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 24px;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+}
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+  #landing-one {
+    padding: 50px;
+  }
+
+  h1{
+    font-size: 30px;
+  }
+
+  br{
+    display: none;
+  }
+
+  #logo{
+    width: 90%;
+  }
+
+  .left-button, .right-button{
+    border-radius: 0;
+    margin: 5%;
+  }
+
+  .countdown-size{
+    width: 100%;
+  }
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
 }
 </style>
