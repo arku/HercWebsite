@@ -108,7 +108,7 @@ h2 {
   color: white;
   text-align: left;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   width: 80%;
 }
 
@@ -116,7 +116,7 @@ p {
   color: white;
   text-align: left;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   width: 80%;
 }
 
@@ -127,7 +127,7 @@ span {
 
 img {
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   /* // width: 80%; */
 }
 
@@ -253,6 +253,10 @@ button:hover {
 
   h1 {
     font-size: 30px;
+  }
+
+  h2, p{
+    width: 100%;
   }
 
   br {
