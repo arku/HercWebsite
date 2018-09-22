@@ -8,6 +8,8 @@ import Metamask from './views/Metamask.vue'
 import CareersSection from './views/Careers.vue'
 import TokenInfo from './views/TokenInfo.vue';
 import Landing from './views/Landing.vue';
+import LandingTwo from './views/LandingTwo.vue';
+
 
 Vue.use(Router);
 
@@ -59,6 +61,11 @@ export default new Router({
         path: '/landing',
         name: 'landing',
         component: Landing
+    },
+    {
+        path: '/landing2',
+        name: 'landing2',
+        component: LandingTwo
     }
     ],
 });
