@@ -130,6 +130,7 @@ p {
   margin-bottom: 1%;
   margin-left: 20%;
   width: 80%;
+  font-weight: bold;
 }
 
 span {
@@ -231,10 +232,87 @@ button:hover {
   margin-top: -200px;
 }
 
-#about-text{
-    color: #091141;
-    font-weight: bold;
-    text-transform: none;
-    margin-top: 5%;
+#about-text {
+  color: #091141;
+  font-weight: bold;
+  text-transform: none;
+  margin-top: 5%;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+  #shape-section {
+    margin-top: -150px;
+  }
+
+  p {
+    width: 70%;
+    margin-left: 25%;
+  }
+}
+
+@media all and (max-width: 1099px) {
+  #shape-section {
+    margin-top: -150px;
+    background-position-x: -400px;
+  }
+
+  p {
+    width: 80%;
+  }
+}
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+  #buttons-lol {
+    margin-top: 33%;
+  }
+
+  #shape-section{
+      background-color: white;
+      margin-top: 50px;
+  }
+
+  #guy{
+      display: none;
+  }
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+    button{
+        margin: 1%;
+    }
+
+    #buttons-lol {
+    margin-top: 50%;
+  }
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+    #buttons-lol{
+        margin-top: 5%;
+    }
+
+    h2,p{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    #about-text{
+        margin-top: 0;
+        margin-bottom: 1%;
+    }
+
+    #shape-section{
+        padding-bottom: 50px;
+    }
+}
+
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
 }
 </style>
