@@ -1,44 +1,39 @@
 <template>
-    <div id="video-section">
-        <div id="content">
-           
-              <div>
-                <h1>How Hercules Works Using Human Initiated Performance Reporting (HIPR)</h1>
-                <div id="diagram-holder">
-                  <img src="../assets/diagram.png">
-                </div>
-                <div class="columns">
-                  <div class="column blurb">
-                    <p>From a technology standpoint, HIPR implements steganography, an age old cryptography process
-                      to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
-                        data integrity.
-                    </p>
-                  </div>
-                  <div class="column blurb">
-                    <p>
-                      As a more secure and newly implemented Consensus model, Proof of Human Work does not waste
-                      electricity and resource to validate transactions. Leveraging the intuition of the Human Brain
-                        and incentivising good actors in the network is our way of protecting against malicious attacks.
-                    </p>
-                  </div>
-                </div>
-                <div class="columns">
-                  <div class="column blurb">
-                    <p> HIPR is built Unity3D, with C# and Solidity while targeting WebGl, NEthereum for Web3 connectivity.
-                From market research we have found this Consensus model is 90% more efficient as we scale in HIPR
-                 players because more we entertain our community the more integrious our chain data becomes. </p>
-                 </div>
-                 <div class="column blurb">
-                 <p>
-                Other blockchain projects with similar use cases have only considered private permissioned blockchain technology as a means to scale. 
-                We believe Proof of Human Work will revolutionize the way projects can scale on public blockchain.
-                At 0.001$/kb indexed HERC is >98%+ more cost efficient when compared to Hyperledger's $1000$/month/node model.
-                HERC's protocol consensus model has built-in pay per supply chain movement.</p>
-                </div>
-                </div>
-            </div>
+  <div id="video-section">
+      <div id="content">
+        <h1>How Hercules Works <br>Using Human Initiated Performance Reporting (HIPR)</h1>
+        <img src="../assets/diagram.png">
+        <div class="columns blurbs-holder">
+          <div class="column blurb">
+            <p>From a technology standpoint, HIPR implements steganography, an age old cryptography process
+                to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
+                  data integrity.
+            </p>
+          </div>
+          <div class="column blurb">
+            <p>
+                As a more secure and newly implemented Consensus model, Proof of Human Work does not waste
+                electricity and resource to validate transactions. Leveraging the intuition of the Human Brain
+                  and incentivising good actors in the network is our way of protecting against malicious attacks.
+            </p>
+          </div>
         </div>
-    </div>
+        <div class="columns blurbs-holder">
+          <div class="column blurb">
+              <p> HIPR is built Unity3D, with C# and Solidity while targeting WebGl, NEthereum for Web3 connectivity.
+          From market research we have found this Consensus model is 90% more efficient as we scale in HIPR
+            players because more we entertain our community the more integrious our chain data becomes. </p>
+          </div>
+          <div class="column blurb">
+            <p>
+          Other blockchain projects with similar use cases have only considered private permissioned blockchain technology as a means to scale. 
+          We believe Proof of Human Work will revolutionize the way projects can scale on public blockchain.
+          At 0.001$/kb indexed HERC is >98%+ more cost efficient when compared to Hyperledger's $1000$/month/node model.
+          HERC's protocol consensus model has built-in pay per supply chain movement.</p>
+          </div>
+        </div>
+      </div>
+  </div>
 </template>
 
 <script>
@@ -57,10 +52,15 @@ export default {
   background-color: #091141;
 }
 
+.blurbs-holder {
+  padding-left: 100px !important;
+  padding-right: 100px !important;
+}
+
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
-  color: #f3c736;
+  color: white;
   text-transform: uppercase;
   margin-bottom: 5%;
   font-weight: bold;
@@ -85,19 +85,10 @@ p {
 }
 
 img {
-  transition: transform 2s;
-}
-
-img:hover {
-  transform: scale(1.1);
-}
-
-#diagram-holder {
-  background-color: #fafafa;
-  width: 90%;
-  border: 2px solid #f3c736;
-  margin: auto;
+  width: 80%;
+  background-color: white;
   margin-bottom: 5%;
+  border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
 }
 
@@ -123,10 +114,8 @@ img:hover {
   }
 }
 
-img {
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-bottom: 2%;
+#diagram-holder {
+  width: 100%;
 }
 
 /*** Responsive Styles Tablet Only ***/
@@ -140,6 +129,10 @@ img {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
+  .blurbs-holder {
+    padding: 0 !important;
+  }
 }
 
 /*** Responsive Styles Smartphone Only ***/
@@ -148,14 +141,19 @@ img {
     font-size: 30px;
   }
 
-  video {
-    width: 90%;
-  }
-
   #video-section {
     padding: 30px;
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .blurbs-holder {
+    padding: 0 !important;
+  }
+
+  #diagram-holder {
+    width: 100%;
+    margin-bottom: 10%;
   }
 }
 

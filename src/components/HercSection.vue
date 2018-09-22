@@ -1,12 +1,8 @@
 <template>
     <div id="herc-section">
         <div id="content">
-            <div class="columns">
-                <div class="column spacer">
-                    <!-- <img src="../assets/HercAdvantages_Diagram.jpg"> -->
-                    <img src="../assets/Herc_benefits_720_1.gif">
-                </div>
-                <div class="column">
+          <div class="columns">
+            <div class="column">
                     <h1>What is Hercules?</h1>
                     <p>
                         Hercules is a decentralised blockchain protocol platform that
@@ -17,21 +13,32 @@
                              leading blockchain organisations, Hercules is designed to serve
                               120+ million businesses a year already managing their supply chain.
                     </p>
-                    <h1>HERC Tokens</h1>
-                    <p>
-                        Harnessing the power of blockchain software, HERC tokens are utility
-                         tokens that allow users to create custom supply chains by defining the
-                          items to be tracked and information to be recorded in the Hercules
-                           mutilayered least cost routing blockchain protocol.
-                    </p>
-                    <h1 class="center-text">The Hercules Blockchain</h1>
-                <p>The Hercules Protocol & Platform is a global supply chain repository
-                     providing a complete list of all trackable assets accessible to anyone
-                      with permission.<br>Hercules provides business people with the data integrity advantages of blockchain
-                     technology, enabling their goods to be trusted and exchanged with a world wide
-                      market.
-                </p>
+                  </div>
+          </div>
+          <div class="columns">
+                <div class="column">
+                    <img src="../assets/Herc_benefits_720_1.gif">
                 </div>
+            </div>
+            <div class="columns">
+                    <div class="column">
+                      <h1>HERC Tokens</h1>
+                      <p>
+                          Harnessing the power of blockchain software, HERC tokens are utility
+                          tokens that allow users to create custom supply chains by defining the
+                            items to be tracked and information to be recorded in the Hercules
+                            mutilayered least cost routing blockchain protocol.
+                      </p>
+                    </div>
+                    <div class="column">
+                      <h1>The Hercules Blockchain</h1>
+                      <p>The Hercules Protocol & Platform is a global supply chain repository
+                          providing a complete list of all trackable assets accessible to anyone
+                            with permission.<br>Hercules provides business people with the data integrity advantages of blockchain
+                          technology, enabling their goods to be trusted and exchanged with a world wide
+                            market.
+                      </p>
+                    </div>
             </div>
         </div>
     </div>
@@ -57,29 +64,16 @@ h1 {
   font-weight: bold;
   text-align: left;
   margin-bottom: 1%;
+  text-align: center;
 }
 
 p {
   text-align: left;
-  margin-bottom: 5%;
-}
-
-.center-text {
-  text-align: center;
 }
 
 img {
   border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
-  transition: transform 0.9s;
-}
-
-img:hover {
-  transform: scale(1.05);
-}
-
-.spacer {
-  padding-top: 20px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -98,14 +92,6 @@ img:hover {
 @media all and (max-width: 767px) {
   #herc-section {
     padding: 50px;
-  }
-
-  .center-text {
-    text-align: left;
-  }
-
-  .spacer {
-    padding-top: 0px;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

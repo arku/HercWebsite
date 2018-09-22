@@ -14,7 +14,7 @@
                 </div>
                 <div class="column blurb">
                     <div class="blurb-image hvr-pulse-shrink">
-                        <i class="fas fa-plane fa-5x"></i>
+                        <i class="fas fa-rocket fa-5x"></i>
                     </div>
                     <h2 class="blurb-title">Speed</h2>
                     <p class="blurb-text">Today a single paper and email invoice processing takes 10.3 days on average to process. Using Hercules: Same Day.</p>

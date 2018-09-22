@@ -24,6 +24,7 @@ export default {
 <style scoped>
 #documents-section {
   padding: 50px;
+  background-color: #fafafa;
 }
 
 img {

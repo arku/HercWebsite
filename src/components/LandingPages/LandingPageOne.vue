@@ -21,15 +21,15 @@
                           <span>Days</span>
                         </div>
                         <div class="column">
-                          <p id="hours">20</p>
+                          <p id="hours"></p>
                           <span>Hours</span> 
                         </div>  
                         <div class="column">
-                          <p id="minutes">20</p>
+                          <p id="minutes"></p>
                           <span>Minutes</span>
                         </div>  
                         <div class="column">
-                          <p id="seconds">55</p>
+                          <p id="seconds"></p>
                           <span>Seconds</span>
                         </div>       
                       </div>
@@ -219,11 +219,11 @@ button:hover {
     margin: 5%;
   }
 
-  br{
+  br {
     display: none;
   }
 
-  #landing-one{
+  #landing-one {
     padding: 50px;
   }
 
@@ -234,7 +234,7 @@ button:hover {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-  h1{
+  h1 {
     font-size: 30px;
   }
 
@@ -255,7 +255,8 @@ button:hover {
     font-size: 30px;
   }
 
-  h2, p{
+  h2,
+  p {
     width: 100%;
   }
 
