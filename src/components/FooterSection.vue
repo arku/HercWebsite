@@ -106,7 +106,6 @@ p {
   padding-bottom: 20px;
 }
 
-
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -118,13 +117,22 @@ p {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-    
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    p{
-        font-size: 10px;
-    }
+  p {
+    font-size: 10px;
+  }
+
+  #footer-section a {
+    font-size: 18px;
+    font-weight: normal;
+  }
+
+  #footer-section img {
+    margin-bottom: 5%;
+    width: 50%;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {

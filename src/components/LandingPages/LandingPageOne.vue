@@ -249,6 +249,8 @@ button:hover {
 @media all and (max-width: 767px) {
   #landing-one {
     padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   h1 {
