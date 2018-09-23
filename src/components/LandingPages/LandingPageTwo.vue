@@ -268,7 +268,7 @@ button:hover {
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
   #buttons-lol {
-    margin-top: 33%;
+    margin-top: 20% !important;
   }
 
   #shape-section{
@@ -278,6 +278,14 @@ button:hover {
 
   #guy{
       display: none;
+  }
+
+  #first-section{
+    padding: 50px;
+  }
+
+  h1{
+    font-size: 30px;
   }
 }
 /*** Responsive Styles Tablet Only ***/
@@ -296,10 +304,15 @@ button:hover {
         margin-top: 5%;
     }
 
+    h1{
+      font-size: 30px;
+    }
+
     h2,p{
         text-align: center;
-        width: 80%;
+        width: 100%;
         margin: auto;
+        margin-bottom: 5%;
     }
 
     #about-text{
@@ -309,6 +322,23 @@ button:hover {
 
     #shape-section{
         padding-bottom: 50px;
+    }
+
+    #first-section{
+      padding: 20px;
+    }
+
+    #countdown{
+      width: 100%;
+    }
+
+    .countdown-size{
+      width: 100%;
+      background-color: transparent;
+    }
+
+    #demo{
+      display: none;
     }
 }
 
