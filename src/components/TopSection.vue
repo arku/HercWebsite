@@ -4,6 +4,7 @@
         <div>
           <h1>Hercules Protocol</h1>
 		  <p>Decentralized Supply Chain Management Software</p>
+		  <p class="spacer">Making Undeniable Data Integrity Easy and Affordable for All Business Owners</p>
         </div>
           <div class="columns">
             <div class="column">
@@ -3984,8 +3985,11 @@ h1 {
 }
 
 p {
-  margin-bottom: 5%;
   color: #f3c736;
+}
+
+.spacer{
+	margin-bottom: 5%;
 }
 
 #subscribe-form {
