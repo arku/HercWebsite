@@ -10,12 +10,12 @@
             <div class="hide-desktop">
                 <div class="columns">
                     <div class="column">
-                        <a href="#advisors">
+                        <a href="https://herc.one/#advisors">
                             <img src="../assets/partners/factom.png">
                         </a>
                     </div>
                     <div class="column">
-                        <a href="#advisors">
+                        <a href="https://herc.one/#advisors">
                             <img src="../assets/partners/storj.png">
                         </a>
                     </div>
