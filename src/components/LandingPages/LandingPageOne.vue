@@ -201,13 +201,6 @@ button:hover {
   font-size: 24px;
 }
 
-#payment-methods{
-  /* position: absolute;
-  left: 0;
-  bottom: -50; */
-
-}
-
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
