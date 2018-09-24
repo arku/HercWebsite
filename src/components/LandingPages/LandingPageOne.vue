@@ -47,6 +47,7 @@
                 </p>
               </div>
             </div>
+            <img id="payment-methods" src="../../assets/paymentmethods.png">
         </div>
     </div>
 </template>
@@ -198,6 +199,13 @@ button:hover {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
+}
+
+#payment-methods{
+  /* position: absolute;
+  left: 0;
+  bottom: -50; */
+
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
