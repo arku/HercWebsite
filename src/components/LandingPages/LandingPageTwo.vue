@@ -46,13 +46,13 @@
                 </div>
                 <div class="column">
                     <h2 id="about-text">About HERC</h2>
-                    <p>Hercules, a Special Economic Zone Company (SEZC) develops supply
+                    <p class="p-tune">Hercules, a Special Economic Zone Company (SEZC) develops supply
                         chain management software that utilizes public blockchains.
                     </p>
-                    <p>The Hercules platform is decentralized and powered by HERC tokens
+                    <p class="p-tune">The Hercules platform is decentralized and powered by HERC tokens
                         which are required to record and validate the supply chain data.
                     </p>
-                    <p>Hercules software is fully open source.</p>
+                    <p class="p-tune">Hercules software is fully open source.</p>
                 </div>
             </div>
         </div>
@@ -128,9 +128,13 @@ p {
   color: #091141;
   text-align: left;
   margin-bottom: 1%;
-  margin-left: 20%;
-  width: 80%;
   font-weight: bold;
+}
+
+.p-tune{
+  margin-left: 20%;
+    width: 80%;
+
 }
 
 span {
