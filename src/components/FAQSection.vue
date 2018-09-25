@@ -128,7 +128,7 @@ export default {
 <style scoped>
 #faq-section {
   padding: 50px;
-  
+  background-color: #fafafa;
 }
 
 h1 {

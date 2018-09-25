@@ -8,14 +8,14 @@
                         <div>
                             <a href="/policy">Privacy Policy</a>
                         </div>
-                        <div>
+                        <!-- <div>
                             <a href="">Terms of Use</a>
-                        </div>
+                        </div> -->
                         <div>
                             <a href="/metamask">Metamask</a>
                         </div>
                         <div>
-                            <a href="/qa">F.A.Q</a>
+                            <a href="/faq">F.A.Q</a>
                         </div>
                     </div>
                     <div class="column">

@@ -76,6 +76,7 @@ export default {
 <style scoped>
 #metamask-section {
   padding: 50px;
+  background-color: #fafafa;
 }
 
 #content {
