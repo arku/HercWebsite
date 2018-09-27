@@ -1,51 +1,68 @@
 <template>
     <div id="subscribe-test">
-        <div class="email-octopus-form-wrapper">
-    <h2 class="email-octopus-heading">Sign up for PRESALE!</h2>
-    <p class="email-octopus-success-message"></p>
-    <p class="email-octopus-error-message"></p>
-
-    <form method="post"
-      action="https://emailoctopus.com/lists/a1d42650-bcfd-11e8-a3c9-06b79b628af2/members/embedded/1.3s/add"
-      class="email-octopus-form"
-      data-sitekey="6LdYsmsUAAAAAPXVTt-ovRsPIJ_IVhvYBBhGvRV6"
-    >
-        
-        <div class="email-octopus-form-row">
-            <label for="field_0">Email address</label>
-            <input id="field_0" name="field_0" type="email" placeholder="">
+        <div id="mlb2-1055182" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-1055182">
+  <div class="ml-form-align-center ">
+    <div class="ml-form-embedWrapper embedForm">
+      <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+        <div class="ml-form-embedContent">
+          <h4>Newsletter</h4>
+          <p>Signup for news and special offers!</p>
         </div>
+        <form class="ml-block-form" action="https://app.mailerlite.com/webforms/submit/b6u0z8" data-code="b6u0z8" method="post" target="_blank">
+          <div aria-label="Please leave the following field empty" class="ml_message_wrapper">
+            <input type="text" name="ml_message" tabindex="-1" value="" placeholder="Message" autocomplete="off" title="message">
+            <input type="text" name="ml_email" tabindex="-1" value="" placeholder="Email" autocomplete="off" title="email">
+            <input type="text" name="ml_name" tabindex="-1" value="" placeholder="Name" autocomplete="off" title="name">
+          </div>
+          <div class="ml-form-formContent">
+            <div class="ml-form-fieldRow ml-last-item">
+              <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                <input type="email" class="form-control" data-inputmask="" name="fields[email]" value="" placeholder="Email">
+              </div>
+            </div>
+          </div>
+          <input type="hidden" name="ml-submit" value="1">
+          <div class="ml-form-embedSubmit">
+            <button type="submit" class="primary">Subscribe</button>
+            <button disabled="disabled" style="display: none;" type="button" class="loading btn btn-block">
 
+                  <div class="ml-form-embedSubmitLoad"><div></div><div></div><div></div><div></div></div>
 
-        
-
-        <div class="email-octopus-form-row-hp" aria-hidden="true">
-            <!-- Do not remove this field, otherwise you risk bot sign-ups -->
-            <input type="text" name="hpa1d42650-bcfd-11e8-a3c9-06b79b628af2"
-               tabindex="-1"
-               autocomplete="nope">
+                </button>
+          </div>
+        </form>
+      </div>
+      <div class="ml-form-successBody row-success" style="display: none">
+        <div class="ml-form-successContent">
+          <h4>Thank you!</h4>
+          <p>You have successfully joined our subscriber list.</p>
         </div>
-
-        <div class="email-octopus-form-row-subscribe">
-            <input type="hidden"
-               name="successRedirectUrl"
-               value="">
-            <button type="submit">Subscribe</button>
-        </div>
-    </form>    
+      </div>
+    </div>
+  </div>
 </div>
     </div>
 </template>
 
 <script>
-
 export default {
   name: "SubscribeTest"
 };
+
+function ml_webform_success_1055182() {
+  var $ = ml_jQuery || jQuery;
+  $(".ml-subscribe-form-1055182 .row-success").show();
+  $(".ml-subscribe-form-1055182 .row-form").hide();
+}
 </script>
 
 <style scoped>
 #subscribe-test {
   padding: 50px;
+}
+
+.ml_message_wrapper {
+  position: absolute !important;
+  left: -9999px !important;
 }
 </style>

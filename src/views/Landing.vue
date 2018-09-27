@@ -2,7 +2,7 @@
     <div class="landing">
         <NavBar></NavBar>
         <LandingPageOne></LandingPageOne>
-        <!-- <SubscribeTest></SubscribeTest> -->
+        <SubscribeTest></SubscribeTest>
         <FooterSection></FooterSection>
         <back-to-top bottom="100px" right="10px">
           <button type="button" class="btn btn-info btn-to-top"><i class="fa fa-chevron-up"></i></button>
