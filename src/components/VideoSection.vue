@@ -21,11 +21,13 @@
         </div>
         <div class="columns blurbs-holder">
           <div class="column blurb">
+            <img src="../assets/bubble/Icon3_HIPR.png">
               <p> HIPR is built Unity3D, with C# and Solidity while targeting WebGl, NEthereum for Web3 connectivity.
           From market research we have found this Consensus model is 90% more efficient as we scale in HIPR
             players because more we entertain our community the more integrious our chain data becomes. </p>
           </div>
           <div class="column blurb">
+            <img src="../assets/bubble/Icon4_Game.png">
             <p>
           Other blockchain projects with similar use cases have only considered private permissioned blockchain technology as a means to scale. 
           We believe Proof of Human Work will revolutionize the way projects can scale on public blockchain.
@@ -70,7 +72,7 @@ h1 {
 .blurb {
   background-color: #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
-  padding: 50px;
+  padding: 30px;
   margin: 2% !important;
 }
 
@@ -86,8 +88,7 @@ p {
 }
 
 img {
-  width: 80%;
-  margin-bottom: 5%;
+  width: 40%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
