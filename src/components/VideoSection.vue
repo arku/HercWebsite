@@ -5,14 +5,15 @@
         <img src="../assets/diagram.png">
         <div class="columns blurbs-holder">
           <div class="column blurb">
+            <img src="../assets/bubble/Icon1_key.png">
             <p>From a technology standpoint, HIPR implements steganography, an age old cryptography process
                 to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
                   data integrity.
             </p>
           </div>
           <div class="column blurb">
-            <p>
-                As a more secure and newly implemented Consensus model, Proof of Human Work does not waste
+            <img src="../assets/bubble/Icon2_PoHW.png">
+            <p>As a more secure and newly implemented Consensus model, Proof of Human Work does not waste
                 electricity and resource to validate transactions. Leveraging the intuition of the Human Brain
                   and incentivising good actors in the network is our way of protecting against malicious attacks.
             </p>
@@ -86,10 +87,7 @@ p {
 
 img {
   width: 80%;
-  background-color: white;
   margin-bottom: 5%;
-  border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
