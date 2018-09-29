@@ -5,14 +5,14 @@
         <img src="../assets/diagram.png">
         <div class="columns blurbs-holder">
           <div class="column blurb">
-            <img src="../assets/bubble/Icon1_key.png">
+            <img src="../assets/bubble/Icon1_key.png" class="hvr-pulse-shrink">
             <p>From a technology standpoint, HIPR implements steganography, an age old cryptography process
                 to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
                   data integrity.
             </p>
           </div>
           <div class="column blurb">
-            <img src="../assets/bubble/Icon2_PoHW.png">
+            <img src="../assets/bubble/Icon2_PoHW.png" class="hvr-pulse-shrink">
             <p>As a more secure and newly implemented Consensus model, Proof of Human Work does not waste
                 electricity and resource to validate transactions. Leveraging the intuition of the Human Brain
                   and incentivising good actors in the network is our way of protecting against malicious attacks.
@@ -21,13 +21,13 @@
         </div>
         <div class="columns blurbs-holder">
           <div class="column blurb">
-            <img src="../assets/bubble/Icon4_Game.png">
+            <img src="../assets/bubble/Icon4_Game.png" class="hvr-pulse-shrink">
               <p> HIPR is built Unity3D, with C# and Solidity while targeting WebGl, NEthereum for Web3 connectivity.
           From market research we have found this Consensus model is 90% more efficient as we scale in HIPR
             players because more we entertain our community the more integrious our chain data becomes. </p>
           </div>
           <div class="column blurb">
-            <img src="../assets/bubble/Icon3_HIPR.png">
+            <img src="../assets/bubble/Icon3_HIPR.png" class="hvr-pulse-shrink">
             <p>
           Other blockchain projects with similar use cases have only considered private permissioned blockchain technology as a means to scale. 
           We believe Proof of Human Work will revolutionize the way projects can scale on public blockchain.
@@ -89,6 +89,38 @@ p {
 
 img {
   width: 40%;
+}
+
+/* * Pulse Shrink */
+
+@-webkit-keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse-shrink {
+  to {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse-shrink {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-animation-name: hvr-pulse-shrink;
+  animation-name: hvr-pulse-shrink;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 1.9s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  animation-direction: alternate;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
