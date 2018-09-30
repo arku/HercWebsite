@@ -84,20 +84,15 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/sameaton.jpg">
-                        <h2>Sam Eaton</h2>
-                        <h3>Director of Social Media</h3>
-                        <a href="https://www.linkedin.com/in/samuel-eaton-27356388/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
-                    <div class="column">
                         <img src="../assets/team/heath.jpg">
                         <h2>Heath Muchena</h2>
                         <h3>Strategic Communications</h3>
                         <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+                    </div>
+                    <div class="column">
+                        
                     </div>
                 </div>
                 <b-collapse :open="false" id="team-holder">
@@ -408,7 +403,7 @@
                     </div>
                 </div>
                 <div class="columns is-mobile">
-                    <div class="column">
+                    <div class="column is-half-mobile">
                         <img src="../assets/team/justin.jpg">
                         <h2>Justin Breen</h2>
                         <h3>Chief Creative Officer</h3>
@@ -416,24 +411,14 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    <div class="column">
-                        <img src="../assets/team/sameaton.jpg">
-                        <h2>Sam Eaton</h2>
-                        <h3>Director of Social Media</h3>
-                        <a href="https://www.linkedin.com/in/samuel-eaton-27356388/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="columns is-mobile">
                     <div class="column is-half-mobile">
-                        <img src="../assets/team/heath.jpg">
-                        <h2>Heath Muchena</h2>
-                        <h3>Strategic Communications</h3>
-                        <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
+                    <img src="../assets/team/heath.jpg">
+                    <h2>Heath Muchena</h2>
+                    <h3>Strategic Communications</h3>
+                    <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                </div>
                 </div>
                 <h4>Board of Directors</h4>
                 <div class="columns is-mobile">
