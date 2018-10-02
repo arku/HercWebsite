@@ -244,4 +244,73 @@ span {
   font-weight: bold;
   font-size: 20px;
 }
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+  #countdown {
+    width: 80%;
+  }
+
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+}
+
+@media all and (max-width: 1099px) {
+  #countdown {
+    width: 70%;
+  }
+
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+}
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+    #title, #btc, #eth {
+    font-size: 30px;
+  }
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+    #title{
+        text-align: center;
+    }
+
+    #logo{
+        margin-bottom: 10%;
+        width: 80%;
+    }
+
+    #date-holder, #countdown{
+        margin-bottom: 10%;
+    }
+
+    #coins{
+        margin-bottom: 5%;
+    }
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+    #landing-four{
+        padding: 20px;
+        padding-top: 50px;
+    }
+
+    #title, #btc, #eth {
+    font-size: 28px;
+    margin-bottom: 10%;
+  }
+}
 </style>
