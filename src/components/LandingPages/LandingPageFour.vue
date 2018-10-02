@@ -4,7 +4,7 @@
             <div class="columns">
                 <div class="column">
                     <h1 id="title">Leveraging <span id="btc">Bitcoin</span> & <span id="eth">Ethereum</span><br> Public Blockchains</h1>
-                    <img src="../../assets/herc-logo.png" id="logo">;
+                    <img src="../../assets/herc-logo.png" id="logo">
                     <h3 id="logo-subtitle">An integrated &<br> multi-layered<br> Supply Chain<br> Software Solution</h3>
                     <div id="buttons-lol">
                         <button class="left-button">Talk With Us</button>
@@ -144,12 +144,13 @@ p {
   font-size: 35px;
   text-shadow: 2px 2px black;
   text-align: left;
+  margin-bottom: 10%;
 }
 
 #logo {
-  width: 40%;
+  width: 60%;
   margin: auto;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
 }
 
 #btc,
