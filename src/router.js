@@ -9,6 +9,7 @@ import CareersSection from './views/Careers.vue'
 import TokenInfo from './views/TokenInfo.vue';
 import Landing from './views/Landing.vue';
 import LandingTwo from './views/LandingTwo.vue';
+import LandingThree from './views/LandingThree.vue';
 
 
 Vue.use(Router);
@@ -66,6 +67,11 @@ export default new Router({
         path: '/landing2',
         name: 'landing2',
         component: LandingTwo
+    },
+    {
+        path: '/landing3',
+        name: 'landing3',
+        component: LandingThree
     }
     ],
 });

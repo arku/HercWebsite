@@ -2,7 +2,7 @@
   <div id="video-section">
       <div id="content">
         <h1>How Hercules Works <br>Using Human Initiated Performance Reporting (HIPR)</h1>
-        <img src="../assets/diagram.png">
+        <img src="../assets/diagram.png" id="diagram">
         <div class="columns blurbs-holder">
           <div class="column blurb">
             <img src="../assets/bubble/Icon1_key.png" class="hvr-pulse-shrink">
@@ -65,7 +65,6 @@ h1 {
   text-align: center;
   color: white;
   text-transform: uppercase;
-  margin-bottom: 5%;
   font-weight: bold;
 }
 
@@ -89,6 +88,10 @@ p {
 
 img {
   width: 40%;
+}
+
+#diagram{
+  width: 60%;
 }
 
 /* * Pulse Shrink */
@@ -182,8 +185,8 @@ img {
     padding: 0 !important;
   }
 
-  #diagram-holder {
-    width: 100%;
+  #diagram {
+    width: 90%;
     margin-bottom: 10%;
   }
 }

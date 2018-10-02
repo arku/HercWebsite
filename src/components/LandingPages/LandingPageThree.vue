@@ -1,0 +1,197 @@
+<template>
+    <div id="landing-three">
+        <div id="content">
+            <div class="columns">
+                <div class="column">
+                    <img src="../../assets/people-computing.png" id="people">
+                    <h2>About HERC</h2>
+                <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
+                  management software that utlizes public blockchains.
+                </p>
+                <p>The Hercules platform is decentralized and powered by HERC tokens which
+                  are required to record and validate the supply chain data
+                </p>
+                </div>
+                <div class="column">
+                    <h1 id="title">Global Expert Team</h1>
+                    <h1 id="subtitle">Building Worldclass Solutions</h1>
+                    <img src="../../assets/herc-logo.png" id="logo">
+                    <h1 id="logo-subtitle">A Blockchain <br>Supply Chain Solution</h1>
+                    <div id="buttons-lol">
+                        <button class="left-button">Talk With Us</button>
+                        <button>Join Token Sale</button>
+                        <button class="right-button">Read Whitepaper</button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+export default {
+  name: "LandingPageThree"
+};
+</script>
+
+<style>
+#landing-three {
+  padding: 50px;
+  background-color: #091141;
+}
+
+#people {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+h1 {
+  color: #f3c736;
+  font-size: 40px;
+  /* font-weight: bold; */
+  text-transform: uppercase;
+  line-height: 1.2em;
+  margin-bottom: 5%;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 2%;
+  width: 80%;
+}
+
+p {
+  color: white;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 2%;
+  width: 80%;
+}
+
+#title {
+  font-size: 45px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  margin-bottom: 0;
+}
+
+#subtitle {
+  font-size: 28px;
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+#logo {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+#logo-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px black;
+  margin-bottom: 5%;
+}
+
+button {
+  background-color: #f3c736;
+  border: 2px solid #f3c736;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #091141;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #f3c736;
+  border: 2px solid #f3c736;
+}
+
+.left-button {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.right-button {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+}
+
+@media all and (max-width: 1099px) {
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+
+  br {
+    display: none;
+  }
+
+  #landing-three {
+    padding: 50px;
+  }
+}
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+  #landing-three {
+    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  br {
+    display: none;
+  }
+
+  #logo {
+    width: 80%;
+  }
+
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+}
+</style>

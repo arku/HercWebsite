@@ -1,7 +1,7 @@
 <template>
-    <div class="landing-two">
+    <div class="landing-three">
         <NavBar></NavBar>
-        <LandingPageTwo></LandingPageTwo>
+        <LandingPageThree></LandingPageThree>
         <FooterSection></FooterSection>
         <back-to-top bottom="100px" right="10px">
           <button type="button" class="btn btn-info btn-to-top"><i class="fa fa-chevron-up"></i></button>
@@ -9,15 +9,15 @@
     </div>
 </template>
 <script>
-import LandingPageTwo from "@/components/LandingPages/LandingPageTwo.vue";
+import LandingPageThree from "@/components/LandingPages/LandingPageThree.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import NavBar from "@/components/NavBar.vue";
 
 export default {
-  name: "LandingTwo",
+  name: "LandingThree",
   components: {
     NavBar,
-    LandingPageTwo,
+    LandingPageThree,
     FooterSection
   }
 };

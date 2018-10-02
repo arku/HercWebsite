@@ -47,7 +47,6 @@
                 </p>
               </div>
             </div>
-            <!-- <img id="payment-methods" src="../../assets/paymentmethods.png"> -->
         </div>
     </div>
 </template>
