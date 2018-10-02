@@ -37,11 +37,8 @@ export default {
 <style scoped>
 #landing-three {
   padding: 50px;
-  background-color: #091141;
-  background-image: url('../../assets/landing-pages/bg-layer.png');
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: contain;
+  background-image: url('../../assets/landing-pages/testbg.png');
+  background-size: cover;
 }
 
 #people {
