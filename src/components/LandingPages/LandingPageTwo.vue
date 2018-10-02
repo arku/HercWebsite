@@ -7,7 +7,7 @@
                     <h2>Beyond the Legendary Gold Legacy Comes a Transformation of Global
                         Value Chains</h2>
                     <h1>Welcome to supply Chain Management on The Blockchain!</h1>
-                    <img src="../../assets/guy.png" id="guy">
+                    <img src="../../assets/landing-pages/guy.png" id="guy">
                 </div>
                 <div class="column">
                   <div id="countdown">
@@ -82,10 +82,10 @@ var x = setInterval(function() {
 
   // Output the result in an element with id="demo"
 
-  document.getElementById("days").innerHTML = days;
-  document.getElementById("hours").innerHTML = hours;
-  document.getElementById("minutes").innerHTML = minutes;
-  document.getElementById("seconds").innerHTML = seconds;
+  // document.getElementById("days").innerHTML = days;
+  // document.getElementById("hours").innerHTML = hours;
+  // document.getElementById("minutes").innerHTML = minutes;
+  // document.getElementById("seconds").innerHTML = seconds;
 
   // If the count down is over, write some text
   if (distance < 0) {
@@ -97,7 +97,7 @@ var x = setInterval(function() {
 
 <style scoped>
 #landing-two {
-  background-image: url("../../assets/gradient-image-bg.png");
+  background-image: url("../../assets/landing-pages/gradient-image-bg.png");
   background-size: cover;
   background-color: #091141;
 }

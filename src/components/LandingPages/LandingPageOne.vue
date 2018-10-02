@@ -9,7 +9,7 @@
                 <div>
                   <div id="buttons-lol">
                     <button class="left-button">Talk With Us</button>
-                    <button class="">Join Token Sale</button>
+                    <button>Join Token Sale</button>
                     <button class="right-button">Read Whitepaper</button>
                   </div>
                   <h2 class="date-info">15 October 2018. 12:00 PST</h2>
@@ -37,7 +37,7 @@
                 </div>
               </div>
               <div class="column">
-                <img src="../../assets/people-group.png">
+                <img src="../../assets/landing-pages/people-group.png">
                 <h2>About HERC</h2>
                 <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
                   management software that utlizes public blockchains.
@@ -75,10 +75,10 @@ var x = setInterval(function() {
 
   // Output the result in an element with id="demo"
 
-  document.getElementById("days").innerHTML = days;
-  document.getElementById("hours").innerHTML = hours;
-  document.getElementById("minutes").innerHTML = minutes;
-  document.getElementById("seconds").innerHTML = seconds;
+  // document.getElementById("days").innerHTML = days;
+  // document.getElementById("hours").innerHTML = hours;
+  // document.getElementById("minutes").innerHTML = minutes;
+  // document.getElementById("seconds").innerHTML = seconds;
 
   // If the count down is over, write some text
   if (distance < 0) {

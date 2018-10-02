@@ -3,16 +3,6 @@
         <div id="content">
             <div class="columns">
                 <div class="column">
-                    <img src="../../assets/people-computing.png" id="people">
-                    <h2>About HERC</h2>
-                <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
-                  management software that utlizes public blockchains.
-                </p>
-                <p>The Hercules platform is decentralized and powered by HERC tokens which
-                  are required to record and validate the supply chain data
-                </p>
-                </div>
-                <div class="column">
                     <h1 id="title">Global Expert Team</h1>
                     <h1 id="subtitle">Building Worldclass Solutions</h1>
                     <img src="../../assets/herc-logo.png" id="logo">
@@ -22,6 +12,16 @@
                         <button>Join Token Sale</button>
                         <button class="right-button">Read Whitepaper</button>
                   </div>
+                </div>
+                <div class="column">
+                    <img src="../../assets/landing-pages/people-computing.png" id="people">
+                    <h2>About HERC</h2>
+                <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
+                  management software that utlizes public blockchains.
+                </p>
+                <p>The Hercules platform is decentralized and powered by HERC tokens which
+                  are required to record and validate the supply chain data
+                </p>
                 </div>
             </div>
         </div>
@@ -34,10 +34,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 #landing-three {
   padding: 50px;
   background-color: #091141;
+  background-image: url('../../assets/landing-pages/bg-layer.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
 }
 
 #people {
