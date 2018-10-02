@@ -61,38 +61,42 @@
 
 <script>
 export default {
-  name: "LandingPageTwo"
-};
-// Set the date we're counting down to
-var countDownDate = new Date("Oct 15, 2018 21:00:00").getTime();
+  name: "LandingPageTwo",
+  mounted() {
+    // Set the date we're counting down to
+    var countDownDate = new Date("Oct 15, 2018 21:00:00").getTime();
 
-// Update the count down every 1 second
-var x = setInterval(function() {
-  // Get todays date and time
-  var now = new Date().getTime();
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+      // Get todays date and time
+      var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor(
+        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+      );
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Output the result in an element with id="demo"
+      // Output the result in an element with id="demo"
 
-  // document.getElementById("days").innerHTML = days;
-  // document.getElementById("hours").innerHTML = hours;
-  // document.getElementById("minutes").innerHTML = minutes;
-  // document.getElementById("seconds").innerHTML = seconds;
+      document.getElementById("days").innerHTML = days;
+      document.getElementById("hours").innerHTML = hours;
+      document.getElementById("minutes").innerHTML = minutes;
+      document.getElementById("seconds").innerHTML = seconds;
 
-  // If the count down is over, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+      // If the count down is over, write some text
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
   }
-}, 1000);
+};
 </script>
 
 <style scoped>
@@ -131,10 +135,9 @@ p {
   font-weight: bold;
 }
 
-.p-tune{
+.p-tune {
   margin-left: 20%;
-    width: 80%;
-
+  width: 80%;
 }
 
 span {
@@ -275,75 +278,76 @@ button:hover {
     margin-top: 20% !important;
   }
 
-  #shape-section{
-      background-color: white;
-      margin-top: 50px;
+  #shape-section {
+    background-color: white;
+    margin-top: 50px;
   }
 
-  #guy{
-      display: none;
+  #guy {
+    display: none;
   }
 
-  #first-section{
+  #first-section {
     padding: 50px;
   }
 
-  h1{
+  h1 {
     font-size: 30px;
   }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-    button{
-        margin: 1%;
-    }
+  button {
+    margin: 1%;
+  }
 
-    #buttons-lol {
+  #buttons-lol {
     margin-top: 50%;
   }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    #buttons-lol{
-        margin-top: 5%;
-    }
+  #buttons-lol {
+    margin-top: 5%;
+  }
 
-    h1{
-      font-size: 30px;
-    }
+  h1 {
+    font-size: 30px;
+  }
 
-    h2,p{
-        text-align: center;
-        width: 100%;
-        margin: auto;
-        margin-bottom: 5%;
-    }
+  h2,
+  p {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5%;
+  }
 
-    #about-text{
-        margin-top: 0;
-        margin-bottom: 1%;
-    }
+  #about-text {
+    margin-top: 0;
+    margin-bottom: 1%;
+  }
 
-    #shape-section{
-        padding-bottom: 50px;
-    }
+  #shape-section {
+    padding-bottom: 50px;
+  }
 
-    #first-section{
-      padding: 20px;
-    }
+  #first-section {
+    padding: 20px;
+  }
 
-    #countdown{
-      width: 100%;
-    }
+  #countdown {
+    width: 100%;
+  }
 
-    .countdown-size{
-      width: 100%;
-      background-color: transparent;
-    }
+  .countdown-size {
+    width: 100%;
+    background-color: transparent;
+  }
 
-    #demo{
-      display: none;
-    }
+  #demo {
+    display: none;
+  }
 }
 
 /*** Responsive Styles Smartphone Portrait ***/
