@@ -27,7 +27,7 @@
                     are required to record and validate the supply chain data
                     </p>
                     <div id="date-wrapper">
-                        <p id="date-holder">TGE Starts<br><span id="date-span">15 October 2018, 12:00PST</span></p>
+                        <p id="date-holder">TGE Starts<br><span id="date-span">29 October 2018, 12:00PST</span></p>
                         <div id="countdown">
                       <div class="columns countdown-size is-mobile">
                         <div class="column">
@@ -60,7 +60,7 @@ export default {
   name: "LandingPageFive",
   mounted() {
     // Set the date we're counting down to
-    var countDownDate = new Date("Oct 15, 2018 21:00:00").getTime();
+    var countDownDate = new Date("Oct 29, 2018 21:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
@@ -187,20 +187,17 @@ button:hover {
   background-color: #091141;
   border: 3px solid #f3c736;
   border-radius: 10px;
-  border-bottom: 0;
-  border-right: 0;
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
-  margin-right: -50px;
   padding: 50px;
   margin-top: 5%;
-}
+  }
 
 #date-holder {
   font-size: 24px;
   text-align: left;
   color: white;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 5%;
 }
 
 #date-span {
@@ -212,13 +209,13 @@ button:hover {
 #hours,
 #minutes,
 #seconds {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   text-align: center !important;
   font-size: 30px;
   font-weight: bold;
   color: #091141;
   line-height: 1em;
+  width: 100%;
 }
 
 .countdown-size {
@@ -226,18 +223,23 @@ button:hover {
   width: 100%;
 }
 
-.countdown-size .column{
-    padding: 10px !important;
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-
+.countdown-size .column {
+  padding: 10px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
 }
 
 #countdown {
   background-color: #f3c736;
-  width: 100%;
   margin: auto;
+  width: 60%;
   box-shadow: 0px 12px 18px -6px #000;
   margin-bottom: 5%;
+}
+
+span {
+  color: #091141;
+  font-size: 12px;
+  font-weight: bold;
 }
 </style>

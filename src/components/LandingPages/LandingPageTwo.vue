@@ -14,7 +14,7 @@
                     <p id="demo"></p>
                     <div id="title-holder">
                     <h2 id="tge" class="date-info">TGE Starts</h2>
-                    <h2 class="date-info">15 October 2018. 12:00 PST</h2>
+                    <h2 class="date-info">29 October 2018. 12:00 PST</h2>
                     </div>
                       <div class="columns countdown-size is-mobile">
                         <div class="column">
@@ -64,7 +64,7 @@ export default {
   name: "LandingPageTwo",
   mounted() {
     // Set the date we're counting down to
-    var countDownDate = new Date("Oct 15, 2018 21:00:00").getTime();
+    var countDownDate = new Date("Oct 29, 2018 21:00:00").getTime();
 
     // Update the count down every 1 second
     var x = setInterval(function() {
