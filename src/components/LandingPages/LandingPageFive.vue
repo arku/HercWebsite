@@ -18,7 +18,7 @@
                         <button class="right-button">Read Whitepaper</button>
                   </div>
                 </div>
-                <div class="column">
+                <div class="column" id="druga">
                     <h2>About HERC</h2>
                     <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
                     management software that utlizes public blockchains.
@@ -134,6 +134,7 @@ p {
 .custom {
   background-image: url("../../assets/landing-pages/town-bg.png");
   background-size: cover;
+  margin: 0 !important;
 }
 
 .column {
@@ -189,7 +190,7 @@ button:hover {
   border-radius: 10px;
   padding: 50px;
   margin-top: 5%;
-  }
+}
 
 #date-holder {
   font-size: 24px;
@@ -241,5 +242,92 @@ span {
   color: #091141;
   font-size: 12px;
   font-weight: bold;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+  #countdown,
+  #date-holder {
+    width: 80%;
+  }
+
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+}
+
+@media all and (max-width: 1099px) {
+  #countdown,
+  #date-holder {
+    width: 100%;
+  }
+
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+}
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+  #date-holder {
+    text-align: center;
+  }
+
+  h2{
+      margin-top: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  #logo {
+    margin-bottom: 10%;
+    width: 80%;
+  }
+
+  #date-holder,
+  #countdown {
+    margin-bottom: 10%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    color: #091141;
+  }
+
+  #druga{
+      padding: 30px !important;
+  }
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+  #title {
+    font-size: 30px;
+    line-height: 1.2em;
+  }
+
+  #date-wrapper {
+    padding: 20px;
+  }
 }
 </style>
