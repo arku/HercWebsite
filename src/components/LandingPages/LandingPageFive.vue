@@ -1,11 +1,17 @@
 <template>
-    <div id="landing-four">
+    <div id="landing-five">
         <div id="content">
-            <div class="columns">
+            <div id="title-div">
+                <h1 id="title">Follow an Asset through its Lifecycle</h1>
+            </div>
+            <div class="columns custom">
                 <div class="column">
-                    <h1 id="title">Leveraging <span id="btc">Bitcoin</span> & <span id="eth">Ethereum</span><br> Public Blockchains</h1>
                     <img src="../../assets/herc-logo.png" id="logo">
-                    <h3 id="logo-subtitle">An integrated &<br> multi-layered<br> Supply Chain<br> Software Solution</h3>
+                    <h3>Helping Eradicate<br> Racketeering & Collusion</h3>
+                    <p id="info">*Hercules decentralized supply chain management
+                        software enables users to create a permanent and shared record
+                        that provides immutability, and more importantly, trust for the consumer.
+                    </p>
                     <div id="buttons-lol">
                         <button class="left-button">Talk With Us</button>
                         <button>Join Token Sale</button>
@@ -13,8 +19,16 @@
                   </div>
                 </div>
                 <div class="column">
-                    <p id="date-holder">TGE Starts<br><span id="date-span">15 October 2018, 12:00PST</span></p>
-                    <div id="countdown">
+                    <h2>About HERC</h2>
+                    <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
+                    management software that utlizes public blockchains.
+                    </p>
+                    <p>The Hercules platform is decentralized and powered by HERC tokens which
+                    are required to record and validate the supply chain data
+                    </p>
+                    <div id="date-wrapper">
+                        <p id="date-holder">TGE Starts<br><span id="date-span">15 October 2018, 12:00PST</span></p>
+                        <div id="countdown">
                       <div class="columns countdown-size is-mobile">
                         <div class="column">
                           <p id="days"></p>
@@ -34,15 +48,7 @@
                         </div>       
                       </div>
                   </div>
-                  <img src="../../assets/landing-pages/coins.png" id="coins">
-                  <h4>Powered by <span id="herc-bold">HERC</span> tokens</h4>
-                  <h2>About HERC</h2>
-                <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
-                  management software that utlizes public blockchains.
-                </p>
-                <p>The Hercules platform is decentralized and powered by HERC tokens which
-                  are required to record and validate the supply chain data
-                </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -51,7 +57,7 @@
 
 <script>
 export default {
-  name: "LandingPageFour",
+  name: "LandingPageFive",
   mounted() {
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 15, 2018 21:00:00").getTime();
@@ -90,73 +96,62 @@ export default {
 </script>
 
 <style scoped>
-#landing-four {
-  padding: 50px;
-  background-image: url("../../assets/landing-pages/tribg.png");
-  background-size: cover;
+#title-div {
+  background-color: #091141;
+  padding: 30px;
+  border-bottom: 5px solid #f3c736;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
-h1 {
+#title {
   color: #f3c736;
-  font-size: 40px;
-  text-transform: uppercase;
-  line-height: 1.2em;
-  margin-bottom: 5%;
+  font-size: 50px;
 }
 
 h2 {
   font-size: 20px;
   font-weight: bold;
-  color: white;
+  color: #091141;
   text-align: left;
   margin: auto;
   margin-bottom: 2%;
-  width: 80%;
+  margin-top: 5%;
 }
 
 h3 {
-  font-size: 18px;
-  color: #f3c736;
-  font-weight: bold;
-  text-shadow: 2px 2px black;
-  text-transform: uppercase;
+  color: #091141;
+  font-size: 30px;
   line-height: 1.2em;
   margin-bottom: 5%;
 }
 
-h4 {
-  color: #f3c736;
-  text-transform: uppercase;
-  font-size: 20px;
-  margin-bottom: 5%;
-}
-
 p {
-  color: white;
   text-align: left;
-  margin: auto;
   margin-bottom: 2%;
   width: 80%;
 }
 
-#title {
-  font-size: 35px;
-  text-shadow: 2px 2px black;
-  text-align: left;
-  margin-bottom: 10%;
+.custom {
+  background-image: url("../../assets/landing-pages/town-bg.png");
+  background-size: cover;
+}
+
+.column {
+  padding: 50px !important;
 }
 
 #logo {
-  width: 60%;
+  width: 50%;
   margin: auto;
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 
-#btc,
-#eth {
-  font-weight: bold;
-  font-size: 35px;
-  color: #f3c736;
+#info {
+  margin: auto;
+  margin-bottom: 5%;
+  color: #091141;
+  text-align: center;
 }
 
 button {
@@ -173,7 +168,7 @@ button {
 }
 
 button:hover {
-  background-color: transparent;
+  background-color: #091141;
   color: #f3c736;
   border: 2px solid #f3c736;
 }
@@ -188,24 +183,29 @@ button:hover {
   border-bottom-right-radius: 10px;
 }
 
-#date-holder {
-  font-size: 24px;
-  text-align: center;
+#date-wrapper {
+  background-color: #091141;
+  border: 3px solid #f3c736;
+  border-radius: 10px;
+  border-bottom: 0;
+  border-right: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  margin-right: -50px;
+  padding: 50px;
+  margin-top: 5%;
 }
 
-#date-span {
-  font-weight: bold;
+#date-holder {
   font-size: 24px;
+  text-align: left;
   color: white;
 }
 
-span {
-  color: #091141;
-  font-size: 12px;
-}
-
-#demo {
-  text-align: center;
+#date-span {
+  font-size: 24px;
+  color: white;
 }
 
 #days,
@@ -226,91 +226,18 @@ span {
   width: 100%;
 }
 
+.countdown-size .column{
+    padding: 10px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+}
+
 #countdown {
   background-color: #f3c736;
-  width: 50%;
+  width: 100%;
   margin: auto;
   box-shadow: 0px 12px 18px -6px #000;
   margin-bottom: 5%;
-}
-
-#coins {
-  width: 60%;
-  margin: auto;
-}
-
-#herc-bold {
-  color: #f3c736;
-  font-weight: bold;
-  font-size: 20px;
-}
-
-/*** Responsive Styles Large Desktop And Above ***/
-@media all and (min-width: 1405px) {
-}
-/*** Responsive Styles Standard Desktop Only ***/
-@media all and (min-width: 1100px) and (max-width: 1405px) {
-  #countdown {
-    width: 80%;
-  }
-
-  .left-button,
-  .right-button {
-    border-radius: 0;
-    margin: 5%;
-  }
-}
-
-@media all and (max-width: 1099px) {
-  #countdown {
-    width: 70%;
-  }
-
-  .left-button,
-  .right-button {
-    border-radius: 0;
-    margin: 5%;
-  }
-}
-
-/*** Responsive Styles Tablet And Below ***/
-@media all and (max-width: 980px) {
-    #title, #btc, #eth {
-    font-size: 30px;
-  }
-}
-/*** Responsive Styles Tablet Only ***/
-@media all and (min-width: 768px) and (max-width: 980px) {
-}
-/*** Responsive Styles Smartphone Only ***/
-@media all and (max-width: 767px) {
-    #title{
-        text-align: center;
-    }
-
-    #logo{
-        margin-bottom: 10%;
-        width: 80%;
-    }
-
-    #date-holder, #countdown{
-        margin-bottom: 10%;
-    }
-
-    #coins{
-        margin-bottom: 5%;
-    }
-}
-/*** Responsive Styles Smartphone Portrait ***/
-@media all and (max-width: 479px) {
-    #landing-four{
-        padding: 20px;
-        padding-top: 50px;
-    }
-
-    #title, #btc, #eth {
-    font-size: 28px;
-    margin-bottom: 10%;
-  }
 }
 </style>
