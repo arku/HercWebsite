@@ -15,6 +15,7 @@ import LandingFive from './views/LandingFive.vue';
 import LandingSix from './views/LandingSix.vue';
 import LandingSeven from './views/LandingSeven.vue';
 import LandingEight from './views/LandingEight.vue';
+import LandingNine from './views/LandingNine.vue';
 
 Vue.use(Router);
 
@@ -101,6 +102,11 @@ export default new Router({
         path: '/landing8',
         name: 'landing8',
         component: LandingEight
+    },
+    {
+        path: '/landing9',
+        name: 'landing9',
+        component: LandingNine
     }
     ],
 });

@@ -108,6 +108,7 @@ export default {
 #landing-eight {
   padding: 50px;
   background-image: url("../../assets/landing-pages/blue-bg.png");
+  background-size: cover;
 }
 
 #title {
@@ -193,7 +194,6 @@ span {
 
 img {
   width: 40%;
-  
 }
 
 #info {
@@ -228,5 +228,104 @@ button:hover {
 .right-button {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+  #countdown,
+  #date-holder {
+    width: 100%;
+  }
+
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+}
+
+@media all and (max-width: 1099px) {
+  #countdown,
+  #date-holder {
+    width: 100%;
+  }
+
+  .left-button,
+  .right-button {
+    border-radius: 0;
+    margin: 5%;
+  }
+
+  .columns {
+    width: 100% !important;
+  }
+}
+
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+  img {
+    width: 100%;
+  }
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+  #landing-eight {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  #date-holder {
+    text-align: center;
+  }
+
+  h2 {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  #title {
+    text-align: center;
+    line-height: 1.2em;
+    margin-bottom: 10%;
+  }
+
+  img {
+    margin-bottom: 10%;
+    width: 80%;
+  }
+
+  #date-holder,
+  #countdown {
+    margin-bottom: 10%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    color: white;
+  }
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
+  #title {
+    font-size: 30px;
+    line-height: 1.2em;
+  }
 }
 </style>
