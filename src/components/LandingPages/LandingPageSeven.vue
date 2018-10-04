@@ -1,5 +1,5 @@
 <template>
-    <div id="landing-six">
+    <div id="landing-seven">
         <div id="content">
             <h1 id="title">Identify the <b>Origin</b> and <b>Characteristics</b> of a Product and <b>Locate Wherever It Is in the Supply Chain</b></h1>
             <div class="columns">
@@ -51,7 +51,7 @@
 
 <script>
 export default {
-  name: "LandingPageSix",
+  name: "LandingPageSeven",
   mounted() {
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 21:00:00").getTime();
@@ -90,7 +90,7 @@ export default {
 </script>
 
 <style scoped>
-#landing-six {
+#landing-seven {
   padding: 50px;
   padding-left: 100px;
   background-image: url("../../assets/landing-pages/blue-bg.png");
@@ -263,7 +263,7 @@ span {
     width: 100%;
   }
 
-  #landing-six {
+  #landing-seven {
     padding: 50px;
   }
 }
@@ -272,7 +272,7 @@ span {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  #landing-six {
+  #landing-seven {
     padding-left: 20px;
     padding-right: 20px;
   }
