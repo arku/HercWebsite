@@ -86,7 +86,7 @@
                     <div class="column">
                         <img src="../assets/team/heath.jpg">
                         <h2>Heath Muchena</h2>
-                        <h3>Strategic Communications</h3>
+                        <h3>Content Director</h3>
                         <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -414,7 +414,7 @@
                     <div class="column is-half-mobile">
                     <img src="../assets/team/heath.jpg">
                     <h2>Heath Muchena</h2>
-                    <h3>Strategic Communications</h3>
+                    <h3>Content Director</h3>
                     <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
                         <i class="fab fa-linkedin fa-2x"></i>
                     </a>
