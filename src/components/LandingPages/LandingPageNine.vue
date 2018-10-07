@@ -357,9 +357,9 @@ button:hover {
     color: white;
   }
 
-  #info{
-      text-align: center;
-      width: 100%;
+  #info {
+    text-align: center;
+    width: 100%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
