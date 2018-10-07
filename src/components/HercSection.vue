@@ -5,13 +5,12 @@
             <div class="column">
                     <h1>What is Hercules?</h1>
                     <p>
-                        Hercules is a decentralised blockchain protocol platform that
-                         enables anyone to operate a fully functioning supply chain that
-                          utilises Proof of Human Work to validate transactions. Developed
-                           and Advisised by founders of Ethereum, Factom, Storj, Abra Wallet,
-                            Edge Security, Waves, Transform, and Blockchain Exchange, the world's
-                             leading blockchain organisations, Hercules is designed to serve
-                              120+ million businesses a year already managing their supply chain.
+                        Hercules is a decentralised blockchain protocol platform that enables anyone to operate
+                         a fully functioning supply chain that utilises Proof of Human Work to validate transactions
+                         . Developed and Advised by founders of Ethereum, Factom, Storj, Abra Wallet, Edge Security,
+                          Waves, Transform, and Blockchain Exchange, the world's leading blockchain organisations,
+                           Hercules is designed to serve 120+ million businesses a year already managing their supply 
+                           chain as well as billions of aspiring entrepreneurs.
                     </p>
                   </div>
           </div>
