@@ -96,6 +96,11 @@ export default {
   background-color: #091141;
 }
 
+/* #content {
+  max-width: 1080px;
+  margin: auto;
+} */
+
 h1 {
   color: #f3c736;
   font-size: 40px;

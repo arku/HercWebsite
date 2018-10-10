@@ -55,6 +55,11 @@ export default {
   background-color: #091141;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 .blurbs-holder {
   padding-left: 100px !important;
   padding-right: 100px !important;
@@ -90,8 +95,8 @@ img {
   width: 40%;
 }
 
-#diagram{
-  width: 60%;
+#diagram {
+  width: 70%;
 }
 
 /* * Pulse Shrink */

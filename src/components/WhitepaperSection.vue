@@ -3,7 +3,7 @@
         <div id="content">
             <div>
                 <h1>Whitepaper</h1>
-                <p>Please click on your preferred language. Languages are ordered alphabetically.</p>
+                <!-- <p>Please click on your preferred language. Languages are ordered alphabetically.</p> -->
             </div>
             <div class="columns">
                 <!-- <div class="column">
@@ -80,8 +80,14 @@ export default {
 #whitepaper-section {
   padding: 100px;
   padding-top: 50px;
-  padding-left:50px;
+  padding-left: 50px;
   padding-right: 50px;
+  background-color: #091141;
+}
+
+#content {
+  max-width: 1080px;
+  margin: auto;
 }
 
 h1 {

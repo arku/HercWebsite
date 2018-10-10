@@ -206,6 +206,11 @@ export default {
   padding: 50px;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 #policy-section h1 {
   font-size: 45px;
   color: #091141;

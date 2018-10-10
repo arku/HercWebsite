@@ -23,8 +23,9 @@ export default {
 
 <style scoped>
 #content {
+  max-width: 1080px;
+  margin: auto;
   padding: 50px;
-  background-color: #fafafa;
 }
 
 h1 {
@@ -38,7 +39,6 @@ h1 {
 }
 
 img {
-  
   border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
 }
@@ -57,17 +57,17 @@ img {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    img{
-        width: 100%;
-    }
+  img {
+    width: 100%;
+  }
 
-    h1{
-        font-size: 24px;
-    }
+  h1 {
+    font-size: 24px;
+  }
 
-    br{
-        display: none;
-    }
+  br {
+    display: none;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {

@@ -69,9 +69,14 @@ export default {
   padding-right: 150px;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 .blurb {
   background-color: #fafafa !important;
-  height: 320px !important;
+  height: 350px !important;
   margin: 3%;
   margin-bottom: auto;
   padding: 10px;
@@ -163,6 +168,17 @@ img {
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
+  }
+}
+
+@media all and (max-width: 1099px) {
+  .blurb-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .blurb-text {
+    line-height: 1.1em;
   }
 }
 

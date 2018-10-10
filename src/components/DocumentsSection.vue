@@ -27,6 +27,11 @@ export default {
   background-color: #fafafa;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 img {
   width: 25%;
   border: 3px solid #f3c736;

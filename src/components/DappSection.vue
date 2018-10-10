@@ -22,6 +22,11 @@ export default {
   background-color: #091141;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 h1 {
   color: #f3c736;
   font-weight: bold;
@@ -44,22 +49,22 @@ video {
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-video{
+  video {
     width: 50%;
-}
+  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    video{
-        width: 90%;
-    }
+  video {
+    width: 90%;
+  }
 
-    h1{
-        font-size: 30px;
-    }
+  h1 {
+    font-size: 30px;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {

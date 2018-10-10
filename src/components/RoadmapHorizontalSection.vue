@@ -174,6 +174,12 @@ export default {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 h1 {
   font-size: 45px;
   text-align: center;
@@ -206,7 +212,7 @@ i {
   margin-bottom: 15%;
 }
 
-.done{
+.done {
   color: green !important;
 }
 
@@ -373,8 +379,7 @@ article img {
 #slide3:checked ~ #commands label:nth-child(2),
 #slide4:checked ~ #commands label:nth-child(3),
 #slide5:checked ~ #commands label:nth-child(4) {
-  background: url("../assets/left.png")
-    no-repeat;
+  background: url("../assets/left.png") no-repeat;
   float: left;
   margin: 0 0 0 -20px;
   display: block;

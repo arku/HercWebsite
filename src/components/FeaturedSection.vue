@@ -2,23 +2,23 @@
     <div id="featured-section">
         <div id="content">
             <h1>As featured on:</h1>
-        </div>
-        <div class="columns">
-          <div class="column">
-            <a href="https://www.bloomberg.com/europe" target="_blank">
-              <img src="../assets/partners/bloomberg.png">
-            </a>
-          </div>
-          <div class="column">
-            <a href="https://www.tdameritrade.com/home.page" target="_blank">
-              <img src="../assets/partners/amtd.png">
-            </a>
-          </div>
-          <div class="column">
-            <a href="https://www.americanbanker.com/" target="_blank">
-              <img src="../assets/partners/americanbanker.png">
-            </a>
-          </div>
+            <div class="columns">
+              <div class="column">
+                <a href="https://www.bloomberg.com/europe" target="_blank">
+                  <img src="../assets/partners/bloomberg.png">
+                </a>
+              </div>
+              <div class="column">
+                <a href="https://www.tdameritrade.com/home.page" target="_blank">
+                  <img src="../assets/partners/amtd.png">
+                </a>
+              </div>
+              <div class="column">
+                <a href="https://www.americanbanker.com/" target="_blank">
+                  <img src="../assets/partners/americanbanker.png">
+                </a>
+              </div>
+            </div>
         </div>
     </div>
 </template>
@@ -32,6 +32,11 @@ export default {
   padding: 50px;
   padding-left: 150px;
   padding-right: 150px;
+}
+
+#content {
+  max-width: 1080px;
+  margin: auto;
 }
 
 h1 {

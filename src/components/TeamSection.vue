@@ -673,6 +673,11 @@ export default {
   background-color: #fafafa;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 #team-section img {
   border: 4px solid #f3c736;
 }

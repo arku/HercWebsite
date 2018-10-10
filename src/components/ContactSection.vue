@@ -65,6 +65,11 @@ export default {
   background-color: #fafafa;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 #contact-section img {
   margin: auto;
   transition: transform 0.2s;

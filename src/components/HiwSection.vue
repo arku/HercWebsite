@@ -25,6 +25,11 @@ export default {
   padding-top: 0px;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 h1 {
   font-size: 40px;
   color: #f3c736;

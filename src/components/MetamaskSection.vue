@@ -80,7 +80,7 @@ export default {
 }
 
 #content {
-  width: 80%;
+  max-width: 1080px;
   margin: auto;
 }
 

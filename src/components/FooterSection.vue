@@ -74,6 +74,11 @@ export default {
   background-color: #091141;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 #footer-section img {
   margin-bottom: 5%;
   width: 30%;

@@ -57,6 +57,11 @@ export default {
   background-color: #fafafa;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 h1 {
   font-size: 30px;
   color: #091141;

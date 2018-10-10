@@ -50,6 +50,11 @@ export default {
   border-bottom: 2px solid #f3c736;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 .title {
   color: #f3c736;
   text-transform: none;
