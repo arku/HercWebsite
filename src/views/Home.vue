@@ -2,6 +2,7 @@
     <div class="home">
         <NavBar></NavBar>
         <TopSection></TopSection>
+        <CountdownSection></CountdownSection>
         <HiwSection></HiwSection>
         <CommunitySection></CommunitySection>
         <BlurbSection></BlurbSection>
@@ -52,7 +53,7 @@ import BubbleSection from "@/components/BubbleSection.vue";
 import UseCaseSection from "@/components/UseCaseSection.vue";
 import DappSection from "@/components/DappSection.vue";
 import HiwSection from "@/components/HiwSection.vue";
-
+import CountdownSection from "@/components/CountdownSection.vue";
 
 export default {
   name: "home",
@@ -79,7 +80,8 @@ export default {
     FooterSection,
     TeamSection,
     DappSection,
-    HiwSection
+    HiwSection,
+    CountdownSection
   }
 };
 </script>
