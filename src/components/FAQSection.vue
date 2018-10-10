@@ -114,6 +114,17 @@
                         </div>
                     </div>
                 </b-collapse>
+                <b-collapse :open="false" id="faq-holder">
+                    <div slot="trigger" class="question">
+                        <p>Which countries are allowed to purchase HERC tokens?</p>
+                    </div>
+                    <div class="notification answer">
+                        <div class="content">
+                            <p>Here is a map of locations that are allowed to purchase HERC tokens</p>
+                            <img src="../assets/Jurisdictions.png">
+                        </div>
+                    </div>
+                </b-collapse>
             </section>
         </div>
     </div>
