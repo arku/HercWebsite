@@ -83,7 +83,8 @@ h3,
 h4,
 p,
 span,
-a {
+a,
+button {
   font-family: "Montserrat", sans-serif !important;
 }
 
