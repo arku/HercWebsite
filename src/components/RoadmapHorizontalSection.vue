@@ -183,7 +183,6 @@ export default {
 h1 {
   font-size: 45px;
   text-align: center;
-  /* color: #f3c736; */
   color: #091141;
   text-transform: uppercase;
   font-weight: bold;
@@ -192,7 +191,6 @@ h1 {
 h2 {
   font-size: 24px;
   text-align: center;
-  /* color: #f3c736; */
   color: #091141;
   text-transform: uppercase;
   font-weight: bold;
@@ -202,7 +200,6 @@ h2 {
 h3 {
   font-size: 20px;
   text-align: center;
-  /* color: #f3c736; */
   color: #091141;
   text-transform: uppercase;
 }
@@ -382,7 +379,7 @@ article img {
 #slide5:checked ~ #commands label:nth-child(4) {
   background: url("../assets/left.png") no-repeat;
   float: left;
-  margin: 0 0 0 -20px;
+  margin: 0 0 0 0px;
   display: block;
 }
 #slide1:checked ~ #active label:nth-child(1),

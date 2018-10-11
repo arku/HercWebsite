@@ -84,6 +84,10 @@ export default {
   border-radius: 5px;
 }
 
+.blurb:hover{
+  box-shadow: 0px 12px 18px -6px #000;
+}
+
 h1 {
   font-size: 40px;
   text-align: center;

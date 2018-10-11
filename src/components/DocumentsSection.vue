@@ -6,10 +6,10 @@
             </div>
             <div class="columns">
               <div class="column">
-                    <router-link to="/whitepaper/">
-                      <img src="../assets/whitepaper-cover.png">
+                    <router-link to="/whitepaper/" id="dugme">
+                      <i class="fas fa-file-pdf"></i> Whitepaper
                     </router-link>
-                  </div>
+              </div>
             </div>
         </div>
     </div>
@@ -32,16 +32,30 @@ export default {
   margin: auto;
 }
 
-img {
-  width: 25%;
-  border: 3px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
-  transition: transform 0.9s;
+#dugme {
+  font-size: 20px;
+  background-color: #f3c736;
+  color: #091141;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 5;
+  position: relative;
   border-radius: 5px;
 }
 
-img:hover {
-  transform: scale(1.1);
+#dugme:hover {
+  background-color: #091141;
+  border: 1px solid #f3c736;
+  color: #f3c736;
+  box-shadow: 0px 12px 18px -6px #000;
+}
+
+i {
+  margin-right: 1%;
 }
 
 h1 {

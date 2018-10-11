@@ -44,7 +44,7 @@
                         <h2>Chat With Us</h2>
                         <div>
                             <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                              <i class="fab fa-telegram fa-2x"></i>
+                              <i class="fab fa-telegram fa-x"></i>
                             </a>
                         </div>
                     </div>
