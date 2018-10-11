@@ -20,7 +20,7 @@
               <h2>Q3 2018</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check  done"></i>
+              <i class="fas fa-check fa-2x  done"></i>
               <h3>MVP Herc / AGLD Development</h3>
             </div>
           </div>
@@ -29,7 +29,7 @@
               <h2>Q4 2018</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-ellipsis-h "></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>HERC Launch / AGLD Launch</h3>
             </div>
           </div>
@@ -38,7 +38,7 @@
               <h2>Q1 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner"></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>HERC v2 /AGLD 25+ Bars</h3>
             </div>
           </div>
@@ -51,7 +51,7 @@
               <h2>Q2 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>HERC v2.5/Extended Verticals</h3>
             </div>
           </div>
@@ -60,7 +60,7 @@
               <h2>Q3 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>HERC Terminal Operating System/Shipping Containers</h3>
             </div>
           </div>
@@ -69,7 +69,7 @@
               <h2>q4 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>Beyond Inventory/BEX Ecosystem</h3>
             </div>
           </div>
@@ -82,7 +82,7 @@
               <h2>Q1 2020</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>Olympic Prep/Switch Port</h3>
             </div>
           </div>
@@ -91,7 +91,7 @@
               <h2>Q2 2020</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>Olympics Tokyo/AGLD StableCoin</h3>
             </div>
           </div>
@@ -100,7 +100,7 @@
               <h2>Q3 2020</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>HERC/AGLD/BEX Ecosystem</h3>
             </div>
           </div>
@@ -113,7 +113,7 @@
               <h2>Q4 2020</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>Global User Base</h3>
             </div>
           </div>
@@ -122,7 +122,7 @@
               <h2>Q1 2021</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-spinner fa-2x"></i>
+              <i class="fas fa-check fa-2x  not-done"></i>
               <h3>HERC the DAO</h3>
             </div>
           </div>
@@ -211,6 +211,10 @@ i {
 
 .done {
   color: green !important;
+}
+
+.not-done{
+  color: gray;
 }
 
 .placeholder {
