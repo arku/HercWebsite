@@ -1,8 +1,8 @@
 <template>
     <div id="landing-nine">
         <div id="content">
-            <div class="columns">
-                <div class="column is 8">
+            <div class="columns" id="first-section">
+                <div class="column is-8">
                     <h1 id="title">Track Product Movements and Trace the Origins</h1>
                 </div>
                 <div class="column">
@@ -31,7 +31,7 @@
                     </div>
                 </div>
             </div>
-            <div class="columns">
+            <div class="columns" id="second-section">
                 <div class="column">
                     <img src="../../assets/herc-logo.png">
                     <h3>The Revolutionary<br>Supply Chain<br>Optimization<br>Solution</h3>
@@ -113,8 +113,11 @@ export default {
   background-position: top;
 }
 
-#content {
+#first-section,
+#second-section {
   padding: 50px;
+  max-width: 1080px;
+  margin: auto;
 }
 
 #title {
@@ -122,25 +125,23 @@ export default {
   color: #f3c736;
   line-height: 1.2em;
   text-align: left;
-  letter-spacing: 2px;
   font-weight: bold;
 }
 
 #date-holder {
-  font-size: 24px;
-  text-align: left;
+  font-size: 20px;
+  text-align: center;
   color: #f3c736;
   margin-bottom: 1%;
-  margin-left: 0;
-  letter-spacing: 2px;
+  width: 100%;
 }
 
 #date-wrapper {
-  width: 80%;
+  width: 100%;
 }
 
 #date-span {
-  font-size: 24px;
+  font-size: 20px;
   color: #f3c736;
   font-weight: normal;
 }
@@ -161,25 +162,22 @@ export default {
 h2 {
   font-size: 20px;
   color: white;
-  text-align: left;
+  text-align: center;
   margin: auto;
   margin-bottom: 5%;
-  margin-top: 10%;
 }
 
 h3 {
   color: #f3c736;
   font-size: 20px;
-  margin-bottom: 5%;
   font-weight: bold;
   line-height: 1.2em;
-  margin-right: 40%;
 }
 
 p {
-  text-align: left;
+  text-align: center;
   margin-bottom: 2%;
-  width: 60%;
+  width: 100%;
   color: white;
 }
 
@@ -192,7 +190,6 @@ p {
   background-color: #f3c736;
   width: 100%;
   box-shadow: 0px 12px 18px -6px #000;
-  margin-bottom: 5%;
 }
 
 span {
@@ -202,14 +199,13 @@ span {
 }
 
 img {
-  width: 50%;
-  margin-right: 40%;
+  width: 60%;
 }
 
 button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
   padding-left: 10px;
@@ -237,10 +233,8 @@ button:hover {
 
 #info {
   text-align: center;
-  margin-left: 0;
   color: #091141;
-  margin-right: 0;
-  width: 80%;
+  width: 100%;
   font-weight: bold;
 }
 
@@ -306,7 +300,7 @@ button:hover {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  #landing-eight {
+  #landing-nince {
     padding-left: 20px;
     padding-right: 20px;
   }

@@ -37,8 +37,13 @@ export default {
 <style scoped>
 #landing-three {
   padding: 50px;
-  background-image: url('../../assets/landing-pages/testbg.png');
+  background-image: url("../../assets/landing-pages/testbg.png");
   background-size: cover;
+}
+
+#content {
+  max-width: 1080px;
+  margin: auto;
 }
 
 #people {
@@ -103,7 +108,7 @@ p {
 button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
   padding-left: 10px;

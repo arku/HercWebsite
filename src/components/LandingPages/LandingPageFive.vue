@@ -98,7 +98,7 @@ export default {
 <style scoped>
 #title-div {
   background-color: #091141;
-  padding: 30px;
+  padding: 20px;
   border-bottom: 5px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
 }
@@ -106,6 +106,9 @@ export default {
 #title {
   color: #f3c736;
   font-size: 50px;
+  max-width: 1080px;
+  margin: auto;
+  line-height: 1.1em;
 }
 
 h2 {
@@ -131,14 +134,16 @@ p {
   width: 80%;
 }
 
-.custom {
+#landing-five {
   background-image: url("../../assets/landing-pages/town-bg.png");
   background-size: cover;
-  margin: 0 !important;
 }
 
-.column {
-  padding: 50px !important;
+.custom {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  max-width: 1080px;
+  margin: auto;
 }
 
 #logo {
@@ -158,7 +163,7 @@ p {
 button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
   padding-left: 10px;
@@ -286,8 +291,8 @@ span {
     text-align: center;
   }
 
-  h2{
-      margin-top: 0;
+  h2 {
+    margin-top: 0;
   }
 
   #title {
@@ -315,8 +320,8 @@ span {
     color: #091141;
   }
 
-  #druga{
-      padding: 30px !important;
+  #druga {
+    padding: 30px !important;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

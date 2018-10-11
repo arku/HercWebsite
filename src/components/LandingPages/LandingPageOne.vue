@@ -3,8 +3,7 @@
         <div id="content">
             <div class="columns">
               <div class="column">
-                <h1>Play HIPR &<br> earn HERC tokens for verifying supply<br> chain data</h1>
-                <img src="../../assets/herc-logo.png" id="logo">
+                <h1>Play HIPR & earn<br> HERC tokens<br> for verifying supply chain data</h1>
                 <h1>A blockchain<br> supply chain solution</h1>
                 <div>
                   <div id="buttons-lol">
@@ -92,19 +91,18 @@ export default {
 </script>
 <style scoped>
 #landing-one {
-  padding: 100px;
+  padding: 50px;
   background-color: #091141;
 }
 
-/* #content {
+#content{
   max-width: 1080px;
   margin: auto;
-} */
+}
 
 h1 {
   color: #f3c736;
   font-size: 40px;
-  /* font-weight: bold; */
   text-transform: uppercase;
   line-height: 1.2em;
   margin-bottom: 5%;
@@ -136,13 +134,12 @@ span {
 img {
   margin: auto;
   margin-bottom: 10%;
-  /* // width: 80%; */
 }
 
 button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
   padding-left: 10px;
@@ -158,12 +155,9 @@ button:hover {
   border: 2px solid #f3c736;
 }
 
-#logo {
-  width: 40%;
-}
-
 #buttons-lol {
   margin-bottom: 5%;
+  width: 100%;
 }
 
 .left-button {
@@ -272,10 +266,6 @@ button:hover {
 
   br {
     display: none;
-  }
-
-  #logo {
-    width: 90%;
   }
 
   .left-button,

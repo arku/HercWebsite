@@ -92,9 +92,13 @@ export default {
 <style scoped>
 #landing-six {
   padding: 50px;
-  padding-left: 100px;
   background-image: url("../../assets/landing-pages/blue-bg.png");
   background-size: cover;
+}
+
+#content{
+  max-width: 1080px;
+  margin: auto;
 }
 
 #title {
@@ -110,7 +114,7 @@ export default {
 h2 {
   font-size: 20px;
   color: white;
-  text-align: left;
+  text-align: center;
   margin: auto;
   margin-bottom: 2%;
 }
@@ -123,9 +127,9 @@ h3 {
 }
 
 p {
-  text-align: left;
+  text-align: center;
   margin-bottom: 2%;
-  width: 80%;
+  width: 100%;
   color: white;
 }
 
@@ -143,7 +147,7 @@ img {
 button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
   padding-left: 10px;
@@ -171,10 +175,10 @@ button:hover {
 
 #date-holder {
   font-size: 24px;
-  text-align: left;
+  text-align: center;
   color: #f3c736;
-  width: 60%;
-  margin-bottom: 1%;
+  width: 100%;
+  margin-bottom: 5%;
   margin-top: 5%;
 }
 
@@ -203,7 +207,8 @@ button:hover {
 
 #countdown {
   background-color: #f3c736;
-  width: 60%;
+  width: 90%;
+  margin: auto;
   box-shadow: 0px 12px 18px -6px #000;
   margin-bottom: 5%;
 }

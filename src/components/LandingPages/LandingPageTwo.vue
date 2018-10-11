@@ -107,8 +107,10 @@ export default {
 }
 
 #first-section {
-  padding: 100px;
+  padding: 50px;
   padding-bottom: 0;
+  /* max-width: 1080px;
+  margin: auto; */
 }
 
 h1 {

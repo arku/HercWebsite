@@ -96,6 +96,11 @@ export default {
   background-size: cover;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 h1 {
   color: #f3c736;
   font-size: 40px;
@@ -162,7 +167,7 @@ p {
 button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
   padding-left: 10px;
@@ -275,7 +280,9 @@ span {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-    #title, #btc, #eth {
+  #title,
+  #btc,
+  #eth {
     font-size: 30px;
   }
 }
@@ -284,31 +291,34 @@ span {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    #title{
-        text-align: center;
-    }
+  #title {
+    text-align: center;
+  }
 
-    #logo{
-        margin-bottom: 10%;
-        width: 80%;
-    }
+  #logo {
+    margin-bottom: 10%;
+    width: 80%;
+  }
 
-    #date-holder, #countdown{
-        margin-bottom: 10%;
-    }
+  #date-holder,
+  #countdown {
+    margin-bottom: 10%;
+  }
 
-    #coins{
-        margin-bottom: 5%;
-    }
+  #coins {
+    margin-bottom: 5%;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-    #landing-four{
-        padding: 20px;
-        padding-top: 50px;
-    }
+  #landing-four {
+    padding: 20px;
+    padding-top: 50px;
+  }
 
-    #title, #btc, #eth {
+  #title,
+  #btc,
+  #eth {
     font-size: 28px;
     margin-bottom: 10%;
   }

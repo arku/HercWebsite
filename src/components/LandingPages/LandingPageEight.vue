@@ -48,7 +48,7 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <p id="info">*Hercules decentralized supply chain management
+                    <p>*Hercules decentralized supply chain management
                         software enables users to create a permanent and shared record
                         that provides immutability, and more importantly, trust for the consumer.</p>
                 </div>
@@ -111,6 +111,11 @@ export default {
   background-size: cover;
 }
 
+#content {
+  max-width: 1080px;
+  margin: auto;
+}
+
 #title {
   font-size: 40px;
   color: #f3c736;
@@ -121,10 +126,10 @@ export default {
 
 #date-holder {
   font-size: 24px;
-  text-align: left;
+  text-align: right;
   color: white;
   margin-bottom: 1%;
-  margin-left: 0;
+  width: 100%;
 }
 
 #date-wrapper {
@@ -153,10 +158,9 @@ export default {
 h2 {
   font-size: 20px;
   color: white;
-  text-align: left;
+  text-align: center;
   margin: auto;
   margin-bottom: 5%;
-  margin-left: 20%;
   margin-top: 10%;
 }
 
@@ -167,11 +171,10 @@ h3 {
 }
 
 p {
-  text-align: left;
+  text-align: center;
   margin-bottom: 2%;
-  width: 80%;
+  width: 100%;
   color: white;
-  margin-left: 20%;
 }
 
 .countdown-size {
@@ -193,18 +196,13 @@ span {
 }
 
 img {
-  width: 40%;
-}
-
-#info {
-  text-align: center;
-  margin-left: 0;
+  width: 60%;
 }
 
 button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
   padding-left: 10px;
@@ -258,14 +256,14 @@ button:hover {
     width: 100%;
   }
 
+  #date-span{
+    font-size: 20px;
+  }
+
   .left-button,
   .right-button {
     border-radius: 0;
     margin: 5%;
-  }
-
-  .columns {
-    width: 100% !important;
   }
 }
 
