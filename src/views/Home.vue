@@ -95,6 +95,7 @@ export default {
   color: #f3c736;
   font-size: 16px;
   line-height: 20px;
+  border-radius: 5px;
 }
 
 .btn-to-top:hover {

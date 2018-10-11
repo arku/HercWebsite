@@ -227,6 +227,7 @@ i {
   padding: 20px;
   height: 220px;
   background-color: #fafafa;
+  border-radius: 5px;
 }
 
 img {

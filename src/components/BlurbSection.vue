@@ -81,6 +81,7 @@ export default {
   margin-bottom: auto;
   padding: 10px;
   border: 4px solid #f3c736;
+  border-radius: 5px;
 }
 
 h1 {

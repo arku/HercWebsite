@@ -68,6 +68,7 @@ export default {
   margin-bottom: auto;
   padding: 20px;
   box-shadow: 0px 12px 18px -6px #000;
+  border-radius: 5px;
 }
 
 h1 {
@@ -99,7 +100,6 @@ i {
 .blurb-text {
   color: #091141;
   text-align: center;
-  /* text-transform: uppercase; */
   line-height: 1.5em;
   font-weight: 900;
   font-size: 14px;

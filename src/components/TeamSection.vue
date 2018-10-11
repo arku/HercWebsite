@@ -680,6 +680,7 @@ export default {
 
 #team-section img {
   border: 4px solid #f3c736;
+  border-radius: 5px;
 }
 
 #team-section img:hover {

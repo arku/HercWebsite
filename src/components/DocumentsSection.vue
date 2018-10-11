@@ -37,6 +37,7 @@ img {
   border: 3px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
   transition: transform 0.9s;
+  border-radius: 5px;
 }
 
 img:hover {
