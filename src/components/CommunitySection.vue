@@ -47,6 +47,7 @@ a {
   text-transform: uppercase;
   z-index: 5;
   position: relative;
+  border-radius: 5px;
 }
 
 a:hover {

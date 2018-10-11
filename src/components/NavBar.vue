@@ -145,7 +145,7 @@ a:hover {
 .button.is-primary {
   background-color: #f3c736;
   color: #091141;
-  border-radius: 0px;
+  border-radius: 5px;
 }
 
 #social-top {

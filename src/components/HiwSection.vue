@@ -41,6 +41,7 @@ video {
   width: 60%;
   border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
+  border-radius: 5px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

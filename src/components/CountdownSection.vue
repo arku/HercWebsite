@@ -128,6 +128,7 @@ p {
   width: 100%;
   box-shadow: 0px 12px 18px -6px #000;
   margin-bottom: 5%;
+  border-radius: 5px;
 }
 
 span {

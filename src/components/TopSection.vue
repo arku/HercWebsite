@@ -4177,55 +4177,6 @@ svg {
     p 2s ease infinite alternate;
 }
 
-// Form Styling
-
-.email-octopus-form-wrapper h2 {
-  font-size: 20px;
-  color: #f3c736;
-}
-.email-octopus-form-row {
-  margin-bottom: 15px;
-}
-.email-octopus-form-row label {
-  display: block;
-  color: #f3c736;
-  margin-bottom: 2%;
-}
-.email-octopus-form-row input {
-  width: 80%;
-  max-width: 400px;
-  padding: 10px 20px;
-  border: 1px solid #f3c736;
-  background-color: transparent;
-  margin: auto;
-  color: white;
-}
-.email-octopus-form-row-consent {
-  margin-top: 20px;
-}
-.email-octopus-form-row-consent label {
-  vertical-align: top;
-}
-.email-octopus-form-row-subscribe {
-  margin-top: 20px;
-}
-.email-octopus-form-row-subscribe button {
-  background-color: transparent;
-  padding: 10px 20px;
-  border: 1px solid #f3c736;
-  font-weight: bold;
-  color: #f3c736;
-  font-weight: bold;
-  font-size: 20px;
-  text-transform: uppercase;
-}
-.email-octopus-form-row-hp {
-  position: absolute;
-  left: -5000px;
-}
-.email-octopus-error-message {
-  color: #e74c3c;
-}
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {

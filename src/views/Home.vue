@@ -47,7 +47,7 @@ import TeamSection from "@/components/TeamSection.vue";
 import FeaturedSection from "@/components/FeaturedSection.vue";
 import CommunitySection from "@/components/CommunitySection.vue";
 import HercSection from "@/components/HercSection.vue";
-import EcosystemSection from "@/components/EcosystemSection.vue";
+// import EcosystemSection from "@/components/EcosystemSection.vue";
 import HiprSection from "@/components/HiprSection.vue";
 import BubbleSection from "@/components/BubbleSection.vue";
 import UseCaseSection from "@/components/UseCaseSection.vue";
