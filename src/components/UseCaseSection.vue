@@ -25,13 +25,13 @@ export default {
   background-color: #091141;
 }
 
-#content{
-    max-width: 1080px;
-    margin: auto;
+#content {
+  max-width: 1080px;
+  margin: auto;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: #f3c736;
   text-transform: uppercase;
   font-weight: bold;
@@ -60,13 +60,9 @@ video {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    video{
-        width: 100%;
-    }
-
-    h1{
-        font-size: 30px;
-    }
+  video {
+    width: 100%;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {

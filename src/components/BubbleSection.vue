@@ -72,7 +72,7 @@ export default {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   color: #091141;
   text-transform: uppercase;
@@ -177,10 +177,6 @@ i {
   #bubble-section {
     padding: 50px;
   }
-
-  h1 {
-    font-size: 40px;
-  }
 }
 
 /*** Responsive Styles Smartphone Only ***/
@@ -204,10 +200,6 @@ i {
 
   .columns {
     margin-bottom: 10% !important;
-  }
-
-  h1 {
-    font-size: 30px;
   }
 
   #subtitle {
@@ -236,10 +228,6 @@ i {
   .blurb {
     margin: 10%;
     height: 350px !important;
-  }
-
-  h1 {
-    font-size: 30px;
   }
 }
 </style>

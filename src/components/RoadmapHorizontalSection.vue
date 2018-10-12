@@ -181,7 +181,7 @@ export default {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
   color: #091141;
   text-transform: uppercase;

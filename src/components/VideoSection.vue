@@ -1,7 +1,7 @@
 <template>
   <div id="video-section">
       <div id="content">
-        <h1>How Hercules Works <br>Using Human Initiated Performance Reporting (HIPR)</h1>
+        <h1>How Hercules Works Using Human Initiated Performance Reporting (HIPR)</h1>
         <img src="../assets/diagram.png" id="diagram">
         <div class="columns blurbs-holder">
           <div class="column blurb">
@@ -159,10 +159,6 @@ img {
 
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  h1 {
-    font-size: 40px;
-  }
-
   #video-section {
     padding: 50px;
     padding-top: 50px;
@@ -176,10 +172,6 @@ img {
 
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  h1 {
-    font-size: 30px;
-  }
-
   #video-section {
     padding: 30px;
     padding-top: 50px;
@@ -207,10 +199,6 @@ img {
 
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  h1 {
-    font-size: 30px;
-  }
-
   iframe {
     height: 180px;
   }

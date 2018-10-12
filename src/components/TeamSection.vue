@@ -689,21 +689,24 @@ export default {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   color: #091141;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 h2 {
-  font-size: 20px;
-  color: #091141;
+  font-size: 20px !important;
+  color: #091141 !important;
+  font-weight: normal !important;
 }
 
 h3 {
-  color: #091141;
-  font-size: 16px;
-  margin-bottom: 5%;
+  color: #091141 !important;
+  font-size: 16px !important;
+  margin-bottom: 5% !important;
+  margin-top: 0 !important;
+  font-weight: normal !important;
 }
 
 h4 {
@@ -740,7 +743,8 @@ i:hover {
 }
 
 .question p {
-  border: 1px solid #f3c736;
+  border: 2px solid #f3c736;
+  border-radius: 5px;
   width: 20%;
   margin: auto;
   font-weight: bold;
@@ -793,9 +797,6 @@ i:hover {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  h1 {
-    font-size: 40px;
-  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
@@ -804,11 +805,6 @@ i:hover {
     padding-top: 50px;
     padding-bottom: 50px;
     background-color: #091141;
-  }
-  h1 {
-    font-size: 30px;
-    color: #f3c736;
-    font-weight: bold;
   }
 
   #team-section img:hover {
@@ -845,12 +841,6 @@ i:hover {
   #team-section {
     background-color: #091141;
     padding: 50px;
-  }
-
-  h1 {
-    font-size: 30px;
-    color: #f3c736;
-    font-weight: bold;
   }
 
   h4 {

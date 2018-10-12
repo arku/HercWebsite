@@ -30,7 +30,7 @@ export default {
 
 h1 {
   color: #f3c736;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
   background-color: #091141;

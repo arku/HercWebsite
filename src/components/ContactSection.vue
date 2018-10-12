@@ -44,7 +44,7 @@
                         <h2>Chat With Us</h2>
                         <div>
                             <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                              <i class="fab fa-telegram fa-x"></i>
+                              <i class="fab fa-telegram fa-2x"></i>
                             </a>
                         </div>
                     </div>
@@ -83,7 +83,7 @@ export default {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   color: #091141;
   text-transform: uppercase;
   margin-bottom: 2%;
@@ -118,32 +118,18 @@ i:hover {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  h1 {
-    font-size: 40px;
-  }
-
   h2 {
     font-size: 20px;
   }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  h1 {
-    font-size: 30px;
-  }
-
   h2 {
     font-size: 20px;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  h1 {
-    font-size: 30px;
-    margin-bottom: 10%;
-    line-height: 1.2em;
-  }
-
   h2 {
     font-size: 20px;
     margin-bottom: 2%;

@@ -85,7 +85,7 @@ export default {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   color: #091141;
   text-transform: uppercase;
   margin-bottom: 2%;
@@ -106,28 +106,29 @@ p {
 img {
   margin-bottom: 1%;
   border: 2px solid #f3c736;
+  border-radius: 5px;
 }
 
-.spacer{
-    margin-bottom: 5%;
+.spacer {
+  margin-bottom: 5%;
 }
 
-.small-spacer{
-    margin-bottom: 2%;
+.small-spacer {
+  margin-bottom: 2%;
 }
 
-.step{
-    border-left: 2px solid #f3c736;
-    padding-left:10px;
-    margin-bottom: 2%;
+.step {
+  border-left: 2px solid #f3c736;
+  padding-left: 10px;
+  margin-bottom: 2%;
 }
 
-strong{
-    color: #f3c736;
+strong {
+  color: #f3c736;
 }
 
-a{
-    color: #f3c736;
+a {
+  color: #f3c736;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -141,30 +142,18 @@ a{
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  h1 {
-    font-size: 40px;
-  }
-
   h2 {
     font-size: 25px;
   }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  h1 {
-    font-size: 30px;
-  }
-
   h2 {
     font-size: 20px;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  h1 {
-    font-size: 30px;
-  }
-
   h2 {
     font-size: 20px;
   }

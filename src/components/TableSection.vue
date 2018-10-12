@@ -85,15 +85,15 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   var etheriumNeeded = `${data.gasPrice}`;
   var hercPrice = 0.6;
 
-  var factNeeded = 0.000128 / factPrice * 4;
+  var factNeeded = (0.000128 / factPrice) * 4;
   var storjNeeded = 0.0007032 / storjPrice;
   var hercBurned = factNeeded / hercPrice;
 
   factNeeded = roundUp(factNeeded, 6);
   storjNeeded = roundUp(storjNeeded, 6);
 
-  var hercNeededFCT = 0.000128 / 0.6 * factPrice * 4;
-  var hercNeededSTORJ = 0.0007032 / 0.6 * storjPrice;
+  var hercNeededFCT = (0.000128 / 0.6) * factPrice * 4;
+  var hercNeededSTORJ = (0.0007032 / 0.6) * storjPrice;
   var hercNeeded =
     storjNeeded / hercPrice +
     factNeeded / hercPrice +
@@ -137,11 +137,11 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
   color: #091141;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 1%;
   font-weight: bold;
   line-height: 1em;
 }
@@ -208,21 +208,12 @@ table img {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  h1 {
-    font-size: 40px;
-  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  h1 {
-    font-size: 30px;
-  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  h1 {
-    font-size: 30px;
-  }
   table td {
     font-size: 12px;
   }

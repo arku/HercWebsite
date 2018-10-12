@@ -84,16 +84,15 @@ export default {
   border-radius: 5px;
 }
 
-.blurb:hover{
+.blurb:hover {
   box-shadow: 0px 12px 18px -6px #000;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   color: #091141;
   text-transform: uppercase;
-  margin-bottom: 2%;
   line-height: 1em;
   font-weight: bold;
 }
@@ -209,10 +208,6 @@ img {
   #blurb-section {
     padding: 50px;
   }
-
-  h1 {
-    font-size: 40px;
-  }
 }
 
 /*** Responsive Styles Smartphone Only ***/
@@ -236,10 +231,6 @@ img {
 
   .columns {
     margin-bottom: 10% !important;
-  }
-
-  h1 {
-    font-size: 30px;
   }
 
   #subtitle {
@@ -269,10 +260,6 @@ img {
   .blurb {
     margin: 10%;
     height: 350px !important;
-  }
-
-  h1 {
-    font-size: 30px;
   }
 }
 </style>

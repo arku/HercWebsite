@@ -59,12 +59,11 @@ i {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   text-align: center;
-  /* color: #f3c736; */
   color: #091141;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 1%;
   font-weight: bold;
 }
 
@@ -90,27 +89,15 @@ h1 {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  h1 {
-    font-size: 40px;
-  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  h1 {
-    font-size: 30px;
-  }
-
   #documents-section {
     padding: 50px;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  h1 {
-    font-size: 30px;
-    padding-bottom: 0px;
-  }
-
   #documents-section {
     padding: 50px;
   }

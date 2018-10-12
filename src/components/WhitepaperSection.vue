@@ -91,10 +91,9 @@ export default {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 30px;
   color: #f3c736;
   text-transform: uppercase;
-  line-height: 2em;
   font-weight: bold;
   text-align: center;
 }
@@ -127,20 +126,11 @@ p {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  h1 {
-    font-size: 40px;
-  }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  h1 {
-    font-size: 30px;
-  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  h1 {
-    font-size: 30px;
-  }
 }
 </style>

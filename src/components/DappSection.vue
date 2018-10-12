@@ -30,7 +30,7 @@ export default {
 h1 {
   color: #f3c736;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 30px;
   margin-bottom: 2%;
 }
 
