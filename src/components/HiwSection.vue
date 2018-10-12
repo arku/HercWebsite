@@ -31,7 +31,7 @@ export default {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: #f3c736;
   font-weight: bold;
   margin-bottom: 5%;
@@ -58,13 +58,9 @@ video {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    h1{
-        font-size: 30px;
-    }
-
-    video{
-      width: 90%;
-    }
+  video {
+    width: 90%;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {

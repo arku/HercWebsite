@@ -3953,7 +3953,7 @@ svg {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   color: #f3c736;
   font-weight: bold;
