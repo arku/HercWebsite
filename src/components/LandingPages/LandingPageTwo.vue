@@ -115,7 +115,7 @@ export default {
 
 h1 {
   color: #f3c736;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   line-height: 1.2em;
   margin-bottom: 5%;
@@ -292,10 +292,6 @@ button:hover {
   #first-section {
     padding: 50px;
   }
-
-  h1 {
-    font-size: 30px;
-  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
@@ -311,10 +307,6 @@ button:hover {
 @media all and (max-width: 767px) {
   #buttons-lol {
     margin-top: 5%;
-  }
-
-  h1 {
-    font-size: 30px;
   }
 
   h2,

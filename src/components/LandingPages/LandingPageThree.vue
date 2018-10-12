@@ -58,7 +58,7 @@ h1 {
   /* font-weight: bold; */
   text-transform: uppercase;
   line-height: 1.2em;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 h2 {
@@ -93,9 +93,9 @@ p {
 }
 
 #logo {
-  width: 50%;
+  width: 70%;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 #logo-subtitle {
@@ -181,6 +181,7 @@ button:hover {
 
   h1 {
     font-size: 30px;
+    margin-bottom: 5%;
   }
 
   br {
@@ -189,6 +190,7 @@ button:hover {
 
   #logo {
     width: 80%;
+    margin-bottom: 5%;
   }
 
   .left-button,

@@ -95,17 +95,17 @@ export default {
   background-color: #091141;
 }
 
-#content{
+#content {
   max-width: 1080px;
   margin: auto;
 }
 
 h1 {
   color: #f3c736;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   line-height: 1.2em;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 h2 {
@@ -236,10 +236,6 @@ button:hover {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-  h1 {
-    font-size: 30px;
-  }
-
   .countdown-size {
     width: 100%;
   }
@@ -256,7 +252,7 @@ button:hover {
   }
 
   h1 {
-    font-size: 30px;
+    margin-bottom: 5%;
   }
 
   h2,
