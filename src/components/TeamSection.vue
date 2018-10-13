@@ -111,6 +111,7 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                    
                     <div class="column">
                         <img src="../assets/team/cynthia.jpg">
                         <h2>Cynthia Blanchard</h2>
