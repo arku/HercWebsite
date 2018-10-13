@@ -696,17 +696,17 @@ h1 {
 }
 
 h2 {
-  font-size: 20px !important;
-  color: #091141 !important;
-  font-weight: normal !important;
+  font-size: 20px;
+  color: #091141;
+  font-weight: normal;
 }
 
 h3 {
-  color: #091141 !important;
-  font-size: 16px !important;
-  margin-bottom: 5% !important;
-  margin-top: 0 !important;
-  font-weight: normal !important;
+  color: #091141;
+  font-size: 16px;
+  margin-bottom: 5%;
+  margin-top: 0;
+  font-weight: normal;
 }
 
 h4 {
