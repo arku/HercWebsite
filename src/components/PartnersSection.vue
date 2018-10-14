@@ -4,8 +4,8 @@
             <div>
                 <h1>Featured Partners</h1>
                 <p>Our partners help make the Hercules platform optimized, secure and efficient
-                     for all users. We would love to hear from you if your organization shares
-                      our values.</p>
+                        for all users. We would love to hear from you if your organization shares
+                        our values.</p>
             </div>
             <div class="hide-desktop">
                 <div class="columns">
@@ -108,6 +108,22 @@
 
                     </div>
                 </div>
+                <h1>International Academic Partners</h1>
+                <p>List of our international academic partners that helped us</p>
+                <div class="columns">
+                    <div class="column">
+
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/shell.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/glbajaj.png">
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                </div>
             </div>
 
             <!-- Mobile view -->
@@ -206,6 +222,16 @@
                         <a href="mailto:social@herc.one" target="_blank">
                             <img src="../assets/partners/you.png">
                         </a>
+                    </div>
+                </div>
+                <h1>International Academic Partners</h1>
+                <p>List of our international academic partners that helped us</p>
+                <div class="columns is-mobile">
+                    <div class="column">
+                        <img src="../assets/partners/shell.png">
+                    </div>
+                    <div class="column">
+                        <img src="../assets/partners/glbajaj.png">
                     </div>
                 </div>
             </div>
