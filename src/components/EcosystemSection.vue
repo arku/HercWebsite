@@ -15,6 +15,7 @@
                   <p>HERC enables a new generation of business owners with complete data integrity solution with per use pricing for every budget
                   </p>
                 </b-tab-item>
+                
                 <b-tab-item label="Originator" icon="user">
                   <h2>Oversee your supply chain with perfection</h2>
                   <p>
