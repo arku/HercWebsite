@@ -20,7 +20,7 @@
               <h2>Q3 2018</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  done"></i>
+              <i class="far fa-check-circle fa-2x done"></i>
               <h3>MVP Herc / AGLD Development</h3>
             </div>
           </div>
@@ -29,7 +29,7 @@
               <h2>Q4 2018</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle fa-2x not-done"></i>
               <h3>HERC Launch / AGLD Launch</h3>
             </div>
           </div>
@@ -38,7 +38,7 @@
               <h2>Q1 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle fa-2x not-done"></i>
               <h3>HERC v2 /AGLD 25+ Bars</h3>
             </div>
           </div>
@@ -51,7 +51,7 @@
               <h2>Q2 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle not-done fa-2x"></i>
               <h3>HERC v2.5/Extended Verticals</h3>
             </div>
           </div>
@@ -60,7 +60,7 @@
               <h2>Q3 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle not-done fa-2x"></i>
               <h3>HERC Terminal Operating System/Shipping Containers</h3>
             </div>
           </div>
@@ -69,7 +69,7 @@
               <h2>q4 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle fa-2x"></i>
               <h3>Beyond Inventory/BEX Ecosystem</h3>
             </div>
           </div>
@@ -82,7 +82,7 @@
               <h2>Q1 2020</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle fa-2x not-done"></i>
               <h3>Olympic Prep/Switch Port</h3>
             </div>
           </div>
@@ -91,7 +91,7 @@
               <h2>Q2 2020</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle not-done fa-2x"></i>
               <h3>Olympics Tokyo/AGLD StableCoin</h3>
             </div>
           </div>
@@ -100,7 +100,7 @@
               <h2>Q3 2020</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle not-done fa-2x"></i>
               <h3>HERC/AGLD/BEX Ecosystem</h3>
             </div>
           </div>
@@ -113,7 +113,7 @@
               <h2>Q4 2020</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle not-done fa-2x"></i>
               <h3>Global User Base</h3>
             </div>
           </div>
@@ -122,7 +122,7 @@
               <h2>Q1 2021</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-check fa-2x  not-done"></i>
+              <i class="far fa-check-circle not-done fa-2x"></i>
               <h3>HERC the DAO</h3>
             </div>
           </div>
@@ -131,7 +131,7 @@
               <h2>Future</h2>
             </div>
             <div class="gold-border">
-              <i class="fas fa-ellipsis-h fa-2x"></i>
+              <i class="far fa-check-circle not-done fa-2x"></i>
               <h3>Will be announced</h3><br><br>
             </div>
           </div>
@@ -316,37 +316,46 @@ input {
 #slide4:checked ~ #slides .inner {
   margin-left: -300%;
 }
+
 #slide5:checked ~ #slides .inner {
   margin-left: -400%;
 }
+
 #container {
   width: 100%;
   overflow: hidden;
 }
+
 article img {
   width: 100%;
 }
+
 #slides .inner {
   width: 500%;
 }
+
 #slides article {
   width: 20%;
   float: left;
 }
+
 #commands {
   margin: -25% 0 0 0;
   width: 100%;
   height: 90px;
 }
+
 #commands label {
   display: none;
   width: 80px;
   height: 80px;
   opacity: 0.5;
 }
+
 #commands label:hover {
   opacity: 0.8;
 }
+
 #active {
   position: relative;
   z-index: 5;
@@ -359,15 +368,17 @@ article img {
   border-radius: 5px; */
   display: inline-block;
   width: 40px;
-  height: 5px;
+  height: 10px;
   background: #f3c736;
   margin: 1%;
   margin-top: 5%;
 }
+
 #active label:hover {
-  background: #333;
+  background: #091141;
   border-color: #777 !important;
 }
+
 #slide1:checked ~ #commands label:nth-child(2),
 #slide2:checked ~ #commands label:nth-child(3),
 #slide3:checked ~ #commands label:nth-child(4),
