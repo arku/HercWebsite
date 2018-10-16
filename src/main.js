@@ -4,7 +4,10 @@ import router from './router'
 import Buefy from 'buefy'
 import vueSmoothScroll from 'vue-smooth-scroll'
 import BackToTop from 'vue-backtotop'
+import vAb from 'vue-ab'
 
+
+Vue.component('v-ab', vAb)
 Vue.use(Buefy, {
   defaultIconPack: "fa"
 });
