@@ -213,7 +213,7 @@ i {
   color: green !important;
 }
 
-.not-done{
+.not-done {
   color: gray;
 }
 
@@ -224,7 +224,7 @@ i {
 }
 
 .gold-border {
-  border: 1px solid #f3c736;
+  border: 2px solid #f3c736;
   padding: 20px;
   height: 220px;
   background-color: #fafafa;
