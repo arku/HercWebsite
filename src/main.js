@@ -6,7 +6,7 @@ import vueSmoothScroll from 'vue-smooth-scroll'
 import BackToTop from 'vue-backtotop'
 import VueAB from 'vue-a2b';
 
-Vue.use(VueAB)
+Vue.use(VueAB);
 Vue.use(Buefy, {
   defaultIconPack: "fa"
 });
