@@ -354,13 +354,14 @@ article img {
   text-align: center;
 }
 #active label {
-  -webkit-border-radius: 5px;
+  /* -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  border-radius: 5px;
+  border-radius: 5px; */
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 40px;
+  height: 5px;
   background: #f3c736;
+  margin: 1%;
 }
 #active label:hover {
   background: #333;
