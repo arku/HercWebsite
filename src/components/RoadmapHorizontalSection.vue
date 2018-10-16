@@ -251,10 +251,12 @@ ol,
 ul {
   list-style: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 caption,
 th,
 td {
@@ -262,10 +264,12 @@ td {
   font-weight: normal;
   vertical-align: middle;
 }
+
 q,
 blockquote {
   quotes: none;
 }
+
 q:before,
 q:after,
 blockquote:before,
@@ -284,6 +288,7 @@ span {
   font-weight: normal;
   color: #fff;
 }
+
 #slider {
   text-align: center;
 }
@@ -293,26 +298,33 @@ label,
 img {
   margin: auto;
 }
+
 .catch {
   display: block;
   height: 0;
   overflow: hidden;
 }
+
 #slider {
   margin: 0 auto;
 }
+
 input {
   display: none;
 }
+
 #slide1:checked ~ #slides .inner {
   margin-left: 0;
 }
+
 #slide2:checked ~ #slides .inner {
   margin-left: -100%;
 }
+
 #slide3:checked ~ #slides .inner {
   margin-left: -200%;
 }
+
 #slide4:checked ~ #slides .inner {
   margin-left: -300%;
 }
@@ -362,6 +374,7 @@ article img {
   margin: 16% 0 0;
   text-align: center;
 }
+
 #active label {
   /* -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
