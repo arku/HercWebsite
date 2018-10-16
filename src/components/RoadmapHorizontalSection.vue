@@ -362,6 +362,7 @@ article img {
   height: 5px;
   background: #f3c736;
   margin: 1%;
+  margin-top: 5%;
 }
 #active label:hover {
   background: #333;
