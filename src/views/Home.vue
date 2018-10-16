@@ -1,8 +1,19 @@
 <template>
     <div class="home">
         <NavBar></NavBar>
-        <TopSection></TopSection>
-        <CountdownSection></CountdownSection>
+        <split-test name="landing-randomizer">
+          <landing-page-one slot="A" chance="1"></landing-page-one>
+          <landing-page-two slot="B" chance="1"></landing-page-two>
+          <landing-page-three slot="C" chance="1"></landing-page-three>
+          <landing-page-four slot="D" chance="1"></landing-page-four>
+          <landing-page-five slot="E" chance="1"></landing-page-five>
+          <landing-page-six slot="F" chance="1"></landing-page-six>
+          <landing-page-seven slot="G" chance="1"></landing-page-seven>
+          <landing-page-eight slot="H" chance="1"></landing-page-eight>
+          <landing-page-nine slot="I" chance="1"></landing-page-nine>
+        </split-test>
+        <!-- <TopSection></TopSection>
+        <CountdownSection></CountdownSection> -->
         <HiwSection></HiwSection>
         <CommunitySection></CommunitySection>
         <BlurbSection></BlurbSection>
@@ -54,6 +65,15 @@ import UseCaseSection from "@/components/UseCaseSection.vue";
 import DappSection from "@/components/DappSection.vue";
 import HiwSection from "@/components/HiwSection.vue";
 import CountdownSection from "@/components/CountdownSection.vue";
+import LandingPageOne from "@/components/LandingPages/LandingPageOne.vue";
+import LandingPageTwo from "@/components/LandingPages/LandingPageTwo.vue";
+import LandingPageThree from "@/components/LandingPages/LandingPageThree.vue";
+import LandingPageFour from "@/components/LandingPages/LandingPageFour.vue";
+import LandingPageFive from "@/components/LandingPages/LandingPageFive.vue";
+import LandingPageSix from "@/components/LandingPages/LandingPageSix.vue";
+import LandingPageSeven from "@/components/LandingPages/LandingPageSeven.vue";
+import LandingPageEight from "@/components/LandingPages/LandingPageEight.vue";
+import LandingPageNine from "@/components/LandingPages/LandingPageNine.vue";
 
 export default {
   name: "home",

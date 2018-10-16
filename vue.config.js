@@ -8,7 +8,8 @@ module.exports = {
       enableCloudfront: true,
       cloudfrontId: 'EXLWYOT38MF3W',
       cloudfrontMatchers: '/*',
-      uploadConcurrency: 5
+      uploadConcurrency: 5,
+      deployPath: '/'
     }
   }
 }

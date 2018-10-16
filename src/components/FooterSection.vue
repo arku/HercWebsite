@@ -23,9 +23,9 @@
                         <div>
                             <a href="/#team-section">Team</a>
                         </div>
-                        <!-- <div>
+                        <div>
                             <a href="/#contact-section">Contact</a>
-                        </div> -->
+                        </div>
                         <!-- <div>
                             <a href="">Careers</a>
                         </div> -->
