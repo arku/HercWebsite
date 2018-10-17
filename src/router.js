@@ -25,18 +25,23 @@ export default new Router({
     routes: [{
         path: '/',
         name: 'home',
-        component: Home,
+        component: Home
     },
     {
         path: '/whitepaper',
         name: 'whitepaper',
-        component: Whitepaper,
+        component: Whitepaper
     },
     {
         path: '/policy',
         name: 'policy',
-        component: Policy,
+        component: Policy
     },
+    {
+        path: '/terms',
+        name: 'terms',
+        component: Policy
+    }
     {
         path: '/faq',
         name: 'faq',
