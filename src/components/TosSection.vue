@@ -2,195 +2,166 @@
     <div id="tos-section">
         <div id="content">
             <div class="p-space">
-            <h1>Privacy Policy</h1>
-            <p>This Privacy Policy applies to the collection and use of personal data by
-            websites owned or operated by Anthem Vault, Inc. and our affiliates
-            (collectively, “we,” “us,” “our,” or “Anthem Vault”), including without limitation,
-            this website and any other website that we may own or operate currently or in the
-            future (collectively, the “Website”). By viewing, accessing, navigating,
-            or otherwise using the Website, you (the “User”) agree to the use of your
-            personal and other information consistent with this Privacy Policy.
-            We are the sole owner of the information collected on this Website.
-            We will not sell, share, or rent this information to others in ways different
-            from what is disclosed in this statement. We collect information from our users
-            in several different ways on our Website as described more specifically below.</p>
-            <h2>Registration</h2>
-            <p>
-                In order to use certain portions of the Website or receive certain
-                services offered by the Website such as to register for an account
-                via the Website (“User Account”), a user must first complete a registration form.
-                During registration a user is required to give his or her contact information
-                (such as name and email address). This information is used to contact the user
-                about the services on our Website for which he or she has expressed interest.
-            </p>
-            <h2>Transactions</h2>
-            <p>
-                In areas of our Website that provide online transactions with us,
-                we request information from the user to process the purchase order.
-                Here, a user may be required to provide personal information
-                (like name and mailing address) and financial information
-                (like bank account numbers). This information is used to fill
-                customer’s’ orders and satisfy any regulatory requirements we have.
-                If we have trouble processing an order, this contact information is
-                used to get in touch with the user.
-            </p>
-            <h2>Cookies</h2>
-            <p>
-                A cookie is a piece of data stored on a user’s personal computer hard
-                drive containing information about the user. Usage of a cookie is in no
-                way linked to any personally identifiable information while on our Website.
-                Once the user closes his or her computer web browser, the cookie terminates.
-                For instance, by setting a cookie on our Website, the user would not have to
-                log in a password more than once, thereby saving time while on our Website
-                during repeat visits. If a user rejects the cookie by setting the browser to
-                reject cookies, the user may still use our Website, but as a result the user
-                would be limited in some areas of our Website. Cookies also can enable us to
-                track and target the interests of our users to enhance the experience on our Website.
-            </p>
-            <h2>Log Files</h2>
-            <p>
-                As is the case for most websites, we automatically obtain and store in our
-                log files certain general information such as IP addresses, browser type,
-                Internet service provider, page path and other web analytics to improve user
-                experience, analyze trends, administer the site, track users’ movement on our
-                pages, and gather broad demographic information. None of the information
-                stored in our log files is linked to personally identifiable information.
-            </p>
-            <h2>Sharing</h2>
-            <p>
-                We treat all personal information provided by a user and held by us as
-                confidential and will not disclose any such information to any third
-                party except as specified in this paragraph. We will not sell, rent, loan
-                or trade any of your personal information provided to us.<br>
-                We may use another company’s services to verify your personal
-                information as a requirement for making transactions through your User Account.
-                Any such company is authorized to use this information solely for
-                the purpose of verifying your personal information on our behalf and for
-                no other purpose, and will not store any personally sensitive data
-                not in the public domain.<br>
-                We use third-party analytics tools to track general, non-personally
-                identifiable information such as pages viewed, browser type and
-                aggregated demographic information to help measure and improve overall
-                user experience. Any such information is not linked to any personal information
-                that can identify any individual person.<br>
-                We may partner with other companies to provide specific services to users.
-                If and when the user agrees to applicable terms and signs up for any such
-                services, we will share names or other personal information that is necessary
-                for the third party to provide these services. These parties are not
-                allowed to use personally identifiable information except for the
-                purpose of providing these services.
-            </p>
-            <h2>Links</h2>
-            <p>
-                This Website contains links to other sites. We are not responsible for
-                the privacy practices of such other sites. We encourage our users to
-                be aware when they leave our Website and to read the privacy statements of
-                each and every website that collects personally identifiable information.
-                This privacy statement applies solely to information collected by us.
-            </p>
-            <h2>Email and Newsletters</h2>
-            <p>If a user wishes to subscribe to our newsletters, we ask for contact
-            information such as name and email address.</p>
-            <h2>Surveys</h2>
-            <p>
-                From time to time we may request information from users via surveys.
-                Participation in these surveys is completely voluntary and the user
-                therefore has a choice whether or not to disclose this information.
-                Information requested may include contact information
-                (such as name and mailing address), and demographic information
-                (such as zip code, age, etc.). Survey information is used for purposes
-                of monitoring or improving the use and satisfaction of users of the Website.
-            </p>
-            <h2>Security</h2>
-            <p>
-                To prevent unauthorized access, maintain data accuracy and ensure the
-                correct use of information, we have put in place appropriate physical,
-                electronic and managerial procedures to safeguard and secure the
-                information we collect online. When users submit sensitive information
-                via the Website, the information is protected both online and offline.<br>
-                While we use encryption to protect sensitive information online,
-                we also take precautions to protect user-information off-line.
-                All of our users’ information, not just the sensitive information
-                mentioned above, is restricted in our offices. Only employees who
-                need the information to perform a specific job are granted access
-                to personally identifiable information. Employees are kept up to date
-                on our security and privacy practices. The computer servers on which
-                we store personally identifiable information are kept in a secure environment,
-                behind a firewall and locked door(s). Internet security measures
-                are taken to guard against hacking or cracking intrusions, damage
-                or theft of information.
-            </p>
-            <h2>Choice/Opt-Out</h2>
-            <p>
-                Users who no longer wish to receive our newsletter or other
-                materials may opt-out of receiving these communications by replying
-                to unsubscribe in the subject line in the email.
-            </p>
-            <h2>Notification of Changes</h2>
-            <p>
-                If we decide to change our privacy policy, we will post those changes
-                on our home page so our users are aware of what information we collect,
-                how we use it, and under what circumstances, if any, we disclose it.
-                We will use information in accordance with the privacy policy according
-                to how the information was collected. For any questions regarding our
-                privacy policy you may contact us from the Contact Us page.
-            </p>
-            <h2>Account Terms of Service</h2>
-            <p>
-                By registering for a User Account (defined below) or using our Services
-                (defined below), you expressly agree to these Account Terms of Service
-                (these “Terms of Service”). We reserve the right, in our sole discretion,
-                to change, modify, add to, remove, or otherwise alter these Terms of Service
-                at any time. Notification of changes or modifications will be given
-                electronically and on this page. You should check these Terms of Service
-                periodically for changes. Using your User Account or our Services subsequent
-                to any change or modification shall serve as your acknowledgement and
-                acceptance of the altered term(s). You expressly agree that notification
-                given in this manner is sufficient for all purposes and you expressly
-                waive your right to challenge the Terms of Use based on subsequent modification
-                or deficient notice of the same. If you do not agree to these Terms of Service,
-                you should not use our Services and, if applicable, you should cancel your
-                User Account.<br>
-                These Terms of Service apply to any User Account or Services provided
-                by Anthem Vault, Inc. or its affiliates
-                (collectively, “we,” “us,” “our,” or “Anthem Vault”) via this website
-                and any other website that we may own or operate currently or in the
-                future (collectively, the “Website”).
-            </p>
+            <h1>Terms of Use</h1>
+            <h3 class="date">Effective Date: OCTOBER 2018</h3>
+            <p>By using the Website, you expressly agree to these Website Terms of Use (these “Terms of Use”). We
+                 reserve the right, in our sole discretion, to change, modify, add or remove, or otherwise alter these
+                  Terms of Use at any time. You should check these Terms of Use periodically for changes. Using the
+                   Website subsequent to any change or modification shall serve as your acknowledgement and acceptance
+                    of the altered term(s). You expressly agree that notification given in this manner is sufficient for
+                     all purposes, and you expressly waive your right to challenge the Terms of Use based on subsequent
+                      modification or deficient notice of the same. If you do not agree to these Terms of Use, you should
+                       not use the Website and, if applicable, you should cancel your account with us.</p>
+            <p>These Terms of Use apply to your use of the websites owned or operated by Hercules SEZC or our affiliates
+                 (collectively, “we,” “us,” “our,” or “HERC”), including without limitation, this website and any other
+                  website that we may own or operate currently or in the future (collectively, the “Website”). By viewing,
+                   accessing, navigating, or otherwise using the Website, you (the “User”) agree to these Terms of Use.</p>
             <h2>Privacy</h2>
-            <p>
-                We take the private nature of your personal information very seriously.
-                You hereby acknowledge and consent to the use of your personal information in
-                accordance with our official Privacy Policy.
-            </p>
-            <h2>Signing Up</h2>
-            <p>
-                A person must create a User Account prior to using our services of buying,
-                selling, and storing selected precious metals (“Metals”, and collectively the “Services”).
-                A User Account is created when a person (a “User”) registers for
-                an account via the Website and the person is approved to use our
-                Services by us (“User Account”). The information you provide to
-                create a User Account must be complete and accurate.<br>
-                We reserve the right, in or sole and unfettered discretion, to deny, reject
-                or remove any user name that may be viewed as offensive, is protected by
-                trademark, impersonates someone else, or for any other reason whatsoever,
-                or for no reason whatsoever.<br>
-                It is your responsibility to ensure that your user name and password
-                (together “Login Credentials”) remain confidential and secure at all times.
-                You are responsible for any and all transactions made on your User Account
-                and any charges or fees incurred on your account.<br>
-                Notices regarding your User Account will be sent to you at the e-mail address
-                you provide during registration and will not be sent by regular mail.
-                This will be the sole and exclusive means of notification to you. The personal
-                information provided for your User Account must be updated promptly upon any
-                change in the information. You expressly waive any claims against us for failure
-                to notify you of changes to your account or of any other material developments
-                concerning your account due to an incorrect or outdated e-mail address in
-                our records. In the event we mail a paper document to you at any time,
-                such mailing shall not constitute a waiver of your agreement to receive
-                notices exclusively by electronic mail.
-            </p>
-            </div>
+            <p>We take the private nature of your personal information very seriously. You hereby acknowledge and consent to
+                 the use of your personal information in accordance with our official Privacy Policy.</p>
+            <h2>Third-Party Content</h2>
+            <p>Certain content available on the Website may include materials from third parties. We may provide
+                 links to third-party websites as a convenience to you. You agree that we are not responsible for
+                  examining or evaluating the content or accuracy, and we do not warrant and, to the full extent permitted
+                   by law, will not have any liability or responsibility for any third-party materials or websites, or for
+                    any other materials, products, or services of third parties. You agree that you will not use any
+                     third-party materials in a manner that would infringe or violate the rights of any other party, and
+                      that we are not in any way responsible for any such use by you.</p>
+            <h2>Linking to the Website</h2>
+            <p>By linking to the Website, you acknowledge and accept these Terms of Use. If you do not agree with
+                 these Terms of Use, do not link to the Website.</p>
+            <p>If you link to HERC’s Website, you agree that you:</p>
+            <ul>
+                <li>
+                    Will not replicate any Website content
+                </li>
+                <li>
+                    Will not frame or otherwise create a browser or border environment around the Website content
+                </li>
+                <li>
+                    Will not imply that HERC is endorsing you, your company or business, your website or its contents, your products, or your services
+                </li>
+                <li>
+                    Will not misrepresent your or your website’s relationship with HERC
+                </li>
+                <li>
+                    Will not present false, misleading or inaccurate information about HERC, HERC’s products or services, or any of HERC’s affiliates or their products or services
+                </li>
+                <li>
+                    Will not disparage HERC, HERC’s products or services, or any of HERC’s affiliates or their products or services
+                </li>
+                <li>
+                    Will not use HERC’s trademarks, logos, or copyrighted materials without first receiving express prior written permission from HERC
+                </li>
+                <li>
+                    Will not include content on your website that is or could be construed as illegal, distasteful, offensive, or controversial and will include on your site only content that is appropriate for all age groups
+                </li>
+                <li>
+                    Will not link to an internal page of the Website that is located one or several levels down from the home page or bring up or present content of the Website on another website without HERC’s prior written permission
+                </li>
+
+            </ul>
+            <h2>Linking to the Website</h2>
+            <p>The trademarks, trade names, logos, service marks, trade dress and products (collectively the “Trademarks”)
+                 displayed on the Website are registered and unregistered Trademarks of HERC and others. The trademarks,
+                  trade names, logos, service marks, trade dress and products in this Website are protected in the United
+                   States and internationally.</p>
+            <p>Nothing contained on the Website should be construed as granting, by implication, estoppel, or otherwise,
+                 any license or right to use any Trademark displayed on the Website without the written permission of HERC
+                  or such third party that may own the Trademarks displayed on the Website. Your use of the Trademarks
+                   displayed on the Website, or any other content on the Website, except as provided in these Terms of Use,
+                    is strictly prohibited. You are also advised that HERC will aggressively enforce its intellectual property
+                     rights to the fullest extent of the law, including the seeking of criminal prosecution.</p>
+            <p>The materials of this Website are protected by Copyright and Trademark Laws of the U.S. and other countries
+                 and are owned by, or licensed to HERC. All content of this Website is owned or controlled by HERC.
+                  You may download content only for your personal use for non-commercial purposes but no modification
+                   or further reproduction of the content is permitted. The contents of the Website, including any
+                    images, text, executable code, and layout design may not be distributed, reproduced, publicly
+                     displayed, downloaded, modified, reused, re-posted, or otherwise used except as provided herein
+                      without the express prior written permission of HERC.</p>
+            <p>For any material that you may download from the Website as permitted herein, you must retain all
+                 copyright and other proprietary notices contained on the materials. You may not, for any reason,
+                  distribute, modify, duplicate, transmit, reuse, re-post, or use the content of the Website for public
+                   or commercial purposes without HERC’s prior written consent.</p>
+            <h2>No Unlawful or Prohibited Use</h2>
+            <p>You agree not to use or access the Website, intentionally or unintentionally, for any unlawful purpose,
+                 or any other purpose prohibited in these Terms of Use. You agree not to transmit any content or information
+                  that violates any law or regulation or is fraudulent, threatening, harassing, abusive, libelous, defamatory,
+                   obscene or is otherwise objectionable, or infringes on our or any third party’s intellectual property or
+                    other rights.</p>
+            <p>You may not use this Website in any manner that could be damaging to, disable, overburden, crash, or
+                 impair any HERC server, network, or interfere with any other party’s use and enjoyment of the Website
+                  or any of the Services. You may not attempt to gain unauthorized access to any portion of the HERC
+                   Website, the Services, other accounts, computer systems, or any network connected to any HERC server,
+                    through hacking, password “mining”, or any other means.</p>
+            <p>You agree not to modify, copy, adapt, sublicense, translate, sell, reverse engineer, decompile
+                 or disassemble any portion of the Website without first obtaining our express written consent. You will
+                  not engage in spamming on the Website or collect information on or about the visitors to the Website.</p>
+            <h2>Governing Law and Choice of Forum</h2>
+            <p>These Terms of Use shall be governed by and construed in accordance with the laws of the Cayman Islands.
+                 You agree that any action at law or in equity arising out of or relating to your use of this Website or
+                  these Terms of Use shall be filed only in the courts located in George Town, Grand Cayman, Cayman Islands,
+                   and you hereby consent and submit to the personal jurisdiction of such courts for the purposes of
+                    litigating any such action.</p>
+            <h2>Resolution of Disputes</h2>
+            <p>Prior to the initiation of any legal action arising from these Terms of Use or your use of the Website,
+                 you agree to mediate the dispute as provided below. The mediation shall be held in George Town, Grand
+                  Cayman, Cayman Islands. The mediator shall be selected by you from a list of three qualified mediators
+                   provided by us, from which you shall be entitled to select one. At least 5 days prior to the commencement
+                    of the mediation, you agree to deposit the sum of $5,000.00 to be held in escrow by the mediator until
+                     the mediation is complete. Upon completion of the mediation, regardless of the result, the mediator
+                      shall return to you the $5,000.00 deposit, minus one half of the expenses charged by the mediator for
+                       the mediation. In the event that the mediation does not result in an amicable resolution of your
+                        claims, then you are free to file suit in a court as provided herein.</p>
+            <p>The prevailing party in any such action shall be entitled to receive its, his, or her reasonable attorneys’
+                 fees and costs from the non-prevailing party. The conditions set forth herein shall be mandatory and
+                  shall act as a pre-requisite to filing any lawsuit or other legal action. If the conditions precedent
+                   are not met prior to your filing a lawsuit, then you consent and stipulate to a dismissal of your action
+                    and agree not to re-file until such time as all conditions precedent have been satisfied. Nothing in
+                     this paragraph shall serve as an express or implied waiver of the applicable statute of limitations
+                      and shall not be used by you as a defense to an untimely assertion of your claims.</p>
+            <h2>Disclaimer of Warranties</h2>
+            <p>INFORMATION ON THIS WEBSITE IS PROVIDED “AS IS” AND “AS AVAILABLE” FOR YOUR USE, WITHOUT WARRANTIES
+                 OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS
+                  FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT. THIS DISCLAIMER OF EXPRESS AND IMPLIED WARRANTIES
+                   SHALL BE ENFORCED TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW.</p>
+            <p>HERC CANNOT AND DOES NOT GUARANTEE OR WARRANT THAT ANY FILES AVAILABLE FOR DOWNLOADING THROUGH THIS
+                 WEBSITE WILL BE FREE OF INFECTION OR VIRUSES, WORMS, TROJAN HORSES OR OTHER CODE THAT MANIFEST
+                  CONTAMINATING OR DESTRUCTIVE PROPERTIES. YOU ARE RESPONSIBLE FOR IMPLEMENTING SUFFICIENT PROCEDURES
+                   TO SATISFY YOUR PARTICULAR REQUIREMENTS FOR ACCURACY OF DATA AND OUTPUT. YOU ASSUME TOTAL RESPONSIBILITY
+                    AND RISK FOR YOUR USE OF THE WEBSITE.</p>
+            <p>We are not registered broker-dealers, licensed financial advisors, a financial advisory company, or a bank.
+                We recommend you consult with a professional investment advisor before making any transaction or investment.</p>
+            <h2>Indemnity and Limitation of Damages</h2>
+            <p>You agree to indemnify, defend and hold harmless HERC, its officers, directors, employees, agents,
+                 licensors, suppliers, affiliates and any third party information providers to the Website against
+                  any and all losses, expenses, damages and costs, including reasonable attorneys’ fees, incurred in
+                   relation to, arising from, or for the purpose of avoiding, any claim or demand from a third party
+                    that your use of the Website violates these Terms of Use, any applicable law or regulation, or the
+                     rights of any third party.</p>
+            <p>IN NO EVENT SHALL HERC OR ANY OF ITS OFFICERS, DIRECTORS, SHAREHOLDERS, SUBSIDIARIES, AFFILIATES OR
+                 EMPLOYEES BE LIABLE TO ANY ENTITY FOR ANY DIRECT, INDIRECT, SPECIAL, CONSEQUENTIAL OR OTHER DAMAGES
+                  (INCLUDING, WITHOUT LIMITATION, ANY LOST PROFITS, BUSINESS INTERRUPTION, LOSS OF INFORMATION OR
+                   PROGRAMS OR OTHER DATA) THAT ARE RELATED TO THE USE OF, OR THE INABILITY TO USE, THE CONTENT,
+                    MATERIALS, AND FUNCTIONS OF THE WEBSITE OR ANY LINKED WEBSITE, EVEN IF HERC IS EXPRESSLY ADVISED
+                     OF THE POSSIBILITY OF SUCH DAMAGES.</p>
+            <h2>Miscellaneous</h2>
+            <p>These Terms of Use constitute the entire agreement between you and us as it pertains to your use of
+                 the Website and supersede any prior agreements between you and us. These Terms of Use shall be read
+                  and interpreted in conjunction with our Privacy Policy and any additional agreements between you and
+                   us. Where there is any conflict between the terms of these documents, these Terms of Use will
+                    supersede all others.</p>
+            <p>We will not be liable for any failure to perform any obligation under these Terms of Use as the
+                 result of an event beyond our control, including, but not limited to, any act of God, terrorism,
+                  war, political insurgence, insurrection, riot, civil unrest, act of civil or military authority,
+                   uprising, earthquake, flood, or any other natural or man-made eventuality outside our control.</p>
+            <p>The failure of you or us to insist on strict performance or to exercise any right or remedy hereunder
+                 shall not constitute a waiver thereof and shall not cause a diminution of the obligations under these
+                  Terms of Use. No waiver shall be effective unless it is expressly stated in writing, signed by the waiving
+                   party. If one or more provisions of these Terms of Use are held to be unenforceable under applicable law,
+                    such provision shall be excluded and the balance of the Terms of Use shall be interpreted as if
+                     such provision were so excluded and shall be otherwise enforceable in accordance with its terms.</p>
+            <p>If you have any questions regarding these Terms of Use, you may contact us via the Contact Us page.</p>            </div>
         </div>
     </div>
 </template>
@@ -216,7 +187,7 @@ export default {
 h1 {
   font-size: 45px;
   color: #091141;
-  margin-bottom: 5%;
+  margin-bottom: 1%;
   text-align: center;
   font-weight: bold;
 }
@@ -226,15 +197,27 @@ h2 {
   margin-top: 3%;
   margin-bottom: 2%;
   color: #f3c736;
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+  color: #091141;
 }
 
 p {
   line-height: 1.5em;
   color: #091141;
+  margin-bottom: 1%;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 5%;
 }
 
 #content {
-  width: 70%;
+  max-width: 1080px;
   margin: auto;
 }
 
@@ -245,6 +228,11 @@ p {
 .p-space {
   text-align: left;
   margin-bottom: 2%;
+}
+
+.date {
+  text-align: center;
+  margin-bottom: 4%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

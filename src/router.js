@@ -1,11 +1,12 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
-import Whitepaper from './views/Whitepaper.vue'
-import Policy from './views/Policy.vue'
-import FAQ from './views/FAQ.vue'
-import Metamask from './views/Metamask.vue'
-import CareersSection from './views/Careers.vue'
+import Whitepaper from './views/Whitepaper.vue';
+import Policy from './views/Policy.vue';
+import Terms from './views/Terms.vue';
+import FAQ from './views/FAQ.vue';
+import Metamask from './views/Metamask.vue';
+import CareersSection from './views/Careers.vue';
 import TokenInfo from './views/TokenInfo.vue';
 import Landing from './views/Landing.vue';
 import LandingTwo from './views/LandingTwo.vue';
@@ -40,7 +41,7 @@ export default new Router({
     {
         path: '/terms',
         name: 'terms',
-        component: Policy
+        component: Terms
     },
     {
         path: '/faq',
