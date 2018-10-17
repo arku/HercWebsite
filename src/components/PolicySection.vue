@@ -76,8 +76,8 @@
             <p>You can opt-out of having made your activity on the Service available to Google Analytics by installing
                  the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript
                   (ga.js, analytics.js, and dc.js) from sharing information with Google Analytics about visits activity.
-                   For more information on the privacy practices of Google, please visit the Google Privacy & Terms web
-                    page: http://www.google.com/intl/en/policies/privacy/</p>
+                   For more information on the privacy practices of Google, please visit the <a href="http://www.google.com/intl/en/policies/privacy/" target="_blank">
+                   Google Privacy & Terms web page.</a></p>
             <h2>BEHAVIORAL REMARKETING</h2>
             <p>HERC uses remarketing services to advertise on third party websites to you after you visited our Service.
                 We and our third-party vendors use cookies to inform, optimize and serve ads based on your past visits
@@ -87,17 +87,17 @@
                 <li>
                     <b>Google AdWords.</b> Google AdWords remarketing service is provided by Google Inc. You can opt-out of Google
                      Analytics for Display Advertising and customize the Google Display Network ads by visiting the Google Ads
-                      Settings page: http://www.google.com/settings/ads.  Google also recommends installing the Google Analytics
-                       Opt-out Browser Add-on - https://tools.google.com/dlpage/gaoptout – for your web browser. Google Analytics
+                      <a href="http://www.google.com/settings/ads" target="_blank">Settings page.</a> Google also recommends installing the Google Analytics
+                       Opt-out Browser <a href="https://tools.google.com/dlpage/gaoptout" target="_blank">Add-on</a> for your web browser. Google Analytics
                         Opt-out Browser Add-on provides visitors with the ability to prevent their data from being collected and
                          used by Google Analytics. For more information on the privacy practices of Google, please visit the
-                          Google Privacy & Terms webpage: http://www.google.com/intl/en/policies/privacy/
+                          <a href="http://www.google.com/intl/en/policies/privacy/" target="_blank">Google Privacy & Terms webpage.</a>
                 </li>
                 <li>
                     <b>Facebook.</b> Facebook remarketing service is provided by Facebook Inc.  You can learn more about
-                     interest-based advertising from Facebook by visiting this page: https://www.facebook.com/help/164968693837950
-                      To opt-out from Facebook’s interest-based ads follow these instructions from Facebook: https://www.facebook.com/help/568137493302217
-                       For more information on the privacy practices of Facebook, please visit Facebook’s Data Policy: https://www.facebook.com/privacy/explanation
+                     interest-based advertising from Facebook by visiting <a href="https://www.facebook.com/help/164968693837950" target="_blank">this page</a>.
+                      To opt-out from Facebook’s interest-based ads follow these instructions from <a href="https://www.facebook.com/help/568137493302217" target="_blank">Facebook</a>.
+                       For more information on the privacy practices of Facebook, please visit Facebook’s <a href="https://www.facebook.com/privacy/explanation" target="_target">Data Policy</a>.
                 </li>
             </ol>
             <h2>HOW WE USE THE INFORMATION WE COLLECT</h2>
@@ -196,7 +196,7 @@
                          companies to serve advertisements.
             </p>
             <p>If you prefer to not receive targeted advertising, you can opt out of some network advertising programs
-                 that use your information. To do so please visit the NAI Opt-Out Page: http://www.networkadvertising.org/managing/opt_out.asp.</p>
+                 that use your information. To do so please visit the <a href="http://www.networkadvertising.org/managing/opt_out.asp." target="_blank">NAI Opt-Out Page.</a></p>
             <p>Please note that even if you choose to remove your information (opt out), you will still see advertisements
                  while you are browsing online. However the advertisements you see may be less relevant to you and your
                   interests. Additionally, many network advertising programs allow you to view and manage the interest
@@ -211,42 +211,33 @@
                   note that we cannot ensure or warrant the security of any information you transmit to us, and you
                    use the Sites and provide us with your information at your own risk.
             </p>
-            <h2>Notification of Changes</h2>
-            <p>
-                If we decide to change our privacy policy, we will post those changes
-                on our home page so our users are aware of what information we collect,
-                how we use it, and under what circumstances, if any, we disclose it.
-                We will use information in accordance with the privacy policy according
-                to how the information was collected. For any questions regarding our
-                privacy policy you may contact us from the Contact Us page.
+            <h2>OTHER SITES</h2>
+            <p>The Sites may contain links to other sites that we do not own or operate. This includes links from
+                 advertisers, sponsors and partners that may use our logo(s) as part of a co-branding agreement. We
+                  do not control, recommend or endorse and are not responsible for these sites or their content, products,
+                   services or privacy policies or practices. These other websites may send their own cookies to
+                    your Device, they may independently collect data or solicit Personal Information and may or may not
+                     have their own published privacy policies. You should also independently assess the authenticity of
+                      any site which appears or claims that it is one of our Sites (including those linked to through an
+                       email or social networking page).
             </p>
-            <h2>Account Terms of Service</h2>
-            <p>
-                By registering for a User Account (defined below) or using our Services
-                (defined below), you expressly agree to these Account Terms of Service
-                (these “Terms of Service”). We reserve the right, in our sole discretion,
-                to change, modify, add to, remove, or otherwise alter these Terms of Service
-                at any time. Notification of changes or modifications will be given
-                electronically and on this page. You should check these Terms of Service
-                periodically for changes. Using your User Account or our Services subsequent
-                to any change or modification shall serve as your acknowledgement and
-                acceptance of the altered term(s). You expressly agree that notification
-                given in this manner is sufficient for all purposes and you expressly
-                waive your right to challenge the Terms of Use based on subsequent modification
-                or deficient notice of the same. If you do not agree to these Terms of Service,
-                you should not use our Services and, if applicable, you should cancel your
-                User Account.<br>
-                These Terms of Service apply to any User Account or Services provided
-                by Anthem Vault, Inc. or its affiliates
-                (collectively, “we,” “us,” “our,” or “Anthem Vault”) via this website
-                and any other website that we may own or operate currently or in the
-                future (collectively, the “Website”).
+            <h2>CONSENT TO PROCESSING AND TRANSFER OF INFORMATION</h2>
+            <p>The Sites are operated in the United States. Given that we are an international business, our
+                 use of your information necessarily involves the transmission of data on an international basis.
+                  If you are located in the European Union, Canada or elsewhere outside of the United States, please be
+                   aware that information we collect may be transferred to and processed in the United States. By
+                    using the Sites, or providing us with any information, you consent to the collection, processing,
+                     maintenance and transfer of such information in and to the United States and other applicable
+                      territories in which the privacy laws may not be as comprehensive as or equivalent to those in
+                       the country where you reside and/or are a citizen.
             </p>
-            <h2>Privacy</h2>
+            <h2>CHANGES</h2>
             <p>
-                We take the private nature of your personal information very seriously.
-                You hereby acknowledge and consent to the use of your personal information in
-                accordance with our official Privacy Policy.
+                Please note, we may change information on the Sites and/or this Privacy Policy, at any time without prior
+                 notice to you, and any changes will be effective immediately upon the posting of the revised Privacy Policy
+                  on the Sites. However, HERC will use your Personal Information in a manner consistent with the Privacy
+                   Policy in effect at the time you submitted the information, unless you consent to the new or revised
+                    policy.
             </p>
             <h2>Signing Up</h2>
             <p>
