@@ -117,43 +117,99 @@
                     Policy and in the following circumstances:
             </p>
             <h3>Third party service providers</h3>
-            <h2>Email and Newsletters</h2>
-            <p>If a user wishes to subscribe to our newsletters, we ask for contact
-            information such as name and email address.</p>
-            <h2>Surveys</h2>
+            <p>In order to carry out your requests, to make various features, services and materials available to you through the Sites, and to respond to your
+                 inquiries, we may share your Personal Information, or Usage Information with third parties that perform functions on
+                  our behalf (or on behalf of our partners), such as companies or individuals that: host or operate our
+                   Sites; analyze data; provide customer service; advertisers; sponsors or other third parties that participate
+                    in or administer our promotions or provide marketing or promotional assistance (such as in connection with winner selection,
+                     prize fulfillment, and as required by law, such as on a winners list).</p>
+            <h3>Your agreement</h3>
+            <p>While on our Sites, you may have the opportunity to opt-in to receive information and/or marketing offers
+                 from someone else or to otherwise consent to the sharing of your information with a third party. If you
+                  agree to have your Personal Information shared, your Personal Information will be disclosed to the third
+                   party and the Personal Information you disclose will be subject to the privacy policy and business practices
+                    of that third party.</p>
+            <h3>Transactions</h3>
+            <p>Your Personal Information may also be used by us or shared with our subsidiaries, affiliates and other
+                 entities in the family of companies controlled by HERC for internal reasons, primarily for business
+                  and operational purposes. As we continue to develop our business, we may sell or purchase assets.
+                   If another entity acquires us or all or substantially all of our assets, or assets related to the
+                    Sites, Personal Information, Usage Information, and any other information that we have collected about
+                     the users of the Sites may be disclosed to such entity as part of the due diligence process and will
+                      be transferred to such entity as one of the transferred assets. Also, if any bankruptcy or
+                       reorganization proceeding is brought by or against us, all such information may be considered an
+                        asset of ours and as such may be sold or transferred to third parties.</p>
+            <h3>Legal reasons</h3>
+            <p>HERC may transfer and disclose information, including your Personal Information, Usage Information and
+                 Device Identifier (including IP address), to third parties to comply with a legal obligation; when we
+                  believe in good faith that the law requires it; at the request of governmental authorities conducting an
+                   investigation; to verify or enforce our User Agreement or other applicable policies; to respond to an
+                    emergency; or otherwise to protect the rights, property, safety, or security of third parties, visitors
+                     to our Sites or the public.</p>
+            <h2>INFORMATION WE RECEIVE FROM THIRD PARTIES</h2>
+            <p>HERC may receive information about you from third parties. For example, if you are on another website
+                 and you opt-in to receive information from HERC, that website will forward to us your e-mail address
+                  and other information about you so that we may contact you as requested. You may also choose to
+                   participate in a third party application or feature (such as one of our Facebook or Twitter applications
+                    or a similar application or feature on a third party website) through which you allow us to collect
+                     (or the third party to share) information about you, including Personal Information. In addition,
+                      we may receive information about you if other users of a third party website give us access to
+                       their profiles and you are one of their “connections” or information about you is otherwise
+                        accessible through your “connections” web page, profile page, or similar page on a social
+                         networking or other third party website or interactive service.</p>
+            <p>We may also supplement the information we collect about you through the Sites with outside records
+                 from third parties in order to enhance our ability to serve you, to tailor our content to you and
+                  to offer you opportunities to purchase products or services that we believe may be of interest to
+                   you. We may combine the information we receive from these third parties with information we collect
+                    through the Sites. In those cases, we will apply this Privacy Policy to any Personal Information
+                     received, unless we have disclosed otherwise.</p>
+            <h2>OPTING OUT</h2>
             <p>
-                From time to time we may request information from users via surveys.
-                Participation in these surveys is completely voluntary and the user
-                therefore has a choice whether or not to disclose this information.
-                Information requested may include contact information
-                (such as name and mailing address), and demographic information
-                (such as zip code, age, etc.). Survey information is used for purposes
-                of monitoring or improving the use and satisfaction of users of the Website.
+                You may always direct us not to share your Personal Information with third parties, not to use your
+                 Personal Information to provide you with information or offers, or not to send you newsletters,
+                  e-mails or other communications by: (i) sending us an e-mail at _________________ with the word
+                   “Remove” as the subject header; (ii) calling us at (___) ______; or (iii) following the removal
+                    instructions in the communication that you receive. Your opt-out request will be processed within
+                     30 days of the date on which we receive it.
             </p>
-            <h2>Security</h2>
-            <p>
-                To prevent unauthorized access, maintain data accuracy and ensure the
-                correct use of information, we have put in place appropriate physical,
-                electronic and managerial procedures to safeguard and secure the
-                information we collect online. When users submit sensitive information
-                via the Website, the information is protected both online and offline.<br>
-                While we use encryption to protect sensitive information online,
-                we also take precautions to protect user-information off-line.
-                All of our users’ information, not just the sensitive information
-                mentioned above, is restricted in our offices. Only employees who
-                need the information to perform a specific job are granted access
-                to personally identifiable information. Employees are kept up to date
-                on our security and privacy practices. The computer servers on which
-                we store personally identifiable information are kept in a secure environment,
-                behind a firewall and locked door(s). Internet security measures
-                are taken to guard against hacking or cracking intrusions, damage
-                or theft of information.
+            <p>If you wish to verify, correct, or update any of your personal information collected through the Sites,
+                 you may edit your profile preferences or us at the above address or e-mail. In accordance with our routine
+                  record keeping, we may delete certain records that contain Personal Information you have submitted through
+                   the Sites. We are under no obligation to store such Personal Information indefinitely and disclaim any liability
+                    arising out of, or related to, the destruction of such Personal Information. In addition, you should be aware
+                     that it is not always possible to completely remove or delete all of your information from our databases
+                      without some residual data because of backups and other reasons.</p>
+            <p>California law requires us to let you know how we respond to web browser Do Not Track (DNT) signals.
+                 Because there currently is not an industry or legal standard for recognizing or honoring DNT signals,
+                  we do not respond to them at this time. We await the result of work by the privacy community and industry
+                   to determine when such a response is appropriate and what form it should take.</p>
+            <h2>HOW TO OPT-OUT</h2>
+            <p>HERC licenses technology to serve advertisements on its own Sites and within its content as that
+                 content is served across the Internet. In addition, HERC may use third party network advertisers to
+                  serve advertisements and third party analytics vendors to evaluate and provide us with information about
+                   the use of the Sites and viewing of our content. We do not share Personal Information with these third
+                    parties, but ad network providers, the advertisers, the sponsors, and/or analytics service providers
+                     may set and access their own cookies, pixel tags and similar technologies on your Device and they may
+                      otherwise collect or have access to information about you, including Usage Information. We and our
+                       network advertisers may target advertisements for products and services in which you might be
+                        interested based on your visits to both the Sites and other websites. We may use a variety of
+                         companies to serve advertisements.
             </p>
-            <h2>Choice/Opt-Out</h2>
+            <p>If you prefer to not receive targeted advertising, you can opt out of some network advertising programs
+                 that use your information. To do so please visit the NAI Opt-Out Page: http://www.networkadvertising.org/managing/opt_out.asp.</p>
+            <p>Please note that even if you choose to remove your information (opt out), you will still see advertisements
+                 while you are browsing online. However the advertisements you see may be less relevant to you and your
+                  interests. Additionally, many network advertising programs allow you to view and manage the interest
+                   categories they have compiled from your online browsing activities. These interest categories help determine
+                    the types of targeted advertisements you may receive. The NAI Opt-Out Page provides a tool that identifies
+                     its member companies that have cookies on your browser and provides links to those companies.</p>
+
+            <h2>SECURITY OF YOUR INFORMATION</h2>
             <p>
-                Users who no longer wish to receive our newsletter or other
-                materials may opt-out of receiving these communications by replying
-                to unsubscribe in the subject line in the email.
+                We use certain reasonable security measures to help protect your Personal Information. However, no
+                 electronic data transmission or storage of information can be guaranteed to be 100% secure. Please
+                  note that we cannot ensure or warrant the security of any information you transmit to us, and you
+                   use the Sites and provide us with your information at your own risk.
             </p>
             <h2>Notification of Changes</h2>
             <p>
