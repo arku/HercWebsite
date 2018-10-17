@@ -3,91 +3,120 @@
         <div id="content">
             <div class="p-space">
             <h1>Privacy Policy</h1>
-            <p>This Privacy Policy applies to the collection and use of personal data by
-            websites owned or operated by Anthem Vault, Inc. and our affiliates
-            (collectively, “we,” “us,” “our,” or “Anthem Vault”), including without limitation,
-            this website and any other website that we may own or operate currently or in the
-            future (collectively, the “Website”). By viewing, accessing, navigating,
-            or otherwise using the Website, you (the “User”) agree to the use of your
-            personal and other information consistent with this Privacy Policy.
-            We are the sole owner of the information collected on this Website.
-            We will not sell, share, or rent this information to others in ways different
-            from what is disclosed in this statement. We collect information from our users
-            in several different ways on our Website as described more specifically below.</p>
-            <h2>Registration</h2>
+            <p>Hercules SEZC (HERC) respects your privacy. We will never willfully disclose individually identifiable
+                 information about our customers to any third party, except in the limited circumstances permitted
+                  by this policy.</p>
+            <p>HERC does not sell, rent, or loan any personally identifiable information regarding its customers
+                 to any third party. Any information you give us is held with the utmost care and security, and 
+                 will not be used in ways to which you have not consented.</p>
+            <p>This privacy policy (“Privacy Policy”) applies solely to information collected through the HERC family
+                 of websites, web pages, interactive features, applications, widgets, blogs and their respective
+                  contents at the following URLs: including herc.one, in addition to Twitter, Facebook or other social
+                   networking sites, and their respective contents, whether accessed via computer, mobile device or
+                    other technology (collectively, the “Sites”). The Sites are offered by HERC and its subsidiary and
+                     affiliated companies, Site developers and other promotional partners (collectively, “HERC,” or “we”, “us”, “our”).</p>
+            <p>This Privacy Policy explains what information may be collected through the Sites, how such information may be used and/or shared
+                 with others, how we safeguard it and how you may access and control its use in connection with our marketing
+                  communications and activities. Please read this Privacy Policy carefully, because by using the Sites you
+                   are acknowledging that you understand and agree to the terms of this Privacy Policy. In addition, please
+                    review our Terms of Use, which governs your use of the Sites and any content you submit to the Sites.</p>
+            <h2>INFORMATION YOU PROVIDE TO US</h2>
             <p>
-                In order to use certain portions of the Website or receive certain
-                services offered by the Website such as to register for an account
-                via the Website (“User Account”), a user must first complete a registration form.
-                During registration a user is required to give his or her contact information
-                (such as name and email address). This information is used to contact the user
-                about the services on our Website for which he or she has expressed interest.
+                The Sites may ask you to provide information that could reasonably be used to contact you or to identify
+                 you personally (such as your name, e-mail address, telephone number, or home address
+                  (“Personal Information”)). For example, HERC may collect Personal Information when you register on the
+                   Sites, request information, submit comments or participate in some promotion, survey or other feature
+                    of the Sites, or otherwise communicate or interact with us. The Sites may also ask you to provide other
+                     information about yourself, such as demographic information (gender, zip code, age, etc.) or certain
+                      information about your preferences and interests. If we combine demographic or other information we
+                       collect about you with Personal Information about you, we will treat the combined information as
+                        Personal Information. To the extent the Sites allow you to apply to become a customer of HERC,
+                         additional information may be requested and collected from you via customer application forms
+                          and other forms. If you do not want your Personal Information collected, please do not submit it.
             </p>
-            <h2>Transactions</h2>
+            <h2>INFORMATION WE COLLECT AUTOMATICALLY</h2>
             <p>
-                In areas of our Website that provide online transactions with us,
-                we request information from the user to process the purchase order.
-                Here, a user may be required to provide personal information
-                (like name and mailing address) and financial information
-                (like bank account numbers). This information is used to fill
-                customer’s’ orders and satisfy any regulatory requirements we have.
-                If we have trouble processing an order, this contact information is
-                used to get in touch with the user.
+                Whenever you visit or interact with the Sites, HERC, as well as any third-party advertisers and/or service
+                 providers, may use a variety of technologies that automatically or passively collect information about how
+                  the Sites are accessed and used (“Usage Information”). Usage Information may include, in part, browser type,
+                   operating system, the page served, the time, and the preceding page views. This statistical data provides us
+                    with information about the use of the Sites, such as how many visitors visit a specific page on the Sites,
+                     how long they stay on that page, and which hyperlinks, if any, they “click” on. This information helps
+                      us keep our website fresh and interesting to our visitors and tailor content to a visitor’s interests.
+                       Usage Information is generally non-identifying, but if HERC associates it with you as a specific and
+                        identifiable person, HERC treats it as Personal Information.
             </p>
-            <h2>Cookies</h2>
+            <p>HERC also automatically collects your IP address or other unique identifier (“Device Identifier”) for the
+                 computer, mobile device, technology or other device (collectively, “Device”) you use to access the Sites.
+                  A Device Identifier is a number that is automatically assigned to your Device when you access a website
+                   or its servers, and our computers identify your Device by its Device Identifier.</p>
+
+                   <p>The technologies used on the Sites to collect Usage Information, including Device Identifiers, may include,
+                        without limitation, cookies and pixel tags, described below:</p>
+            <p>Cookies are data files placed on a Device when it is used to visit the Sites. HERC, or our third-party advertising service providers,
+                 may place cookies or similar files on your Device for security purposes, to facilitate site navigation and to personalize your experience
+                  while visiting our Sites. Cookies allow us to collect technical and navigational information, such as browser type, time spent on our Sites
+                   and pages visited. Cookies also allow us to select which of our advertisements or offers are most likely to appeal to you and display them
+                    while you are on the Sites. If you would prefer not to accept cookies, you can change your browser settings to notify you when you receive
+                     a cookie, which lets you choose whether or not to accept it; or set your browser to automatically not accept any cookies. However, please
+                      be aware that some features and services on our Sites may not work properly because we may not be able to
+                       recognize and associate you with your HERC account(s). In addition, the offers we provide when you
+                        visit us may not be as relevant to you or tailored to your interests.</p>
+            <p>A pixel tag is a transparent graphic image placed on a web page or in an email, which indicates that a page or email has been viewed. In addition,
+                 a pixel tag may tell your browser to get content from another server. In order to ensure the safekeeping
+                  of your information, network advertising companies and publishers are not permitted to directly
+                   collect Personal Information on our Sites.</p>
+            <h2>ANALYTICS</h2>
+            <p>HERC may use third-party Service Providers to monitor and analyze the use of our Service.  Google
+                 Analytics is a web analytics service offered by Google that tracks and reports website traffic. Google
+                  uses the data collected to track and monitor the use of our Service. This data is shared with other Google
+                   services. Google may use the collected data to contextualize and personalize the ads of its own
+                    advertising network.
+            </p>
+            <p>You can opt-out of having made your activity on the Service available to Google Analytics by installing
+                 the Google Analytics opt-out browser add-on. The add-on prevents the Google Analytics JavaScript
+                  (ga.js, analytics.js, and dc.js) from sharing information with Google Analytics about visits activity.
+                   For more information on the privacy practices of Google, please visit the Google Privacy & Terms web
+                    page: http://www.google.com/intl/en/policies/privacy/</p>
+            <h2>BEHAVIORAL REMARKETING</h2>
+            <p>HERC uses remarketing services to advertise on third party websites to you after you visited our Service.
+                We and our third-party vendors use cookies to inform, optimize and serve ads based on your past visits
+                 to our Service.
+            </p>
+            <ol>
+                <li>
+                    <b>Google AdWords.</b> Google AdWords remarketing service is provided by Google Inc. You can opt-out of Google
+                     Analytics for Display Advertising and customize the Google Display Network ads by visiting the Google Ads
+                      Settings page: http://www.google.com/settings/ads.  Google also recommends installing the Google Analytics
+                       Opt-out Browser Add-on - https://tools.google.com/dlpage/gaoptout – for your web browser. Google Analytics
+                        Opt-out Browser Add-on provides visitors with the ability to prevent their data from being collected and
+                         used by Google Analytics. For more information on the privacy practices of Google, please visit the
+                          Google Privacy & Terms webpage: http://www.google.com/intl/en/policies/privacy/
+                </li>
+                <li>
+                    <b>Facebook.</b> Facebook remarketing service is provided by Facebook Inc.  You can learn more about
+                     interest-based advertising from Facebook by visiting this page: https://www.facebook.com/help/164968693837950
+                      To opt-out from Facebook’s interest-based ads follow these instructions from Facebook: https://www.facebook.com/help/568137493302217
+                       For more information on the privacy practices of Facebook, please visit Facebook’s Data Policy: https://www.facebook.com/privacy/explanation
+                </li>
+            </ol>
+            <h2>HOW WE USE THE INFORMATION WE COLLECT</h2>
+            <p>HERC uses the information we collect about and from you for a variety of business purposes, including for
+                 example, to: respond to your questions and requests; provide you with access to certain areas and features
+                  of the Sites; verify your identity; communicate with you about your account and activities on the Sites
+                   and, in our discretion, changes to any HERC policy; tailor content, advertisements, and offers we serve
+                    you; improve the Sites and for internal business purposes; process applications and transactions; and for
+                     purposes disclosed at the time you provide your Personal Information or otherwise with your consent.
+            </p>
+            <h2>SHARING OF INFORMATION</h2>
             <p>
-                A cookie is a piece of data stored on a user’s personal computer hard
-                drive containing information about the user. Usage of a cookie is in no
-                way linked to any personally identifiable information while on our Website.
-                Once the user closes his or her computer web browser, the cookie terminates.
-                For instance, by setting a cookie on our Website, the user would not have to
-                log in a password more than once, thereby saving time while on our Website
-                during repeat visits. If a user rejects the cookie by setting the browser to
-                reject cookies, the user may still use our Website, but as a result the user
-                would be limited in some areas of our Website. Cookies also can enable us to
-                track and target the interests of our users to enhance the experience on our Website.
+                Except as provided in this Privacy Policy, we will not provide any of your Personal Information to any
+                 third parties without your specific consent. We may share non-Personal Information, such as aggregate
+                  user statistics, demographic information, and Usage Information with third parties. We may also share
+                   your information as disclosed at the time you provide your information, as set forth in this Privacy
+                    Policy and in the following circumstances:
             </p>
-            <h2>Log Files</h2>
-            <p>
-                As is the case for most websites, we automatically obtain and store in our
-                log files certain general information such as IP addresses, browser type,
-                Internet service provider, page path and other web analytics to improve user
-                experience, analyze trends, administer the site, track users’ movement on our
-                pages, and gather broad demographic information. None of the information
-                stored in our log files is linked to personally identifiable information.
-            </p>
-            <h2>Sharing</h2>
-            <p>
-                We treat all personal information provided by a user and held by us as
-                confidential and will not disclose any such information to any third
-                party except as specified in this paragraph. We will not sell, rent, loan
-                or trade any of your personal information provided to us.<br>
-                We may use another company’s services to verify your personal
-                information as a requirement for making transactions through your User Account.
-                Any such company is authorized to use this information solely for
-                the purpose of verifying your personal information on our behalf and for
-                no other purpose, and will not store any personally sensitive data
-                not in the public domain.<br>
-                We use third-party analytics tools to track general, non-personally
-                identifiable information such as pages viewed, browser type and
-                aggregated demographic information to help measure and improve overall
-                user experience. Any such information is not linked to any personal information
-                that can identify any individual person.<br>
-                We may partner with other companies to provide specific services to users.
-                If and when the user agrees to applicable terms and signs up for any such
-                services, we will share names or other personal information that is necessary
-                for the third party to provide these services. These parties are not
-                allowed to use personally identifiable information except for the
-                purpose of providing these services.
-            </p>
-            <h2>Links</h2>
-            <p>
-                This Website contains links to other sites. We are not responsible for
-                the privacy practices of such other sites. We encourage our users to
-                be aware when they leave our Website and to read the privacy statements of
-                each and every website that collects personally identifiable information.
-                This privacy statement applies solely to information collected by us.
-            </p>
+            <h3>Third party service providers</h3>
             <h2>Email and Newsletters</h2>
             <p>If a user wishes to subscribe to our newsletters, we ask for contact
             information such as name and email address.</p>
@@ -211,7 +240,7 @@ export default {
   margin: auto;
 }
 
-#policy-section h1 {
+h1 {
   font-size: 45px;
   color: #091141;
   margin-bottom: 5%;
@@ -219,16 +248,29 @@ export default {
   font-weight: bold;
 }
 
-#policy-section h2 {
+h2 {
   font-size: 24px;
   margin-top: 3%;
   margin-bottom: 2%;
   color: #f3c736;
+  font-weight: bold;
 }
 
-#policy-section p {
+h3 {
+  font-weight: bold;
+  color: #091141;
+  font-style: italic;
+  margin-bottom: 1%;
+}
+
+p {
   line-height: 1.5em;
   color: #091141;
+  margin-bottom: 1%;
+}
+
+li {
+  margin-bottom: 1%;
 }
 
 #content {

@@ -41,7 +41,7 @@ export default new Router({
         path: '/terms',
         name: 'terms',
         component: Policy
-    }
+    },
     {
         path: '/faq',
         name: 'faq',

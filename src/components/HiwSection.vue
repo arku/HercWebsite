@@ -22,7 +22,6 @@ export default {
 #hiw-section {
   padding: 50px;
   background-color: #091141;
-  padding-top: 0px;
 }
 
 #content {
