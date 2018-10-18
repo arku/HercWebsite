@@ -7,9 +7,15 @@
                 <h1>A blockchain<br> supply chain solution</h1>
                 <div>
                   <div id="buttons-lol">
-                    <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
-                    <a>Join Token Sale</a>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
+                    <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+                      <button  class="left-button">With Us</button>
+                    </a>
+                    <a>
+                      <button>Token Sale</button>
+                    </a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                      <button  class="right-button">Read Whitepaper</button>
+                    </a>
                   </div>
                   <h2 class="date-info">29 October 2018. 12:00 PST</h2>
                   <div id="countdown">
@@ -136,9 +142,10 @@ img {
   margin-bottom: 10%;
 }
 
-a{
+button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
+  border-radius: 5px !important;
   font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
@@ -149,7 +156,7 @@ a{
   color: #091141;
 }
 
-a:hover {
+button:hover {
   background-color: transparent;
   color: #f3c736;
   border: 2px solid #f3c736;
