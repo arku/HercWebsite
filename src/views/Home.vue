@@ -3,7 +3,7 @@
         <NavBar></NavBar>
         <split-test name="landing-randomizer">
           <landing-page-one slot="A" chance="1"></landing-page-one>
-          <landing-page-two slot="B" chance="1"></landing-page-two>
+          <!-- <landing-page-two slot="B" chance="1"></landing-page-two> -->
           <landing-page-three slot="C" chance="1"></landing-page-three>
           <landing-page-four slot="D" chance="1"></landing-page-four>
           <landing-page-five slot="E" chance="1"></landing-page-five>
@@ -66,7 +66,7 @@ import DappSection from "@/components/DappSection.vue";
 import HiwSection from "@/components/HiwSection.vue";
 import CountdownSection from "@/components/CountdownSection.vue";
 import LandingPageOne from "@/components/LandingPages/LandingPageOne.vue";
-import LandingPageTwo from "@/components/LandingPages/LandingPageTwo.vue";
+// import LandingPageTwo from "@/components/LandingPages/LandingPageTwo.vue";
 import LandingPageThree from "@/components/LandingPages/LandingPageThree.vue";
 import LandingPageFour from "@/components/LandingPages/LandingPageFour.vue";
 import LandingPageFive from "@/components/LandingPages/LandingPageFive.vue";
@@ -81,7 +81,7 @@ export default {
     NavBar,
     // TopSection,
     LandingPageOne,
-    LandingPageTwo,
+    // LandingPageTwo,
     LandingPageThree,
     LandingPageFour,
     LandingPageFive,

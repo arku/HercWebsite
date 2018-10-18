@@ -7,9 +7,9 @@
                     <img src="../../assets/herc-logo.png" id="logo">
                     <h3 id="logo-subtitle">An integrated &<br> multi-layered<br> Supply Chain<br> Software Solution</h3>
                     <div id="buttons-lol">
-                        <button class="left-button">Talk With Us</button>
-                        <button>Join Token Sale</button>
-                        <button class="right-button">Read Whitepaper</button>
+                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
+                    <a>Join Token Sale</a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
                   </div>
                 </div>
                 <div class="column">
@@ -164,7 +164,7 @@ p {
   color: #f3c736;
 }
 
-button {
+a {
   background-color: #f3c736;
   border: 2px solid #f3c736;
   font-size: 16px;
@@ -177,7 +177,7 @@ button {
   color: #091141;
 }
 
-button:hover {
+a:hover {
   background-color: transparent;
   color: #f3c736;
   border: 2px solid #f3c736;
@@ -233,10 +233,10 @@ span {
 
 #countdown {
   background-color: #f3c736;
-  width: 50%;
+  width: 70%;
   margin: auto;
   box-shadow: 0px 12px 18px -6px #000;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
 
 #coins {

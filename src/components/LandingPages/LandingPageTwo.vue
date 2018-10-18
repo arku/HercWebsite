@@ -40,8 +40,8 @@
             <div id="shape-section" class="columns">
                 <div class="column">
                     <div id="buttons-lol">
-                        <button>Terms & Conditions</button>
-                        <button>White Paper</button>
+                        <router-link to="/terms">Terms & Conditions</router-link>
+                        <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">White Paper</a>
                     </div>
                 </div>
                 <div class="column">
@@ -154,7 +154,7 @@ img {
   width: 70%;
 }
 
-button {
+a {
   background-color: #f3c736;
   border: 2px solid #f3c736;
   font-size: 18px;
@@ -168,7 +168,7 @@ button {
   margin: 5%;
 }
 
-button:hover {
+a:hover {
   background-color: transparent;
   border: 2px solid #f3c736;
 }
@@ -295,7 +295,7 @@ button:hover {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  button {
+  a {
     margin: 1%;
   }
 

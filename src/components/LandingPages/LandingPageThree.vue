@@ -8,9 +8,9 @@
                     <img src="../../assets/herc-logo.png" id="logo">
                     <h1 id="logo-subtitle">A Blockchain <br>Supply Chain Solution</h1>
                     <div id="buttons-lol">
-                        <button class="left-button">Talk With Us</button>
-                        <button>Join Token Sale</button>
-                        <button class="right-button">Read Whitepaper</button>
+                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
+                    <a>Join Token Sale</a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
                   </div>
                 </div>
                 <div class="column">
@@ -105,7 +105,7 @@ p {
   margin-bottom: 5%;
 }
 
-button {
+a {
   background-color: #f3c736;
   border: 2px solid #f3c736;
   font-size: 16px;
@@ -118,7 +118,7 @@ button {
   color: #091141;
 }
 
-button:hover {
+a:hover {
   background-color: transparent;
   color: #f3c736;
   border: 2px solid #f3c736;

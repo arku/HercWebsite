@@ -6,11 +6,11 @@
                     <div class="column">
                         <img src="../assets/herc-logo.png">
                         <div>
-                            <a href="/policy">Privacy Policy</a>
+                            <a href="/privacy">Privacy Policy</a>
                         </div>
-                        <!-- <div>
-                            <a href="">Terms of Use</a>
-                        </div> -->
+                        <div>
+                            <a href="/terms">Terms of Use</a>
+                        </div>
                         <div>
                             <a href="/metamask">Metamask</a>
                         </div>

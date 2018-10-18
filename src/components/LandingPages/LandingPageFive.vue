@@ -13,9 +13,9 @@
                         that provides immutability, and more importantly, trust for the consumer.
                     </p>
                     <div id="buttons-lol">
-                        <button class="left-button">Talk With Us</button>
-                        <button>Join Token Sale</button>
-                        <button class="right-button">Read Whitepaper</button>
+                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
+                    <a>Join Token Sale</a>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
                   </div>
                 </div>
                 <div class="column" id="druga">
@@ -134,6 +134,10 @@ p {
   width: 80%;
 }
 
+#buttons-lol{
+  margin-top: 5%;
+}
+
 #landing-five {
   background-image: url("../../assets/landing-pages/town-bg.png");
   background-size: cover;
@@ -160,7 +164,7 @@ p {
   text-align: center;
 }
 
-button {
+a {
   background-color: #f3c736;
   border: 2px solid #f3c736;
   font-size: 16px;
@@ -173,7 +177,7 @@ button {
   color: #091141;
 }
 
-button:hover {
+a:hover {
   background-color: #091141;
   color: #f3c736;
   border: 2px solid #f3c736;
@@ -201,7 +205,7 @@ button:hover {
   font-size: 24px;
   text-align: left;
   color: white;
-  width: 60%;
+  width: 90%;
   margin: auto;
   margin-bottom: 5%;
 }
@@ -238,7 +242,7 @@ button:hover {
 #countdown {
   background-color: #f3c736;
   margin: auto;
-  width: 60%;
+  width: 90%;
   box-shadow: 0px 12px 18px -6px #000;
   margin-bottom: 5%;
 }
