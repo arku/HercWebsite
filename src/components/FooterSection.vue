@@ -6,7 +6,7 @@
                     <div class="column">
                         <img src="../assets/herc-logo.png">
                         <div>
-                            <a href="/privacy">Privacy Policy</a>
+                            <a href="/policy">Privacy Policy</a>
                         </div>
                         <div>
                             <a href="/terms">Terms of Use</a>
