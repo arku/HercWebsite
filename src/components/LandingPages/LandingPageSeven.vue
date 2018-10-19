@@ -7,9 +7,15 @@
                     <img src="../../assets/herc-logo.png">
                     <h3>Transforming<br> Supply Chain<br> Ecosystems</h3>
                     <div id="buttons-lol">
-                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
-                    <a>Join Token Sale</a>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
+                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+                        <button  class="left-button">Talk With Us</button>
+                      </a>
+                      <a>
+                        <!-- <button>Token Sale</button> -->
+                      </a>
+                      <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                        <button  class="right-button">Read Whitepaper</button>
+                      </a>
                     </div>
                 </div>
                 <div class="column">
@@ -145,7 +151,7 @@ img {
   margin-bottom: 2%;
 }
 
-a {
+button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
   font-size: 16px;
@@ -158,10 +164,11 @@ a {
   color: #091141;
 }
 
-a:hover {
+button:hover {
   background-color: #091141;
   color: #f3c736;
   border: 2px solid #f3c736;
+  cursor: pointer;
 }
 
 .left-button {
@@ -222,11 +229,6 @@ span {
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
-  .left-button,
-  .right-button {
-    border-radius: 0;
-    margin: 5%;
-  }
 }
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
@@ -237,6 +239,10 @@ span {
   #countdown,
   #date-holder {
     width: 80%;
+  }
+
+  button {
+    border-radius: 5px !important;
   }
 
   .left-button,
@@ -250,6 +256,10 @@ span {
   #countdown,
   #date-holder {
     width: 100%;
+  }
+
+  button {
+    border-radius: 5px !important;
   }
 
   .left-button,

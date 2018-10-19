@@ -8,9 +8,15 @@
                     <img src="../../assets/herc-logo.png" id="logo">
                     <h1 id="logo-subtitle">A Blockchain <br>Supply Chain Solution</h1>
                     <div id="buttons-lol">
-                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
-                    <a>Join Token Sale</a>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
+                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+                        <button  class="left-button">Talk With Us</button>
+                      </a>
+                      <a>
+                        <!-- <button>Token Sale</button> -->
+                      </a>
+                      <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                        <button  class="right-button">Read Whitepaper</button>
+                      </a>
                   </div>
                 </div>
                 <div class="column">
@@ -55,7 +61,6 @@ export default {
 h1 {
   color: #f3c736;
   font-size: 40px;
-  /* font-weight: bold; */
   text-transform: uppercase;
   line-height: 1.2em;
   margin-bottom: 15%;
@@ -105,7 +110,7 @@ p {
   margin-bottom: 5%;
 }
 
-a {
+button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
   font-size: 16px;
@@ -118,10 +123,11 @@ a {
   color: #091141;
 }
 
-a:hover {
+button:hover {
   background-color: transparent;
   color: #f3c736;
   border: 2px solid #f3c736;
+  cursor: pointer;
 }
 
 .left-button {
@@ -139,6 +145,10 @@ a:hover {
 }
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
+  button {
+    border-radius: 5px !important;
+  }
+
   .left-button,
   .right-button {
     border-radius: 0;
@@ -147,6 +157,10 @@ a:hover {
 }
 
 @media all and (max-width: 1099px) {
+  button {
+    border-radius: 5px !important;
+  }
+
   .left-button,
   .right-button {
     border-radius: 0;

@@ -54,10 +54,16 @@
                 </div>
                 <div class="column">
                     <div id="buttons-lol">
-                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
-                    <a>Join Token Sale</a>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
-                    </div>
+                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+                        <button  class="left-button">Talk With Us</button>
+                      </a>
+                      <a>
+                        <!-- <button>Token Sale</button> -->
+                      </a>
+                      <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                        <button  class="right-button">Read Whitepaper</button>
+                      </a>
+                  </div>
                 </div>
             </div>
         </div>
@@ -122,6 +128,7 @@ export default {
   line-height: 1.2em;
   text-align: left;
   letter-spacing: 2px;
+  text-shadow: 2px 2px black;
 }
 
 #date-holder {
@@ -199,10 +206,10 @@ img {
   width: 60%;
 }
 
-a {
+button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
   padding-top: 10px;
   padding-left: 10px;
@@ -212,10 +219,11 @@ a {
   color: #091141;
 }
 
-a:hover {
+button:hover {
   background-color: #091141;
   color: #f3c736;
   border: 2px solid #f3c736;
+  cursor: pointer;
 }
 
 .left-button {
@@ -230,17 +238,16 @@ a:hover {
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
-  .left-button,
-  .right-button {
-    border-radius: 0;
-    margin: 5%;
-  }
 }
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
   #countdown,
   #date-holder {
     width: 100%;
+  }
+
+  button {
+    border-radius: 5px !important;
   }
 
   .left-button,
@@ -256,7 +263,7 @@ a:hover {
     width: 100%;
   }
 
-  #date-span{
+  #date-span {
     font-size: 20px;
   }
 
@@ -269,6 +276,10 @@ a:hover {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  button {
+    border-radius: 5px !important;
+  }
+
   img {
     width: 100%;
   }

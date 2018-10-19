@@ -13,9 +13,15 @@
                         that provides immutability, and more importantly, trust for the consumer.
                     </p>
                     <div id="buttons-lol">
-                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
-                    <a>Join Token Sale</a>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
+                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+                        <button  class="left-button remove-right-border">Talk With Us</button>
+                      </a>
+                      <a>
+                        <!-- <button>Token Sale</button> -->
+                      </a>
+                      <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                        <button  class="right-button">Read Whitepaper</button>
+                      </a>
                   </div>
                 </div>
                 <div class="column" id="druga">
@@ -134,7 +140,7 @@ p {
   width: 80%;
 }
 
-#buttons-lol{
+#buttons-lol {
   margin-top: 5%;
 }
 
@@ -164,9 +170,13 @@ p {
   text-align: center;
 }
 
-a {
+.remove-right-border {
+  border-right: 0;
+}
+
+button {
   background-color: #f3c736;
-  border: 2px solid #f3c736;
+  border: 2px solid #091141;
   font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
@@ -177,10 +187,11 @@ a {
   color: #091141;
 }
 
-a:hover {
+button:hover {
   background-color: #091141;
   color: #f3c736;
   border: 2px solid #f3c736;
+  cursor: pointer;
 }
 
 .left-button {
@@ -263,6 +274,14 @@ span {
     width: 80%;
   }
 
+  button {
+    border-radius: 5px !important;
+  }
+
+  .remove-right-border {
+    border-right: 2px solid #091141 !important;
+  }
+
   .left-button,
   .right-button {
     border-radius: 0;
@@ -274,6 +293,14 @@ span {
   #countdown,
   #date-holder {
     width: 100%;
+  }
+
+  button {
+    border-radius: 5px !important;
+  }
+
+  .remove-right-border {
+    border-right: 2px solid #091141 !important;
   }
 
   .left-button,

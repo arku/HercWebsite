@@ -7,9 +7,15 @@
                     <img src="../../assets/herc-logo.png">
                     <h3>Transforming<br> Supply Chain<br> Ecosystems</h3>
                     <div id="buttons-lol">
-                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
-                    <a>Join Token Sale</a>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
+                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+                        <button  class="left-button">Talk With Us</button>
+                      </a>
+                      <a>
+                        <!-- <button>Token Sale</button> -->
+                      </a>
+                      <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                        <button  class="right-button">Read Whitepaper</button>
+                      </a>
                     </div>
                 </div>
                 <div class="column">
@@ -96,7 +102,7 @@ export default {
   background-size: cover;
 }
 
-#content{
+#content {
   max-width: 1080px;
   margin: auto;
 }
@@ -144,9 +150,10 @@ img {
   margin-bottom: 2%;
 }
 
-a {
+button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
+  border-radius: 5px !important;
   font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
@@ -157,10 +164,11 @@ a {
   color: #091141;
 }
 
-a:hover {
+button:hover {
   background-color: #091141;
   color: #f3c736;
   border: 2px solid #f3c736;
+  cursor: pointer;
 }
 
 .left-button {

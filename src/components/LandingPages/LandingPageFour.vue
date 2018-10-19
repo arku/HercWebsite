@@ -7,10 +7,16 @@
                     <img src="../../assets/herc-logo.png" id="logo">
                     <h3 id="logo-subtitle">An integrated &<br> multi-layered<br> Supply Chain<br> Software Solution</h3>
                     <div id="buttons-lol">
-                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
-                    <a>Join Token Sale</a>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
-                  </div>
+                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+                        <button  class="left-button">Talk With Us</button>
+                      </a>
+                      <a>
+                        <!-- <button>Token Sale</button> -->
+                      </a>
+                      <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                        <button  class="right-button">Read Whitepaper</button>
+                      </a>
+                    </div>
                 </div>
                 <div class="column">
                     <p id="date-holder">TGE Starts<br><span id="date-span">29 October 2018, 12:00PST</span></p>
@@ -164,7 +170,7 @@ p {
   color: #f3c736;
 }
 
-a {
+button {
   background-color: #f3c736;
   border: 2px solid #f3c736;
   font-size: 16px;
@@ -177,10 +183,11 @@ a {
   color: #091141;
 }
 
-a:hover {
+button:hover {
   background-color: transparent;
   color: #f3c736;
   border: 2px solid #f3c736;
+  cursor: pointer;
 }
 
 .left-button {
@@ -259,6 +266,10 @@ span {
     width: 80%;
   }
 
+  button {
+    border-radius: 5px !important;
+  }
+
   .left-button,
   .right-button {
     border-radius: 0;
@@ -268,7 +279,15 @@ span {
 
 @media all and (max-width: 1099px) {
   #countdown {
-    width: 70%;
+    width: 75%;
+  }
+
+  #date-holder {
+    width: 90%;
+  }
+
+  button {
+    border-radius: 5px !important;
   }
 
   .left-button,

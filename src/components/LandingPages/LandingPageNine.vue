@@ -50,10 +50,16 @@
         <div class="columns" id="complex2">
                 <div class="column">
                     <div id="buttons-lol">
-                        <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank" class="left-button">Talk With Us</a>
-                    <a>Join Token Sale</a>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank" class="right-button">Read Whitepaper</a>
-                    </div>
+                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+                        <button  class="left-button">Talk With Us</button>
+                      </a>
+                      <a>
+                        <!-- <button>Token Sale</button> -->
+                      </a>
+                      <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                        <button  class="right-button">Read Whitepaper</button>
+                      </a>
+                  </div>
                 </div>
                 <div class="column">
                     <p id="info">*With the Hercules Supply Chain Protocol, users can record production details
@@ -202,9 +208,10 @@ img {
   width: 60%;
 }
 
-a {
+button {
   background-color: #f3c736;
-  border: 2px solid #f3c736;
+  border: 2px solid #091141;
+  border-radius: 5px !important;
   font-size: 16px;
   text-transform: uppercase;
   padding-top: 10px;
@@ -215,7 +222,7 @@ a {
   color: #091141;
 }
 
-a:hover {
+button:hover {
   background-color: #091141;
   color: #f3c736;
   border: 2px solid #f3c736;
