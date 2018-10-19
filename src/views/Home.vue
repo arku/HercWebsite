@@ -12,8 +12,8 @@
           <landing-page-eight slot="H" chance="1"></landing-page-eight>
           <landing-page-nine slot="I" chance="1"></landing-page-nine>
         </split-test>
-        <TopSection></TopSection>
-        <CountdownSection></CountdownSection>
+        <!-- <TopSection></TopSection> -->
+        <!-- <CountdownSection></CountdownSection> -->
         <HiwSection></HiwSection>
         <CommunitySection></CommunitySection>
         <BlurbSection></BlurbSection>
@@ -42,7 +42,7 @@
 </template>
 <script>
 import NavBar from "@/components/NavBar.vue";
-import TopSection from "@/components/TopSection.vue";
+// import TopSection from "@/components/TopSection.vue";
 import BlurbSection from "@/components/BlurbSection.vue";
 // import EtymologySection from "@/components/EtymologySection.vue";
 // import ProtocolCostSection from "@/components/ProtocolCostSection.vue";
@@ -64,7 +64,7 @@ import BubbleSection from "@/components/BubbleSection.vue";
 import UseCaseSection from "@/components/UseCaseSection.vue";
 import DappSection from "@/components/DappSection.vue";
 import HiwSection from "@/components/HiwSection.vue";
-import CountdownSection from "@/components/CountdownSection.vue";
+// import CountdownSection from "@/components/CountdownSection.vue";
 import LandingPageOne from "@/components/LandingPages/LandingPageOne.vue";
 // import LandingPageTwo from "@/components/LandingPages/LandingPageTwo.vue";
 import LandingPageThree from "@/components/LandingPages/LandingPageThree.vue";
@@ -79,7 +79,7 @@ export default {
   name: "home",
   components: {
     NavBar,
-    TopSection,
+    // TopSection,
     LandingPageOne,
     // LandingPageTwo,
     LandingPageThree,
@@ -109,8 +109,8 @@ export default {
     FooterSection,
     TeamSection,
     DappSection,
-    HiwSection,
-    CountdownSection
+    HiwSection
+    // CountdownSection
   }
 };
 </script>
