@@ -59,6 +59,7 @@
 <script>
 export default {
   name: "LandingPageOne",
+  
   mounted() {
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 21:00:00").getTime();
