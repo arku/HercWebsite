@@ -1,9 +1,9 @@
 <template>
     <div class="home">
         <NavBar></NavBar>
-        <!-- <split-test name="landing-randomizer">
+        <split-test name="landing-randomizer">
           <landing-page-one slot="A" chance="1"></landing-page-one>
-          <landing-page-two slot="B" chance="1"></landing-page-two>
+          <!-- <landing-page-two slot="B" chance="1"></landing-page-two> -->
           <landing-page-three slot="C" chance="1"></landing-page-three>
           <landing-page-four slot="D" chance="1"></landing-page-four>
           <landing-page-five slot="E" chance="1"></landing-page-five>
@@ -11,7 +11,7 @@
           <landing-page-seven slot="G" chance="1"></landing-page-seven>
           <landing-page-eight slot="H" chance="1"></landing-page-eight>
           <landing-page-nine slot="I" chance="1"></landing-page-nine>
-        </split-test> -->
+        </split-test>
         <TopSection></TopSection>
         <CountdownSection></CountdownSection>
         <HiwSection></HiwSection>

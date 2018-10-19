@@ -8,15 +8,15 @@ import FAQ from './views/FAQ.vue';
 import Metamask from './views/Metamask.vue';
 import CareersSection from './views/Careers.vue';
 import TokenInfo from './views/TokenInfo.vue';
-import Landing from './views/Landing.vue';
-import LandingTwo from './views/LandingTwo.vue';
-import LandingThree from './views/LandingThree.vue';
-import LandingFour from './views/LandingFour.vue';
-import LandingFive from './views/LandingFive.vue';
-import LandingSix from './views/LandingSix.vue';
-import LandingSeven from './views/LandingSeven.vue';
-import LandingEight from './views/LandingEight.vue';
-import LandingNine from './views/LandingNine.vue';
+import Landing from './views/LandingViews/Landing.vue';
+import LandingTwo from './views/LandingViews/LandingTwo.vue';
+import LandingThree from './views/LandingViews/LandingThree.vue';
+import LandingFour from './views/LandingViews/LandingFour.vue';
+import LandingFive from './views/LandingViews/LandingFive.vue';
+import LandingSix from './views/LandingViews/LandingSix.vue';
+import LandingSeven from './views/LandingViews/LandingSeven.vue';
+import LandingEight from './views/LandingViews/LandingEight.vue';
+import LandingNine from './views/LandingViews/LandingNine.vue';
 
 Vue.use(Router);
 
