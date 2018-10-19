@@ -369,5 +369,10 @@ button:hover {
     font-size: 30px;
     line-height: 1.2em;
   }
+
+#first-section{
+  padding: 5px;
+}
+
 }
 </style>
