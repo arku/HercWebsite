@@ -40,6 +40,19 @@
     gtag('config', 'UA-126354860-1');
   </script>
   <script>history.pushState({}, "Application entry", location.hash.substring(2));</script>
+  <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDp0klcJhwP3xIHWNT0nyU4UYfn7BOrp0A",
+      authDomain: "herc-subscribe.firebaseapp.com",
+      databaseURL: "https://herc-subscribe.firebaseio.com",
+      projectId: "herc-subscribe",
+      storageBucket: "herc-subscribe.appspot.com",
+      messagingSenderId: "813243314371"
+    };
+    firebase.initializeApp(config);
+  </script>
 </body>
 <style>
 

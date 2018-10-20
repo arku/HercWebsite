@@ -55,7 +55,16 @@
                         </div>
                     </div>
                     <div class="column">
-                        
+                        <form>
+                            <h3>Subscribe</h3>
+                            <p>Stay updated!</p>
+                            <div>
+                                <input type="email" id="maintext">
+                            </div>
+                            <div>
+                                <button id="mainButton" @click="submitClick">Subscribe</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <p>Copyright HERC All Rights Reserved</p>
@@ -66,7 +75,18 @@
 
 <script>
 export default {
-  name: "FooterSection"
+  name: "FooterSection",
+  mounted() {
+    var maintext = document.getElementById("maintext");
+    var mainbtn = document.getElementById("mainButton");
+  },
+  methods: {
+    submitClick() {
+      var email = maintext.value;
+      var firebaseRef = firebase.database().ref();
+      firebaseRef.push().set(email);
+    }
+  }
 };
 </script>
 
@@ -109,9 +129,41 @@ p {
   color: #f3c736;
 }
 
+button {
+  background-color: #f3c736;
+  color: #091141;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  z-index: 5;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: transparent;
+  border: 1px solid #f3c736;
+  color: #f3c736;
+}
+
 .footer {
   background-color: transparent;
   padding-bottom: 20px;
+}
+
+#maintext {
+  margin-top: 5%;
+  background-color: transparent;
+  border: 1px solid #f3c736;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 5%;
+  color: white;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
