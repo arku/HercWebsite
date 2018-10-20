@@ -60,11 +60,11 @@
 export default {
   name: "LandingPageOne",
   methods: {
-    track () {
+    track() {
       this.$ga.page({
-        page: '/',
-        title: 'LandingPageOne'
-      })
+        page: "Tvrd",
+        title: "LandingPageOne"
+      });
     }
   },
   mounted() {

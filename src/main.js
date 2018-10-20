@@ -8,7 +8,7 @@ import VueAB from 'vue-a2b';
 import VueAnalytics from 'vue-analytics'
 
 Vue.use(VueAnalytics, {
-  id: 'UA-111753174-1'
+  id: 'UA-126354860-1'
 })
 Vue.use(VueAB);
 Vue.use(Buefy, {
