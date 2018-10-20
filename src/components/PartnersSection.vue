@@ -307,7 +307,7 @@ p{
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
   h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
 }
 </style>
