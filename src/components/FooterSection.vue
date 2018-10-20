@@ -54,6 +54,9 @@
                             <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">YouTube</a>
                         </div>
                     </div>
+                    <div class="column">
+                        
+                    </div>
                 </div>
                 <p>Copyright HERC All Rights Reserved</p>
             </footer>
