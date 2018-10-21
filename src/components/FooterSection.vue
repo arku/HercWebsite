@@ -64,7 +64,6 @@
                             <div>
                                 <p id="thanks">Thank you for subscribing!</p>
                                 <button id="mainButton" @click="submitClick">Subscribe</button>
-                                <!-- OVDE TREBA IZBACI TEKST NAKON KLIK -->
                             </div>
                         </form>
                     </div>
@@ -90,8 +89,6 @@ export default {
       firebaseRef.push().set(email);
       document.getElementById("thanks").style.cssText = "display:inherit;";
     }
-
-    // OVDE ISPOD PISES KOD ZA FUNKCIJU
   }
 };
 </script>
