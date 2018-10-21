@@ -63,6 +63,7 @@
                             </div>
                             <div>
                                 <button id="mainButton" @click="submitClick">Subscribe</button>
+                                <!-- OVDE TREBA IZBACI TEKST NAKON KLIK -->
                             </div>
                         </form>
                     </div>
@@ -85,8 +86,10 @@ export default {
       var email = maintext.value;
       var firebaseRef = firebase.database().ref();
       firebaseRef.push().set(email);
-      window.alert('You subscribed!')
+      window.alert("You subscribed!");
     }
+
+    // OVDE ISPOD PISES KOD ZA FUNKCIJU
   }
 };
 </script>
