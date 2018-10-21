@@ -30,8 +30,7 @@ export default {
 <style scoped>
 #featured-section {
   padding: 50px;
-  padding-left: 150px;
-  padding-right: 150px;
+ 
 }
 
 #content {
@@ -72,5 +71,8 @@ img {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+  h1 {
+    font-size: 23px;
+  }
 }
 </style>

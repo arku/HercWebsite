@@ -51,9 +51,7 @@ export default {
 
 <style scoped>
 #herc-section {
-  padding: 100px;
-  padding-right: 150px;
-  padding-left: 150px;
+  padding: 50px;
   background-color: #fafafa;
 }
 
@@ -101,5 +99,8 @@ img {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+  #herc-section{
+    padding: 30px;
+  }
 }
 </style>

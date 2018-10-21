@@ -63,6 +63,11 @@ video {
   video {
     width: 100%;
   }
+
+  h1 {
+    font-size: 24px;
+    line-height: 1.2em;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {

@@ -85,6 +85,7 @@ export default {
       var email = maintext.value;
       var firebaseRef = firebase.database().ref();
       firebaseRef.push().set(email);
+      window.alert('You subscribed!')
     }
   }
 };

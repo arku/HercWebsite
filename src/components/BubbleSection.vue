@@ -41,11 +41,8 @@ export default {
 
 <style scoped>
 #bubble-section {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  padding-left: 150px;
+  padding: 50px;
   background-color: #091141;
-  padding-right: 150px;
   border-top: 2px solid #f3c736;
   border-bottom: 2px solid #f3c736;
 }

@@ -47,9 +47,7 @@ export default {
 
 <style scoped>
 #video-section {
-  padding: 150px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 50px;
   border-top: 2px solid #f3c736;
   border-bottom: 2px solid #f3c736;
   background-color: #091141;
@@ -199,8 +197,9 @@ img {
 
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  iframe {
-    height: 180px;
+  h1{
+    font-size: 22px;
+    line-height: 1.2em;
   }
 }
 </style>

@@ -249,9 +249,9 @@ export default {
   background-color: #fafafa;
 }
 
-#content{
-    max-width: 1080px;
-    margin: auto;
+#content {
+  max-width: 1080px;
+  margin: auto;
 }
 
 h1 {
@@ -261,10 +261,10 @@ h1 {
   font-weight: bold;
 }
 
-p{
-    margin: auto;
-    margin-bottom: 5%;
-    width: 50%;
+p {
+  margin: auto;
+  margin-bottom: 5%;
+  width: 50%;
 }
 
 .hide-mobile {
@@ -300,14 +300,15 @@ p{
     display: unset;
   }
 
-  p{
-      width: 100%;
+  p {
+    width: 100%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
   h1 {
     font-size: 24px;
+    line-height: 1.2em;
   }
 }
 </style>

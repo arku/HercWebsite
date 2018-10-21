@@ -72,5 +72,8 @@ img {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+  h1{
+    font-size: 22px;
+  }
 }
 </style>

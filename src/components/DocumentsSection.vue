@@ -63,7 +63,7 @@ h1 {
   text-align: center;
   color: #091141;
   text-transform: uppercase;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
   font-weight: bold;
 }
 
