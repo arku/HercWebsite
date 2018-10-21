@@ -733,6 +733,7 @@ h4 {
 
 i {
   color: #091141;
+  margin: 1%;
 }
 
 i:hover {
@@ -789,13 +790,16 @@ i:hover {
   font-weight: bold;
 }
 
+.content h2:not(:first-child) {
+  margin: auto;
+}
+
+.content h3:not(:first-child) {
+  margin: auto;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
-  #team-section {
-    padding: 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
 }
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
@@ -843,16 +847,24 @@ i:hover {
     display: unset;
   }
 
+  h1 {
+    color: #f3c736;
+  }
+
   h4 {
     color: white;
   }
 
-  h2 {
+  h2,
+  .h2-mobile {
     color: #f3c736;
+    line-height: 1.2em;
   }
 
-  h3 {
+  h3,
+  .h3-mobile {
     color: white;
+    line-height: 1.2em;
   }
 
   i {
@@ -863,7 +875,7 @@ i:hover {
 @media all and (max-width: 479px) {
   #team-section {
     background-color: #091141;
-    padding: 50px;
+    padding: 30px;
   }
 
   h4 {

@@ -88,6 +88,7 @@ h1 {
   text-transform: uppercase;
   margin-bottom: 2%;
   font-weight: bold;
+  line-height: 1.2em;
 }
 
 h2 {
@@ -130,6 +131,14 @@ i:hover {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+  #contact-section{
+    padding: 10px;
+  }
+
+  h1{
+    font-size: 24px;
+  }
+
   h2 {
     font-size: 20px;
     margin-bottom: 2%;
