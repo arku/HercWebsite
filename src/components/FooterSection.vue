@@ -62,6 +62,7 @@
                                 <input type="email" id="maintext">
                             </div>
                             <div>
+                                <p id="thanks">Thank you for subscribing!</p>
                                 <button id="mainButton" @click="submitClick">Subscribe</button>
                                 <!-- OVDE TREBA IZBACI TEKST NAKON KLIK -->
                             </div>
@@ -75,6 +76,8 @@
 </template>
 
 <script>
+var firebaseRef = firebase.database().ref();
+
 export default {
   name: "FooterSection",
   mounted() {
@@ -84,9 +87,8 @@ export default {
   methods: {
     submitClick() {
       var email = maintext.value;
-      var firebaseRef = firebase.database().ref();
       firebaseRef.push().set(email);
-      window.alert("You subscribed!");
+      document.getElementById("thanks").style.cssText = "display:inherit;";
     }
 
     // OVDE ISPOD PISES KOD ZA FUNKCIJU
@@ -168,6 +170,12 @@ button:hover {
   height: 40px;
   margin-bottom: 5%;
   color: white;
+}
+
+#thanks {
+  margin-bottom: 1%;
+  font-size: 12px;
+  display: none;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
