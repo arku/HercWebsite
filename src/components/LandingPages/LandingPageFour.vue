@@ -322,6 +322,7 @@ span {
   #date-holder,
   #countdown {
     margin-bottom: 10%;
+    width: 100%;
   }
 
   #coins {
