@@ -55,7 +55,7 @@
                         </div>
                     </div>
                     <div class="column">
-                        <form>
+                        <form v-on:submit.prevent = "onSubmit">
                             <h3>Subscribe</h3>
                             <p>Stay updated!</p>
                             <div>
