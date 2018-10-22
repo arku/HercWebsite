@@ -88,6 +88,8 @@ export default {
       var email = maintext.value;
       firebaseRef.push().set(email);
       document.getElementById("thanks").style.cssText = "display:inherit;";
+      document.getElementById("maintext").style.cssText = "display:none;";
+      document.getElementById("mainButton").style.cssText = "display:none;";
     }
   }
 };
