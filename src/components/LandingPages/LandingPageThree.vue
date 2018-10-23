@@ -26,7 +26,7 @@
                   management software that utlizes public blockchains.
                 </p>
                 <p>The Hercules platform is decentralized and powered by HERC tokens which
-                  are required to record and validate the supply chain data
+                  are required to record and validate the supply chain data.
                 </p>
                 </div>
             </div>

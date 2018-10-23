@@ -3,7 +3,7 @@
         <div id="content">
             <div class="columns">
               <div class="column">
-                <h1>Play HIPR & earn<br> HERC tokens<br> for verifying supply chain data</h1>
+                <h1>Play <b><a href="https://hipr.one" target="_blank">HIPR</a></b> & earn<br> HERC tokens<br> for verifying supply chain data</h1>
                 <h1>A blockchain<br> supply chain solution</h1>
                 <div>
                   <div id="buttons-lol">
@@ -138,6 +138,14 @@ p {
   margin: auto;
   margin-bottom: 2%;
   width: 80%;
+}
+
+a {
+  color: #f3c736;
+}
+
+a:hover {
+  color: white;
 }
 
 span {

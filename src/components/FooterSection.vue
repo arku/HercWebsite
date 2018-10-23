@@ -68,7 +68,7 @@
                         </form>
                     </div>
                 </div>
-                <p>Copyright HERC All Rights Reserved</p>
+                <p>Copyright © 2018 Hercules SEZC - All Rights Reserved.</p>
             </footer>
         </div>
     </div>
