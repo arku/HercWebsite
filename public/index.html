@@ -40,8 +40,8 @@
     gtag('config', 'UA-126354860-1');
   </script>
   <script>
-    console.log(location.hash.substring(0, 1));
-    if (location.hash.substring(0, 1) === '#!') {
+    console.log(location.hash.substring(0, 2));
+    if (location.hash.substring(0, 2) === '#!') {
       history.pushState({}, "Application entry", location.hash.substring(2));
       console.log('triggered');
     }
