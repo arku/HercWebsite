@@ -4,11 +4,22 @@
             <div>
                 <h1>Documents</h1>
             </div>
-            <div class="columns">
+            <div class="columns is-gapless">
               <div class="column">
-                    <router-link to="/whitepaper/" id="dugme">
-                      <i class="fas fa-file-pdf"></i> Whitepaper
-                    </router-link>
+
+              </div>
+              <div class="column">
+                <router-link to="/whitepaper/" class="dugme">
+                    <i class="fas fa-file-pdf"></i> Whitepaper
+                </router-link>
+              </div>
+              <div class="column">
+                <a href="https://s3.us-east-2.amazonaws.com/hercmedia/AcademicPaper.pdf" target="_blank" class="dugme">
+                    <i class="fas fa-file-pdf"></i> Academic Paper
+                </a>
+              </div>
+              <div class="column">
+                
               </div>
             </div>
         </div>
@@ -32,7 +43,7 @@ export default {
   margin: auto;
 }
 
-#dugme {
+.dugme {
   font-size: 20px;
   background-color: #f3c736;
   color: #091141;
@@ -47,7 +58,7 @@ export default {
   border-radius: 5px;
 }
 
-#dugme:hover {
+.dugme:hover {
   background-color: #091141;
   border: 1px solid #f3c736;
   color: #f3c736;
