@@ -4,10 +4,7 @@
             <div>
                 <h1>Documents</h1>
             </div>
-            <div class="columns is-gapless">
-              <div class="column">
-
-              </div>
+            <div class="columns">
               <div class="column">
                 <router-link to="/whitepaper/" class="dugme">
                     <i class="fas fa-file-pdf"></i> Whitepaper
@@ -17,9 +14,6 @@
                 <a href="https://s3.us-east-2.amazonaws.com/hercmedia/AcademicPaper.pdf" target="_blank" class="dugme">
                     <i class="fas fa-file-pdf"></i> Academic Paper
                 </a>
-              </div>
-              <div class="column">
-                
               </div>
             </div>
         </div>
@@ -92,6 +86,7 @@ h1 {
 /*** Responsive Styles Standard Desktop Only ***/
 @media all and (min-width: 1100px) and (max-width: 1405px) {
 }
+
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
   #content img {

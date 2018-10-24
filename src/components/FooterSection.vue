@@ -4,7 +4,9 @@
             <footer class="footer">
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/herc-logo.png">
+                        <a href="/">
+                            <img src="../assets/herc-logo.png">
+                        </a>
                         <div>
                             <a href="/policy">Privacy Policy</a>
                         </div>
@@ -23,14 +25,20 @@
                         <div>
                             <a href="/#team-section">Team</a>
                         </div>
-                        <div>
-                            <a href="/#contact-section">Contact</a>
+                        <div id="desktop">
+                            <a href="/#horizontal-roadmap">Roadmap</a>
+                        </div>
+                        <div id="mobile">
+                            <a href="/#roadmap-section">Roadmap</a>
                         </div>
                         <!-- <div>
                             <a href="">Careers</a>
                         </div> -->
                         <div>
-                            <a href="/whitepaper">Whitepaper</a>
+                            <!-- <a href="/whitepaper">Whitepaper</a> -->
+                            <router-link to="/whitepaper">
+                            Whitepaper
+                            </router-link>
                         </div>
                         <div>
                             <a href="https://github.com/hercone" target="_blank">GitHub</a>
@@ -177,6 +185,10 @@ button:hover {
   display: none;
 }
 
+#mobile {
+  display: none;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -203,6 +215,14 @@ button:hover {
   #footer-section img {
     margin-bottom: 5%;
     width: 50%;
+  }
+
+  #mobile{
+      display: inherit;
+  }
+
+  #desktop{
+      display: none;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

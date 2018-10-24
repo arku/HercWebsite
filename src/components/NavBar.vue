@@ -72,7 +72,7 @@
                                     </a>
                                 </p>
                                 <p class="control">
-                                    <router-link to="/whitepaper/" class="button is-primary dugme-hover">
+                                    <router-link to="/whitepaper" class="button is-primary dugme-hover">
                                     <span class="icon">
                                         <i class="far fa-file-alt"></i>
                                     </span>

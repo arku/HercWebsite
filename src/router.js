@@ -22,6 +22,7 @@ Vue.use(Router);
 
 export default new Router({
     mode: 'history',
+    hash: false,
     base: '/',
     routes: [{
         path: '/',
@@ -115,4 +116,7 @@ export default new Router({
         component: LandingNine
     }
     ],
+    scrollBehavior(to, from, savedPosition) {
+        return { x: 0, y: 0 }
+    }
 });

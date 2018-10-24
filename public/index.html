@@ -39,7 +39,16 @@
 
     gtag('config', 'UA-126354860-1');
   </script>
-  <script>history.pushState({}, "Application entry", location.hash.substring(2));</script>
+  <script>
+    history.pushState({}, "Application entry", location.hash.substring(0));
+    (function redirect() {
+      if (location === 'whatever') {
+        // do nothing or whatever
+      } else {
+        // bla bla bla push history
+      }
+    })
+  </script>
   <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/5.5.5/firebase-database.js"></script>
 
