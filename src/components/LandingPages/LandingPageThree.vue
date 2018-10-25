@@ -9,13 +9,13 @@
                     <h1 id="logo-subtitle">A Blockchain <br>Supply Chain Solution</h1>
                     <div id="buttons-lol">
                       <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                        <button  class="left-button">Talk With Us</button>
+                        <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                       </a>
                       <a>
                         <!-- <button>Token Sale</button> -->
                       </a>
                       <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
-                        <button  class="right-button">Read Whitepaper</button>
+                        <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                       </a>
                   </div>
                 </div>
@@ -36,7 +36,16 @@
 
 <script>
 export default {
-  name: "LandingPageThree"
+  name: "LandingPageThree",
+  methods: {
+    trackTelegram() {
+      this.$ga.event({
+        eventCategory: "LandingPageThree",
+        eventAction: "Telegram button clicked",
+        eventLabel: "3-1"
+      });
+    }
+  }
 };
 </script>
 

@@ -51,13 +51,13 @@
                 <div class="column">
                     <div id="buttons-lol">
                       <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                        <button  class="left-button">Talk With Us</button>
+                        <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                       </a>
                       <a>
                         <!-- <button>Token Sale</button> -->
                       </a>
                       <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
-                        <button  class="right-button">Read Whitepaper</button>
+                        <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                       </a>
                   </div>
                 </div>
@@ -73,6 +73,22 @@
 <script>
 export default {
   name: "LandingPageNine",
+  methods: {
+    trackTelegram() {
+      this.$ga.event({
+        eventCategory: "LandingPageNine",
+        eventAction: "Telegram button clicked",
+        eventLabel: "9-1"
+      });
+    },
+    trackWhitepaper() {
+      this.$ga.event({
+        eventCategory: "LandingPageNine",
+        eventAction: "Whitepaper button clicked",
+        eventLabel: "9-2"
+      });
+    }
+  },
   mounted() {
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 08:00:00").getTime();
@@ -103,7 +119,8 @@ export default {
       // If the count down is over, write some text
       if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("countdown").style.cssText = "display:none;";
+        document.getElementById("date-info").style.cssText = "display:none;";
       }
     }, 1000);
   }
@@ -370,9 +387,8 @@ button:hover {
     line-height: 1.2em;
   }
 
-#first-section{
-  padding: 5px;
-}
-
+  #first-section {
+    padding: 5px;
+  }
 }
 </style>
