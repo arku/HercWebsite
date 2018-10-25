@@ -5,11 +5,11 @@ import Buefy from 'buefy'
 import vueSmoothScroll from 'vue-smooth-scroll'
 import BackToTop from 'vue-backtotop'
 import VueAB from 'vue-a2b';
-import VueAnalytics from 'vue-analytics'
+// import VueAnalytics from 'vue-analytics';
 
-Vue.use(VueAnalytics, {
-  id: 'UA-126354860-1'
-})
+// Vue.use(VueAnalytics, {
+//   id: 'UA-126354860-1'
+// })
 Vue.use(VueAB);
 Vue.use(Buefy, {
   defaultIconPack: "fa"

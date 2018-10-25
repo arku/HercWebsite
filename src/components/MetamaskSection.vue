@@ -68,8 +68,14 @@
 </template>
 
 <script>
+import { page } from "vue-analytics";
 export default {
-  name: "MetamaskSection"
+  name: "MetamaskSection",
+  methods: {
+    track() {
+      page("/metamask");
+    }
+  }
 };
 </script>
 
