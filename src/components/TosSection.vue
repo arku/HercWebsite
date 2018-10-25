@@ -168,7 +168,10 @@
 
 <script>
 export default {
-  name: "TosSection"
+  name: "TosSection",
+  mounted() {
+    this.$ga.page("/terms-of-use");
+  }
 };
 </script>
 

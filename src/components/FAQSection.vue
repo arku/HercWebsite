@@ -132,7 +132,10 @@
 
 <script>
 export default {
-  name: "FAQSection"
+  name: "FAQSection",
+  mounted() {
+    this.$ga.page("/faq");
+  }
 };
 </script>
 

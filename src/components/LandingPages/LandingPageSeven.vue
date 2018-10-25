@@ -104,7 +104,7 @@ export default {
       // If the count down is over, write some text
       if (distance < 0) {
         clearInterval(x);
-        ocument.getElementById("countdown").style.cssText = "display:none;";
+        document.getElementById("countdown").style.cssText = "display:none;";
         document.getElementById("date-info").style.cssText = "display:none;";
       }
     }, 1000);

@@ -72,7 +72,10 @@
 
 <script>
 export default {
-  name: "WhitepaperSection"
+  name: "WhitepaperSection",
+  mounted() {
+    this.$ga.page("/whitepaper");
+  }
 };
 </script>
 

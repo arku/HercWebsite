@@ -71,10 +71,8 @@
 import { page } from "vue-analytics";
 export default {
   name: "MetamaskSection",
-  methods: {
-    track() {
-      page("/metamask");
-    }
+  mounted() {
+    this.$ga.page("/metamask");
   }
 };
 </script>

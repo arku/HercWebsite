@@ -273,7 +273,10 @@
 
 <script>
 export default {
-  name: "PolicySection"
+  name: "PolicySection",
+  mounted() {
+    this.$ga.page("/privacy-policy");
+  }
 };
 </script>
 
