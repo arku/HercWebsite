@@ -17,6 +17,7 @@ import LandingSix from './views/LandingViews/LandingSix.vue';
 import LandingSeven from './views/LandingViews/LandingSeven.vue';
 import LandingEight from './views/LandingViews/LandingEight.vue';
 import LandingNine from './views/LandingViews/LandingNine.vue';
+import PageNotFound from './views/PageNotFound.vue';
 
 Vue.use(Router);
 
@@ -114,6 +115,11 @@ export default new Router({
         path: '/landing9',
         name: 'landing9',
         component: LandingNine
+    },
+    {
+        path: '*',
+        name: 'PageNotFound',
+        component: PageNotFound,
     }
     ],
     scrollBehavior(to, from, savedPosition) {
