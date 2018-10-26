@@ -3,7 +3,7 @@
         <div id="content">
             <div>
                 <h1>Whitepaper</h1>
-                <!-- <p>Please click on your preferred language. Languages are ordered alphabetically.</p> -->
+                <p>In order to open whitepaper, please click on the flag image of your preffered language</p>
             </div>
             <div class="columns">
                 <!-- <div class="column">
@@ -12,7 +12,7 @@
                     <h2>Dutch</h2>
                 </div> -->
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper.pdf">
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper.pdf" @click="openWhitepaper">
                     <img src="../assets/flags/english.png"></a>
                     <h2>English</h2>
                 </div>
@@ -75,6 +75,15 @@ export default {
   name: "WhitepaperSection",
   mounted() {
     this.$ga.page("/whitepaper");
+  },
+  methods: {
+    openWhitepaper() {
+      this.$ga.event({
+        eventCategory: "WhitepaperPage",
+        eventAction: "English Whitepaper opened",
+        eventLabel: "LinkClicked"
+      });
+    }
   }
 };
 </script>
@@ -115,7 +124,6 @@ h2:hover {
 p {
   color: white;
   font-weight: bold;
-  margin-bottom: 5%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

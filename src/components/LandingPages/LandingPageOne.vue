@@ -16,9 +16,9 @@
                     <!-- <a href="https://purchase.herc.one">
                       <button @click="trackTokenSale">Token Sale</button>
                     </a> -->
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                    <router-link to="/whitepaper">
                       <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
-                    </a>
+                    </router-link>
                   </div>
                   <h2 id="date-info">29 October 2018. 12:00 PST</h2>
                   <div id="countdown">
@@ -74,14 +74,14 @@ export default {
       this.$ga.event({
         eventCategory: "LandingPageOne",
         eventAction: "TokenSale button clicked",
-        eventLabel: "1-1"
+        eventLabel: "1-2"
       });
     },
     trackWhitepaper() {
       this.$ga.event({
         eventCategory: "LandingPageOne",
         eventAction: "Whitepaper button clicked",
-        eventLabel: "1-2"
+        eventLabel: "1-3"
       });
     }
   },

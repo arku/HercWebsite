@@ -10,12 +10,12 @@
                       <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                         <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                       </a>
-                      <a>
-                        <!-- <button>Token Sale</button> -->
-                      </a>
-                      <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
+                      <!-- <a href="https://purchase.herc.one">
+                        <button @click="trackTokenSale">Token Sale</button>
+                      </a> -->
+                      <router-link to="/whitepaper">
                         <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
-                      </a>
+                      </router-link>
                     </div>
                 </div>
                 <div class="column">
@@ -66,11 +66,18 @@ export default {
         eventLabel: "6-1"
       });
     },
+    trackTokenSale() {
+      this.$ga.event({
+        eventCategory: "LandingPageSix",
+        eventAction: "TokenSale button clicked",
+        eventLabel: "6-2"
+      });
+    },
     trackWhitepaper() {
       this.$ga.event({
         eventCategory: "LandingPageSix",
         eventAction: "Whitepaper button clicked",
-        eventLabel: "6-2"
+        eventLabel: "6-3"
       });
     }
   },
