@@ -13,9 +13,9 @@
                     <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                       <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                     </a>
-                    <a>
-                      <!-- <button>Token Sale</button> -->
-                    </a>
+                    <!-- <a href="https://purchase.herc.one">
+                      <button @click="trackTokenSale">Token Sale</button>
+                    </a> -->
                     <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf" target="_blank">
                       <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                     </a>
@@ -67,6 +67,13 @@ export default {
       this.$ga.event({
         eventCategory: "LandingPageOne",
         eventAction: "Telegram button clicked",
+        eventLabel: "1-1"
+      });
+    },
+    trackTokenSale() {
+      this.$ga.event({
+        eventCategory: "LandingPageOne",
+        eventAction: "TokenSale button clicked",
         eventLabel: "1-1"
       });
     },

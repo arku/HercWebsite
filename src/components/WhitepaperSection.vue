@@ -12,7 +12,7 @@
                     <h2>Dutch</h2>
                 </div> -->
                 <div class="column">
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper_x3.pdf">
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/herc_2018_whitepaper.pdf">
                     <img src="../assets/flags/english.png"></a>
                     <h2>English</h2>
                 </div>
