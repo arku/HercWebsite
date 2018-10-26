@@ -14,70 +14,70 @@
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q4 2018</h1>
                         <p>HERC Launch / AGLD Launch</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q1 2019</h1>
                         <p>HERC v2 / AGLD 25+ Bars</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q2 2019</h1>
                         <p>HERC v2.5 / Extended Verticals</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q3 2019</h1>
                         <p>HERC Terminal Operating System / Shipping Containers</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q4 2019</h1>
                         <p>Beyond Inventory / BEX Ecosystem</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q1 2020</h1>
                         <p>Olympic Prep / Switch Port</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q2 2020</h1>
                         <p>Olympics Tokyo / AGLD StableCoin</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q3 2020</h1>
                         <p>HERC / AGLD / BEX Ecosystem</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q4 2020</h1>
                         <p>Global User Base</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x"></i>
+                        <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q1 2021</h1>
                         <p>HERC the DAO</p>
                     </div>
@@ -103,10 +103,16 @@ export default {
 .column {
   background-color: #091141;
   border-bottom: 1px solid #f3c736;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 i {
   color: #f3c736;
+}
+
+.not-done {
+  color: gray;
 }
 
 h1 {
@@ -115,6 +121,7 @@ h1 {
   color: #091141;
   text-transform: uppercase;
   font-weight: bold;
+  margin-bottom: 1%;
 }
 
 .h1title {
@@ -128,7 +135,7 @@ h1 {
 
 p {
   font-weight: bold;
-  width: 60%;
+  /* width: 60%; */
   margin: auto;
 }
 

@@ -1,15 +1,6 @@
 <template>
     <div id="protocol-section">
         <div id="content">
-            <!-- <div>
-                <h1>Cost per Protocol Action:</h1>
-            </div>
-            <div id="image-placeholder">
-                <img src="../assets/cost-per-protocol.png">
-            </div>
-            <div>
-                <img src="../assets/down-arrow.png" class="image is-64x64">
-            </div> -->
         </div>
     </div>
 </template>
@@ -28,7 +19,6 @@ export default {
 }
 
 #image-placeholder {
-  /* background-color: #1c224b; */
   background-color: #fafafa;
   margin-bottom: 5%;
 }
