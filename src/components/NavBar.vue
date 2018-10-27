@@ -21,7 +21,10 @@
                         <a href="/#blurb-section" class="navbar-item">
                             About
                         </a>
-                        <a href="/#horizontal-roadmap" class="navbar-item">
+                        <a href="/#horizontal-roadmap" class="navbar-item" id="desktop-roadmap">
+                            Roadmap
+                        </a>
+                        <a href="/#roadmap-section" class="navbar-item" id="mobile-roadmap">
                             Roadmap
                         </a>
                         <a href="/#documents-section" class="navbar-item">
@@ -161,6 +164,9 @@ a:hover {
   padding-right: 10px;
 }
 
+#mobile-roadmap {
+  display: none;
+}
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
@@ -207,10 +213,6 @@ a:hover {
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
-  /* #two-buttons {
-    margin: auto;
-    width: 40%;
-  } */
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
@@ -218,20 +220,23 @@ a:hover {
     text-align: center;
     display: inline;
     margin: auto;
-
   }
 
-  .control{
+  .control {
     text-align: center;
     padding: 5px;
     margin-right: 0px !important;
   }
+
+  #mobile-roadmap {
+    display: inherit;
+  }
+
+  #desktop-roadmap {
+    display: none;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  /* #two-buttons {
-    margin: auto;
-    width: 77%;
-  } */
 }
 </style>
