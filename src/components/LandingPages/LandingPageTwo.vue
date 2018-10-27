@@ -14,7 +14,7 @@
                     <p id="demo"></p>
                     <div id="title-holder">
                     <h2 id="tge" class="date-info">TGE Starts</h2>
-                    <h2 class="date-info">29 October 2018. 12:00 PST</h2>
+                    <h2 class="date-info">29 October 2018. 8:00am CST</h2>
                     </div>
                       <div class="columns countdown-size is-mobile">
                         <div class="column">

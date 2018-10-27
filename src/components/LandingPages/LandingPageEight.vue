@@ -7,7 +7,7 @@
                 </div>
                 <div class="column">
                     <div id="date-wrapper">
-                        <p id="date-holder">TGE Starts <br><span id="date-span">29 October 2018, 12:00PST</span></p>
+                        <p id="date-holder">TGE Starts <br><span id="date-span">29 October 2018, 08:00am CST</span></p>
                         <div id="countdown">
                           <div class="columns countdown-size is-mobile">
                             <div class="column">

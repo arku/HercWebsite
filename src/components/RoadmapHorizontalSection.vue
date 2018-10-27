@@ -30,7 +30,7 @@
             </div>
             <div class="gold-border">
               <i class="far fa-check-circle fa-2x not-done"></i>
-              <h3>HERC Launch / AGLD Launch</h3>
+              <h3>HERC Launch</h3>
             </div>
           </div>
           <div class="column">
@@ -39,7 +39,7 @@
             </div>
             <div class="gold-border">
               <i class="far fa-check-circle fa-2x not-done"></i>
-              <h3>HERC v2 /AGLD 25+ Bars</h3>
+              <h3>AnthemGold Launch</h3>
             </div>
           </div>
         </div>

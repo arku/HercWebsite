@@ -20,7 +20,7 @@
                       <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                     </router-link>
                   </div>
-                  <h2 id="date-info">29 October 2018. 12:00 PST</h2>
+                  <h2 id="date-info">29 October 2018. 08:00 am CST</h2>
                   <div id="countdown">
                       <p id="demo"></p>
                       <div class="columns countdown-size is-mobile">

@@ -16,14 +16,14 @@
                     <div>
                         <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q4 2018</h1>
-                        <p>HERC Launch / AGLD Launch</p>
+                        <p>HERC Launch</p>
                     </div>
                 </div>
                 <div class="column">
                     <div>
                         <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q1 2019</h1>
-                        <p>HERC v2 / AGLD 25+ Bars</p>
+                        <p>AnthemGold Launch</p>
                     </div>
                 </div>
                 <div class="column">
