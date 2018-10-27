@@ -156,7 +156,7 @@ export default {
 }
 
 #date-holder {
-  font-size: 24px;
+  font-size: 22px;
   text-align: right;
   color: white;
   margin-bottom: 1%;
@@ -168,7 +168,7 @@ export default {
 }
 
 #date-span {
-  font-size: 24px;
+  font-size: 22px;
   color: white;
   font-weight: normal;
 }
