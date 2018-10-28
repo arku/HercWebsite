@@ -64,7 +64,7 @@
                     <div class="navbar-end">
                         <div class="navbar-item">
                             <div class="field is-grouped" id="two-buttons">
-                                <p class="control">
+                                <p class="control" @click="trackTelegram">
                                     <a class="button is-primary dugme-hover" href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                                     <span class="icon">
                                         <i class="fab fa-telegram"></i>
@@ -74,7 +74,7 @@
                                     </span>
                                     </a>
                                 </p>
-                                <p class="control">
+                                <p class="control" @click="trackWhitepaper">
                                     <router-link to="/whitepaper" class="button is-primary dugme-hover">
                                     <span class="icon">
                                         <i class="far fa-file-alt"></i>
@@ -96,7 +96,23 @@ import JQuery from "jquery";
 let $ = JQuery;
 
 export default {
-  name: "NavBar"
+  name: "NavBar",
+  methods: {
+    trackTelegram() {
+      this.$ga.event({
+        eventCategory: "Navbar",
+        eventAction: "Telegram button clicked",
+        eventLabel: "NavTelegram"
+      });
+    },
+    trackWhitepaper() {
+      this.$ga.event({
+        eventCategory: "Navbar",
+        eventAction: "Whitepaper button clicked",
+        eventLabel: "NavWhitepaper"
+      });
+    }
+  }
 };
 
 $(document).ready(function() {
