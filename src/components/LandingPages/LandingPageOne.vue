@@ -1,8 +1,5 @@
 <template>
     <div id="landing-one">
-      <!-- <video autoplay>
-        <source src="../../assets/herclaunchVideo.mp4" type="video/mp4">
-      </video> -->
         <div id="content">
             <div class="columns">
               <div class="column">

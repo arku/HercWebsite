@@ -5,7 +5,7 @@
             <p>Get in discussion with us about HERC</p>
             <div class="columns">
                 <div class="column">
-                    <a class="hvr-pulse-shrink" href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw"><i class="fab fa-telegram"></i>Join Telegram</a>
+                    <a class="hvr-pulse-shrink" href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" @click="trackTelegram"><i class="fab fa-telegram"></i>Join Telegram</a>
                 </div>
             </div>
         </div>
@@ -13,7 +13,16 @@
 </template>
 <script>
 export default {
-  name: "CommunitySection"
+  name: "CommunitySection",
+  methods: {
+    trackTelegram() {
+      this.$ga.event({
+        eventCategory: "CommunitySection",
+        eventAction: "Telegram button clicked",
+        eventLabel: "CommunityTelegram"
+      });
+    }
+  }
 };
 </script>
 <style scoped>
@@ -126,7 +135,7 @@ i {
     background-image: none;
   }
 
-  .cornered--bottom:after{
+  .cornered--bottom:after {
     background-image: none;
   }
 }
