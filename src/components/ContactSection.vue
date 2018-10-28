@@ -23,7 +23,7 @@
                       </a>
                     </span>
                     <span class="icon is-large">
-                      <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
+                      <a href="https://www.linkedin.com/company/herctoken/" target="_blank">
                         <i class="fab fa-linkedin fa-2x"></i>
                       </a>
                     </span>

@@ -53,10 +53,10 @@
                             <a href="https://twitter.com/HERC_Hercules" target="_blank">Twitter</a>
                         </div>
                         <div>
-                            <a href="" target="_blank">Instagram</a>
+                            <a href="https://www.instagram.com/herctoken/" target="_blank">Instagram</a>
                         </div>
                         <div>
-                            <a href="" target="_blank">LinkedIn</a>
+                            <a href="https://www.linkedin.com/company/herctoken/" target="_blank">LinkedIn</a>
                         </div>
                         <div>
                             <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">YouTube</a>
@@ -217,12 +217,12 @@ button:hover {
     width: 50%;
   }
 
-  #mobile{
-      display: inherit;
+  #mobile {
+    display: inherit;
   }
 
-  #desktop{
-      display: none;
+  #desktop {
+    display: none;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
