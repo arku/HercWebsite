@@ -8,7 +8,6 @@
                 <div class="column">
                   <div>
                       <h3 class="deployed">HERC Token was successfully deployed!</h3>
-                      <p class="center-text spacer">Click on button to see more info</p>
                       <router-link to="/tokeninfo">
                         <button>Token Info</button>
                       </router-link>
@@ -49,7 +48,7 @@
                     management software that utilizes public blockchains.
                     </p>
                     <p>The Hercules platform is decentralized and powered by HERC tokens which
-                    are required to record and validate the supply chain data
+                    are required to record and validate the supply chain data.
                     </p>
                 </div>
             </div>

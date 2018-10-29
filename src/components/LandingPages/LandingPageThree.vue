@@ -33,7 +33,6 @@
             <div class="columns">
               <div class="column">
                 <h2 class="center-text">HERC Token was successfully deployed!</h2>
-                <p class="center-text">Click on button to see more info</p>
                 <router-link to="/tokeninfo">
                     <button>Token Info</button>
                   </router-link>
@@ -170,10 +169,6 @@ button:hover {
 .right-button {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-}
-
-.center-text {
-  text-align: center;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
