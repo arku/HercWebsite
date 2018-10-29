@@ -32,7 +32,7 @@
                     <p>The Hercules platform is decentralized and powered by HERC tokens which
                     are required to record and validate the supply chain data
                     </p>
-                    <div id="date-wrapper">
+                    <!-- <div id="date-wrapper">
                         <p id="date-holder">TGE Starts<br><span id="date-span">29 October 2018, 08:00am CST</span></p>
                         <div id="countdown">
                       <div class="columns countdown-size is-mobile">
@@ -54,7 +54,7 @@
                         </div>       
                       </div>
                   </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -88,6 +88,7 @@ export default {
     }
   },
   mounted() {
+/*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -121,6 +122,7 @@ export default {
         document.getElementById("date-holder").style.cssText = "display:none;";
       }
     }, 1000);
+    */
   }
 };
 </script>

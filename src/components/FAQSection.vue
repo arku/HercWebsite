@@ -120,7 +120,7 @@
                     </div>
                     <div class="notification answer">
                         <div class="content">
-                            <p>You can purchase HERC tokens from anywhere in the world except unpermitted jurisdicitions listed below.</p>
+                            <p>You can purchase HERC tokens from anywhere in the world except unpermitted jurisdictions listed below.</p>
                             <img src="../assets/Jurisdictions.png">
                         </div>
                     </div>

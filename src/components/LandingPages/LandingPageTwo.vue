@@ -10,7 +10,7 @@
                     <img src="../../assets/landing-pages/guy.png" id="guy">
                 </div>
                 <div class="column">
-                  <div id="countdown">
+                  <!-- <div id="countdown">
                     <p id="demo"></p>
                     <div id="title-holder">
                     <h2 id="tge" class="date-info">TGE Starts</h2>
@@ -34,7 +34,7 @@
                           <span>Seconds</span>
                         </div>       
                       </div>
-                  </div>
+                  </div> -->
                 </div>
             </div>
             <div id="shape-section" class="columns">
@@ -63,6 +63,7 @@
 export default {
   name: "LandingPageTwo",
   mounted() {
+    /*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 09:00:00").getTime();
 
@@ -95,6 +96,7 @@ export default {
         document.getElementById("demo").innerHTML = "EXPIRED";
       }
     }, 1000);
+    */
   }
 };
 </script>

@@ -6,7 +6,7 @@
                     <h1 id="title">Track Product Movements and Trace the Origins</h1>
                 </div>
                 <div class="column">
-                    <div id="date-wrapper">
+                    <!-- <div id="date-wrapper">
                         <p id="date-holder">TGE Starts <br><span id="date-span">29 October 2018, 08:00am CST</span></p>
                         <div id="countdown">
                           <div class="columns countdown-size is-mobile">
@@ -28,7 +28,7 @@
                             </div>       
                           </div>
                       </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="columns" id="second-section">
@@ -97,6 +97,7 @@ export default {
     }
   },
   mounted() {
+/*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -130,6 +131,7 @@ export default {
         document.getElementById("date-holder").style.cssText = "display:none;";
       }
     }, 1000);
+    */
   }
 };
 </script>

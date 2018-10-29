@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <p id="date-holder">TGE Starts<br><span id="date-span">29 October 2018, 08:00am CST</span></p>
+                    <!-- <p id="date-holder">TGE Starts<br><span id="date-span">29 October 2018, 08:00am CST</span></p>
                     <div id="countdown">
                       <div class="columns countdown-size is-mobile">
                         <div class="column">
@@ -39,7 +39,7 @@
                           <span>Seconds</span>
                         </div>       
                       </div>
-                  </div>
+                  </div> -->
                   <img src="../../assets/landing-pages/coins.png" id="coins">
                   <h4>Powered by <span id="herc-bold">HERC</span> tokens</h4>
                   <h2>About HERC</h2>
@@ -82,6 +82,7 @@ export default {
     }
   },
   mounted() {
+/*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -115,6 +116,7 @@ export default {
         document.getElementById("date-holder").style.cssText = "display:none;";
       }
     }, 1000);
+    */
   }
 };
 </script>

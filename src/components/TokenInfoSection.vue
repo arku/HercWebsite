@@ -1,17 +1,23 @@
 <template>
     <div id="token-info-section">
-        <!-- <div id="content">
+        <div id="content">
             <h1>HERC Token Information</h1>
-            <p><span><b>IMPORTANT NOTICE:</b></span>This is the test network information!</p>
-        </div> -->
-        <!-- <div>
-            <ul>
-                <li>Token Name: <b>Hercules</b></li>
-                <li>Token Code: <b>HERC</b></li>
-                <li>Contract Address: <b>0x0C97b0B42140D77dE45Fc669E826225E6bb6B3D2</b></li>
-                <li>Number of Decimal Places: <b>18</b></li>
-            </ul>
-        </div> -->
+              <div id="blurb">
+              <h2>Token Name</h2>
+              <p>Hercules</p>
+              <h2>Token Code</h2>
+              <p>HERC</p>
+              <h2>Contract Address</h2>
+              <p>0x6251583e7d997df3604bc73b9779196e94a090ce</p>
+              <h2>Number of Decimal Places</h2>
+              <p>18</p>
+              <a href="https://etherscan.io/address/0x6251583e7d997df3604bc73b9779196e94a090ce" target="_blank">
+                <button>
+                  View on Etherscan
+                </button>
+              </a>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -24,34 +30,66 @@ export default {
 <style scoped>
 #token-info-section {
   padding: 50px;
-  height: 70vh;
+  background-color: #091141;
+  background-image: url("../assets/HERC_BKG_v2_blue.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#content {
+  max-width: 1080px;
+  margin: auto;
 }
 
 h1 {
-  font-size: 40px;
-  color: #091141;
+  font-size: 35px;
+  color: #f3c736;
   font-weight: bold;
+  margin-bottom: 5%;
+}
+
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
 }
 
 p {
-  margin-bottom: 5%;
-}
-
-ul {
-  text-align: left;
-  width: 50%;
-  margin: auto;
-  margin-bottom: 5%;
-}
-
-li {
-  font-size: 20px;
-  color: #091141;
-}
-
-span {
-  color: red;
+  color: #f3c736;
   font-weight: bold;
+  margin-bottom: 2%;
+  font-size: 20px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#blurb {
+  background-color: rgba(9, 17, 65, 0.9);
+  border: 2px solid #f3c736;
+  padding: 50px;
+  box-shadow: 0px 12px 18px -6px #000;
+}
+
+button {
+  background-color: #f3c736;
+  border: 2px solid #f3c736;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #091141;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #f3c736;
+  border: 2px solid #f3c736;
+  cursor: pointer;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -68,8 +106,27 @@ span {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  ul {
-    width: 100%;
+  #token-info-section {
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  #blurb {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.2em;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

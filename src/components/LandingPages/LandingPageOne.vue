@@ -17,7 +17,7 @@
                       <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                     </router-link>
                   </div>
-                  <h2 id="date-info">29 October 2018. 08:00 am CST</h2>
+                  <!-- <h2 id="date-info">29 October 2018. 08:00 am CST</h2>
                   <div id="countdown">
                       <p id="demo"></p>
                       <div class="columns countdown-size is-mobile">
@@ -38,7 +38,12 @@
                           <span>Seconds</span>
                         </div>       
                       </div>
-                  </div>
+                  </div> -->
+                  <h2>HERC Token was succesfuly deployed!</h2>
+                  <p class="center-text">Click on button to see more info</p>
+                  <router-link to="/tokeninfo">
+                    <button>Token Info</button>
+                  </router-link>
                 </div>
               </div>
               <div class="column">
@@ -83,6 +88,7 @@ export default {
     }
   },
   mounted() {
+    /*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -116,6 +122,7 @@ export default {
         document.getElementById("date-info").style.cssText = "display:none;";
       }
     }, 1000);
+    */
   }
 };
 </script>
@@ -192,6 +199,7 @@ button:hover {
   color: #f3c736;
   border: 2px solid #f3c736;
   cursor: pointer;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 #buttons-lol {
@@ -239,6 +247,10 @@ button:hover {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
+}
+
+.center-text {
+  text-align: center;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

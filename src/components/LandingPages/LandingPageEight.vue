@@ -5,7 +5,7 @@
                 <div class="column is-8">
                     <h1 id="title">Producing, Manufacturing<br> and Delivering Products<br> Made <b>Efficient</b> and <b>Transparent</b></h1>
                 </div>
-                <div class="column">
+                <!-- <div class="column">
                     <div id="date-wrapper">
                         <p id="date-holder">TGE Starts <br><span id="date-span">29 October 2018, 08:00am CST</span></p>
                         <div id="countdown">
@@ -29,7 +29,7 @@
                           </div>
                       </div>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="columns">
                 <div class="column">
@@ -97,6 +97,7 @@ export default {
     }
   },
   mounted() {
+/*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -130,6 +131,7 @@ export default {
         document.getElementById("date-holder").style.cssText = "display:none;";
       }
     }, 1000);
+    */
   }
 };
 </script>
