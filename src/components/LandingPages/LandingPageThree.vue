@@ -23,7 +23,7 @@
                     <img src="../../assets/landing-pages/people-computing.png" id="people">
                     <h2>About HERC</h2>
                 <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
-                  management software that utlizes public blockchains.
+                  management software that utilizes public blockchains.
                 </p>
                 <p>The Hercules platform is decentralized and powered by HERC tokens which
                   are required to record and validate the supply chain data.
@@ -32,7 +32,7 @@
             </div>
             <div class="columns">
               <div class="column">
-                <h2 class="center-text">HERC Token was succesfuly deployed!</h2>
+                <h2 class="center-text">HERC Token was successfully deployed!</h2>
                 <p class="center-text">Click on button to see more info</p>
                 <router-link to="/tokeninfo">
                     <button>Token Info</button>

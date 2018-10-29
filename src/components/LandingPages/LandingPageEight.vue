@@ -8,7 +8,7 @@
                 
                 <div class="column">
                   <div>
-                      <h3 class="deployed">HERC Token was succesfuly deployed!</h3>
+                      <h3 class="deployed">HERC Token was successfully deployed!</h3>
                       <p class="center-text spacer">Click on button to see more info</p>
                       <router-link to="/tokeninfo">
                         <button id="token-button">Token Info</button>

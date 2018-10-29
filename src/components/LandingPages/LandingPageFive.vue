@@ -28,7 +28,7 @@
                 <div class="column" id="druga">
                     <h3>About HERC</h3>
                     <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
-                    management software that utlizes public blockchains.
+                    management software that utilizes public blockchains.
                     </p>
                     <p class="spacer">The Hercules platform is decentralized and powered by HERC tokens which
                     are required to record and validate the supply chain data
@@ -60,7 +60,7 @@
                 </div>
             </div>
             <div id="treca">
-              <h3 class="center-text">HERC Token was succesfuly deployed!</h3>
+              <h3 class="center-text">HERC Token was successfully deployed!</h3>
               <p class="center-text">Click on button to see more info</p>
               <router-link to="/tokeninfo">
                 <button>Token Info</button>
