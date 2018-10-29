@@ -39,7 +39,7 @@
                         </div>       
                       </div>
                   </div> -->
-                  <h2>HERC Token was succesfuly deployed!</h2>
+                  <h2 class="center-text">HERC Token was succesfuly deployed!</h2>
                   <p class="center-text">Click on button to see more info</p>
                   <router-link to="/tokeninfo">
                     <button>Token Info</button>

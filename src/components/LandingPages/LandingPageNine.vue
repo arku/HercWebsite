@@ -6,6 +6,13 @@
                     <h1 id="title">Track Product Movements and Trace the Origins</h1>
                 </div>
                 <div class="column">
+                  <div>
+                      <h3 class="deployed">HERC Token was succesfuly deployed!</h3>
+                      <p class="center-text spacer">Click on button to see more info</p>
+                      <router-link to="/tokeninfo">
+                        <button>Token Info</button>
+                      </router-link>
+                    </div>
                     <!-- <div id="date-wrapper">
                         <p id="date-holder">TGE Starts <br><span id="date-span">29 October 2018, 08:00am CST</span></p>
                         <div id="countdown">
@@ -97,7 +104,7 @@ export default {
     }
   },
   mounted() {
-/*
+    /*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -252,6 +259,7 @@ button:hover {
   background-color: #091141;
   color: #f3c736;
   border: 2px solid #f3c736;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 .left-button {
@@ -275,6 +283,14 @@ button:hover {
   background-color: #fafafa;
   padding: 50px;
   margin: 0;
+}
+
+.deployed {
+  margin-bottom: 1%;
+}
+
+.center-text {
+  margin-bottom: 1%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -387,6 +403,10 @@ button:hover {
   #info {
     text-align: center;
     width: 100%;
+  }
+
+  #second-section{
+    padding-top: 0;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

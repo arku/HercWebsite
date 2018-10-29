@@ -4,9 +4,10 @@
             <div id="title-div">
                 <h1 id="title">Follow an Asset through its Lifecycle</h1>
             </div>
+            <img src="../../assets/herc-logo.png" id="logo">
             <div class="columns custom">
                 <div class="column">
-                    <img src="../../assets/herc-logo.png" id="logo">
+                    <!-- <img src="../../assets/herc-logo.png" id="logo"> -->
                     <h3>Helping Eradicate<br> Racketeering & Collusion</h3>
                     <p id="info">*Hercules decentralized supply chain management
                         software enables users to create a permanent and shared record
@@ -25,13 +26,14 @@
                   </div>
                 </div>
                 <div class="column" id="druga">
-                    <h2>About HERC</h2>
+                    <h3>About HERC</h3>
                     <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
                     management software that utlizes public blockchains.
                     </p>
-                    <p>The Hercules platform is decentralized and powered by HERC tokens which
+                    <p class="spacer">The Hercules platform is decentralized and powered by HERC tokens which
                     are required to record and validate the supply chain data
                     </p>
+                    
                     <!-- <div id="date-wrapper">
                         <p id="date-holder">TGE Starts<br><span id="date-span">29 October 2018, 08:00am CST</span></p>
                         <div id="countdown">
@@ -56,6 +58,13 @@
                   </div>
                     </div> -->
                 </div>
+            </div>
+            <div id="treca">
+              <h3 class="center-text">HERC Token was succesfuly deployed!</h3>
+              <p class="center-text">Click on button to see more info</p>
+              <router-link to="/tokeninfo">
+                <button>Token Info</button>
+              </router-link>
             </div>
         </div>
     </div>
@@ -88,7 +97,7 @@ export default {
     }
   },
   mounted() {
-/*
+    /*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -147,7 +156,7 @@ h2 {
   font-size: 20px;
   font-weight: bold;
   color: #091141;
-  text-align: left;
+  text-align: center;
   margin: auto;
   margin-bottom: 2%;
   margin-top: 5%;
@@ -161,9 +170,11 @@ h3 {
 }
 
 p {
-  text-align: left;
+  text-align: center;
+  margin: auto;
   margin-bottom: 2%;
   width: 80%;
+  color: #091141;
 }
 
 #buttons-lol {
@@ -183,10 +194,9 @@ p {
 }
 
 #logo {
-  width: 50%;
+  width: 20%;
   margin: auto;
   margin-top: 5%;
-  margin-bottom: 5%;
 }
 
 #info {
@@ -290,6 +300,18 @@ span {
   font-weight: bold;
 }
 
+#treca h3 {
+  margin-bottom: 1%;
+}
+
+#treca {
+  padding-bottom: 50px;
+}
+
+#treca p {
+  margin-bottom: 2%;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -357,8 +379,7 @@ span {
   }
 
   #logo {
-    margin-bottom: 10%;
-    width: 80%;
+    width: 50%;
   }
 
   #date-holder,
@@ -379,6 +400,10 @@ span {
 
   #druga {
     padding: 30px !important;
+  }
+
+  .aligner {
+    float: none;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

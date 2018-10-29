@@ -23,9 +23,16 @@
                     <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
                     management software that utlizes public blockchains.
                     </p>
-                    <p>The Hercules platform is decentralized and powered by HERC tokens which
+                    <p class="spacer">The Hercules platform is decentralized and powered by HERC tokens which
                     are required to record and validate the supply chain data
                     </p>
+                    <div>
+                      <h3 class="deployed">HERC Token was succesfuly deployed!</h3>
+                      <p class="center-text spacer">Click on button to see more info</p>
+                      <router-link to="/tokeninfo">
+                        <button class="token-button">Token Info</button>
+                      </router-link>
+                    </div>
                     <!-- <div id="date-wrapper">
                         <p id="date-holder">TGE Starts<br><span id="date-span">29 October 2018, 08:00am CST</span></p>
                         <div id="countdown">
@@ -82,6 +89,7 @@ export default {
     }
   },
   mounted() {
+    /*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -115,6 +123,7 @@ export default {
         document.getElementById("date-holder").style.cssText = "display:none;";
       }
     }, 1000);
+    */
   }
 };
 </script>
@@ -249,6 +258,18 @@ span {
   color: #091141;
   font-size: 12px;
   font-weight: bold;
+}
+
+.spacer {
+  margin-bottom: 5%;
+}
+
+.deployed {
+  margin-bottom: 5%;
+}
+
+.token-button {
+  border-radius: 5px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

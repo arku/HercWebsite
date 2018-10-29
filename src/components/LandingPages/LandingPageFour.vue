@@ -40,6 +40,13 @@
                         </div>       
                       </div>
                   </div> -->
+                  <div>
+                    <h2 class="center-text">HERC Token was succesfuly deployed!</h2>
+                    <p class="center-text">Click on button to see more info</p>
+                    <router-link to="/tokeninfo">
+                      <button class="spacer">Token Info</button>
+                    </router-link>
+                  </div>
                   <img src="../../assets/landing-pages/coins.png" id="coins">
                   <h4>Powered by <span id="herc-bold">HERC</span> tokens</h4>
                   <h2>About HERC</h2>
@@ -82,7 +89,7 @@ export default {
     }
   },
   mounted() {
-/*
+    /*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -214,6 +221,7 @@ button:hover {
   color: #f3c736;
   border: 2px solid #f3c736;
   cursor: pointer;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 .left-button {
@@ -281,6 +289,14 @@ span {
   color: #f3c736;
   font-weight: bold;
   font-size: 20px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.spacer {
+  margin-bottom: 5%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

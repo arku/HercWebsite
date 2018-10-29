@@ -5,8 +5,16 @@
                 <div class="column is-8">
                     <h1 id="title">Producing, Manufacturing<br> and Delivering Products<br> Made <b>Efficient</b> and <b>Transparent</b></h1>
                 </div>
-                <!-- <div class="column">
-                    <div id="date-wrapper">
+                
+                <div class="column">
+                  <div>
+                      <h3 class="deployed">HERC Token was succesfuly deployed!</h3>
+                      <p class="center-text spacer">Click on button to see more info</p>
+                      <router-link to="/tokeninfo">
+                        <button id="token-button">Token Info</button>
+                      </router-link>
+                    </div>
+                    <!-- <div id="date-wrapper">
                         <p id="date-holder">TGE Starts <br><span id="date-span">29 October 2018, 08:00am CST</span></p>
                         <div id="countdown">
                           <div class="columns countdown-size is-mobile">
@@ -28,8 +36,8 @@
                             </div>       
                           </div>
                       </div>
-                    </div>
-                </div> -->
+                    </div> -->
+                </div>
             </div>
             <div class="columns">
                 <div class="column">
@@ -97,7 +105,7 @@ export default {
     }
   },
   mounted() {
-/*
+    /*
     // Set the date we're counting down to
     var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
 
@@ -260,6 +268,12 @@ button:hover {
 .right-button {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+#token-button {
+  margin: 5%;
+  border-radius: 5px;
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
