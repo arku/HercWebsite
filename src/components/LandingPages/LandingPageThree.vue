@@ -11,9 +11,9 @@
                       <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                         <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                       </a>
-                      <!-- <a href="https://purchase.herc.one">
+                      <a href="https://purchase.herc.one">
                         <button @click="trackTokenSale">Token Sale</button>
-                      </a> -->
+                      </a>
                       <router-link to="/whitepaper">
                         <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                       </router-link>
@@ -34,7 +34,7 @@
               <div class="column">
                 <h2 class="center-text">HERC Token was successfully deployed!</h2>
                 <router-link to="/tokeninfo">
-                    <button>Token Info</button>
+                    <button class="border-button">Token Info</button>
                   </router-link>
               </div>
             </div>
@@ -169,6 +169,18 @@ button:hover {
 .right-button {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.border-button {
+  border-radius: 5px;
+}
+
+.border-button:hover {
+  box-shadow: 0px 12px 18px -6px #000;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

@@ -17,9 +17,9 @@
                       <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                         <button  class="left-button remove-right-border" @click="trackTelegram">Talk With Us</button>
                       </a>
-                      <!-- <a href="https://purchase.herc.one">
+                      <a href="https://purchase.herc.one">
                         <button @click="trackTokenSale" class="remove-right-border">Token Sale</button>
-                      </a> -->
+                      </a>
                       <router-link to="/whitepaper">
                         <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                       </router-link>
@@ -309,6 +309,10 @@ span {
 
 #treca p {
   margin-bottom: 2%;
+}
+
+#treca button{
+  border-radius: 5px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

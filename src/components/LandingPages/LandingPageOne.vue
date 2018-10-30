@@ -10,9 +10,9 @@
                     <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                       <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                     </a>
-                    <!-- <a href="https://purchase.herc.one">
+                    <a href="https://purchase.herc.one">
                       <button @click="trackTokenSale">Token Sale</button>
-                    </a> -->
+                    </a>
                     <router-link to="/whitepaper">
                       <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                     </router-link>
@@ -250,6 +250,10 @@ button:hover {
 
 .token-button {
   border-radius: 5px;
+}
+
+#launch-video {
+  display: none;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
