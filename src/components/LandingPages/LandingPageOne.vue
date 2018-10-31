@@ -10,9 +10,7 @@
                     <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                       <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                     </a>
-                    <a href="https://purchase.herc.one">
-                      <button @click="trackTokenSale">Token Sale</button>
-                    </a>
+                    
                     <router-link to="/whitepaper">
                       <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                     </router-link>
@@ -41,8 +39,11 @@
                   </div> -->
                   <h2 class="center-text">HERC Token was successfully deployed!</h2>
                   <router-link to="/tokeninfo">
-                    <button class="token-button">Token Info</button>
+                    <button class="token-button">Token Info</button><br>
                   </router-link>
+                  <a href="https://purchase.herc.one">
+                      <button @click="trackTokenSale" class="tokensale-button">Buy HERC now!</button>
+                    </a>
                 </div>
               </div>
               <div class="column">
@@ -248,12 +249,67 @@ button:hover {
   font-size: 24px;
 }
 
+.center-text {
+  text-align: center;
+}
+
 .token-button {
   border-radius: 5px;
 }
 
-#launch-video {
-  display: none;
+.tokensale-button {
+  border-radius: 5px;
+  margin: 5%;
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  -moz-animation-name: flash;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

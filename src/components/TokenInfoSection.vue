@@ -17,6 +17,8 @@
                 </button>
               </a>
             </div>
+            <h1>How to store your HERC on Edge Wallet</h1>
+            <img src="../assets/edge-info.png">
         </div>
     </div>
 </template>
@@ -68,6 +70,7 @@ p {
   border: 2px solid #f3c736;
   padding: 50px;
   box-shadow: 0px 12px 18px -6px #000;
+  margin-bottom: 5%;
 }
 
 button {
@@ -89,6 +92,14 @@ button:hover {
   color: #f3c736;
   border: 2px solid #f3c736;
   cursor: pointer;
+  box-shadow: 0px 12px 18px -6px #000;
+}
+
+img{
+  width:60%;
+  margin: auto;
+  border: 2px solid #f3c736;
+  border-radius: 5px;
   box-shadow: 0px 12px 18px -6px #000;
 }
 
@@ -127,6 +138,10 @@ button:hover {
 
   p {
     font-size: 18px;
+  }
+
+  img{
+    width: 100%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
