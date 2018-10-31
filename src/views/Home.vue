@@ -51,7 +51,7 @@
     <div class="modal-main-content">
       <h1>HERC Token has been launched!</h1>
     <p>You are able to buy HERC now at the discounted price!</p>
-    <a href="https://purchase.herc.one">BUY NOW</a>
+    <a href="https://purchase.herc.one" @click="popupAction">BUY NOW</a>
     </div>
   </div>
 
@@ -131,6 +131,13 @@ export default {
     // CountdownSection
   },
   methods: {
+    popupAction() {
+      this.$ga.event({
+        eventCategory: "Homepage",
+        eventAction: "Popup buy button clicked",
+        eventLabel: "popup"
+      });
+    },
     showPopup() {
       // Get the modal
       var modal = document.getElementById("myModal");
