@@ -33,6 +33,7 @@
         <!-- <ProtocolCostSection></ProtocolCostSection> -->
         <BubbleSection></BubbleSection>
         <TeamSection></TeamSection>
+        <BuySection></BuySection>
         <ContactSection></ContactSection>
         <FooterSection></FooterSection>
         <back-to-top bottom="100px" right="10px">
@@ -47,11 +48,13 @@
 
   <!-- Modal content -->
   <div class="modal-content">
-    <span class="close">&times;</span>
+    <!-- &times; -->
+    
     <div class="modal-main-content">
       <h1>HERC Token has been launched!</h1>
     <p>You are able to buy HERC now at the discounted price!</p>
     <a href="https://purchase.herc.one" @click="popupAction">BUY NOW</a>
+    <span class="close">I want to do some research first</span>
     </div>
   </div>
 
@@ -92,6 +95,7 @@ import LandingPageSix from "@/components/LandingPages/LandingPageSix.vue";
 import LandingPageSeven from "@/components/LandingPages/LandingPageSeven.vue";
 import LandingPageEight from "@/components/LandingPages/LandingPageEight.vue";
 import LandingPageNine from "@/components/LandingPages/LandingPageNine.vue";
+import BuySection from "@/components/BuySection.vue";
 
 export default {
   name: "home",
@@ -127,7 +131,8 @@ export default {
     FooterSection,
     TeamSection,
     DappSection,
-    HiwSection
+    HiwSection,
+    BuySection
     // CountdownSection
   },
   methods: {
@@ -263,6 +268,20 @@ export default {
   -moz-animation-iteration-count: infinite;
 }
 
+.modal span {
+  text-align: center;
+  color: white;
+  margin: auto;
+  margin-top: 10%;
+  width: 100%;
+  font-weight: normal;
+  line-height: 1.2em;
+}
+
+.modal span:hover {
+  color: #f3c736;
+}
+
 @keyframes flash {
   0% {
     opacity: 1;
@@ -314,6 +333,7 @@ export default {
   margin: auto;
   padding: 15px;
   padding-top: 5px;
+  padding-bottom: 50px;
   border: 2px solid #f3c736;
   width: 80%;
   margin: auto !important;

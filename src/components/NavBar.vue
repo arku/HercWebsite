@@ -33,6 +33,9 @@
                         <a href="/#team-section" class="navbar-item">
                             Team
                         </a>
+                        <a href="https://purchase.herc.one" class="navbar-item buy-herc">
+                            Buy HERC
+                        </a>
                     </div>
                     
                     <div id="social-top">
@@ -182,6 +185,10 @@ a:hover {
 
 #mobile-roadmap {
   display: none;
+}
+
+.buy-herc {
+  font-weight: bold;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

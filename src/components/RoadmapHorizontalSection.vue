@@ -29,7 +29,7 @@
               <h2>Q4 2018</h2>
             </div>
             <div class="gold-border">
-              <i class="far fa-check-circle fa-2x not-done"></i>
+              <i class="far fa-check-circle fa-2x done"></i>
               <h3>HERC Launch</h3>
             </div>
           </div>
@@ -69,7 +69,7 @@
               <h2>q4 2019</h2>
             </div>
             <div class="gold-border">
-              <i class="far fa-check-circle fa-2x"></i>
+              <i class="far fa-check-circle fa-2x not-done"></i>
               <h3>Beyond Inventory/BEX Ecosystem</h3>
             </div>
           </div>

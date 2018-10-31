@@ -14,7 +14,7 @@
                 </div>
                 <div class="column">
                     <div>
-                        <i class="fas fa-check-circle fa-2x not-done"></i>
+                        <i class="fas fa-check-circle fa-2x"></i>
                         <h1>Q4 2018</h1>
                         <p>HERC Launch</p>
                     </div>

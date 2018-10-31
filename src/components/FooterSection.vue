@@ -23,6 +23,9 @@
                     <div class="column">
                         <h3>Company</h3>
                         <div>
+                            <a href="https://purchase.herc.one">Buy HERC</a>
+                        </div>
+                        <div>
                             <a href="/#team-section">Team</a>
                         </div>
                         <div id="desktop">
