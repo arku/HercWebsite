@@ -18,6 +18,7 @@ import LandingSeven from './views/LandingViews/LandingSeven.vue';
 import LandingEight from './views/LandingViews/LandingEight.vue';
 import LandingNine from './views/LandingViews/LandingNine.vue';
 import PageNotFound from './views/PageNotFound.vue';
+import ContactSectionBig from './views/Contact.vue';
 
 Vue.use(Router);
 
@@ -120,6 +121,11 @@ export default new Router({
         path: '*',
         name: 'PageNotFound',
         component: PageNotFound,
+    },
+    {
+        path: '/contact',
+        name: 'ContactSectionBig',
+        component: ContactSectionBig
     }
     ],
     scrollBehavior(to, from, savedPosition) {

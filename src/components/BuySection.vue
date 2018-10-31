@@ -22,6 +22,8 @@ export default {
   background-image: url("../assets/HERC_BKG_v2_blue.png");
   background-size: cover;
   background-position: center;
+  border-top: 5px solid #091141;
+  border-bottom: 5px solid #f3c736;
 }
 
 #content {
