@@ -9,7 +9,7 @@
           <landing-page-five slot="E" chance="1"></landing-page-five>
           <landing-page-six slot="F" chance="1"></landing-page-six>
           <landing-page-seven slot="G" chance="1"></landing-page-seven>
-          <!-- <landing-page-eight slot="H" chance="1"></landing-page-eight> -->
+          <landing-page-eight slot="H" chance="1"></landing-page-eight>
           <landing-page-nine slot="I" chance="1"></landing-page-nine>
         </split-test>
         <!-- <TopSection></TopSection> -->
