@@ -60,7 +60,7 @@
                         <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                       </a>
                       <a href="https://purchase.herc.one">
-                        <button @click="trackTokenSale">Token Sale</button>
+                        <button @click="trackTokenSale" class="tokensale-button">Buy HERC</button>
                       </a>
                       <router-link to="/whitepaper">
                         <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
@@ -292,6 +292,23 @@ button:hover {
   margin-bottom: 1%;
 }
 
+.tokensale-button {
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  -moz-animation-name: flash;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
   .left-button,
@@ -404,7 +421,7 @@ button:hover {
     width: 100%;
   }
 
-  #second-section{
+  #second-section {
     padding-top: 0;
   }
 }

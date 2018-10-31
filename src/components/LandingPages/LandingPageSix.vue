@@ -10,12 +10,12 @@
                       <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                         <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                       </a>
-                      <a href="https://purchase.herc.one">
-                        <button @click="trackTokenSale">Token Sale</button>
-                      </a>
                       <router-link to="/whitepaper">
                         <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                       </router-link>
+                      <a href="https://purchase.herc.one">
+                        <button @click="trackTokenSale" class="tokensale-button">Buy HERC</button>
+                      </a>
                     </div>
                 </div>
                 <div class="column">
@@ -266,6 +266,23 @@ span {
 
 .deployed {
   margin-bottom: 5%;
+}
+
+.tokensale-button {
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  -moz-animation-name: flash;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

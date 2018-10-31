@@ -18,7 +18,7 @@
                         <button  class="left-button remove-right-border" @click="trackTelegram">Talk With Us</button>
                       </a>
                       <a href="https://purchase.herc.one">
-                        <button @click="trackTokenSale" class="remove-right-border">Token Sale</button>
+                        <button @click="trackTokenSale" class="remove-right-border tokensale-button">Buy HERC</button>
                       </a>
                       <router-link to="/whitepaper">
                         <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
@@ -311,8 +311,25 @@ span {
   margin-bottom: 2%;
 }
 
-#treca button{
+#treca button {
   border-radius: 5px;
+}
+
+.tokensale-button {
+  animation-name: flash;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name: flash;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+  -moz-animation-name: flash;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
