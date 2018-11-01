@@ -9,6 +9,8 @@
               <p>HERC</p>
               <h2>Contract Address</h2>
               <p>0x6251583e7d997df3604bc73b9779196e94a090ce</p>
+              <p id="info"></p>
+              <button v-clipboard="copyAddress" @success="handleSuccess" @error="handleError">Copy Address</button>
               <h2>Number of Decimal Places</h2>
               <p>18</p>
               <a href="https://etherscan.io/address/0x6251583e7d997df3604bc73b9779196e94a090ce" target="_blank">
@@ -25,7 +27,22 @@
 
 <script>
 export default {
-  name: "TokenInfoSection"
+  name: "TokenInfoSection",
+  data() {
+    return {
+      copyAddress: "0x6251583e7d997df3604bc73b9779196e94a090ce"
+    };
+  },
+  methods: {
+    handleSuccess(e) {
+      document.getElementById('info').style.cssText = "display:inherit";
+      document.getElementById('info').innerHTML = "Address copied succesfully!"
+      console.log(e);
+    },
+    handleError(e) {
+      console.log(e);
+    }
+  }
 };
 </script>
 
@@ -68,6 +85,7 @@ p {
 #blurb {
   background-color: rgba(9, 17, 65, 0.9);
   border: 2px solid #f3c736;
+  border-radius: 5px;
   padding: 50px;
   box-shadow: 0px 12px 18px -6px #000;
   margin-bottom: 5%;
@@ -85,6 +103,7 @@ button {
   font-weight: bold;
   color: #091141;
   border-radius: 5px;
+  margin-bottom: 2%;
 }
 
 button:hover {
@@ -95,12 +114,20 @@ button:hover {
   box-shadow: 0px 12px 18px -6px #000;
 }
 
-img{
-  width:60%;
+img {
+  width: 60%;
   margin: auto;
   border: 2px solid #f3c736;
   border-radius: 5px;
   box-shadow: 0px 12px 18px -6px #000;
+}
+
+#info {
+  display: none;
+  color: white;
+  margin: 0;
+  margin-bottom: 1%;
+  font-size: 12px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -140,7 +167,7 @@ img{
     font-size: 18px;
   }
 
-  img{
+  img {
     width: 100%;
   }
 }

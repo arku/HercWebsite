@@ -19,6 +19,7 @@
     "vue-analytics": "^5.16.0",
     "vue-backtotop": "^1.4.12",
     "vue-cli-plugin-s3-deploy": "^2.1.1",
+    "vue-clipboards": "^1.2.4",
     "vue-meta": "^1.5.5",
     "vue-router": "^3.0.1",
     "vue-smooth-scroll": "^1.0.13",
