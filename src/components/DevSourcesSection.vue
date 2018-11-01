@@ -23,8 +23,8 @@
                     <a href="https://github.com/HERCone" target="_blank" class="button">
                         <i class="fab fa-github"></i>Herc GitHub
                     </a>
-                    <a href="https://github.com/AnthemGold" target="_blank" class="button">
-                        <i class="fab fa-github"></i>AnthemGold GitHub
+                    <a href="https://github.com/herchackathon" target="_blank" class="button">
+                        <i class="fab fa-github"></i>Herc Hackathon GitHub
                     </a>
                     <a href="https://github.com/AnthemBunker" target="_blank" class="button">
                         <i class="fab fa-github a-spacer"></i>AnthemBunker GitHub
