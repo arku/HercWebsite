@@ -108,9 +108,12 @@
                     </div>
                     <div class="notification answer">
                         <div class="content">
-                            <p>HERC Tokens are not currently for sale. Please sign up for our newsletter
-                               to receive updates from our HERC team and you will be notified when you can
-                               purchase HERC.</p>
+                            <p>You can now purchase HERC tokens: 
+                                <a href="https://purchase.herc.one" target="_blank">https://purchase.herc.one</a>
+                            </p>
+                            <p>Learn how to store your HERC tokens: 
+                                <a href="https://herc.one/tokeninfo" target="_blank">https://herc.one/tokeninfo</a>
+                            </p>
                         </div>
                     </div>
                 </b-collapse>
@@ -181,6 +184,10 @@ h1 {
   background-color: #fafafa;
   text-align: left;
   color: #091141;
+}
+
+a{
+    font-weight: bold;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
