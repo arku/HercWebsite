@@ -23,17 +23,17 @@
                     <a href="https://github.com/HERCone" target="_blank" class="button">
                         <i class="fab fa-github"></i>Herc GitHub
                     </a>
-                    <a href="https://github.com/AnthemGold" target="_blank" class="dugme button">
+                    <a href="https://github.com/AnthemGold" target="_blank" class="button">
                         <i class="fab fa-github"></i>AnthemGold GitHub
                     </a>
-                    <a href="https://github.com/AnthemBunker" target="_blank" class="dugme button">
+                    <a href="https://github.com/AnthemBunker" target="_blank" class="button">
                         <i class="fab fa-github a-spacer"></i>AnthemBunker GitHub
                     </a>
                 </div>
                 <div class="column">
                     <h2>HERC Token Smart Contract Address</h2>
                     <a href="https://etherscan.io/address/0x6251583e7d997df3604bc73b9779196e94a090ce" target="_blank" class="button">
-                        View on Etherscan
+                        <i class="fab fa-ethereum"></i>View on Etherscan
                     </a>
                 </div>
             </div>
@@ -107,6 +107,10 @@ button {
 
 .columns {
   margin-bottom: 5%;
+}
+
+i {
+  margin-right: 1%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
