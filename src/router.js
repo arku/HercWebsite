@@ -19,6 +19,7 @@ import LandingEight from './views/LandingViews/LandingEight.vue';
 import LandingNine from './views/LandingViews/LandingNine.vue';
 import PageNotFound from './views/PageNotFound.vue';
 import ContactSectionBig from './views/Contact.vue';
+import DevSourcesSection from './views/DevSources.vue';
 
 Vue.use(Router);
 
@@ -126,6 +127,11 @@ export default new Router({
         path: '/contact',
         name: 'ContactSectionBig',
         component: ContactSectionBig
+    },
+    {
+        path: '/developer-resources',
+        name: 'DevSourcesSection',
+        component: DevSourcesSection
     }
     ],
     scrollBehavior(to, from, savedPosition) {
