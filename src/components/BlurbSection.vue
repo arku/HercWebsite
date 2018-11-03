@@ -13,7 +13,7 @@
                     <h2 class="blurb-title">The Platform</h2>
                     <p class="blurb-text">From Agri-Food to Technology value chains, HERC can be used for any physical interchangeable item and any entity type of organization in virtually any local, regional, or Global Value Chain.</p>
                 </div>
-                <div class="column blurb">
+                <div class="column blurb"> 
                     <div class="blurb-image hvr-pulse-shrink">
                         <img src="../assets/blurb/2.png" class="image is-128x128">
                     </div>
