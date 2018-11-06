@@ -20,6 +20,7 @@ import LandingNine from './views/LandingViews/LandingNine.vue';
 import PageNotFound from './views/PageNotFound.vue';
 import ContactSectionBig from './views/Contact.vue';
 import DevSourcesSection from './views/DevSources.vue';
+import UtilitySection from './views/UtilityResources.vue';
 
 Vue.use(Router);
 
@@ -132,6 +133,11 @@ export default new Router({
         path: '/developer-resources',
         name: 'DevSourcesSection',
         component: DevSourcesSection
+    },
+    {
+        path: '/utilities',
+        name: 'UtilitySection',
+        component: UtilitySection
     }
     ],
     scrollBehavior(to, from, savedPosition) {
