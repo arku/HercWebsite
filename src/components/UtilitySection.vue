@@ -3,31 +3,14 @@
         <div id="content">
             <h1>Utility Resources</h1>
             <hr>
-            <div class="columns">
-                <div class="column">
+            <div class="columns" id="prvi">
+                <!-- <div class="column">
 
-                </div>
+                </div> -->
                 <div class="column">
                     <a href="https://github.com/HERCone/herc-edge-login/releases" target="_blank">
                         <button>USE</button>
                     </a>
-                </div>
-                <div class="column">
-                    <h2>Wallets</h2>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/app/app-release-rc0.20.apk">
-                        <img src="../assets/truswallet.png">
-                    </a>
-                    <router-link to="/tokeninfo">
-                        <img src="../assets/edgeicon.png">
-                    </router-link>
-                </div>
-                <div class="column">
-                    
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                    
                 </div>
                 <div class="column">
                     <a href="https://github.com/HERCone/cold-storage" target="_blank">
@@ -38,6 +21,24 @@
                     <a href="https://etherscan.io/address/0x6251583e7d997df3604bc73b9779196e94a090ce" target="_blank">
                         <button>View</button>
                     </a>
+                </div>
+                
+                <!-- <div class="column">
+                    
+                </div> -->
+            </div>
+            <div class="columns">
+                <div class="column">
+
+                </div>
+                <div class="column">
+                    <h2>Wallets</h2>
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/app/app-release-rc0.20.apk">
+                        <img src="../assets/truswallet.png">
+                    </a>
+                    <router-link to="/tokeninfo">
+                        <img src="../assets/edgeicon.png">
+                    </router-link>
                 </div>
                 <div class="column">
                     
@@ -109,5 +110,9 @@ img {
 
 #wallets {
   margin-bottom: 5%;
+}
+
+#prvi{
+    margin-bottom: 5%;
 }
 </style>
