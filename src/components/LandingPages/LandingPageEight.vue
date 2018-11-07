@@ -11,6 +11,7 @@
                       <h3 class="deployed">HERC Token was successfully deployed!</h3>
                       <router-link to="/tokeninfo">
                         <button id="token-button">Token Info</button>
+                        <!-- <h2safasfas -->
                       </router-link>
                     </div>
                     <!-- <div id="date-wrapper">
