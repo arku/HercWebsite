@@ -15,7 +15,7 @@
             </a>
           </slide>
           <slide class="slide-container">
-            <a href="https://latoken.com/" target="_blank">
+            <a href="https://bit.ly/2Q8fb95" target="_blank">
               <img class="imgSize" src="../assets/exchanges/latoken.png">
             </a>
           </slide>
@@ -66,8 +66,8 @@ span {
 }
 
 .imgSize {
-  width: 160px;
-  height: 58px;
+  width: 40%;
+  margin: auto;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -91,6 +91,10 @@ span {
 
   #slide-container {
     margin: auto;
+  }
+
+  .imgSize {
+    width: 80%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
