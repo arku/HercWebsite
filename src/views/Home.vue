@@ -16,6 +16,7 @@
         <!-- <CountdownSection></CountdownSection> -->
         <HiwSection></HiwSection>
         <CommunitySection></CommunitySection>
+        <SliderSection></SliderSection>
         <BlurbSection></BlurbSection>
         <FeaturedSection></FeaturedSection>
         <HercSection></HercSection>
@@ -58,12 +59,6 @@
           </div>
         </div>
       </div>
-      <div class="bottom-bar">
-        <p class="trade">Trade HERC tokens now!</p>
-        <a href="https://idax.mn" target="_blank">IDAX || </a>
-        <a href="https://latoken.com/" target="_blank">LATOKEN || </a>
-        <a href="https://www.fubt.top/" target="_blank">FUBT.TOP</a>
-      </div>
     </div>
 </template>
 <script>
@@ -101,6 +96,7 @@ import LandingPageSeven from "@/components/LandingPages/LandingPageSeven.vue";
 import LandingPageEight from "@/components/LandingPages/LandingPageEight.vue";
 import LandingPageNine from "@/components/LandingPages/LandingPageNine.vue";
 import BuySection from "@/components/BuySection.vue";
+import SliderSection from "@/components/SliderSection.vue";
 
 export default {
   name: "home",
@@ -137,7 +133,8 @@ export default {
     TeamSection,
     DappSection,
     HiwSection,
-    BuySection
+    BuySection,
+    SliderSection
     // CountdownSection
   },
   methods: {
@@ -361,46 +358,6 @@ export default {
   color: #000;
   text-decoration: none;
   cursor: pointer;
-}
-
-.bottom-bar {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: #091141;
-  color: #f3c736;
-  text-align: center;
-  border-top: 2px solid #f3c736;
-  z-index: 999;
-  padding: 5px;
-}
-
-.trade {
-  text-transform: uppercase;
-  font-weight: bold;
-  animation-name: flash;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-name: flash;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-
-  -moz-animation-name: flash;
-  -moz-animation-duration: 1s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
-}
-
-.bottom-bar a {
-  color: white;
-}
-
-.bottom-bar a:hover {
-  color: #f3c736;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
