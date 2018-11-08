@@ -175,6 +175,14 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                    <div class="column">
+                        <img src="../assets/team/mojaslika.jpg">
+                        <h2 class="h2-desktop">Danijel Demirovic</h2>
+                        <h3 class="h3-desktop">Junior Developer</h3>
+                        <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
                 </div>
                 <h4 class="h4-desktop">Administrative</h4>
                 <div class="columns">
