@@ -4,7 +4,7 @@
             <h1>Featured Use Case</h1>
         </div>
         <video controls poster="../assets/HERC_USECASE.png">
-            <source src="../assets/video folder/usecase.mp4" type="video/mp4">
+            <source src="../assets/videos/usecase.mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div>

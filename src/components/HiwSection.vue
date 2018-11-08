@@ -5,7 +5,7 @@
                 <h1>How it Works</h1>
             </div>
               <video controls poster="../assets/hiw.png">
-                <source src="../assets/video folder/steve.mp4" type="video/mp4">
+                <source src="../assets/videos/steve.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
         </div>
