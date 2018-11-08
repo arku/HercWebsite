@@ -29,6 +29,9 @@
                     <a href="https://github.com/AnthemBunker" target="_blank" class="button">
                         <i class="fab fa-github a-spacer"></i>AnthemBunker GitHub
                     </a>
+                    <a href="https://github.com/hercone/herc-edge-login/releases" target="_blank" class="button">
+                        <i class="fab fa-github a-spacer"></i>HERC dapp
+                    </a>
                 </div>
                 <div class="column">
                     <h2>HERC Token Smart Contract Address</h2>

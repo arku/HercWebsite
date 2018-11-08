@@ -30,7 +30,7 @@
                         <a href="/#documents-section" class="navbar-item">
                             Documents
                         </a>
-                        <b-dropdown hoverable>
+                        <b-dropdown hoverable id="droptro">
                           <a class="navbar-item" slot="trigger">
                             <i class="fas fa-angle-down ri"></i> Info
                           </a>
@@ -103,6 +103,14 @@
                                         <i class="far fa-file-alt"></i>
                                     </span>
                                     <span>Whitepaper</span>
+                                    </router-link>
+                                </p>
+                                <p class="control" id="util">
+                                    <router-link to="/utilities" class="button is-primary dugme-hover">
+                                    <span class="icon">
+                                        <i class="fas fa-wrench"></i>
+                                    </span>
+                                    <span>Utilities</span>
                                     </router-link>
                                 </p>
                             </div>
@@ -217,8 +225,12 @@ a:hover {
   font-weight: bold;
 }
 
-.ri{
+.ri {
   margin-right: 5%;
+}
+
+#util {
+  display: none;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -256,6 +268,10 @@ a:hover {
     margin: auto;
     width: 30%;
   }
+
+  #droptro {
+    display: none;
+  }
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
@@ -287,6 +303,10 @@ a:hover {
 
   #desktop-roadmap {
     display: none;
+  }
+
+  #util {
+    display: inherit;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

@@ -22,6 +22,12 @@
                         <span class="tooltiptext">HERC EtherScan!</span>
                     </a>
                 </div>
+                <div class="column">
+                    <a class="tooltip" href="https://hipr.one" target="_blank">
+                        <button>Play HIPR</button>
+                        <span class="tooltiptext">Play HERC HIPR Games!</span>
+                    </a>
+                </div>
             </div>
             <div class="columns">
                 <div class="column">
