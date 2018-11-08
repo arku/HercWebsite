@@ -16,6 +16,7 @@
         <!-- <CountdownSection></CountdownSection> -->
         <HiwSection></HiwSection>
         <CommunitySection></CommunitySection>
+        <SliderSection></SliderSection>
         <BlurbSection></BlurbSection>
         <FeaturedSection></FeaturedSection>
         <HercSection></HercSection>
@@ -43,8 +44,21 @@
 <!-- Trigger/Open The Modal -->
 <!-- <button id="myBtn">Open Modal</button> -->
 
+<!-- The Modal -->
+      <div id="myModal" class="modal">
 
-
+        <!-- Modal content -->
+        <div class="modal-content">
+          <!-- &times; -->
+          
+          <div class="modal-main-content">
+            <h1>HERC Token has been launched!</h1>
+          <p>You are able to buy HERC now at the discounted price!</p>
+          <a href="https://purchase.herc.one" @click="popupAction">BUY NOW</a>
+          <span class="close">I want to do some research first</span>
+          </div>
+        </div>
+      </div>
     </div>
 </template>
 <script>
@@ -82,6 +96,7 @@ import LandingPageSeven from "@/components/LandingPages/LandingPageSeven.vue";
 import LandingPageEight from "@/components/LandingPages/LandingPageEight.vue";
 import LandingPageNine from "@/components/LandingPages/LandingPageNine.vue";
 import BuySection from "@/components/BuySection.vue";
+import SliderSection from "@/components/SliderSection.vue";
 
 export default {
   name: "home",
@@ -118,7 +133,8 @@ export default {
     TeamSection,
     DappSection,
     HiwSection,
-    BuySection
+    BuySection,
+    SliderSection
     // CountdownSection
   },
   methods: {
