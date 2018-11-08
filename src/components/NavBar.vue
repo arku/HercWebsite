@@ -30,6 +30,26 @@
                         <a href="/#documents-section" class="navbar-item">
                             Documents
                         </a>
+                        <b-dropdown hoverable>
+                          <a class="navbar-item" slot="trigger">
+                            <i class="fas fa-angle-down ri"></i> Info
+                          </a>
+                          <b-dropdown-item>
+                            <router-link to="/tokeninfo" class="a-reversed">
+                              Token Info
+                            </router-link>
+                          </b-dropdown-item>
+                          <b-dropdown-item>
+                            <router-link to="/developer-resources" class="a-reversed">
+                              Developer Resources
+                            </router-link>
+                          </b-dropdown-item>
+                          <b-dropdown-item>
+                            <router-link to="utilities" class="a-reversed">
+                              Utilities
+                            </router-link>
+                          </b-dropdown-item>
+                        </b-dropdown>
                         <a href="/#team-section" class="navbar-item">
                             Team
                         </a>
@@ -161,6 +181,10 @@ a:hover {
   color: white !important;
 }
 
+.a-reversed {
+  color: white;
+}
+
 .dugme-hover:hover {
   color: #091141 !important;
   background-color: white !important;
@@ -191,6 +215,10 @@ a:hover {
 
 .buy-herc {
   font-weight: bold;
+}
+
+.ri{
+  margin-right: 5%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

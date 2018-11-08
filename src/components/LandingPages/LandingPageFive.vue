@@ -7,7 +7,6 @@
             <img src="../../assets/herc-logo.png" id="logo">
             <div class="columns custom">
                 <div class="column">
-                    <!-- <img src="../../assets/herc-logo.png" id="logo"> -->
                     <h3>Helping Eradicate<br> Racketeering & Collusion</h3>
                     <p id="info">*Hercules decentralized supply chain management
                         software enables users to create a permanent and shared record
@@ -61,9 +60,16 @@
             </div>
             <div id="treca">
               <h3 class="center-text">HERC Token was successfully deployed!</h3>
-              <router-link to="/tokeninfo">
-                <button>Token Info</button>
-              </router-link>
+              <div class="spacer">
+                <router-link to="/tokeninfo">
+                  <button>Token Info</button>
+                </router-link>
+              </div>
+              <div>
+                <router-link to="/developer-resources">
+                  <button>Developer Resources</button>
+                </router-link>
+              </div>
             </div>
         </div>
     </div>
@@ -330,6 +336,10 @@ span {
   -moz-animation-duration: 1s;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
+}
+
+.spacer {
+  margin-bottom: 2%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

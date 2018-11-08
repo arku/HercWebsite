@@ -42,9 +42,16 @@
                   </div> -->
                   <div>
                     <h2 class="center-text">HERC Token was successfully deployed!</h2>
-                    <router-link to="/tokeninfo">
-                      <button class="spacer">Token Info</button>
-                    </router-link>
+                    <div class="spacer">
+                      <router-link to="/tokeninfo">
+                        <button class="spacer">Token Info</button>
+                      </router-link>
+                    </div>
+                    <div>
+                      <router-link to="/developer-resources">
+                        <button class="spacer">Developer Resources</button>
+                      </router-link>
+                    </div>
                   </div>
                   <img src="../../assets/landing-pages/coins.png" id="coins">
                   <h4>Powered by <span id="herc-bold">HERC</span> tokens</h4>

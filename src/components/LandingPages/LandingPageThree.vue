@@ -33,9 +33,16 @@
             <div class="columns">
               <div class="column">
                 <h2 class="center-text">HERC Token was successfully deployed!</h2>
-                <router-link to="/tokeninfo">
+                <div class="spacer">
+                  <router-link to="/tokeninfo">
                     <button class="border-button">Token Info</button>
                   </router-link>
+                </div>
+                <div>
+                  <router-link to="/developer-resources">
+                    <button class="border-button">Developer Resources</button>
+                  </router-link>
+                </div>
               </div>
             </div>
         </div>
@@ -198,6 +205,10 @@ button:hover {
   -moz-animation-duration: 1s;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
+}
+
+.spacer {
+  margin-bottom: 2%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

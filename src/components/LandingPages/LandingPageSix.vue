@@ -28,9 +28,16 @@
                     </p>
                     <div>
                       <h3 class="deployed">HERC Token was successfully deployed!</h3>
-                      <router-link to="/tokeninfo">
-                        <button>Token Info</button>
-                      </router-link>
+                      <div class="spacer">
+                        <router-link to="/tokeninfo">
+                          <button>Token Info</button>
+                        </router-link>
+                      </div>
+                      <div >
+                        <router-link to="/developer-resources">
+                          <button>Developer Resources</button>
+                        </router-link>
+                      </div>
                     </div>
                     <!-- <div id="date-wrapper">
                         <p id="date-holder">TGE Starts<br><span id="date-span">29 October 2018, 08:00am CST</span></p>

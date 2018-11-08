@@ -8,9 +8,16 @@
                 <div class="column">
                   <div>
                       <h3 class="deployed">HERC Token was successfully deployed!</h3>
-                      <router-link to="/tokeninfo">
-                        <button>Token Info</button>
-                      </router-link>
+                      <div class="spacer">
+                        <router-link to="/tokeninfo">
+                          <button>Token Info</button>
+                        </router-link>
+                      </div>
+                      <div>
+                        <router-link to="/developer-resources">
+                          <button>Developer Resources</button>
+                        </router-link>
+                      </div>
                     </div>
                     <!-- <div id="date-wrapper">
                         <p id="date-holder">TGE Starts <br><span id="date-span">29 October 2018, 08:00am CST</span></p>
@@ -307,6 +314,14 @@ button:hover {
   -moz-animation-duration: 1s;
   -moz-animation-timing-function: linear;
   -moz-animation-iteration-count: infinite;
+}
+
+.deployed {
+  margin-bottom: 5%;
+}
+
+.spacer {
+  margin-bottom: 5%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
