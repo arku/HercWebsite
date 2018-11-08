@@ -152,14 +152,6 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/denfeet.jpg">
-                        <h2 class="h2-desktop">Taner Seyt</h2>
-                        <h3 class="h3-desktop">Junior Developer</h3>
-                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
-                    <div class="column">
                         <img src="../assets/team/emanuel.jpg">
                         <h2 class="h2-desktop">Manzione Emanuele</h2>
                         <h3 class="h3-desktop">Lead Unity Developer</h3>
@@ -180,6 +172,14 @@
                         <h2 class="h2-desktop">Danijel Demirovic</h2>
                         <h3 class="h3-desktop">Junior Web Developer</h3>
                         <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <img src="../assets/team/denfeet.jpg">
+                        <h2 class="h2-desktop">Taner Seyt</h2>
+                        <h3 class="h3-desktop">Junior Developer</h3>
+                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
