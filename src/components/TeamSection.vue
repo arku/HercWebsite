@@ -160,7 +160,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/emanuel.jpg">
+                        <img src="../assets/team/emanuel.jpeg">
                         <h2 class="h2-desktop">Manzione Emanuele</h2>
                         <h3 class="h3-desktop">Lead Unity Developer</h3>
                         <a href="https://www.linkedin.com/in/emanuelemanzione/" target="_blank">
