@@ -176,7 +176,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/cule.jpeg">
+                        <img src="../assets/team/cule.jpg">
                         <h2 class="h2-desktop">Danijel Demirovic</h2>
                         <h3 class="h3-desktop">Junior Web Developer</h3>
                         <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
