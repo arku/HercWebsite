@@ -175,6 +175,8 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                </div>
+                <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-desktop">Taner Seyt</h2>
@@ -182,6 +184,15 @@
                         <a href="https://www.linkedin.com/in/taner-s-2209b6103/">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+                    </div>
+                    <div class="column">
+
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                    <div class="column">
+                        
                     </div>
                 </div>
                 <h4 class="h4-desktop">Administrative</h4>
@@ -452,8 +463,6 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    
-                     
                    <div class="column">
                         <img src="../../assets/team/ubi.jpg">
                         <h2 class="h2-mobile">Ubirajara Neto</h2>
