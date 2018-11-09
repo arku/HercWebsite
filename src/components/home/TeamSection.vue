@@ -8,7 +8,7 @@
             <div class="hide-desktop">
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/anthem.jpg">
+                        <img src="../../assets/team/anthem.jpg">
                         <h2>Anthem Blanchard</h2>
                         <h3>Chief Executive Officer</h3>
                         <a href="https://www.linkedin.com/in/anthemblanchard" target="_blank">
@@ -16,7 +16,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/cynthia.jpg">
+                        <img src="../../assets/team/cynthia.jpg">
                         <h2>Cynthia Blanchard</h2>
                         <h3>President</h3>
                         <a href="https://www.linkedin.com/in/cynthia-french-blanchard-b0890429/" target="_blank">
@@ -24,7 +24,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/logan.jpg">
+                        <img src="../../assets/team/logan.jpg">
                         <h2>Logan Golema</h2>
                         <h3>Chief Technology Officer</h3>
                         <a href="https://www.linkedin.com/in/logan-ryan-golema-b0161190/" target="_blank">
@@ -32,7 +32,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/grey.jpg">
+                        <img src="../../assets/team/grey.jpg">
                         <h2>Grey Jabesi</h2>
                         <h3>Chief Visual Officer</h3>
                         <a href="https://www.linkedin.com/in/greyjabesi/" target="_blank">
@@ -42,7 +42,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/josh.jpg">
+                        <img src="../../assets/team/josh.jpg">
                         <h2>Josh Gunter</h2>
                         <h3>Director of Client Services</h3>
                         <a href="https://www.linkedin.com/in/josh-gunter-8ab85223/" target="_blank">
@@ -50,7 +50,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/michaelnelson.jpg">
+                        <img src="../../assets/team/michaelnelson.jpg">
                         <h2>Michael Nelson</h2>
                         <h3>Chief Strategy Officer</h3>
                         <a href="https://www.linkedin.com/in/michaelericnelson/" target="_blank">
@@ -58,7 +58,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/justin.jpg">
+                        <img src="../../assets/team/justin.jpg">
                         <h2>Justin Breen</h2>
                         <h3>Chief Creative Officer</h3>
                         <a href="https://www.linkedin.com/in/justinlbreen/" target="_blank">
@@ -66,7 +66,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/heath.jpg">
+                        <img src="../../assets/team/heath.jpg">
                         <h2>Heath Muchena</h2>
                         <h3>Content Director</h3>
                         <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
@@ -83,7 +83,7 @@
                             <h4 class="h4-desktop">Board of Directors</h4>
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/anthem.jpg">
+                        <img src="../../assets/team/anthem.jpg">
                         <h2 class="h2-desktop">Anthem Blanchard</h2>
                         <h3 class="h3-desktop">Chief Executive Officer</h3>
                         <a href="https://www.linkedin.com/in/anthemblanchard/" target="_blank">
@@ -91,7 +91,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/cynthia.jpg">
+                        <img src="../../assets/team/cynthia.jpg">
                         <h2 class="h2-desktop">Cynthia Blanchard</h2>
                         <h3 class="h3-desktop">President</h3>
                         <a href="https://www.linkedin.com/in/cynthia-french-blanchard-b0890429/" target="_blank">
@@ -99,7 +99,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/peter-buckley.png">
+                        <img src="../../assets/team/peter-buckley.png">
                         <h2 class="h2-desktop">Peter Buckley</h2>
                         <h3 class="h3-desktop">Board Director</h3>
                         <a href="https://www.linkedin.com/in/peter-buckley-8a373622/" target="_blank">
@@ -110,7 +110,7 @@
                 <h4 class="h4-desktop">Developers</h4>
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/dax.png">
+                        <img src="../../assets/team/dax.png">
                         <h2 class="h2-desktop">Damir Demirovic</h2>
                         <h3 class="h3-desktop">Lead Web Developer</h3>
                         <a href="https://www.linkedin.com/in/daxdax89/" target="_blank">
@@ -118,7 +118,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/stack.jpg">
+                        <img src="../../assets/team/stack.jpg">
                         <h2 class="h2-desktop">Stefan Bemelmans</h2>
                         <h3 class="h3-desktop">Lead UI Developer</h3>
                         <a href="https://www.linkedin.com/in/theoneandonlystefanbemelmans/" target="_blank">
@@ -126,7 +126,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/sean.jpg">
+                        <img src="../../assets/team/sean.jpg">
                         <h2 class="h2-desktop">Sean B.</h2>
                         <h3 class="h3-desktop">Software Engineer</h3>
                         <a href="https://www.linkedin.com/in/seanbeecroft/" target="_blank">
@@ -134,7 +134,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/ubi.jpg">
+                        <img src="../../assets/team/ubi.jpg">
                         <h2 class="h2-desktop">Ubirajara Marisicano Neto</h2>
                         <h3 class="h3-desktop">Software Engineer</h3>
                         <a href="https://www.linkedin.com/in/ubirajara-marsicano-neto/" target="_blank">
@@ -144,7 +144,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/julie.jpg">
+                        <img src="../../assets/team/julie.jpg">
                         <h2 class="h2-desktop">Juliana Mei</h2>
                         <h3 class="h3-desktop">Software Engineer</h3>
                         <a href="https://www.linkedin.com/in/julianamei/" target="_blank">
@@ -152,7 +152,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/emanuel.jpg">
+                        <img src="../../assets/team/emanuel.jpg">
                         <h2 class="h2-desktop">Manzione Emanuele</h2>
                         <h3 class="h3-desktop">Lead Unity Developer</h3>
                         <a href="https://www.linkedin.com/in/emanuelemanzione/" target="_blank">
@@ -160,7 +160,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/viktor.jpg">
+                        <img src="../../assets/team/viktor.jpg">
                         <h2 class="h2-desktop">Viktor Kozub</h2>
                         <h3 class="h3-desktop">Chief Scalability Officer</h3>
                         <a href="https://www.linkedin.com/in/viktor-kozub-86bb9826/" target="_blank">
@@ -168,7 +168,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/cule.jpg">
+                        <img src="../../assets/team/cule.jpg">
                         <h2 class="h2-desktop">Danijel Demirovic</h2>
                         <h3 class="h3-desktop">Junior Web Developer</h3>
                         <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
@@ -176,7 +176,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/denfeet.jpg">
+                        <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-desktop">Taner Seyt</h2>
                         <h3 class="h3-desktop">Junior Developer</h3>
                         <a href="https://www.linkedin.com/in/taner-s-2209b6103/">
@@ -187,19 +187,19 @@
                 <h4 class="h4-desktop">Administrative</h4>
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/renee.jpg">
+                        <img src="../../assets/team/renee.jpg">
                         <h2 class="h2-desktop">Renee Nichols</h2>
                         <h3 class="h3-desktop">Senior Staff Accountant</h3>
                             <i class="fab fa-linkedin fa-2x"></i>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/shannon.jpg">
+                        <img src="../../assets/team/shannon.jpg">
                         <h2 class="h2-desktop">Shannon Gunter</h2>
                         <h3 class="h3-desktop">A/R Specialist & CSR</h3>
                             <i class="fab fa-linkedin fa-2x"></i>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/katey.jpg">
+                        <img src="../../assets/team/katey.jpg">
                         <h2 class="h2-desktop">Katheryn Gunter</h2>
                         <h3 class="h3-desktop">Accounts Payable Specialist</h3>
                             <i class="fab fa-linkedin fa-2x"></i>
@@ -208,7 +208,7 @@
                 <h4 id="advisors">Advisors</h4>
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/mikemc.jpg">
+                        <img src="../../assets/team/mikemc.jpg">
                         <h2 class="h2-desktop">Mike McRoberts</h2>
                         <h3 class="h3-desktop">Senior Advisor</h3>
                         <a href="https://www.linkedin.com/in/mikelmcroberts/" target="_blank">
@@ -216,7 +216,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/billb.jpg">
+                        <img src="../../assets/team/billb.jpg">
                         <h2 class="h2-desktop">Bill Barhydt</h2>
                         <h3 class="h3-desktop">Founder/Ceo - Abra</h3>
                         <a href="https://www.linkedin.com/in/billbar/" target="_blank">
@@ -224,7 +224,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/steve.jpg">
+                        <img src="../../assets/team/steve.jpg">
                         <h2 class="h2-desktop">Steve Dakh</h2>
                         <h3 class="h3-desktop">Co-founder of Ethereum</h3>
                         <a href="https://www.linkedin.com/in/steven-dakh-86a63712/" target="_blank">
@@ -232,7 +232,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/jeff.jpeg">
+                        <img src="../../assets/team/jeff.jpeg">
                         <h2 class="h2-desktop">Jeff Ramson</h2>
                         <h3 class="h3-desktop">CEO - PCG Advisory Group</h3>
                         <a href="https://www.linkedin.com/in/jefframson/" target="_blank">
@@ -242,7 +242,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/michael.jpg">
+                        <img src="../../assets/team/michael.jpg">
                         <h2 class="h2-desktop">Michael Terpin</h2>
                         <h3 class="h3-desktop">CEO - Transform</h3>
                         <a href="https://www.linkedin.com/in/michaelterpin/" target="_blank">
@@ -250,7 +250,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/dominik.jpg">
+                        <img src="../../assets/team/dominik.jpg">
                         <h2 class="h2-desktop">Dominik Zynis</h2>
                         <h3 class="h3-desktop">Co-founder - WINGS</h3>
                         <a href="https://www.linkedin.com/in/everforgetmenot/" target="_blank">
@@ -258,7 +258,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/andrewy.jpg">
+                        <img src="../../assets/team/andrewy.jpg">
                         <h2 class="h2-desktop">Andrew Yaschuk</h2>
                         <h3 class="h3-desktop">VP Product - Factom</h3>
                         <a href="https://www.linkedin.com/in/andrewyashchuk/" target="_blank">
@@ -266,7 +266,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/wendy.jpg">
+                        <img src="../../assets/team/wendy.jpg">
                         <h2 class="h2-desktop">Wendy Craft</h2>
                         <h3 class="h3-desktop">CEO - Family Offices</h3>
                         <a href="https://www.linkedin.com/in/wendy-craft-7281176/" target="_blank">
@@ -276,7 +276,7 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        <img src="../assets/team/radhika.jpg">
+                        <img src="../../assets/team/radhika.jpg">
                         <h2 class="h2-desktop">Radhika Desai</h2>
                         <h3 class="h3-desktop">Blockchain API Automation</h3>
                         <a href="https://www.linkedin.com/in/radhikadesai123/" target="_blank">
@@ -284,7 +284,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/stevencramer.jpg">
+                        <img src="../../assets/team/stevencramer.jpg">
                         <h2 class="h2-desktop">Steven Cramer</h2>
                         <h3 class="h3-desktop">Advisor</h3>
                         <a href="https://www.linkedin.com/in/steventcramer/" target="_blank">
@@ -292,7 +292,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/brock.jpg">
+                        <img src="../../assets/team/brock.jpg">
                         <h2 class="h2-desktop">Brock Hager</h2>
                         <h3 class="h3-desktop">EDI Analyst</h3>
                         <a href="https://www.linkedin.com/in/brockton/" target="_blank">
@@ -300,7 +300,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/joby.jpeg">
+                        <img src="../../assets/team/joby.jpeg">
                         <h2 class="h2-desktop">Joby Weeks</h2>
                         <h3 class="h3-desktop">Chief Marketer - BitClub Mining</h3>
                         <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">
@@ -319,7 +319,7 @@
             <div class="hide-mobile">
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/anthem.jpg">
+                        <img src="../../assets/team/anthem.jpg">
                         <h2>Anthem Blanchard</h2>
                         <h3>Chief Executive Officer</h3>
                         <a href="https://www.linkedin.com/in/anthemblanchard" target="_blank">
@@ -327,7 +327,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/cynthia.jpg">
+                        <img src="../../assets/team/cynthia.jpg">
                         <h2>Cynthia Blanchard</h2>
                         <h3>President</h3>
                         <a href="https://www.linkedin.com/in/cynthia-french-blanchard-b0890429/" target="_blank">
@@ -337,7 +337,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/logan.jpg">
+                        <img src="../../assets/team/logan.jpg">
                         <h2>Logan Golema</h2>
                         <h3>Chief Technology Officer</h3>
                         <a href="https://www.linkedin.com/in/logan-ryan-golema-b0161190/" target="_blank">
@@ -345,7 +345,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/grey.jpg">
+                        <img src="../../assets/team/grey.jpg">
                         <h2>Grey Jabesi</h2>
                         <h3>Chief Visual Officer</h3>
                         <a href="https://www.linkedin.com/in/greyjabesi/" target="_blank">
@@ -355,7 +355,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/josh.jpg">
+                        <img src="../../assets/team/josh.jpg">
                         <h2>Josh Gunter</h2>
                         <h3>Director of Client Services</h3>
                         <a href="https://www.linkedin.com/in/josh-gunter-8ab85223/" target="_blank">
@@ -363,7 +363,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/michaelnelson.jpg">
+                        <img src="../../assets/team/michaelnelson.jpg">
                         <h2>Michael Nelson</h2>
                         <h3>Chief Strategy Officer</h3>
                         <a href="https://www.linkedin.com/in/michaelericnelson/" target="_blank">
@@ -373,7 +373,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-half-mobile">
-                        <img src="../assets/team/justin.jpg">
+                        <img src="../../assets/team/justin.jpg">
                         <h2>Justin Breen</h2>
                         <h3>Chief Creative Officer</h3>
                         <a href="https://www.linkedin.com/in/justinlbreen/" target="_blank">
@@ -381,7 +381,7 @@
                         </a>
                     </div>
                     <div class="column is-half-mobile">
-                    <img src="../assets/team/heath.jpg">
+                    <img src="../../assets/team/heath.jpg">
                     <h2>Heath Muchena</h2>
                     <h3>Content Director</h3>
                     <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
@@ -398,7 +398,7 @@
                 <h4 class="h4-mobile">Board of Directors</h4>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/anthem.jpg">
+                        <img src="../../assets/team/anthem.jpg">
                         <h2 class="h2-mobile">Anthem Blanchard</h2>
                         <h3 class="h3-mobile">Chief Executive Officer</h3>
                         <a href="https://www.linkedin.com/in/anthemblanchard/" target="_blank">
@@ -406,7 +406,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/cynthia.jpg">
+                        <img src="../../assets/team/cynthia.jpg">
                         <h2 class="h2-mobile">Cynthia Blanchard</h2>
                         <h3 class="h3-mobile">President</h3>
                         <a href="https://www.linkedin.com/in/cynthia-french-blanchard-b0890429/" target="_blank">
@@ -416,7 +416,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-half-mobile">
-                        <img src="../assets/team/peter-buckley.png">
+                        <img src="../../assets/team/peter-buckley.png">
                         <h2 class="h2-mobile">Peter Buckley</h2>
                         <h3 class="h3-mobile">Board Director</h3>
                         <a href="https://www.linkedin.com/in/peter-buckley-8a373622/" target="_blank">
@@ -427,7 +427,7 @@
                 <h4 class="h4-mobile">Developers</h4>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/dax.png">
+                        <img src="../../assets/team/dax.png">
                         <h2 class="h2-mobile">Damir Demirovic</h2>
                         <h3 class="h3-mobile">Lead Web Developer</h3>
                         <a href="https://www.linkedin.com/in/daxdax89/" target="_blank">
@@ -435,7 +435,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/stack.jpg">
+                        <img src="../../assets/team/stack.jpg">
                         <h2 class="h2-mobile">Stefan Bemelmans</h2>
                         <h3 class="h3-mobile">Lead UI Developer</h3>
                         <a href="https://www.linkedin.com/in/theoneandonlystefanbemelmans/" target="_blank">
@@ -445,7 +445,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/sean.jpg">
+                        <img src="../../assets/team/sean.jpg">
                         <h2 class="h2-mobile">Sean B.</h2>
                         <h3 class="h3-mobile">Software Engineer</h3>
                         <a href="https://www.linkedin.com/in/seanbeecroft/" target="_blank">
@@ -453,7 +453,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/ubi.jpg">
+                        <img src="../../assets/team/ubi.jpg">
                         <h2 class="h2-mobile">Ubirajara Neto</h2>
                         <h3 class="h3-mobile">Software Engineer</h3>
                         <a href="https://www.linkedin.com/in/ubirajara-marsicano-neto/" target="_blank">
@@ -463,7 +463,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/julie.jpg">
+                        <img src="../../assets/team/julie.jpg">
                         <h2 class="h2-mobile">Juliana Mei</h2>
                         <h3 class="h3-mobile">Software Engineer</h3>
                         <a href="https://www.linkedin.com/in/julianamei/" target="_blank">
@@ -471,7 +471,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/denfeet.jpg">
+                        <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-mobile">Taner Seyt</h2>
                         <h3 class="h3-mobile">Junior Developer</h3>
                         <a href="https://www.linkedin.com/in/taner-s-2209b6103/">
@@ -481,7 +481,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/emanuel.jpg">
+                        <img src="../../assets/team/emanuel.jpg">
                         <h2 class="h2-mobile">Manzione Emanuele</h2>
                         <h3 class="h3-mobile">Lead Unity Developer</h3>
                         <a href="https://www.linkedin.com/in/emanuelemanzione/" target="_blank">
@@ -489,7 +489,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/viktor.jpg">
+                        <img src="../../assets/team/viktor.jpg">
                         <h2 class="h2-mobile">Viktor Kozub</h2>
                         <h3 class="h3-mobile">Chief Scalability Officer</h3>
                         <a href="https://www.linkedin.com/in/viktor-kozub-86bb9826/" target="_blank">
@@ -500,13 +500,13 @@
                 <h4 class="h4-mobile">Administrative</h4>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/renee.jpg">
+                        <img src="../../assets/team/renee.jpg">
                         <h2 class="h2-mobile">Renee Nichols</h2>
                         <h3 class="h3-mobile">Senior Staff Accountant</h3>
                             <i class="fab fa-linkedin fa-2x"></i>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/shannon.jpg">
+                        <img src="../../assets/team/shannon.jpg">
                         <h2 class="h2-mobile">Shannon Gunter</h2>
                         <h3 class="h3-mobile">A/R Specialist & CSR</h3>
                             <i class="fab fa-linkedin fa-2x"></i>
@@ -514,7 +514,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column is-half-mobile">
-                        <img src="../assets/team/katey.jpg">
+                        <img src="../../assets/team/katey.jpg">
                         <h2 class="h2-mobile">Katheryn Gunter</h2>
                         <h3 class="h3-mobile">Accounts Payable Specialist</h3>
                             <i class="fab fa-linkedin fa-2x"></i>
@@ -523,7 +523,7 @@
                 <h4 id="advisors-mobile" class="h4-mobile">Advisors</h4>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/mikemc.jpg">
+                        <img src="../../assets/team/mikemc.jpg">
                         <h2 class="h2-mobile">Mike McRoberts</h2>
                         <h3 class="h3-mobile">Senior Advisor</h3>
                         <a href="https://www.linkedin.com/in/mikelmcroberts" target="_blank">
@@ -531,7 +531,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/billb.jpg">
+                        <img src="../../assets/team/billb.jpg">
                         <h2 class="h2-mobile">Bill Barhydt</h2>
                         <h3 class="h3-mobile">Founder/Ceo - Abra</h3>
                         <a href="https://www.linkedin.com/in/billbar/" target="_blank">
@@ -541,7 +541,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/steve.jpg">
+                        <img src="../../assets/team/steve.jpg">
                         <h2 class="h2-mobile">Steve Dakh</h2>
                         <h3 class="h3-mobile">Co-founder of Ethereum</h3>
                         <a href="https://www.linkedin.com/in/steven-dakh-86a63712/" target="_blank">
@@ -549,7 +549,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/jeff.jpeg">
+                        <img src="../../assets/team/jeff.jpeg">
                         <h2 class="h2-mobile">Jeff Ramson</h2>
                         <h3 class="h3-mobile">CEO - PCG Advisory Group</h3>
                         <a href="https://www.linkedin.com/in/jefframson/" target="_blank">
@@ -559,7 +559,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/michael.jpg">
+                        <img src="../../assets/team/michael.jpg">
                         <h2 class="h2-mobile">Michael Terpin</h2>
                         <h3 class="h3-mobile">CEO - Transform</h3>
                         <a href="https://www.linkedin.com/in/michaelterpin/" target="_blank">
@@ -567,7 +567,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/dominik.jpg">
+                        <img src="../../assets/team/dominik.jpg">
                         <h2 class="h2-mobile">Dominik Zynis</h2>
                         <h3 class="h3-mobile">Co-founder - WINGS</h3>
                         <a href="https://www.linkedin.com/in/everforgetmenot/" target="_blank">
@@ -577,7 +577,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/andrewy.jpg">
+                        <img src="../../assets/team/andrewy.jpg">
                         <h2 class="h2-mobile">Andrew Yaschuk</h2>
                         <h3 class="h3-mobile">VP Product - Factom</h3>
                         <a href="https://www.linkedin.com/in/andrewyashchuk/" target="_blank">
@@ -585,7 +585,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/wendy.jpg">
+                        <img src="../../assets/team/wendy.jpg">
                         <h2 class="h2-mobile">Wendy Craft</h2>
                         <h3 class="h3-mobile">CEO - Family Offices</h3>
                         <a href="https://www.linkedin.com/in/wendy-craft-7281176/" target="_blank">
@@ -595,7 +595,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/radhika.jpg">
+                        <img src="../../assets/team/radhika.jpg">
                         <h2 class="h2-mobile">Radhika Desai</h2>
                         <h3 class="h3-mobile">Blockchain API Automation</h3>
                         <a href="https://www.linkedin.com/in/radhikadesai123/" target="_blank">
@@ -603,7 +603,7 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../assets/team/stevencramer.jpg">
+                        <img src="../../assets/team/stevencramer.jpg">
                         <h2 class="h2-mobile">Steven Cramer</h2>
                         <h3 class="h3-mobile">Advisor</h3>
                         <a href="https://www.linkedin.com/in/steventcramer/" target="_blank">
@@ -613,7 +613,7 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/team/brock.jpg">
+                        <img src="../../assets/team/brock.jpg">
                         <h2 class="h2-mobile">Brock Hager</h2>
                         <h3 class="h3-mobile">EDI Analyst</h3>
                         <a href="https://www.linkedin.com/in/mikelmcroberts/" target="_blank">
@@ -621,7 +621,7 @@
                         </a>
                     </div>
                      <div class="column">
-                        <img src="../assets/team/joby.jpeg">
+                        <img src="../../assets/team/joby.jpeg">
                         <h2 class="h2-mobile">Joby Weeks</h2>
                         <h3 class="h3-mobile">Chief Marketer - BitClub Mining</h3>
                         <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">

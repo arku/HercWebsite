@@ -75,7 +75,7 @@ import PartnersSection from "@/components/PartnersSection.vue";
 import DocumentsSection from "@/components/DocumentsSection.vue";
 import ContactSection from "@/components/ContactSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
-import TeamSection from "@/components/TeamSection.vue";
+import TeamSection from "@/components/home/TeamSection.vue";
 import FeaturedSection from "@/components/FeaturedSection.vue";
 import CommunitySection from "@/components/CommunitySection.vue";
 import HercSection from "@/components/HercSection.vue";
