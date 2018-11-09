@@ -64,27 +64,27 @@
 <script>
 import NavBar from "@/components/NavBar.vue";
 // import TopSection from "@/components/TopSection.vue";
-import BlurbSection from "@/components/BlurbSection.vue";
+import BlurbSection from "@/components/home/BlurbSection.vue";
 // import EtymologySection from "@/components/EtymologySection.vue";
 // import ProtocolCostSection from "@/components/ProtocolCostSection.vue";
-import TableSection from "@/components/TableSection.vue";
-import VideoSection from "@/components/VideoSection.vue";
+import TableSection from "@/components/home/TableSection.vue";
+import VideoSection from "@/components/home/VideoSection.vue";
 import RoadmapSection from "@/components/RoadmapSection.vue";
-import RoadmapHorizontalSection from "@/components/RoadmapHorizontalSection.vue";
-import PartnersSection from "@/components/PartnersSection.vue";
-import DocumentsSection from "@/components/DocumentsSection.vue";
+import RoadmapHorizontalSection from "@/components/home/RoadmapHorizontalSection.vue";
+import PartnersSection from "@/components/home/PartnersSection.vue";
+import DocumentsSection from "@/components/home/DocumentsSection.vue";
 import ContactSection from "@/components/ContactSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import TeamSection from "@/components/home/TeamSection.vue";
-import FeaturedSection from "@/components/FeaturedSection.vue";
+import FeaturedSection from "@/components/home/FeaturedSection.vue";
 import CommunitySection from "@/components/CommunitySection.vue";
-import HercSection from "@/components/HercSection.vue";
+import HercSection from "@/components/home/HercSection.vue";
 // import EcosystemSection from "@/components/EcosystemSection.vue";
-import HiprSection from "@/components/HiprSection.vue";
-import BubbleSection from "@/components/BubbleSection.vue";
-import UseCaseSection from "@/components/UseCaseSection.vue";
-import DappSection from "@/components/DappSection.vue";
-import HiwSection from "@/components/HiwSection.vue";
+import HiprSection from "@/components/home/HiprSection.vue";
+import BubbleSection from "@/components/home/BubbleSection.vue";
+import UseCaseSection from "@/components/home/UseCaseSection.vue";
+import DappSection from "@/components/home/DappSection.vue";
+import HiwSection from "@/components/home/HiwSection.vue";
 // import CountdownSection from "@/components/CountdownSection.vue";
 import LandingPageOne from "@/components/LandingPages/LandingPageOne.vue";
 // import LandingPageTwo from "@/components/LandingPages/LandingPageTwo.vue";
@@ -95,8 +95,8 @@ import LandingPageSix from "@/components/LandingPages/LandingPageSix.vue";
 import LandingPageSeven from "@/components/LandingPages/LandingPageSeven.vue";
 import LandingPageEight from "@/components/LandingPages/LandingPageEight.vue";
 import LandingPageNine from "@/components/LandingPages/LandingPageNine.vue";
-import BuySection from "@/components/BuySection.vue";
-import SliderSection from "@/components/SliderSection.vue";
+import BuySection from "@/components/home/BuySection.vue";
+import SliderSection from "@/components/home/SliderSection.vue";
 
 export default {
   name: "home",

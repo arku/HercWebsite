@@ -11,81 +11,81 @@
                 <div class="columns">
                     <div class="column">
                         <a href="https://herc.one/#advisors">
-                            <img src="../assets/partners/factom.png">
+                            <img src="../../assets/partners/factom.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://herc.one/#advisors">
-                            <img src="../assets/partners/storj.png">
+                            <img src="../../assets/partners/storj.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.bfcgroupholdings.com/" target="_blank">
-                            <img src="../assets/partners/bfc.png">
+                            <img src="../../assets/partners/bfc.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.coinpayments.net/" target="_blank">
-                            <img src="../assets/partners/coinpayments.png">
+                            <img src="../../assets/partners/coinpayments.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://rivetz.com/" target="_blank">
-                            <img src="../assets/partners/rivetz.png">
+                            <img src="../../assets/partners/rivetz.png">
                         </a>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column">
                         <a href="https://www.caymanenterprisecity.com/" target="_blank">
-                            <img src="../assets/partners/cayman.png">
+                            <img src="../../assets/partners/cayman.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.transformgroup.io/" target="_blank">
-                            <img src="../assets/partners/transform.png">
+                            <img src="../../assets/partners/transform.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.amagimetals.com/" target="_blank">
-                            <img src="../assets/partners/amagi.gif">
+                            <img src="../../assets/partners/amagi.gif">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.shipstation.com/" target="_blank">
-                            <img src="../assets/partners/shipstation.png">
+                            <img src="../../assets/partners/shipstation.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.idology.com/" target="_blank">
-                            <img src="../assets/partners/idology.png">
+                            <img src="../../assets/partners/idology.png">
                         </a>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column">
                         <a href="https://www.earlyiq.com/" target="_blank">
-                            <img src="../assets/partners/earlyiq.png">
+                            <img src="../../assets/partners/earlyiq.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://github.com/jacquesd/erc777" target="_blank">
-                            <img src="../assets/partners/erc777.png" style="width:30%">
+                            <img src="../../assets/partners/erc777.png" style="width:30%">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.blockchainexchange.us/" target="_blank">
-                            <img src="../assets/partners/bx.png" style="width:30%">
+                            <img src="../../assets/partners/bx.png" style="width:30%">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.ethdenver.com/" target="_blank">
-                            <img src="../assets/partners/ethdenver.png" style="width:30%">
+                            <img src="../../assets/partners/ethdenver.png" style="width:30%">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://mecasaadvisors.nl/" target="_blank">
-                            <img src="../assets/partners/mecasa.png" style="width:30%">
+                            <img src="../../assets/partners/mecasa.png" style="width:30%">
                         </a>
                     </div>
                 </div>
@@ -98,7 +98,7 @@
                     </div>
                     <div class="column">
                         <a href="mailto:social@herc.one" target="_blank">
-                            <img src="../assets/partners/you.png" style="width:35%">
+                            <img src="../../assets/partners/you.png" style="width:35%">
                         </a>
                     </div>
                     <div class="column">
@@ -115,10 +115,10 @@
 
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/shell.png">
+                        <img src="../../assets/partners/shell.png">
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/glbajaj.png">
+                        <img src="../../assets/partners/glbajaj.png">
                     </div>
                     <div class="column">
                         
@@ -131,96 +131,96 @@
                 <div class="columns is-mobile">
                     <div class="column">
                         <a href="#advisors-mobile">
-                            <img src="../assets/partners/factom.png">
+                            <img src="../../assets/partners/factom.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="#advisors-mobile">
-                            <img src="../assets/partners/storj.png">
+                            <img src="../../assets/partners/storj.png">
                         </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
                         <a href="https://www.bfcgroupholdings.com/" target="_blank">
-                            <img src="../assets/partners/bfc.png">
+                            <img src="../../assets/partners/bfc.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.coinpayments.net/" target="_blank">
-                            <img src="../assets/partners/coinpayments.png">
+                            <img src="../../assets/partners/coinpayments.png">
                         </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
                         <a href="https://rivetz.com/" target="_blank">
-                            <img src="../assets/partners/rivetz.png">
+                            <img src="../../assets/partners/rivetz.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.caymanenterprisecity.com/" target="_blank">
-                            <img src="../assets/partners/cayman.png">
+                            <img src="../../assets/partners/cayman.png">
                         </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
                         <a href="https://www.amagimetals.com/" target="_blank">
-                            <img src="../assets/partners/amagi.gif">
+                            <img src="../../assets/partners/amagi.gif">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.shipstation.com/" target="_blank">
-                            <img src="../assets/partners/shipstation.png">
+                            <img src="../../assets/partners/shipstation.png">
                         </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
                         <a href="https://www.idology.com/" target="_blank">
-                            <img src="../assets/partners/idology.png">
+                            <img src="../../assets/partners/idology.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.earlyiq.com/" target="_blank">
-                            <img src="../assets/partners/earlyiq.png">
+                            <img src="../../assets/partners/earlyiq.png">
                         </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
                         <a href="https://github.com/jacquesd/erc777" target="_blank">
-                            <img src="../assets/partners/erc777.png" style="width:50%">
+                            <img src="../../assets/partners/erc777.png" style="width:50%">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.transformgroup.io/" target="_blank">
-                            <img src="../assets/partners/transform.png">
+                            <img src="../../assets/partners/transform.png">
                         </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
                         <a href="https://www.blockchainexchange.us/" target="_blank">
-                            <img src="../assets/partners/bx.png">
+                            <img src="../../assets/partners/bx.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="https://www.ethdenver.com/" target="_blank">
-                            <img src="../assets/partners/ethdenver.png">
+                            <img src="../../assets/partners/ethdenver.png">
                         </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
                         <a href="https://mecasaadvisors.nl/" target="_blank">
-                            <img src="../assets/partners/mecasa.png">
+                            <img src="../../assets/partners/mecasa.png">
                         </a>
                     </div>
                     <div class="column">
                         <a href="mailto:social@herc.one" target="_blank">
-                            <img src="../assets/partners/you.png">
+                            <img src="../../assets/partners/you.png">
                         </a>
                     </div>
                 </div>
@@ -228,10 +228,10 @@
                 <p>List of our international academic partners that helped us</p>
                 <div class="columns is-mobile">
                     <div class="column">
-                        <img src="../assets/partners/shell.png">
+                        <img src="../../assets/partners/shell.png">
                     </div>
                     <div class="column">
-                        <img src="../assets/partners/glbajaj.png">
+                        <img src="../../assets/partners/glbajaj.png">
                     </div>
                 </div>
             </div>

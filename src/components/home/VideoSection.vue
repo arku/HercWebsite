@@ -2,17 +2,17 @@
   <div id="video-section">
       <div id="content">
         <h1>How Hercules Works Using Human Initiated Performance Reporting (HIPR)</h1>
-        <img src="../assets/diagram.png" id="diagram">
+        <img src="../../assets/diagram.png" id="diagram">
         <div class="columns blurbs-holder">
           <div class="column blurb">
-            <img src="../assets/bubble/Icon1_key.png" class="hvr-pulse-shrink">
+            <img src="../../assets/bubble/Icon1_key.png" class="hvr-pulse-shrink">
             <p>From a technology standpoint, HIPR implements steganography, an age old cryptography process
                 to encrypt the supply chain metrics into the puzzles the humans perform to validation of chain
                   data integrity.
             </p>
           </div>
           <div class="column blurb">
-            <img src="../assets/bubble/Icon2_PoHW.png" class="hvr-pulse-shrink">
+            <img src="../../assets/bubble/Icon2_PoHW.png" class="hvr-pulse-shrink">
             <p>As a more secure and newly implemented Consensus model, Proof of Human Work does not waste
                 electricity and resource to validate transactions. Leveraging the intuition of the Human Brain
                   and incentivising good actors in the network is our way of protecting against malicious attacks.
@@ -21,13 +21,13 @@
         </div>
         <div class="columns blurbs-holder">
           <div class="column blurb">
-            <img src="../assets/bubble/Icon4_Game.png" class="hvr-pulse-shrink">
+            <img src="../../assets/bubble/Icon4_Game.png" class="hvr-pulse-shrink">
               <p> HIPR is built Unity3D, with C# and Solidity while targeting WebGl, NEthereum for Web3 connectivity.
           From market research we have found this Consensus model is 90% more efficient as we scale in HIPR
             players because more we entertain our community the more integrious our chain data becomes. </p>
           </div>
           <div class="column blurb">
-            <img src="../assets/bubble/Icon3_HIPR.png" class="hvr-pulse-shrink">
+            <img src="../../assets/bubble/Icon3_HIPR.png" class="hvr-pulse-shrink">
             <p>
           Other blockchain projects with similar use cases have only considered private permissioned blockchain technology as a means to scale. 
           We believe Proof of Human Work will revolutionize the way projects can scale on public blockchain.

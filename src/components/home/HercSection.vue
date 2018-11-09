@@ -16,7 +16,7 @@
           </div>
           <div class="columns">
                 <div class="column">
-                    <img src="../assets/Herc_benefits_720_1.gif">
+                    <img src="../../assets/Herc_benefits_720_1.gif">
                 </div>
             </div>
             <div class="columns">

@@ -1,25 +1,26 @@
 <template>
-    <div id="hiw-section">
+    <div id="dapp-section">
         <div id="content">
-             <div>
-                <h1>How it Works</h1>
-            </div>
-              <video controls poster="../assets/hiw.png">
-                <source src="../assets/videos/steve.mp4" type="video/mp4">
+            <h1>Check out our mobile dapp</h1>
+            <video controls poster="../../assets/HERC_dAPP.png">
+                <source src="../../assets/videos/dappvideo.mp4" type="video/mp4">
                 Your browser does not support the video tag.
-              </video>
+            </video><br>
+            <router-link to="/utilities">
+              <button>Check out our Utilities</button>
+            </router-link>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-  name: "HiwSection"
+  name: "DappSection"
 };
 </script>
 
 <style scoped>
-#hiw-section {
+#dapp-section {
   padding: 50px;
   background-color: #091141;
 }
@@ -30,17 +31,40 @@ export default {
 }
 
 h1 {
-  font-size: 30px;
   color: #f3c736;
   font-weight: bold;
-  margin-bottom: 5%;
+  font-size: 30px;
+  margin-bottom: 2%;
 }
 
 video {
-  width: 60%;
+  width: 20%;
+  margin: auto;
+  margin-bottom: 2%;
   border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
   border-radius: 5px;
+}
+
+button {
+  background-color: #f3c736;
+  border: 2px solid #f3c736;
+  border-radius: 5px;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #091141;
+}
+
+button:hover {
+  background-color: #091141;
+  color: #f3c736;
+  border: 2px solid #f3c736;
+  cursor: pointer;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -51,6 +75,9 @@ video {
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
+  video {
+    width: 50%;
+  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
@@ -59,6 +86,10 @@ video {
 @media all and (max-width: 767px) {
   video {
     width: 90%;
+  }
+
+  h1 {
+    font-size: 30px;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

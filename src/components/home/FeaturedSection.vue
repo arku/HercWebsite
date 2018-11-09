@@ -5,17 +5,17 @@
             <div class="columns">
               <div class="column">
                 <a href="https://www.bloomberg.com/europe" target="_blank">
-                  <img src="../assets/partners/bloomberg.png">
+                  <img src="../../assets/partners/bloomberg.png">
                 </a>
               </div>
               <div class="column">
                 <a href="https://www.tdameritrade.com/home.page" target="_blank">
-                  <img src="../assets/partners/amtd.png">
+                  <img src="../../assets/partners/amtd.png">
                 </a>
               </div>
               <div class="column">
                 <a href="https://www.americanbanker.com/" target="_blank">
-                  <img src="../assets/partners/americanbanker.png">
+                  <img src="../../assets/partners/americanbanker.png">
                 </a>
               </div>
             </div>

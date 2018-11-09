@@ -3,7 +3,7 @@
         <div id="content">
             <h1>Buy <span>HERC</span> now!</h1>
             <a href="https://purchase.herc.one">
-                <img src="../assets/pillar-only-small.gif">
+                <img src="../../assets/pillar-only-small.gif">
             </a>
         </div>
     </div>
@@ -19,7 +19,7 @@ export default {
 #buy-section {
   padding: 50px;
   background-color: #091141;
-  background-image: url("../assets/HERC_BKG_v2_blue.png");
+  background-image: url("../../assets/HERC_BKG_v2_blue.png");
   background-size: cover;
   background-position: center;
   border-top: 5px solid #091141;

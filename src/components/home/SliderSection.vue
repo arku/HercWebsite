@@ -11,17 +11,17 @@
             :loop="true">
           <slide class="slide-container">
             <a href="https://www.idax.mn" target="_blank">
-              <img class="imgSize" src="../assets/exchanges/idax.png">
+              <img class="imgSize" src="../../assets/exchanges/idax.png">
             </a>
           </slide>
           <slide class="slide-container">
             <a href="https://bit.ly/2Q8fb95" target="_blank">
-              <img class="imgSize" src="../assets/exchanges/latoken.png">
+              <img class="imgSize" src="../../assets/exchanges/latoken.png">
             </a>
           </slide>
           <slide class="slide-container">
             <a href="https://www.fubt.top" target="_blank">
-              <img class="imgSize" src="../assets/exchanges/fubt.png">
+              <img class="imgSize" src="../../assets/exchanges/fubt.png">
             </a>
           </slide>
         </carousel>

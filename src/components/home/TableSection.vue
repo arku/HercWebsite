@@ -8,13 +8,13 @@
                 <thead>
                     <tr>
                         <th>
-                        <img class="image" src="../assets/factom.png">
+                        <img class="image" src="../../assets/factom.png">
                         </th>
                         <th>
-                        <img class="image" src="../assets/storj.png">
+                        <img class="image" src="../../assets/storj.png">
                         </th>
                         <th>
-                        <img class="image" src="../assets/ipfs.png">
+                        <img class="image" src="../../assets/ipfs.png">
                         </th>
                     </tr>
                 </thead>

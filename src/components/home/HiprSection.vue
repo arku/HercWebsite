@@ -1,48 +1,46 @@
 <template>
-    <div id="usecase-section">
+    <div id="hipr-section">
+        <h1>HERC's First Internal Control<br> 
+Encrypted Performance Report</h1>
         <div id="content">
-            <h1>Featured Use Case</h1>
-        </div>
-        <video controls poster="../assets/HERC_USECASE.png">
-            <source src="../assets/videos/usecase.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div>
-
+            <div class="columns">
+                <div class="column">
+                    <img src="../../assets/cube.png">
+                </div>
+                <div class="column">
+                    <img src="../../assets/hipr_perfomance_flow.png">
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
 export default {
-  name: "UseCaseSection"
+  name: "HiprSection"
 };
 </script>
 
 <style scoped>
-#usecase-section {
-  padding: 50px;
-  background-color: #091141;
-}
-
 #content {
   max-width: 1080px;
   margin: auto;
+  padding: 50px;
 }
 
 h1 {
-  font-size: 30px;
   color: #f3c736;
-  text-transform: uppercase;
+  font-size: 30px;
   font-weight: bold;
-  margin-bottom: 5%;
+  text-transform: uppercase;
+  background-color: #091141;
+  padding: 20px;
+  line-height: 1.2em;
 }
 
-video {
-  border: 1px solid #f3c736;
+img {
+  border: 2px solid #f3c736;
   box-shadow: 0px 12px 18px -6px #000;
-  width: 60%;
-  margin: auto;
   border-radius: 5px;
 }
 
@@ -60,16 +58,22 @@ video {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  video {
+  img {
     width: 100%;
   }
 
   h1 {
     font-size: 24px;
-    line-height: 1.2em;
+  }
+
+  br {
+    display: none;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
+  h1{
+    font-size: 22px;
+  }
 }
 </style>

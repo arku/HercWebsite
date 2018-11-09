@@ -397,7 +397,7 @@ article img {
 #slide3:checked ~ #commands label:nth-child(4),
 #slide4:checked ~ #commands label:nth-child(5),
 #slide5:checked ~ #commands label:nth-child(1) {
-  background: url("../assets/right.png") no-repeat;
+  background: url("../../assets/right.png") no-repeat;
   float: right;
   margin: 0 0px 0 0;
   display: block;
@@ -407,7 +407,7 @@ article img {
 #slide3:checked ~ #commands label:nth-child(2),
 #slide4:checked ~ #commands label:nth-child(3),
 #slide5:checked ~ #commands label:nth-child(4) {
-  background: url("../assets/left.png") no-repeat;
+  background: url("../../assets/left.png") no-repeat;
   float: left;
   margin: 0 0 0 0px;
   display: block;
