@@ -426,14 +426,14 @@
                 </div>
                 <h4 class="h4-mobile">Developers</h4>
                 <div class="columns is-mobile">
-                    <div class="column">
+                     <div class="column">
                         <img src="../../assets/team/dax.png">
                         <h2 class="h2-mobile">Damir Demirovic</h2>
                         <h3 class="h3-mobile">Lead Web Developer</h3>
                         <a href="https://www.linkedin.com/in/daxdax89/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
-                    </div>
+                     </div>
                     <div class="column">
                         <img src="../../assets/team/stack.jpg">
                         <h2 class="h2-mobile">Stefan Bemelmans</h2>
@@ -452,14 +452,16 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    <div class="column">
+                    
+                     
+                   <div class="column">
                         <img src="../../assets/team/ubi.jpg">
                         <h2 class="h2-mobile">Ubirajara Neto</h2>
                         <h3 class="h3-mobile">Software Engineer</h3>
                         <a href="https://www.linkedin.com/in/ubirajara-marsicano-neto/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
-                    </div>
+                   </div>
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
@@ -470,8 +472,6 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                </div>
-                <div class="columns is-mobile">
                     <div class="column">
                         <img src="../../assets/team/emanuel.jpg">
                         <h2 class="h2-mobile">Manzione Emanuele</h2>
@@ -480,14 +480,16 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    <div class="column">
+                     </div>
+                    <div class="columns is-mobile">
+                        <div class="column">
                         <img src="../../assets/team/viktor.jpg">
                         <h2 class="h2-mobile">Viktor Kozub</h2>
                         <h3 class="h3-mobile">Chief Scalability Officer</h3>
                         <a href="https://www.linkedin.com/in/viktor-kozub-86bb9826/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
-                    </div>
+                        </div>
                     <div class="column">
                         <img src="../../assets/team/cule.jpg">
                         <h2 class="h2-mobile">Danijel Demirovic</h2>
@@ -496,7 +498,9 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    <div class="column">
+                    </div>
+                    <div class="columns is-mobile">
+                    <div class="column is-half-mobile">
                         <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-mobile">Taner Seyt</h2>
                         <h3 class="h3-mobile">Junior Developer</h3>
