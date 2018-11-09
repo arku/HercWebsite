@@ -35,14 +35,14 @@
                 </div>
                 <div class="column">
                     <h2>Wallets</h2>
-                    <a class="tooltip" href="https://s3.us-east-2.amazonaws.com/hercmedia/app/app-release-rc0.20.apk">
-                        <img src="../assets/truswallet.png">
-                        <span class="tooltiptext">HERC Hot Wallet</span>
-                    </a>
                     <router-link to="/tokeninfo" class="tooltip">
                         <img src="../assets/edgeicon.png">
                         <span class="tooltiptext">Edge Secure Instructions!</span>
                     </router-link>
+                    <a class="tooltip" href="https://s3.us-east-2.amazonaws.com/hercmedia/app/app-release-rc0.20.apk">
+                        <img src="../assets/truswallet.png">
+                        <span class="tooltiptext">HERC Hot Wallet</span>
+                    </a>
                 </div>
                 <div class="column">
 
