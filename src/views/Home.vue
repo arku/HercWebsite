@@ -69,7 +69,7 @@ import BlurbSection from "@/components/home/BlurbSection.vue";
 // import ProtocolCostSection from "@/components/ProtocolCostSection.vue";
 import TableSection from "@/components/home/TableSection.vue";
 import VideoSection from "@/components/home/VideoSection.vue";
-import RoadmapSection from "@/components/RoadmapSection.vue";
+import RoadmapSection from "@/components/home/RoadmapSection.vue";
 import RoadmapHorizontalSection from "@/components/home/RoadmapHorizontalSection.vue";
 import PartnersSection from "@/components/home/PartnersSection.vue";
 import DocumentsSection from "@/components/home/DocumentsSection.vue";

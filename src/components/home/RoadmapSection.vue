@@ -44,7 +44,7 @@
                     <div>
                         <i class="fas fa-check-circle fa-2x not-done"></i>
                         <h1>Q4 2019</h1>
-                        <p>Beyond Inventory / BEX Ecosystem</p>
+                        <p>Beyond Inventory / Asset Marketplace</p>
                     </div>
                 </div>
                 <div class="column">

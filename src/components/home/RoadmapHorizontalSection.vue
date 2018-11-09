@@ -70,7 +70,7 @@
             </div>
             <div class="gold-border">
               <i class="far fa-check-circle fa-2x not-done"></i>
-              <h3>Beyond Inventory/BEX Ecosystem</h3>
+              <h3>Beyond Inventory/Asset Marketplace</h3>
             </div>
           </div>
         </div>
