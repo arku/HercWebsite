@@ -48,6 +48,7 @@
                     <button class="token-button">Developer Resources</button><br>
                   </router-link>
                   </div>
+                  <!-- PROGRESS BAR HERE -->
                   <a href="https://purchase.herc.one">
                     <button @click="trackTokenSale" class="tokensale-button">Buy HERC now!</button>
                   </a>
