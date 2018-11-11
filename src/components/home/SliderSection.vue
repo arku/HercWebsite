@@ -10,7 +10,7 @@
             :scroll-per-page="false"
             :loop="true">
           <slide class="slide-container">
-            <a href="https://www.idax.mn" target="_blank">
+            <a href="https://www.idax.mn/#/register?inviteCode=z8vqob" target="_blank">
               <img class="imgSize" src="../../assets/exchanges/idax.png">
             </a>
           </slide>

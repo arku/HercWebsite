@@ -32,7 +32,7 @@
                     <div class="column">
                       <h1>The Hercules Blockchain</h1>
                       <p>The Hercules Protocol & Platform is a global supply chain repository
-                          providing a complete list of all trackable assets accessible to anyone
+                          providing a complete list of all trackable assets, and accessible to anyone
                             with permission.<br>Hercules provides business people with the data integrity advantages of blockchain
                           technology, enabling their goods to be trusted and exchanged with a world wide
                             market.
