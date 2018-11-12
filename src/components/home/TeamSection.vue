@@ -181,7 +181,7 @@
                         <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-desktop">Taner Seyt</h2>
                         <h3 class="h3-desktop">Junior Developer</h3>
-                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/">
+                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -207,13 +207,17 @@
                         <img src="../../assets/team/shannon.jpg">
                         <h2 class="h2-desktop">Shannon Gunter</h2>
                         <h3 class="h3-desktop">A/R Specialist & CSR</h3>
+                        <a href="https://www.linkedin.com/in/shannon-gunter-b53114175" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                     <div class="column">
                         <img src="../../assets/team/katey.jpg">
                         <h2 class="h2-desktop">Katheryn Gunter</h2>
                         <h3 class="h3-desktop">Accounts Payable Specialist</h3>
+                        <a href="https://www.linkedin.com/in/katey-gunter-606118175/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                 </div>
                 <h4 id="advisors">Advisors</h4>
@@ -513,7 +517,7 @@
                         <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-mobile">Taner Seyt</h2>
                         <h3 class="h3-mobile">Junior Developer</h3>
-                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/">
+                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -530,7 +534,9 @@
                         <img src="../../assets/team/shannon.jpg">
                         <h2 class="h2-mobile">Shannon Gunter</h2>
                         <h3 class="h3-mobile">A/R Specialist & CSR</h3>
+                        <a href="https://www.linkedin.com/in/shannon-gunter-b53114175" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
@@ -538,7 +544,9 @@
                         <img src="../../assets/team/katey.jpg">
                         <h2 class="h2-mobile">Katheryn Gunter</h2>
                         <h3 class="h3-mobile">Accounts Payable Specialist</h3>
+                        <a href="https://www.linkedin.com/in/katey-gunter-606118175/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                 </div>
                 <h4 id="advisors-mobile" class="h4-mobile">Advisors</h4>
