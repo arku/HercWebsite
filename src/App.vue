@@ -30,21 +30,9 @@ $info: #f3c736;
 $info-invert: findColorInvert($info);
 $light-primary: #272d50;
 $light-primary-invert: findColorInvert($light-primary);
-$herc-blue: #091141;
-$herc-blue-invert: findColorInvert($herc-blue);
-$herc-gold: #f3c736;
-$herc-gold-invert: findCOlorInvert($herc-gold);
 
 // // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
-  "herc-blue": (
-    $herc-blue,
-    $herc-blue-invert
-  ),
-  "herc-gold": (
-    $herc-gold,
-    $herc-gold-invert
-  ),
   "white": (
     $white,
     $black

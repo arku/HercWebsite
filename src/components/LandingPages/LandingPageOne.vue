@@ -1,5 +1,5 @@
 <template>
-    <div id="landing-one" class="is-herc-blue">
+    <div id="landing-one">
         <div id="content">
             <div class="columns">
               <div class="column">
@@ -137,6 +137,7 @@ export default {
 <style scoped lang="scss">
 #landing-one {
   padding: 50px;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -145,7 +146,7 @@ export default {
 }
 
 h1 {
-  color: #f3c736;
+  color: $herc-gold;
   font-size: 30px;
   text-transform: uppercase;
   line-height: 1.2em;
@@ -171,7 +172,7 @@ p {
 }
 
 a {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 a:hover {
@@ -189,24 +190,11 @@ img {
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
+  @include herc-gold-button;
 }
 
 button:hover {
-  background-color: transparent;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  cursor: pointer;
-  box-shadow: 0px 12px 18px -6px #000;
+  @include herc-gold-button-hover;
 }
 
 #buttons-lol {
@@ -237,7 +225,7 @@ button:hover {
   text-align: center !important;
   font-size: 40px;
   font-weight: bold;
-  color: #f3c736;
+  color: $herc-gold;
   line-height: 1em;
 }
 
@@ -267,20 +255,7 @@ button:hover {
 .tokensale-button {
   border-radius: 5px;
   margin: 5%;
-  animation-name: flash;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-name: flash;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-
-  -moz-animation-name: flash;
-  -moz-animation-duration: 1s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
+  @include flash-animation;
 }
 
 .spacer {
