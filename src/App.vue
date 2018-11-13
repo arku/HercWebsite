@@ -20,6 +20,7 @@ export default {
 <style lang="scss">
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";
+
 // // Set your colors
 $primary: #091141;
 $primary-invert: findColorInvert($primary);
@@ -29,9 +30,21 @@ $info: #f3c736;
 $info-invert: findColorInvert($info);
 $light-primary: #272d50;
 $light-primary-invert: findColorInvert($light-primary);
+$herc-blue: #091141;
+$herc-blue-invert: findColorInvert($herc-blue);
+$herc-gold: #f3c736;
+$herc-gold-invert: findCOlorInvert($herc-gold);
 
 // // Setup $colors to use as bulma classes (e.g. 'is-twitter')
 $colors: (
+  "herc-blue": (
+    $herc-blue,
+    $herc-blue-invert
+  ),
+  "herc-gold": (
+    $herc-gold,
+    $herc-gold-invert
+  ),
   "white": (
     $white,
     $black
@@ -108,7 +121,6 @@ $dropdown-item-hover-background-color: $info;
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-
 h1,
 h2,
 h3,

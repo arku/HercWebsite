@@ -134,10 +134,11 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style scoped lang="scss">
+
 #landing-one {
   padding: 50px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
