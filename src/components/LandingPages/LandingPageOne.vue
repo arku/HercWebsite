@@ -1,5 +1,5 @@
 <template>
-    <div id="landing-one">
+    <div id="landing-one" class="is-herc-blue">
         <div id="content">
             <div class="columns">
               <div class="column">
@@ -135,10 +135,8 @@ export default {
 };
 </script>
 <style scoped lang="scss">
-
 #landing-one {
   padding: 50px;
-  background-color: $herc-blue;
 }
 
 #content {
