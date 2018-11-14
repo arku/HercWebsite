@@ -101,11 +101,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #landing-two {
   background-image: url("../../assets/landing-pages/gradient-image-bg.png");
   background-size: cover;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #first-section {
@@ -116,7 +116,7 @@ export default {
 }
 
 h1 {
-  color: #f3c736;
+  color: $herc-gold;
   font-size: 30px;
   text-transform: uppercase;
   line-height: 1.2em;
@@ -133,7 +133,7 @@ h2 {
 }
 
 p {
-  color: #091141;
+  color: $herc-blue;
   text-align: left;
   margin-bottom: 1%;
   font-weight: bold;
@@ -145,7 +145,7 @@ p {
 }
 
 span {
-  color: #091141;
+  color: $herc-blue;
   font-size: 12px;
   font-weight: bold;
 }
@@ -157,8 +157,8 @@ img {
 }
 
 a {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
+  background-color: $herc-gold;
+  border: 2px solid $herc-gold;
   font-size: 18px;
   text-transform: uppercase;
   padding-top: 10px;
@@ -166,13 +166,13 @@ a {
   padding-right: 10px;
   padding-bottom: 10px;
   font-weight: bold;
-  color: #091141;
+  color: $herc-blue;
   margin: 5%;
 }
 
 a:hover {
   background-color: transparent;
-  border: 2px solid #f3c736;
+  border: 2px solid $herc-gold;
 }
 
 #logo {
@@ -196,7 +196,7 @@ a:hover {
   text-align: center !important;
   font-size: 40px;
   font-weight: bold;
-  color: #091141;
+  color: $herc-blue;
   line-height: 1em;
 }
 
