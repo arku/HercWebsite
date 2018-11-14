@@ -50,14 +50,6 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../../assets/team/michaelnelson.jpg">
-                        <h2>Michael Nelson</h2>
-                        <h3>Chief Strategy Officer</h3>
-                        <a href="https://www.linkedin.com/in/michaelericnelson/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
-                    <div class="column">
                         <img src="../../assets/team/justin.jpg">
                         <h2>Justin Breen</h2>
                         <h3>Chief Creative Officer</h3>
@@ -72,6 +64,9 @@
                         <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+                    </div>
+                    <div class="column">
+
                     </div>
                 </div>
                 <b-collapse :open="false" id="team-holder">
@@ -367,16 +362,6 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    <div class="column">
-                        <img src="../../assets/team/michaelnelson.jpg">
-                        <h2>Michael Nelson</h2>
-                        <h3>Chief Strategy Officer</h3>
-                        <a href="https://www.linkedin.com/in/michaelericnelson/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="columns is-mobile">
                     <div class="column is-half-mobile">
                         <img src="../../assets/team/justin.jpg">
                         <h2>Justin Breen</h2>
@@ -385,6 +370,8 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                </div>
+                <div class="columns is-mobile">
                     <div class="column is-half-mobile">
                     <img src="../../assets/team/heath.jpg">
                     <h2>Heath Muchena</h2>
