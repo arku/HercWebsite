@@ -1,0 +1,38 @@
+$herc-blue:#091141;
+$herc-gold: #f3c736;
+$herc-shadow: 0px 12px 18px -6px #000;
+@mixin herc-gold-button {
+    background-color: $herc-gold;
+    border: 2px solid $herc-gold;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: $herc-blue;
+}
+
+@mixin herc-gold-button-hover {
+    background-color: transparent;
+    color: $herc-gold;
+    border: 2px solid #f3c736;
+    cursor: pointer;
+    box-shadow: $herc-shadow;
+}
+
+@mixin flash-animation {
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: flash;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: flash;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+}

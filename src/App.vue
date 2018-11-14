@@ -20,6 +20,7 @@ export default {
 <style lang="scss">
 // Import Bulma's core
 @import "~bulma/sass/utilities/_all";
+
 // // Set your colors
 $primary: #091141;
 $primary-invert: findColorInvert($primary);
@@ -108,7 +109,6 @@ $dropdown-item-hover-background-color: $info;
 @import "~bulma";
 @import "~buefy/src/scss/buefy";
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
-
 h1,
 h2,
 h3,

@@ -181,7 +181,7 @@
                         <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-desktop">Taner Seyt</h2>
                         <h3 class="h3-desktop">Junior Developer</h3>
-                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/">
+                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -207,13 +207,17 @@
                         <img src="../../assets/team/shannon.jpg">
                         <h2 class="h2-desktop">Shannon Gunter</h2>
                         <h3 class="h3-desktop">A/R Specialist & CSR</h3>
+                        <a href="https://www.linkedin.com/in/shannon-gunter-b53114175" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                     <div class="column">
                         <img src="../../assets/team/katey.jpg">
                         <h2 class="h2-desktop">Katheryn Gunter</h2>
                         <h3 class="h3-desktop">Accounts Payable Specialist</h3>
+                        <a href="https://www.linkedin.com/in/katey-gunter-606118175/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                 </div>
                 <h4 id="advisors">Advisors</h4>
@@ -243,16 +247,6 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../../assets/team/jeff.jpeg">
-                        <h2 class="h2-desktop">Jeff Ramson</h2>
-                        <h3 class="h3-desktop">CEO - PCG Advisory Group</h3>
-                        <a href="https://www.linkedin.com/in/jefframson/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="columns">
-                    <div class="column">
                         <img src="../../assets/team/michael.jpg">
                         <h2 class="h2-desktop">Michael Terpin</h2>
                         <h3 class="h3-desktop">CEO - Transform</h3>
@@ -260,6 +254,8 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                </div>
+                <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/dominik.jpg">
                         <h2 class="h2-desktop">Dominik Zynis</h2>
@@ -284,16 +280,6 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                </div>
-                <div class="columns">
-                    <div class="column">
-                        <img src="../../assets/team/radhika.jpg">
-                        <h2 class="h2-desktop">Radhika Desai</h2>
-                        <h3 class="h3-desktop">Blockchain API Automation</h3>
-                        <a href="https://www.linkedin.com/in/radhikadesai123/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
                     <div class="column">
                         <img src="../../assets/team/stevencramer.jpg">
                         <h2 class="h2-desktop">Steven Cramer</h2>
@@ -302,6 +288,8 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                </div>
+                <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/brock.jpg">
                         <h2 class="h2-desktop">Brock Hager</h2>
@@ -317,6 +305,12 @@
                         <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+                    </div>
+                    <div class="column">
+
+                    </div>
+                    <div class="column">
+
                     </div>
                 </div>
                         </div>
@@ -513,7 +507,7 @@
                         <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-mobile">Taner Seyt</h2>
                         <h3 class="h3-mobile">Junior Developer</h3>
-                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/">
+                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -530,7 +524,9 @@
                         <img src="../../assets/team/shannon.jpg">
                         <h2 class="h2-mobile">Shannon Gunter</h2>
                         <h3 class="h3-mobile">A/R Specialist & CSR</h3>
+                        <a href="https://www.linkedin.com/in/shannon-gunter-b53114175" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                 </div>
                 <div class="columns is-mobile">
@@ -538,7 +534,9 @@
                         <img src="../../assets/team/katey.jpg">
                         <h2 class="h2-mobile">Katheryn Gunter</h2>
                         <h3 class="h3-mobile">Accounts Payable Specialist</h3>
+                        <a href="https://www.linkedin.com/in/katey-gunter-606118175/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                 </div>
                 <h4 id="advisors-mobile" class="h4-mobile">Advisors</h4>
@@ -570,10 +568,10 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../../assets/team/jeff.jpeg">
-                        <h2 class="h2-mobile">Jeff Ramson</h2>
-                        <h3 class="h3-mobile">CEO - PCG Advisory Group</h3>
-                        <a href="https://www.linkedin.com/in/jefframson/" target="_blank">
+                        <img src="../../assets/team/stevencramer.jpg">
+                        <h2 class="h2-mobile">Steven Cramer</h2>
+                        <h3 class="h3-mobile">Advisor</h3>
+                        <a href="https://www.linkedin.com/in/steventcramer/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -610,24 +608,6 @@
                         <h2 class="h2-mobile">Wendy Craft</h2>
                         <h3 class="h3-mobile">CEO - Family Offices</h3>
                         <a href="https://www.linkedin.com/in/wendy-craft-7281176/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="columns is-mobile">
-                    <div class="column">
-                        <img src="../../assets/team/radhika.jpg">
-                        <h2 class="h2-mobile">Radhika Desai</h2>
-                        <h3 class="h3-mobile">Blockchain API Automation</h3>
-                        <a href="https://www.linkedin.com/in/radhikadesai123/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
-                    <div class="column">
-                        <img src="../../assets/team/stevencramer.jpg">
-                        <h2 class="h2-mobile">Steven Cramer</h2>
-                        <h3 class="h3-mobile">Advisor</h3>
-                        <a href="https://www.linkedin.com/in/steventcramer/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
