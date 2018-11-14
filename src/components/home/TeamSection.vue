@@ -302,7 +302,12 @@
                         </a>
                     </div>
                     <div class="column">
-
+                        <img src="../../assets/team/john.jpg">
+                        <h2 class="h2-desktop">John Morgridge</h2>
+                        <h3 class="h3-desktop">Advisor</h3>
+                        <a href="https://www.linkedin.com/in/john-morgridge/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                     <div class="column">
 
@@ -613,6 +618,16 @@
                         <h2 class="h2-mobile">Joby Weeks</h2>
                         <h3 class="h3-mobile">Chief Marketer - BitClub Mining</h3>
                         <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="columns is-mobile">
+                    <div class="column is-half">
+                        <img src="../../assets/team/john.jpg">
+                        <h2 class="h2-mobile">John Morgridge</h2>
+                        <h3 class="h3-mobile">Advisor</h3>
+                        <a href="https://www.linkedin.com/in/john-morgridge" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
