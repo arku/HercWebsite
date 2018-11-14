@@ -207,14 +207,14 @@ a:hover {
 .countdown-size {
   margin: auto;
   width: 80%;
-  background-color: #f3c736;
+  background-color: $herc-gold;
 }
 
 .date-info {
   text-transform: uppercase;
   text-align: center;
   font-size: 24px;
-  color: #091141;
+  color: $herc-blue;
   font-weight: bold;
 }
 
@@ -244,7 +244,7 @@ a:hover {
 }
 
 #about-text {
-  color: #091141;
+  color: $herc-blue;
   font-weight: bold;
   text-transform: none;
   margin-top: 5%;
