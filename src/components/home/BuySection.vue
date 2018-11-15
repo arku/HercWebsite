@@ -15,15 +15,15 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #buy-section {
   padding: 50px;
-  background-color: #091141;
+  background-color: $herc-blue;
   background-image: url("../../assets/HERC_BKG_v2_blue.png");
   background-size: cover;
   background-position: center;
-  border-top: 5px solid #091141;
-  border-bottom: 5px solid #f3c736;
+  border-top: 5px solid $herc-blue;
+  border-bottom: 5px solid $herc-gold;
 }
 
 #content {
@@ -39,7 +39,7 @@ h1 {
 }
 
 span {
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
 }
 

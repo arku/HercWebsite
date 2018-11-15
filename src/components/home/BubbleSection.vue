@@ -39,12 +39,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #bubble-section {
   padding: 50px;
-  background-color: #091141;
-  border-top: 2px solid #f3c736;
-  border-bottom: 2px solid #f3c736;
+  background-color: $herc-blue;
+  border-top: 2px solid $herc-gold;
+  border-bottom: 2px solid $herc-gold;
 }
 
 #content {
@@ -53,7 +53,7 @@ export default {
 }
 
 .title {
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: none;
   font-weight: normal;
 }
@@ -64,14 +64,14 @@ export default {
   margin: 3%;
   margin-bottom: auto;
   padding: 20px;
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
   border-radius: 5px;
 }
 
 h1 {
   font-size: 30px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   margin-bottom: 2%;
   line-height: 1em;
@@ -81,13 +81,13 @@ h1 {
 i {
   margin: auto;
   margin-bottom: 50%;
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 .blurb-title {
   text-transform: uppercase;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   font-weight: bold;
   line-height: 1em;
   margin-bottom: 3%;
@@ -95,7 +95,7 @@ i {
 }
 
 .blurb-text {
-  color: #091141;
+  color: $herc-blue;
   text-align: center;
   line-height: 1.5em;
   font-weight: 900;
@@ -103,7 +103,7 @@ i {
 }
 
 #subtitle {
-  color: #091141;
+  color: $herc-blue;
   margin-bottom: 2%;
   font-size: 24px;
 }
@@ -181,13 +181,13 @@ i {
   .blurb-title {
     font-size: 18px;
     font-weight: bold;
-    color: #091141;
+    color: $herc-blue;
   }
 
   .blurb-text {
     font-size: 14px;
     line-height: 1.2em;
-    color: #091141;
+    color: $herc-blue;
   }
 
   #bubble-section {
@@ -209,13 +209,13 @@ i {
   .blurb-title {
     font-size: 18px;
     font-weight: 900;
-    color: #091141;
+    color: $herc-blue;
   }
 
   .blurb-text {
     font-size: 14px;
     line-height: 1.1em;
-    color: #091141;
+    color: $herc-blue;
   }
 
   #bubble-section {
