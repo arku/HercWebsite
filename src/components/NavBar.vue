@@ -30,18 +30,24 @@
                         <a href="/#documents-section" class="navbar-item">
                             Documents
                         </a>
+                        <!-- <a href="/news" class="navbar-item">
+                            News
+                        </a> -->
+                        <router-link to="/news" class="navbar-item">
+                          News
+                        </router-link>
                         <b-dropdown hoverable id="droptro">
                           <a class="navbar-item" slot="trigger">
                             <i class="fas fa-angle-down ri"></i> Info
                           </a>
                           <b-dropdown-item>
-                            <router-link to="/tokeninfo" class="a-reversed">
-                              Token Info
+                            <router-link to="/developer-resources" class="a-reversed">
+                              Developer Resources
                             </router-link>
                           </b-dropdown-item>
                           <b-dropdown-item>
-                            <router-link to="/developer-resources" class="a-reversed">
-                              Developer Resources
+                            <router-link to="/tokeninfo" class="a-reversed">
+                              Token Info
                             </router-link>
                           </b-dropdown-item>
                           <b-dropdown-item>
