@@ -78,7 +78,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #landing-three {
   padding: 50px;
   background-image: url("../../assets/landing-pages/testbg.png");
@@ -97,7 +97,7 @@ export default {
 }
 
 h1 {
-  color: #f3c736;
+  color: $herc-gold;
   font-size: 40px;
   text-transform: uppercase;
   line-height: 1.2em;
@@ -149,23 +149,11 @@ p {
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
+  @include herc-gold-button;
 }
 
 button:hover {
-  background-color: transparent;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  cursor: pointer;
+@include herc-gold-button-hover;
 }
 
 .left-button {
@@ -187,24 +175,11 @@ button:hover {
 }
 
 .border-button:hover {
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
 }
 
 .tokensale-button {
-  animation-name: flash;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-name: flash;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-
-  -moz-animation-name: flash;
-  -moz-animation-duration: 1s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
+  @include flash-animation;
 }
 
 .spacer {
