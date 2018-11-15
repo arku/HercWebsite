@@ -26,7 +26,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #documents-section {
   padding: 50px;
   background-color: #fafafa;
@@ -39,8 +39,8 @@ export default {
 
 .dugme {
   font-size: 20px;
-  background-color: #f3c736;
-  color: #091141;
+  background-color: $herc-gold;
+  color: $herc-blue;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -53,10 +53,8 @@ export default {
 }
 
 .dugme:hover {
-  background-color: #091141;
-  border: 1px solid #f3c736;
-  color: #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
+  @include herc-gold-button-hover;
+  background-color: $herc-blue;
 }
 
 i {
@@ -66,7 +64,7 @@ i {
 h1 {
   font-size: 30px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   margin-bottom: 5%;
   font-weight: bold;
