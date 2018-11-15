@@ -21,6 +21,7 @@ import PageNotFound from './views/PageNotFound.vue';
 import ContactSectionBig from './views/Contact.vue';
 import DevSourcesSection from './views/DevSources.vue';
 import UtilitySection from './views/UtilityResources.vue';
+import NewsSection from './views/News.vue';
 
 Vue.use(Router);
 
@@ -138,6 +139,11 @@ export default new Router({
         path: '/utilities',
         name: 'UtilitySection',
         component: UtilitySection
+    },
+    {
+        path: '/news',
+        name: 'NewsSection',
+        component: NewsSection
     }
     ],
     scrollBehavior(to, from, savedPosition) {
