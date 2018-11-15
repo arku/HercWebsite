@@ -16,7 +16,7 @@
                       </div>
                       <div>
                         <router-link to="/developer-resources">
-                          <button id="token-button">Developer Resources</button>
+                          <button >Developer Resources</button>
                         </router-link>
                       </div>
                     </div>
@@ -247,8 +247,8 @@ img {
 }
 
 button {
- @include herc-gold-button;
-  font-size: 20px;
+  @include herc-gold-button;
+  box-shadow: $herc-shadow;
 }
 
 button:hover {

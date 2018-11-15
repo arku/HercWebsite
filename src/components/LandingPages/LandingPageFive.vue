@@ -334,10 +334,6 @@ span {
     border-radius: 5px !important;
   }
 
-  .remove-right-border {
-    border-right: 2px solid $herc-blue !important;
-  }
-
   .left-button,
   .right-button {
     border-radius: 0;
@@ -353,10 +349,6 @@ span {
 
   button {
     border-radius: 5px !important;
-  }
-
-  .remove-right-border {
-    border-right: 2px solid $herc-blue !important;
   }
 
   .left-button,

@@ -211,11 +211,12 @@ p {
 
 button {
   @include herc-gold-button;
+  border-radius: 5px;
 }
 
 button:hover {
   @include herc-gold-button-hover;
-  background-color: $herc-blue;
+  border-radius: 4px;
 }
 
 .left-button {

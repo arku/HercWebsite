@@ -34,6 +34,14 @@
                     <blockquote class="embedly-card"><h4><a href="https://medium.com/@herc_token/transforming-the-supply-chain-landscape-with-blockchain-a58d8e61b686">Transforming the Supply Chain Landscape With Blockchain</a></h4><p>Blockchain technology creates many possibilities within the supply chain space. From a historical view, the industrial era brought about the centralization of production. Mass manufacturing, for example, helped make centralized production more efficient. This centralization came in the form of large factories where raw commodities were turned into finished goods.</p></blockquote>
                 </div>
             </div>
+            <div class="columns">
+                <div class="column">
+                    <blockquote class="embedly-card"><h4><a href="https://medium.com/@herc_token/integrating-blockchain-technology-into-supply-chains-17ea8eb6bb40">Integrating Blockchain Technology Into Supply Chains</a></h4><p>Blockchain technology has emerged as a disruptive technology that has the ability to transform supply chain ecosystems by offering an unprecedented level of transparency, which is hoped will result in greater supply chain management efficiency.</p></blockquote>
+                </div>
+                <div class="column">
+                    
+                </div>
+            </div>
         </div>
     </div>
 </template>
