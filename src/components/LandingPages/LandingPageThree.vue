@@ -154,6 +154,7 @@ button {
 
 button:hover {
 @include herc-gold-button-hover;
+background-color: $herc-blue;
 }
 
 .left-button {

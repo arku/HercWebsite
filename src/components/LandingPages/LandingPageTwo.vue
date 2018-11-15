@@ -157,16 +157,8 @@ img {
 }
 
 a {
-  background-color: $herc-gold;
-  border: 2px solid $herc-gold;
+  @include herc-gold-button;
   font-size: 18px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: $herc-blue;
   margin: 5%;
 }
 

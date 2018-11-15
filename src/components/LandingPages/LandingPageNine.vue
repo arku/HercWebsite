@@ -149,11 +149,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #landing-nine {
   background-image: url("../../assets/landing-pages/complex-bg.png");
   background-size: cover;
-  background-color: #091141;
+  background-color: $herc-blue;
   background-repeat: no-repeat;
   background-position: top;
 }
@@ -167,7 +167,7 @@ export default {
 
 #title {
   font-size: 40px;
-  color: #f3c736;
+  color: $herc-gold;
   line-height: 1.2em;
   text-align: left;
   font-weight: bold;
@@ -176,7 +176,7 @@ export default {
 #date-holder {
   font-size: 20px;
   text-align: center;
-  color: #f3c736;
+  color: $herc-gold;
   margin-bottom: 1%;
   width: 100%;
 }
@@ -187,7 +187,7 @@ export default {
 
 #date-span {
   font-size: 20px;
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: normal;
 }
 
@@ -199,7 +199,7 @@ export default {
   text-align: center !important;
   font-size: 30px;
   font-weight: bold;
-  color: #091141;
+  color: $herc-blue;
   line-height: 1em;
   width: 100%;
 }
@@ -213,7 +213,7 @@ h2 {
 }
 
 h3 {
-  color: #f3c736;
+  color: $herc-gold;
   font-size: 20px;
   font-weight: bold;
   line-height: 1.2em;
@@ -232,13 +232,13 @@ p {
 }
 
 #countdown {
-  background-color: #f3c736;
+  background-color: $herc-gold;
   width: 100%;
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
 }
 
 span {
-  color: #091141;
+  color: $herc-blue;
   font-size: 12px;
   font-weight: bold;
 }
@@ -248,24 +248,14 @@ img {
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #091141;
+ @include herc-gold-button;
+  border: 2px solid $herc-blue;
   border-radius: 5px !important;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
-}
+ }
 
 button:hover {
-  background-color: #091141;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
+  @include herc-gold-button-hover;
+  background-color: $herc-blue;
 }
 
 .left-button {
@@ -280,7 +270,7 @@ button:hover {
 
 #info {
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   width: 100%;
   font-weight: bold;
 }
@@ -300,20 +290,7 @@ button:hover {
 }
 
 .tokensale-button {
-  animation-name: flash;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-name: flash;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-
-  -moz-animation-name: flash;
-  -moz-animation-duration: 1s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
+  @include flash-animation;
 }
 
 .deployed {

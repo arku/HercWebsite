@@ -150,7 +150,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #landing-eight {
   padding: 50px;
   background-image: url("../../assets/landing-pages/blue-bg.png");
@@ -164,7 +164,7 @@ export default {
 
 #title {
   font-size: 40px;
-  color: #f3c736;
+  color: $herc-gold;
   line-height: 1.2em;
   text-align: left;
   letter-spacing: 2px;
@@ -197,7 +197,7 @@ export default {
   text-align: center !important;
   font-size: 30px;
   font-weight: bold;
-  color: #091141;
+  color: $herc-blue;
   line-height: 1em;
   width: 100%;
 }
@@ -212,7 +212,7 @@ h2 {
 }
 
 h3 {
-  color: #f3c736;
+  color: $herc-gold;
   font-size: 20px;
   margin-bottom: 5%;
 }
@@ -230,14 +230,14 @@ p {
 }
 
 #countdown {
-  background-color: #f3c736;
+  background-color: $herc-gold;
   width: 100%;
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
   margin-bottom: 5%;
 }
 
 span {
-  color: #091141;
+  color: $herc-blue;
   font-size: 12px;
   font-weight: bold;
 }
@@ -247,23 +247,13 @@ img {
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
+ @include herc-gold-button;
   font-size: 20px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
 }
 
 button:hover {
-  background-color: #091141;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  cursor: pointer;
+  @include herc-gold-button-hover;
+  background-color: $herc-blue;
 }
 
 .left-button {
@@ -279,24 +269,11 @@ button:hover {
 #token-button {
   margin: 5%;
   border-radius: 5px;
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
 }
 
 .tokensale-button {
-  animation-name: flash;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-name: flash;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-
-  -moz-animation-name: flash;
-  -moz-animation-duration: 1s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
+  @include flash-animation;
 }
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
