@@ -61,7 +61,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #blurb-section {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -80,18 +80,18 @@ export default {
   margin: 3%;
   margin-bottom: auto;
   padding: 10px;
-  border: 4px solid #f3c736;
+  border: 4px solid $herc-gold;
   border-radius: 5px;
 }
 
 .blurb:hover {
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
 }
 
 h1 {
   font-size: 30px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   line-height: 1em;
   font-weight: bold;
@@ -109,7 +109,7 @@ img {
 .blurb-title {
   text-transform: uppercase;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   font-weight: bold;
   line-height: 1em;
   margin-bottom: 3%;
@@ -117,7 +117,7 @@ img {
 }
 
 .blurb-text {
-  color: #091141;
+  color: $herc-blue;
   text-align: center;
   /* text-transform: uppercase; */
   line-height: 1.5em;
@@ -126,7 +126,7 @@ img {
 }
 
 #subtitle {
-  color: #091141;
+  color: $herc-blue;
   margin-bottom: 2%;
   font-size: 24px;
 }
@@ -215,13 +215,13 @@ img {
   .blurb-title {
     font-size: 18px;
     font-weight: bold;
-    color: #091141;
+    color: $herc-blue;
   }
 
   .blurb-text {
     font-size: 14px;
     line-height: 1.2em;
-    color: #091141;
+    color: $herc-blue;
   }
 
   #blurb-section {
@@ -243,13 +243,13 @@ img {
   .blurb-title {
     font-size: 18px;
     font-weight: 900;
-    color: #091141;
+    color: $herc-blue;
   }
 
   .blurb-text {
     font-size: 14px;
     line-height: 1.1em;
-    color: #091141;
+    color: $herc-blue;
   }
 
   #blurb-section {

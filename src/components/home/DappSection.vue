@@ -19,10 +19,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #dapp-section {
   padding: 50px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -31,7 +31,7 @@ export default {
 }
 
 h1 {
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 2%;
@@ -41,30 +41,19 @@ video {
   width: 20%;
   margin: auto;
   margin-bottom: 2%;
-  border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
+  border: 2px solid $herc-gold;
+  box-shadow: $herc-shadow;
   border-radius: 5px;
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
+  @include herc-gold-button;
   border-radius: 5px;
   font-size: 20px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
 }
 
 button:hover {
-  background-color: #091141;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  cursor: pointer;
+  @include herc-gold-button-hover;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
