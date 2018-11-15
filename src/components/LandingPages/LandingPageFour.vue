@@ -215,7 +215,6 @@ button {
 
 button:hover {
   @include herc-gold-button-hover;
-  border-radius: 4px;
 }
 
 .left-button {
