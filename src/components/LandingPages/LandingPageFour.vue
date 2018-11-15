@@ -44,12 +44,12 @@
                     <h2 class="center-text">HERC Token was successfully deployed!</h2>
                     <div class="spacer">
                       <router-link to="/tokeninfo">
-                        <button class="spacer">Token Info</button>
+                        <button class="spacer border-rad">Token Info</button>
                       </router-link>
                     </div>
                     <div>
                       <router-link to="/developer-resources">
-                        <button class="spacer">Developer Resources</button>
+                        <button class="spacer border-rad">Developer Resources</button>
                       </router-link>
                     </div>
                   </div>
@@ -211,12 +211,10 @@ p {
 
 button {
   @include herc-gold-button;
-  border-radius: 5px;
 }
 
 button:hover {
   @include herc-gold-button-hover;
-  border-radius: 4px;
 }
 
 .left-button {
@@ -296,6 +294,10 @@ span {
 
 .tokensale-button {
   @include flash-animation;
+}
+
+.border-rad {
+  border-radius: 5px;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
