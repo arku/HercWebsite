@@ -134,7 +134,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #landing-four {
   padding: 50px;
   background-image: url("../../assets/landing-pages/tribg.png");
@@ -147,7 +147,7 @@ export default {
 }
 
 h1 {
-  color: #f3c736;
+  color: $herc-gold;
   font-size: 40px;
   text-transform: uppercase;
   line-height: 1.2em;
@@ -166,7 +166,7 @@ h2 {
 
 h3 {
   font-size: 18px;
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
   text-shadow: 2px 2px black;
   text-transform: uppercase;
@@ -175,7 +175,7 @@ h3 {
 }
 
 h4 {
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: uppercase;
   font-size: 20px;
   margin-bottom: 5%;
@@ -206,28 +206,16 @@ p {
 #eth {
   font-weight: bold;
   font-size: 35px;
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
+  @include herc-gold-button;
 }
 
 button:hover {
-  background-color: transparent;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  cursor: pointer;
-  box-shadow: 0px 12px 18px -6px #000;
+  @include herc-gold-button-hover;
+  background-color: $herc-blue;
 }
 
 .left-button {
@@ -252,7 +240,7 @@ button:hover {
 }
 
 span {
-  color: #091141;
+  color: $herc-blue;
   font-size: 12px;
 }
 
@@ -269,7 +257,7 @@ span {
   text-align: center !important;
   font-size: 30px;
   font-weight: bold;
-  color: #091141;
+  color: $herc-blue;
   line-height: 1em;
 }
 
@@ -279,10 +267,10 @@ span {
 }
 
 #countdown {
-  background-color: #f3c736;
+  background-color: $herc-gold;
   width: 70%;
   margin: auto;
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
   margin-bottom: 10%;
 }
 
@@ -292,7 +280,7 @@ span {
 }
 
 #herc-bold {
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
   font-size: 20px;
 }
@@ -306,20 +294,7 @@ span {
 }
 
 .tokensale-button {
-  animation-name: flash;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-name: flash;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-
-  -moz-animation-name: flash;
-  -moz-animation-duration: 1s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
+  @include flash-animation;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

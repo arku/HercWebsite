@@ -134,7 +134,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #landing-six {
   padding: 50px;
   background-image: url("../../assets/landing-pages/blue-bg.png");
@@ -148,7 +148,7 @@ export default {
 
 #title {
   font-size: 40px;
-  color: #f3c736;
+  color: $herc-gold;
   width: 100%;
   margin: auto;
   margin-bottom: 5%;
@@ -166,7 +166,7 @@ h2 {
 
 h3 {
   font-size: 24px;
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: uppercase;
   margin-bottom: 10%;
 }
@@ -190,25 +190,13 @@ img {
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
+  @include herc-gold-button;
   border-radius: 5px !important;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
 }
 
 button:hover {
-  background-color: #091141;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  cursor: pointer;
-  box-shadow: 0px 12px 18px -6px #000;
+  @include herc-gold-button-hover;
+  background-color: $herc-blue;
 }
 
 .left-button {
@@ -224,7 +212,7 @@ button:hover {
 #date-holder {
   font-size: 24px;
   text-align: center;
-  color: #f3c736;
+  color: $herc-gold;
   width: 100%;
   margin-bottom: 5%;
   margin-top: 5%;
@@ -232,7 +220,7 @@ button:hover {
 
 #date-span {
   font-size: 24px;
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 #days,
@@ -243,7 +231,7 @@ button:hover {
   text-align: center !important;
   font-size: 30px;
   font-weight: bold;
-  color: #091141;
+  color: $herc-blue;
   line-height: 1em;
   width: 100%;
 }
@@ -254,15 +242,15 @@ button:hover {
 }
 
 #countdown {
-  background-color: #f3c736;
+  background-color: $herc-gold;
   width: 90%;
   margin: auto;
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
   margin-bottom: 5%;
 }
 
 span {
-  color: #091141;
+  color: $herc-blue;
   font-size: 12px;
   font-weight: bold;
 }
@@ -276,20 +264,7 @@ span {
 }
 
 .tokensale-button {
-  animation-name: flash;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-name: flash;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-
-  -moz-animation-name: flash;
-  -moz-animation-duration: 1s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
+  @include flash-animation;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
