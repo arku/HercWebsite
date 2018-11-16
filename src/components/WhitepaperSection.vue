@@ -88,13 +88,13 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #whitepaper-section {
   padding: 100px;
   padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -104,14 +104,14 @@ export default {
 
 h1 {
   font-size: 30px;
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
 }
 
 h2 {
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;

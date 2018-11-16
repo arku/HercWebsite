@@ -11,7 +11,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #protocol-section {
   padding: 50px;
   padding-left: 250px;
@@ -26,7 +26,7 @@ export default {
 h1 {
   font-size: 45px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   margin-bottom: 50px;
   font-weight: bold;

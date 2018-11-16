@@ -44,12 +44,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #section {
   padding: 50px;
   padding-top: 150px;
   padding-bottom: 150px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -60,7 +60,7 @@ export default {
 h1 {
   font-size: 30px;
   text-align: center;
-  color: #f3c736;
+  color: $herc-gold;
   margin-bottom: 5%;
 }
 
@@ -70,25 +70,13 @@ h2 {
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
+  @include herc-gold-button;
   margin: 5%;
 }
 
 button:hover {
-  background-color: #091141;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  cursor: pointer;
-  box-shadow: 0px 12px 18px -6px #000;
+  @include herc-gold-button-hover;
+  background-color: $herc-blue;
 }
 
 a {
@@ -96,7 +84,7 @@ a {
 }
 
 a:hover {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

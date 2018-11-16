@@ -46,10 +46,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #token-info-section {
   padding: 50px;
-  background-color: #091141;
+  background-color: $herc-blue;
   background-image: url("../assets/HERC_BKG_v2_blue.png");
   background-size: cover;
   background-position: center;
@@ -62,7 +62,7 @@ export default {
 
 h1 {
   font-size: 35px;
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
   margin-bottom: 5%;
 }
@@ -74,7 +74,7 @@ h2 {
 }
 
 p {
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
   margin-bottom: 2%;
   font-size: 20px;
@@ -84,42 +84,29 @@ p {
 
 #blurb {
   background-color: rgba(9, 17, 65, 0.9);
-  border: 2px solid #f3c736;
+  border: 2px solid $herc-gold;
   border-radius: 5px;
   padding: 50px;
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
   margin-bottom: 5%;
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
+  @include herc-gold-button;
   border-radius: 5px;
   margin-bottom: 2%;
 }
 
 button:hover {
-  background-color: transparent;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  cursor: pointer;
-  box-shadow: 0px 12px 18px -6px #000;
+ @include herc-gold-button-hover;
 }
 
 img {
   width: 60%;
   margin: auto;
-  border: 2px solid #f3c736;
+  border: 2px solid $herc-gold;
   border-radius: 5px;
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
 }
 
 #info {

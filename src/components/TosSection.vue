@@ -175,7 +175,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #tos-section {
   padding: 50px;
   max-width: 1080px;
@@ -189,7 +189,7 @@ export default {
 
 h1 {
   font-size: 45px;
-  color: #091141;
+  color: $herc-blue;
   margin-bottom: 1%;
   text-align: center;
   font-weight: bold;
@@ -199,18 +199,18 @@ h2 {
   font-size: 24px;
   margin-top: 3%;
   margin-bottom: 2%;
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
 }
 
 h3 {
   font-weight: bold;
-  color: #091141;
+  color: $herc-blue;
 }
 
 p {
   line-height: 1.5em;
-  color: #091141;
+  color: $herc-blue;
   margin-bottom: 1%;
 }
 

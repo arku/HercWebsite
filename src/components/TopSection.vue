@@ -3934,13 +3934,13 @@ export default {
   padding-bottom: 50px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #top-section button:hover {
-  color: #091141;
-  border-color: #f3c736;
-  background-color: #f3c736;
+  color: $herc-blue;
+  border-color: $herc-gold;
+  background-color: $herc-gold;
 }
 
 #content {
@@ -3955,13 +3955,13 @@ svg {
 h1 {
   font-size: 30px;
   text-align: center;
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
   text-transform: uppercase;
 }
 
 p {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 .spacer {
@@ -3971,11 +3971,11 @@ p {
 #subscribe-form {
   width: 70%;
   margin: auto;
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 video {
-  border: 2px solid #f3c736;
+  border: 2px solid $herc-gold;
 }
 
 svg {
@@ -4199,7 +4199,7 @@ svg {
   #subscribe-form {
     width: 90%;
     margin: auto;
-    color: #f3c736;
+    color: $herc-gold;
   }
 }
 
@@ -4208,7 +4208,7 @@ svg {
   #subscribe-form {
     width: 100%;
     margin: auto;
-    color: #f3c736;
+    color: $herc-gold;
   }
 
   h1 {

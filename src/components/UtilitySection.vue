@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #utility-section {
   padding: 50px;
   background-color: #fafafa;
@@ -71,11 +71,11 @@ export default {
 
 h1 {
   font-size: 30px;
-  color: #091141;
+  color: $herc-blue;
 }
 
 h2 {
-  color: #091141;
+  color: $herc-blue;
   margin-bottom: 5%;
   font-size: 24px;
 }
@@ -85,8 +85,8 @@ hr {
 }
 
 button {
-  background-color: #f3c736;
-  border: 2px solid #f3c736;
+  background-color: $herc-gold;
+  border: 2px solid $herc-gold;
   border-radius: 5px;
   font-size: 20px;
   text-transform: uppercase;
@@ -95,15 +95,12 @@ button {
   padding-right: 30px;
   padding-bottom: 10px;
   font-weight: bold;
-  color: #091141;
+  color: $herc-blue;
 }
 
 button:hover {
-  background-color: #091141;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  cursor: pointer;
-  box-shadow: 0px 12px 18px -6px #000;
+  @include herc-gold-button-hover;
+  background-color: $herc-blue;
 }
 
 img {
@@ -132,7 +129,7 @@ span {
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: #091141;
+  background-color: $herc-blue;
   color: #fff;
   text-align: center;
   border-radius: 5px;
