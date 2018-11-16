@@ -66,7 +66,12 @@
                         </a>
                     </div>
                     <div class="column">
-
+                        <img src="../../assets/team/michaelnelson.jpg">
+                        <h2>Michael Nelson</h2>
+                        <h3>Chief Strategy Officer</h3>
+                        <a href="https://www.linkedin.com/in/michaelericnelson/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                 </div>
                 <b-collapse :open="false" id="team-holder">
@@ -377,14 +382,22 @@
                     </div>
                 </div>
                 <div class="columns is-mobile">
-                    <div class="column is-half-mobile">
-                    <img src="../../assets/team/heath.jpg">
-                    <h2>Heath Muchena</h2>
-                    <h3>Content Director</h3>
-                    <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                    </a>
-                </div>
+                    <div class="column">
+                        <img src="../../assets/team/heath.jpg">
+                        <h2>Heath Muchena</h2>
+                        <h3>Content Director</h3>
+                        <a href="https://www.linkedin.com/in/heath-muchena/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <img src="../../assets/team/michaelnelson.jpg">
+                        <h2>Michael Nelson</h2>
+                        <h3>Chief Strategy Officer</h3>
+                        <a href="https://www.linkedin.com/in/michaelericnelson/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
                 </div>
                 <b-collapse :open="false" id="team-holder">
                     <div slot="trigger" class="question">
