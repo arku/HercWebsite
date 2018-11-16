@@ -137,10 +137,8 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
 }
 
 h1 {
-  font-size: 30px;
+  @include herc-blue-h1;
   text-align: center;
-  color: $herc-blue;
-  text-transform: uppercase;
   margin-bottom: 1%;
   font-weight: bold;
   line-height: 1em;

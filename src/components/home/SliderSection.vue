@@ -51,8 +51,7 @@ export default {
 }
 
 h1 {
-  font-size: 30px;
-  color: $herc-blue;
+  @include herc-blue-h1;
   font-weight: bold;
   margin-bottom: 5%;
 }

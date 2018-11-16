@@ -670,9 +670,7 @@ img:hover {
 }
 
 h1 {
-  font-size: 30px;
-  color: $herc-blue;
-  text-transform: uppercase;
+  @include herc-blue-h1;
   font-weight: bold;
 }
 

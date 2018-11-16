@@ -291,9 +291,8 @@ export default {
 }
 
 h1 {
+  @include herc-blue-h1;
   font-size: 45px;
-  color: $herc-blue;
-  margin-bottom: 5%;
   text-align: center;
   font-weight: bold;
 }

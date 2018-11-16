@@ -93,12 +93,10 @@ img:hover {
 }
 
 h1 {
+  @include herc-gold-h1;
   font-size: 35px;
-  color: $herc-gold;
-  text-transform: uppercase;
-  margin-bottom: 5%;
   font-weight: bold;
-  line-height: 1.2em;
+ 
 }
 
 h2 {

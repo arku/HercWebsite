@@ -32,8 +32,8 @@ export default {
 }
 
 h1 {
+  @include herc-blue-h1;
   color: white;
-  font-size: 30px;
   margin-bottom: 5%;
   text-shadow: 1px 1px black;
 }

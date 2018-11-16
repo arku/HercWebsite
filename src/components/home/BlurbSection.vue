@@ -89,10 +89,8 @@ export default {
 }
 
 h1 {
-  font-size: 30px;
+  @include herc-blue-h1;
   text-align: center;
-  color: $herc-blue;
-  text-transform: uppercase;
   line-height: 1em;
   font-weight: bold;
 }

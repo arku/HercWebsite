@@ -58,10 +58,8 @@ export default {
 }
 
 h1 {
-  font-size: 30px;
+  @include herc-gold-h1;
   text-align: center;
-  color: $herc-gold;
-  margin-bottom: 5%;
 }
 
 h2 {

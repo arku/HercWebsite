@@ -806,18 +806,16 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style scoped lang="scss">
 #careers-section {
   padding: 50px;
   background-color: #fafafa;
 }
 
 h1 {
+  @include herc-gold-h1;
   font-size: 40px;
   text-align: center;
-  color: #091141;
-  text-transform: uppercase;
-  margin-bottom: 5%;
   line-height: 1em;
 }
 
@@ -829,7 +827,7 @@ h2 {
 }
 
 h3 {
-  color: #091141;
+  color: $herc-blue;
   font-size: 24px;
 }
 
@@ -862,7 +860,7 @@ button {
   padding-right: 20px;
   font-size: 20px;
   border-radius: 0;
-  background-color: #091141;
+  background-color: $herc-blue;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -871,7 +869,7 @@ button {
 
 a:hover,
 button:hover {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 span {

@@ -70,8 +70,7 @@ export default {
 }
 
 h1 {
-  font-size: 30px;
-  color: $herc-blue;
+  @include herc-blue-h1;
 }
 
 h2 {

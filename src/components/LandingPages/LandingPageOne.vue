@@ -87,10 +87,7 @@ export default {
 }
 
 h1 {
-  color: $herc-gold;
-  font-size: 30px;
-  text-transform: uppercase;
-  line-height: 1.2em;
+  @include herc-gold-h1;
   margin-bottom: 15%;
 }
 

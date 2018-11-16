@@ -31,9 +31,8 @@ export default {
 }
 
 h1 {
-  color: $herc-gold;
+  @include herc-gold-h1;
   font-weight: bold;
-  font-size: 30px;
   margin-bottom: 2%;
 }
 

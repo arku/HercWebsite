@@ -62,10 +62,9 @@ export default {
 }
 
 h1 {
+  @include herc-gold-h1;  
   font-size: 35px;
-  color: $herc-blue;
   font-weight: bold;
-  margin-bottom: 5%;
 }
 
 h2 {

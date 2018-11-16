@@ -103,9 +103,7 @@ export default {
 }
 
 h1 {
-  font-size: 30px;
-  color: $herc-gold;
-  text-transform: uppercase;
+  @include herc-gold-h1;
   font-weight: bold;
   text-align: center;
 }

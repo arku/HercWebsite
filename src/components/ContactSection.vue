@@ -83,12 +83,9 @@ export default {
 }
 
 h1 {
-  font-size: 30px;
-  color: $herc-blue;
-  text-transform: uppercase;
+  @include herc-gold-h1;
   margin-bottom: 2%;
   font-weight: bold;
-  line-height: 1.2em;
 }
 
 h2 {
