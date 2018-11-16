@@ -21,7 +21,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #content {
   max-width: 1080px;
   margin: auto;
@@ -29,18 +29,18 @@ export default {
 }
 
 h1 {
-  color: #f3c736;
+  color: $herc-gold;
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
-  background-color: #091141;
+  background-color: $herc-blue;
   padding: 20px;
   line-height: 1.2em;
 }
 
 img {
-  border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
+  border: 2px solid $herc-gold;
+  box-shadow: $herc-shadow;
   border-radius: 5px;
 }
 

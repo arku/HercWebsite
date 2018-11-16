@@ -18,10 +18,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #hiw-section {
   padding: 50px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -31,15 +31,15 @@ export default {
 
 h1 {
   font-size: 30px;
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
   margin-bottom: 5%;
 }
 
 video {
   width: 60%;
-  border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
+  border: 2px solid $herc-gold;
+  box-shadow: $herc-shadow;
   border-radius: 5px;
 }
 

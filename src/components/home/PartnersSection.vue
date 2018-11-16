@@ -243,7 +243,7 @@ export default {
   name: "PartnersSection"
 };
 </script>
-<style scoped>
+<style scoped lang="scss">
 #partners-section {
   padding: 50px;
   background-color: #fafafa;
@@ -256,7 +256,7 @@ export default {
 
 h1 {
   font-size: 30px;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   font-weight: bold;
 }
