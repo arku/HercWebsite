@@ -19,10 +19,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #usecase-section {
   padding: 50px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -32,15 +32,15 @@ export default {
 
 h1 {
   font-size: 30px;
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 5%;
 }
 
 video {
-  border: 1px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
+  border: 1px solid $herc-gold;
+  box-shadow: $herc-shadow;
   width: 60%;
   margin: auto;
   border-radius: 5px;

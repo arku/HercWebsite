@@ -142,7 +142,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #faq-section {
   padding: 50px;
   background-color: #fafafa;
@@ -150,13 +150,13 @@ export default {
 
 h1 {
   font-size: 45px;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 #helper {
-  color: #f3c736;
+  color: $herc-gold;
   margin-bottom: 5%;
 }
 
@@ -167,10 +167,10 @@ h1 {
 .question {
   width: 50%;
   margin: auto;
-  border: 1px solid #f3c736;
-  color: #f3c736;
+  border: 1px solid $herc-gold;
+  color: $herc-gold;
   text-transform: uppercase;
-  background-color: #091141;
+  background-color: $herc-blue;
   font-size: 20px;
   padding: 10px;
   font-weight: bold;
@@ -180,10 +180,10 @@ h1 {
   width: 50%;
   margin: auto;
   border-radius: 0;
-  border: 1px solid #f3c736;
+  border: 1px solid $herc-gold;
   background-color: #fafafa;
   text-align: left;
-  color: #091141;
+  color: $herc-blue;
 }
 
 a{

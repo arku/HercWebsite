@@ -169,7 +169,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #horizontal-roadmap {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -183,7 +183,7 @@ export default {
 h1 {
   font-size: 30px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   font-weight: bold;
 }
@@ -191,7 +191,7 @@ h1 {
 h2 {
   font-size: 24px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 5%;
@@ -200,12 +200,12 @@ h2 {
 h3 {
   font-size: 20px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
 }
 
 i {
-  color: #f3c736;
+  color: $herc-gold;
   margin-bottom: 15%;
 }
 
@@ -224,7 +224,7 @@ i {
 }
 
 .gold-border {
-  border: 2px solid #f3c736;
+  border: 2px solid $herc-gold;
   padding: 20px;
   height: 220px;
   background-color: #fafafa;
@@ -388,7 +388,7 @@ article img {
 }
 
 #active label:hover {
-  background: #091141;
+  background: $herc-blue;
   border-color: #777 !important;
 }
 

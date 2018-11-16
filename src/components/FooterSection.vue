@@ -106,11 +106,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #footer-section {
   padding-left: 10px;
   padding-right: 10px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -130,11 +130,11 @@ export default {
 }
 
 #footer-section a:hover {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 h3 {
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 5%;
@@ -142,12 +142,12 @@ h3 {
 
 p {
   font-size: 14px;
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 button {
   background-color: #f3c736;
-  color: #091141;
+  color: $herc-blue;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -163,8 +163,8 @@ button {
 
 button:hover {
   background-color: transparent;
-  border: 1px solid #f3c736;
-  color: #f3c736;
+  border: 1px solid $herc-gold;
+  color: $herc-gold;
 }
 
 .footer {
@@ -175,7 +175,7 @@ button:hover {
 #maintext {
   margin-top: 5%;
   background-color: transparent;
-  border: 1px solid #f3c736;
+  border: 1px solid $herc-gold;
   border-radius: 5px;
   height: 40px;
   margin-bottom: 5%;

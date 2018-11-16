@@ -40,7 +40,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #slider-section {
   padding: 50px;
 }
@@ -52,13 +52,13 @@ export default {
 
 h1 {
   font-size: 30px;
-  color: #091141;
+  color: $herc-blue;
   font-weight: bold;
   margin-bottom: 5%;
 }
 
 span {
-  color: #f3c736;
+  color: $herc-gold;
 }
 .carousel {
   padding-top: 2%;

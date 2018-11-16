@@ -94,21 +94,21 @@ export default {
 </script>
 
 
-<style scoped>
+<style scoped lang="scss">
 #roadmap-section {
   padding: 50px;
   display: none;
 }
 
 .column {
-  background-color: #091141;
-  border-bottom: 1px solid #f3c736;
+  background-color: $herc-blue;
+  border-bottom: 1px solid $herc-gold;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
 i {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 .not-done {
@@ -118,7 +118,7 @@ i {
 h1 {
   font-size: 26px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 1%;
@@ -127,7 +127,7 @@ h1 {
 .h1title {
   font-size: 45px;
   text-align: center;
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: uppercase;
   margin-bottom: 5%;
   font-weight: bold;
@@ -161,17 +161,17 @@ p {
     padding: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #f3c736;
+    background-color: $herc-gold;
   }
 
   h1 {
     font-size: 20px;
-    color: #f3c736;
+    color: $herc-gold;
     text-transform: none;
   }
 
   .h1title {
-    color: #091141;
+    color: $herc-blue;
   }
 
   p {
@@ -185,12 +185,12 @@ p {
     padding: 20px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #f3c736;
+    background-color: $herc-gold;
   }
 
   h1 {
     font-size: 20px;
-    color: #f3c736;
+    color: $herc-gold;
     text-transform: none;
   }
 
@@ -199,7 +199,7 @@ p {
   }
 
   .h1title {
-    color: #091141;
+    color: $herc-blue;
   }
 }
 </style>

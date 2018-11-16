@@ -45,12 +45,12 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #video-section {
   padding: 50px;
-  border-top: 2px solid #f3c736;
-  border-bottom: 2px solid #f3c736;
-  background-color: #091141;
+  border-top: 2px solid $herc-gold;
+  border-bottom: 2px solid $herc-gold;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -72,8 +72,8 @@ h1 {
 }
 
 .blurb {
-  background-color: #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
+  background-color: $herc-gold;
+  box-shadow: $herc-shadow;
   padding: 30px;
   margin: 2% !important;
 }
@@ -82,11 +82,11 @@ p {
   text-align: center;
   font-weight: bold;
   margin-bottom: 1%;
-  color: #091141;
+  color: $herc-blue;
 }
 
 .columns {
-  background-color: #f3c736;
+  background-color: $herc-gold;
 }
 
 img {

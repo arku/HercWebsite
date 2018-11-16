@@ -68,11 +68,11 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #countdown-section {
   padding: 50px;
   padding-top: 0px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -83,7 +83,7 @@ export default {
 #date-holder {
   font-size: 24px;
   text-align: center;
-  color: #f3c736;
+  color: $herc-gold;
   margin-bottom: 1%;
   margin-left: 0;
   letter-spacing: 2px;
@@ -96,7 +96,7 @@ export default {
 
 #date-span {
   font-size: 24px;
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: normal;
 }
 
@@ -108,7 +108,7 @@ export default {
   text-align: center !important;
   font-size: 30px;
   font-weight: bold;
-  color: #091141;
+  color: $herc-blue;
   line-height: 1em;
   width: 100%;
 }
@@ -124,15 +124,15 @@ p {
 }
 
 #countdown {
-  background-color: #f3c736;
+  background-color: $herc-gold;
   width: 100%;
-  box-shadow: 0px 12px 18px -6px #000;
+  box-shadow: $herc-shadow;
   margin-bottom: 5%;
   border-radius: 5px;
 }
 
 span {
-  color: #091141;
+  color: $herc-blue;
   font-size: 12px;
   font-weight: bold;
 }

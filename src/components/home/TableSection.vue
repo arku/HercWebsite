@@ -128,7 +128,7 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
 });
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #table-section {
   padding: 200px;
   padding-bottom: 100px;
@@ -139,7 +139,7 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
 h1 {
   font-size: 30px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   margin-bottom: 1%;
   font-weight: bold;
@@ -150,24 +150,24 @@ table {
   text-align: center;
   background-color: transparent;
   margin: auto;
-  border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
+  border: 2px solid$herc-gold;
+  box-shadow: $herc-shadow;
 }
 
 table th {
-  border-color: #f3c736;
-  background-color: #091141;
+  border-color: $herc-gold;
+  background-color: $herc-blue;
 }
 
 table td {
   color: white;
   text-align: center;
-  border-color: #f3c736;
+  border-color: $herc-gold;
   font-weight: bold;
 }
 
 table td:hover {
-  background-color: #f3c736;
+  background-color: $herc-gold;
   color: black;
 }
 

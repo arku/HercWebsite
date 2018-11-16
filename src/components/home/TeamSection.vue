@@ -646,7 +646,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #team-section {
   padding: 200px;
   padding-top: 50px;
@@ -660,42 +660,42 @@ export default {
 }
 
 img {
-  border: 4px solid #f3c736;
+  border: 4px solid $herc-gold;
   border-radius: 5px;
 }
 
 img:hover {
-  border-color: #091141;
-  box-shadow: 0px 12px 18px -6px #000;
+  border-color: $herc-blue;
+  box-shadow: $herc-shadow;
 }
 
 h1 {
   font-size: 30px;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   font-weight: bold;
 }
 
 h2 {
   font-size: 20px;
-  color: #091141;
+  color: $herc-blue;
   font-weight: normal;
 }
 
 .h2-desktop {
   font-size: 20px;
-  color: #091141;
+  color: $herc-blue;
   font-weight: normal;
 }
 
 .h2-mobile {
-  color: #f3c736;
+  color: $herc-gold;
   font-size: 20px;
   font-weight: normal;
 }
 
 h3 {
-  color: #091141;
+  color: $herc-blue;
   font-size: 16px;
   margin-bottom: 5%;
   margin-top: 0;
@@ -703,7 +703,7 @@ h3 {
 }
 
 .h3-desktop {
-  color: #091141;
+  color: $herc-blue;
   font-size: 16px;
   margin-bottom: 5%;
   margin-top: 0;
@@ -722,7 +722,7 @@ h4 {
   font-size: 24px;
   margin-top: 2%;
   margin-bottom: 5%;
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
 }
 
@@ -730,7 +730,7 @@ h4 {
   font-size: 24px;
   margin-top: 2%;
   margin-bottom: 5%;
-  color: #f3c736;
+  color: $herc-gold;
   font-weight: bold;
 }
 
@@ -743,12 +743,12 @@ h4 {
 }
 
 i {
-  color: #091141;
+  color: $herc-blue;
   margin: 1%;
 }
 
 i:hover {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 .bold {
@@ -765,11 +765,11 @@ i:hover {
 
 .question {
   background-color: transparent;
-  color: #091141;
+  color: $herc-blue;
 }
 
 .question p {
-  border: 2px solid #f3c736;
+  border: 2px solid $herc-gold;
   border-radius: 5px;
   width: 20%;
   margin: auto;
@@ -781,7 +781,7 @@ i:hover {
 }
 
 .question p:hover {
-  background-color: #f3c736;
+  background-color: $herc-gold;
 }
 
 .notification {
@@ -795,8 +795,8 @@ i:hover {
 }
 
 .full-team-text {
-  color: #091141;
-  background-color: #f3c736;
+  color: $herc-blue;
+  background-color: $herc-gold;
   width: 100% !important;
   font-weight: bold;
 }
@@ -842,12 +842,12 @@ i:hover {
     padding: 50px;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #091141;
+    background-color: $herc-blue;
   }
 
   #team-section img:hover {
     border-color: #fafafa;
-    box-shadow: 0px 12px 18px -6px #000;
+    box-shadow: $herc-shadow;
   }
 
   .hide-desktop {
@@ -859,7 +859,7 @@ i:hover {
   }
 
   h1 {
-    color: #f3c736;
+    color: $herc-gold;
   }
 
   h4 {
@@ -868,7 +868,7 @@ i:hover {
 
   h2,
   .h2-mobile {
-    color: #f3c736;
+    color: $herc-gold;
     line-height: 1.2em;
   }
 
@@ -885,7 +885,7 @@ i:hover {
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
   #team-section {
-    background-color: #091141;
+    background-color: $herc-blue;
     padding: 30px;
   }
 
@@ -894,7 +894,7 @@ i:hover {
   }
 
   h2 {
-    color: #f3c736;
+    color: $herc-gold;
   }
 
   h3 {

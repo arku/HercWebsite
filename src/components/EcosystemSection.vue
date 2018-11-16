@@ -44,7 +44,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #ecosystem-section {
   padding: 50px;
   padding-left: 200px;
@@ -53,19 +53,19 @@ export default {
 
 h1 {
   font-size: 40px;
-  color: #091141;
+  color: $herc-blue;
   font-weight: bold;
 }
 
 h2 {
   font-size: 30px;
-  color: #091141;
+  color: $herc-blue;
   font-weight: bold;
   margin-bottom: 5%;
 }
 
 p {
-  color: #091141;
+  color: $herc-blue;
   margin-bottom: 5%;
 }
 
@@ -108,7 +108,7 @@ p {
 }
 
 i{
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

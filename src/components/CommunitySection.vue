@@ -25,9 +25,9 @@ export default {
   }
 };
 </script>
-<style scoped>
+<style scoped lang="scss">
 #community-section {
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -37,7 +37,7 @@ export default {
 h2 {
   font-weight: bold;
   font-size: 24px;
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 p {
@@ -46,8 +46,8 @@ p {
 }
 
 a {
-  background-color: #f3c736;
-  color: #091141;
+  background-color: $herc-gold;
+  color: $herc-blue;
   padding-top: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -60,10 +60,7 @@ a {
 }
 
 a:hover {
-  background-color: transparent;
-  border: 1px solid #f3c736;
-  color: #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
+  @include herc-gold-button-hover;
 }
 
 i {

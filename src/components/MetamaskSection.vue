@@ -76,7 +76,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #metamask-section {
   padding: 50px;
   background-color: #fafafa;
@@ -89,7 +89,7 @@ export default {
 
 h1 {
   font-size: 30px;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   margin-bottom: 2%;
   font-weight: bold;
@@ -97,18 +97,18 @@ h1 {
 
 h2 {
   font-size: 30px;
-  color: #091141;
+  color: $herc-blue;
   margin-bottom: 2%;
 }
 
 p {
   text-align: left;
-  color: #091141;
+  color: $herc-blue;
 }
 
 img {
   margin-bottom: 1%;
-  border: 2px solid #f3c736;
+  border: 2px solid $herc-gold;
   border-radius: 5px;
 }
 
@@ -121,17 +121,17 @@ img {
 }
 
 .step {
-  border-left: 2px solid #f3c736;
+  border-left: 2px solid $herc-gold;
   padding-left: 10px;
   margin-bottom: 2%;
 }
 
 strong {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 a {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/

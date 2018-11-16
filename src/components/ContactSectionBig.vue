@@ -69,10 +69,10 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #contact-section-big {
   padding: 50px;
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #content {
@@ -94,7 +94,7 @@ img:hover {
 
 h1 {
   font-size: 35px;
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: uppercase;
   margin-bottom: 5%;
   font-weight: bold;
@@ -110,7 +110,7 @@ h2 {
 }
 
 i {
-  color: #f3c736;
+  color: $herc-gold;
   transition: transform 0.2s;
 }
 

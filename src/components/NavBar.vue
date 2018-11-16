@@ -164,13 +164,13 @@ $(document).ready(function() {
 });
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 nav {
-  background-color: #091141;
+  background-color: $herc-blue;
 }
 
 #navbar {
-  border-bottom: 1px solid #f3c736;
+  border-bottom: 1px solid $herc-gold;
 }
 
 .navbar-item img {
@@ -178,7 +178,7 @@ nav {
 }
 
 .navbar-burger {
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 .navbar-start {
@@ -186,7 +186,7 @@ nav {
 }
 
 a {
-  color: #f3c736;
+  color: $herc-gold;
   text-transform: uppercase;
   font-size: 16px;
 }
@@ -200,19 +200,19 @@ a:hover {
 }
 
 .dugme-hover:hover {
-  color: #091141 !important;
+  color: $herc-blue !important;
   background-color: white !important;
 }
 
 .button.is-primary {
-  background-color: #f3c736;
-  color: #091141;
+  background-color: $herc-gold;
+  color: $herc-blue;
   border-radius: 5px;
 }
 
 #social-top {
   padding-top: 15px;
-  color: #f3c736;
+  color: $herc-gold;
 }
 
 #social-top i:hover {
@@ -251,9 +251,9 @@ a:hover {
 
 @media all and (max-width: 1099px) {
   #navbarExampleTransparentExample {
-    background-color: #091141;
-    border-bottom: 1px solid #f3c736;
-    border-top: 1px solid #f3c736;
+    background-color: $herc-blue;
+    border-bottom: 1px solid $herc-gold;
+    border-top: 1px solid $herc-gold;
   }
 
   .navbar-brand {

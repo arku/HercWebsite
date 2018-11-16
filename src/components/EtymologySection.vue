@@ -32,7 +32,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 #etymology-section {
   padding: 200px;
   padding-top: 50px;
@@ -42,7 +42,7 @@ export default {
 h1 {
   font-size: 45px;
   text-align: center;
-  color: #091141;
+  color: $herc-blue;
   text-transform: uppercase;
   margin-bottom: 5%;
   line-height: 1em;
@@ -53,7 +53,7 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   /* color: #f3c736; */
-  color: #091141;
+  color: $herc-blue;
   font-weight: 900;
   line-height: 1em;
   margin-bottom: 3%;
