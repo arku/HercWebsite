@@ -3,7 +3,6 @@
         <NavBar></NavBar>
         <split-test name="landing-randomizer">
           <landing-page-one slot="A" chance="1"></landing-page-one>
-          <!-- <landing-page-two slot="B" chance="1"></landing-page-two> -->
           <landing-page-three slot="C" chance="1"></landing-page-three>
           <landing-page-four slot="D" chance="1"></landing-page-four>
           <landing-page-five slot="E" chance="1"></landing-page-five>
@@ -13,25 +12,21 @@
           <landing-page-nine slot="I" chance="1"></landing-page-nine>
         </split-test>
         <!-- <TopSection></TopSection> -->
-        <!-- <CountdownSection></CountdownSection> -->
         <HiwSection></HiwSection>
         <CommunitySection></CommunitySection>
         <SliderSection></SliderSection>
         <BlurbSection></BlurbSection>
         <FeaturedSection></FeaturedSection>
         <HercSection></HercSection>
-        <!-- <EtymologySection></EtymologySection> -->
         <VideoSection></VideoSection>
         <HiprSection></HiprSection>
         <TableSection></TableSection>
-        <!-- <EcosystemSection></EcosystemSection> -->
         <DappSection></DappSection>
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
         <PartnersSection></PartnersSection>
         <UseCaseSection></UseCaseSection>
         <DocumentsSection></DocumentsSection>
-        <!-- <ProtocolCostSection></ProtocolCostSection> -->
         <BubbleSection></BubbleSection>
         <TeamSection></TeamSection>
         <BuySection></BuySection>
@@ -65,8 +60,6 @@
 import NavBar from "@/components/NavBar.vue";
 // import TopSection from "@/components/TopSection.vue";
 import BlurbSection from "@/components/home/BlurbSection.vue";
-// import EtymologySection from "@/components/EtymologySection.vue";
-// import ProtocolCostSection from "@/components/ProtocolCostSection.vue";
 import TableSection from "@/components/home/TableSection.vue";
 import VideoSection from "@/components/home/VideoSection.vue";
 import RoadmapSection from "@/components/home/RoadmapSection.vue";
@@ -79,15 +72,12 @@ import TeamSection from "@/components/home/TeamSection.vue";
 import FeaturedSection from "@/components/home/FeaturedSection.vue";
 import CommunitySection from "@/components/CommunitySection.vue";
 import HercSection from "@/components/home/HercSection.vue";
-// import EcosystemSection from "@/components/EcosystemSection.vue";
 import HiprSection from "@/components/home/HiprSection.vue";
 import BubbleSection from "@/components/home/BubbleSection.vue";
 import UseCaseSection from "@/components/home/UseCaseSection.vue";
 import DappSection from "@/components/home/DappSection.vue";
 import HiwSection from "@/components/home/HiwSection.vue";
-// import CountdownSection from "@/components/CountdownSection.vue";
 import LandingPageOne from "@/components/LandingPages/LandingPageOne.vue";
-// import LandingPageTwo from "@/components/LandingPages/LandingPageTwo.vue";
 import LandingPageThree from "@/components/LandingPages/LandingPageThree.vue";
 import LandingPageFour from "@/components/LandingPages/LandingPageFour.vue";
 import LandingPageFive from "@/components/LandingPages/LandingPageFive.vue";
@@ -104,7 +94,6 @@ export default {
     NavBar,
     // TopSection,
     LandingPageOne,
-    // LandingPageTwo,
     LandingPageThree,
     LandingPageFour,
     LandingPageFive,
@@ -115,10 +104,7 @@ export default {
     CommunitySection,
     BlurbSection,
     HercSection,
-    // EtymologySection,
-    // ProtocolCostSection,
     TableSection,
-    // EcosystemSection,
     VideoSection,
     HiprSection,
     RoadmapHorizontalSection,
@@ -135,7 +121,6 @@ export default {
     HiwSection,
     BuySection,
     SliderSection
-    // CountdownSection
   },
   methods: {
     popupAction() {

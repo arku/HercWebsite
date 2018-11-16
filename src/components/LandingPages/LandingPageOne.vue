@@ -15,28 +15,6 @@
                       <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                     </router-link>
                   </div>
-                  <!-- <h2 id="date-info">29 October 2018. 08:00 am CST</h2>
-                  <div id="countdown">
-                      <p id="demo"></p>
-                      <div class="columns countdown-size is-mobile">
-                        <div class="column">
-                          <p id="days"></p>
-                          <span>Days</span>
-                        </div>
-                        <div class="column">
-                          <p id="hours"></p>
-                          <span>Hours</span> 
-                        </div>  
-                        <div class="column">
-                          <p id="minutes"></p>
-                          <span>Minutes</span>
-                        </div>  
-                        <div class="column">
-                          <p id="seconds"></p>
-                          <span>Seconds</span>
-                        </div>       
-                      </div>
-                  </div> -->
                   <h2 class="center-text">HERC Token was successfully deployed!</h2>
                   <div class="spacer">
                     <router-link to="/tokeninfo">
@@ -94,43 +72,6 @@ export default {
         eventLabel: "1-3"
       });
     }
-  },
-  mounted() {
-    /*
-    // Set the date we're counting down to
-    var countDownDate = new Date("Oct 29, 2018 14:00:00").getTime();
-
-    // Update the count down every 1 second
-    var x = setInterval(function() {
-      // Get todays date and time
-      var now = new Date().getTime();
-
-      // Find the distance between now and the count down date
-      var distance = countDownDate - now;
-
-      // Time calculations for days, hours, minutes and seconds
-      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      var hours = Math.floor(
-        (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-      );
-      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-      // Output the result in an element with id="demo"
-
-      document.getElementById("days").innerHTML = days;
-      document.getElementById("hours").innerHTML = hours;
-      document.getElementById("minutes").innerHTML = minutes;
-      document.getElementById("seconds").innerHTML = seconds;
-
-      // If the count down is over, write some text
-      if (distance < 0) {
-        clearInterval(x);
-        document.getElementById("countdown").style.cssText = "display:none;";
-        document.getElementById("date-info").style.cssText = "display:none;";
-      }
-    }, 1000);
-    */
   }
 };
 </script>
@@ -212,38 +153,6 @@ button:hover {
   border-bottom-right-radius: 10px;
 }
 
-#demo {
-  text-align: center;
-}
-
-#days,
-#hours,
-#minutes,
-#seconds {
-  margin-top: 0;
-  margin-bottom: 0;
-  text-align: center !important;
-  font-size: 40px;
-  font-weight: bold;
-  color: $herc-gold;
-  line-height: 1em;
-}
-
-#holder {
-  display: inline-block;
-}
-
-.countdown-size {
-  margin: auto;
-  width: 50%;
-}
-
-#date-info {
-  text-transform: uppercase;
-  text-align: center;
-  font-size: 24px;
-}
-
 .center-text {
   text-align: center;
 }
@@ -304,9 +213,6 @@ button:hover {
 
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-  .countdown-size {
-    width: 100%;
-  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
@@ -336,10 +242,6 @@ button:hover {
   .right-button {
     border-radius: 0;
     margin: 5%;
-  }
-
-  .countdown-size {
-    width: 100%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
