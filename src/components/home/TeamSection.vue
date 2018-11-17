@@ -186,7 +186,12 @@
                         </a>
                     </div>
                     <div class="column">
-
+                        <img src="../../assets/team/clement.jpg">
+                        <h2 class="h2-desktop">Clement Lahkal</h2>
+                        <h3 class="h3-desktop">Solidity & Web 3 Engineer</h3>
+                        <a href="https://www.linkedin.com/in/clementlakhal/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                     <div class="column">
                         
@@ -508,11 +513,19 @@
                     </div>
                     </div>
                     <div class="columns is-mobile">
-                    <div class="column is-half-mobile">
+                    <div class="column">
                         <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-mobile">Taner Seyt</h2>
                         <h3 class="h3-mobile">Junior Developer</h3>
                         <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <img src="../../assets/team/clement.jpg">
+                        <h2 class="h2-mobile">Clement Lakhal</h2>
+                        <h3 class="h3-mobile">Solidity & Web 3 Engineer</h3>
+                        <a href="https://www.linkedin.com/in/clementlakhal/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
