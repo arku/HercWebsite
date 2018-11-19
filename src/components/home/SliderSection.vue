@@ -1,7 +1,7 @@
 <template>
     <div id="slider-section">
       <div id="content">
-        <h1>Trade <span>HERC</span> tokens now</h1>
+        <h1>Get Your <span>HERC</span> Tokens Now</h1>
         <carousel
             class="carousel"
             autoplay
@@ -32,6 +32,16 @@
           <slide class="slide-container">
             <a href="https://sistemkoin.com/" target="_blank">
               <img class="imgSize" src="../../assets/exchanges/sistemkoin.png">
+            </a>
+          </slide>
+          <slide class="slide-container">
+            <a href="https://coincodex.com/" target="_blank">
+              <img class="imgSize" src="../../assets/exchanges/coincodex-light.png">
+            </a>
+          </slide>
+          <slide class="slide-container">
+            <a href="https://www.coingecko.com" target="_blank">
+              <img class="imgSize" src="../../assets/exchanges/coingecko.png">
             </a>
           </slide>
         </carousel>
