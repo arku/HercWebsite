@@ -24,6 +24,11 @@
               <img class="imgSize" src="../../assets/exchanges/fubt.png">
             </a>
           </slide>
+          <slide class="slide-container">
+            <a href="https://www.dobitrade.com/" target="_blank">
+              <img class="imgSize" src="../../assets/exchanges/dobi_logo.svg">
+            </a>
+          </slide>
         </carousel>
       </div>
     </div>
