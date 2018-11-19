@@ -29,6 +29,11 @@
               <img class="imgSize" src="../../assets/exchanges/dobi_logo.svg">
             </a>
           </slide>
+          <slide class="slide-container">
+            <a href="https://sistemkoin.com/" target="_blank">
+              <img class="imgSize" src="../../assets/exchanges/sistemkoin.png">
+            </a>
+          </slide>
         </carousel>
       </div>
     </div>
