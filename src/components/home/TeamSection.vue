@@ -112,7 +112,7 @@
                     <div class="column">
                         <img src="../../assets/team/dax.png">
                         <h2 class="h2-desktop">Damir Demirovic</h2>
-                        <h3 class="h3-desktop">Lead Web Developer</h3>
+                        <h3 class="h3-desktop">Lead Web and Cloud Developer</h3>
                         <a href="https://www.linkedin.com/in/daxdax89/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -120,7 +120,7 @@
                     <div class="column">
                         <img src="../../assets/team/stack.jpg">
                         <h2 class="h2-desktop">Stefan Bemelmans</h2>
-                        <h3 class="h3-desktop">Lead UI Developer</h3>
+                        <h3 class="h3-desktop">Dev Tournant</h3>
                         <a href="https://www.linkedin.com/in/theoneandonlystefanbemelmans/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -128,7 +128,7 @@
                     <div class="column">
                         <img src="../../assets/team/sean.jpg">
                         <h2 class="h2-desktop">Sean B.</h2>
-                        <h3 class="h3-desktop">Software Engineer</h3>
+                        <h3 class="h3-desktop">Senior API Manager</h3>
                         <a href="https://www.linkedin.com/in/seanbeecroft/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -136,7 +136,7 @@
                     <div class="column">
                         <img src="../../assets/team/ubi.jpg">
                         <h2 class="h2-desktop">Ubirajara Marisicano Neto</h2>
-                        <h3 class="h3-desktop">Software Engineer</h3>
+                        <h3 class="h3-desktop">Lead FinTech Developer</h3>
                         <a href="https://www.linkedin.com/in/ubirajara-marsicano-neto/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -146,7 +146,7 @@
                     <div class="column">
                         <img src="../../assets/team/julie.jpg">
                         <h2 class="h2-desktop">Juliana Mei</h2>
-                        <h3 class="h3-desktop">Software Engineer</h3>
+                        <h3 class="h3-desktop"> Mobile App Development Lead</h3>
                         <a href="https://www.linkedin.com/in/julianamei/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -162,7 +162,7 @@
                     <div class="column">
                         <img src="../../assets/team/viktor.jpg">
                         <h2 class="h2-desktop">Viktor Kozub</h2>
-                        <h3 class="h3-desktop">Chief Scalability Officer</h3>
+                        <h3 class="h3-desktop"> HIPR Engine Lead  | iOS Development</h3>
                         <a href="https://www.linkedin.com/in/viktor-kozub-86bb9826/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -170,7 +170,7 @@
                     <div class="column">
                         <img src="../../assets/team/cule.jpg">
                         <h2 class="h2-desktop">Danijel Demirovic</h2>
-                        <h3 class="h3-desktop">Junior Web Developer</h3>
+                        <h3 class="h3-desktop">Browser Experience Developer</h3>
                         <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -180,7 +180,7 @@
                     <div class="column">
                         <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-desktop">Taner Seyt</h2>
-                        <h3 class="h3-desktop">Junior Developer</h3>
+                        <h3 class="h3-desktop">Intern | Lore Master </h3>
                         <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -444,7 +444,7 @@
                      <div class="column">
                         <img src="../../assets/team/dax.png">
                         <h2 class="h2-mobile">Damir Demirovic</h2>
-                        <h3 class="h3-mobile">Lead Web Developer</h3>
+                        <h3 class="h3-mobile">Lead Web and Cloud Developer</h3>
                         <a href="https://www.linkedin.com/in/daxdax89/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -452,7 +452,7 @@
                     <div class="column">
                         <img src="../../assets/team/stack.jpg">
                         <h2 class="h2-mobile">Stefan Bemelmans</h2>
-                        <h3 class="h3-mobile">Lead UI Developer</h3>
+                        <h3 class="h3-mobile">Dev Tournant</h3>
                         <a href="https://www.linkedin.com/in/theoneandonlystefanbemelmans/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -462,7 +462,7 @@
                     <div class="column">
                         <img src="../../assets/team/sean.jpg">
                         <h2 class="h2-mobile">Sean B.</h2>
-                        <h3 class="h3-mobile">Software Engineer</h3>
+                        <h3 class="h3-mobile">Senior API Manager </h3>
                         <a href="https://www.linkedin.com/in/seanbeecroft/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -470,7 +470,7 @@
                    <div class="column">
                         <img src="../../assets/team/ubi.jpg">
                         <h2 class="h2-mobile">Ubirajara Neto</h2>
-                        <h3 class="h3-mobile">Software Engineer</h3>
+                        <h3 class="h3-mobile">Lead FinTech Developer</h3>
                         <a href="https://www.linkedin.com/in/ubirajara-marsicano-neto/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -480,7 +480,7 @@
                     <div class="column">
                         <img src="../../assets/team/julie.jpg">
                         <h2 class="h2-mobile">Juliana Mei</h2>
-                        <h3 class="h3-mobile">Software Engineer</h3>
+                        <h3 class="h3-mobile">Mobile App Development Lead</h3>
                         <a href="https://www.linkedin.com/in/julianamei/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -498,7 +498,7 @@
                         <div class="column">
                         <img src="../../assets/team/viktor.jpg">
                         <h2 class="h2-mobile">Viktor Kozub</h2>
-                        <h3 class="h3-mobile">Chief Scalability Officer</h3>
+                        <h3 class="h3-mobile">HIPR Engine Lead  | iOS Development</h3>
                         <a href="https://www.linkedin.com/in/viktor-kozub-86bb9826/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -506,7 +506,7 @@
                     <div class="column">
                         <img src="../../assets/team/cule.jpg">
                         <h2 class="h2-mobile">Danijel Demirovic</h2>
-                        <h3 class="h3-mobile">Junior Web Developer</h3>
+                        <h3 class="h3-mobile">Browser Experience Developer</h3>
                         <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
@@ -516,7 +516,7 @@
                     <div class="column">
                         <img src="../../assets/team/denfeet.jpg">
                         <h2 class="h2-mobile">Taner Seyt</h2>
-                        <h3 class="h3-mobile">Junior Developer</h3>
+                        <h3 class="h3-mobile">Intern | Lore Master </h3>
                         <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
