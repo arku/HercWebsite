@@ -24,6 +24,14 @@
                         </a>
                     </div>
                     <div class="column">
+                        <img src="../../assets/team/paul.jpg">
+                        <h2>Paul Aubert</h2>
+                        <h3>Vice President</h3>
+                        <a href="https://www.linkedin.com/in/paul-aubert-32723b88/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
                         <img src="../../assets/team/logan.jpg">
                         <h2>Logan Golema</h2>
                         <h3>Chief Technology Officer</h3>
@@ -31,6 +39,8 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                </div>
+                <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/grey.jpg">
                         <h2>Grey Jabesi</h2>
@@ -39,8 +49,6 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                </div>
-                <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/josh.jpg">
                         <h2>Josh Gunter</h2>
@@ -65,6 +73,8 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                </div>
+                <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/michaelnelson.jpg">
                         <h2>Michael Nelson</h2>
@@ -72,6 +82,15 @@
                         <a href="https://www.linkedin.com/in/michaelericnelson/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+                    </div>
+                    <div class="column">
+
+                    </div>
+                    <div class="column">
+
+                    </div>
+                    <div class="column">
+
                     </div>
                 </div>
                 <b-collapse :open="false" id="team-holder">
@@ -352,6 +371,14 @@
                 </div>
                 <div class="columns is-mobile">
                     <div class="column">
+                        <img src="../../assets/team/paul.jpg">
+                        <h2>Paul Aubert</h2>
+                        <h3>Vice President</h3>
+                        <a href="https://www.linkedin.com/in/paul-aubert-32723b88/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
                         <img src="../../assets/team/logan.jpg">
                         <h2>Logan Golema</h2>
                         <h3>Chief Technology Officer</h3>
@@ -359,6 +386,8 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                </div>
+                <div class="columns is-mobile">
                     <div class="column">
                         <img src="../../assets/team/grey.jpg">
                         <h2>Grey Jabesi</h2>
@@ -367,8 +396,6 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                </div>
-                <div class="columns is-mobile">
                     <div class="column">
                         <img src="../../assets/team/josh.jpg">
                         <h2>Josh Gunter</h2>
@@ -377,7 +404,9 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    <div class="column is-half-mobile">
+                </div>
+                <div class="columns is-mobile">
+                    <div class="column">
                         <img src="../../assets/team/justin.jpg">
                         <h2>Justin Breen</h2>
                         <h3>Chief Creative Officer</h3>
@@ -385,8 +414,6 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                </div>
-                <div class="columns is-mobile">
                     <div class="column">
                         <img src="../../assets/team/heath.jpg">
                         <h2>Heath Muchena</h2>
@@ -395,7 +422,10 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    <div class="column">
+                    
+                </div>
+                <div class="columns">
+                    <div class="column is-half-mobile">
                         <img src="../../assets/team/michaelnelson.jpg">
                         <h2>Michael Nelson</h2>
                         <h3>Chief Strategy Officer</h3>
