@@ -49,6 +49,7 @@
           <div class="modal-main-content">
             <h1>HERC Token has been launched!</h1>
           <p>You are able to buy HERC now at the discounted price!</p>
+          <p class="spacer">Purchase 1000 HERC today to Begin Your Supply Chain Legend</p>
           <a href="https://purchase.herc.one" @click="popupAction">BUY NOW</a>
           <span class="close">I want to do some research first</span>
           </div>
@@ -224,6 +225,9 @@ export default {
 
 .modal p {
   color: white;
+}
+
+.spacer{
   margin-bottom: 5%;
 }
 
@@ -364,7 +368,7 @@ export default {
     margin-bottom: 10%;
   }
 
-  .modal p {
+  .spacer {
     margin-bottom: 10%;
   }
 
