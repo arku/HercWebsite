@@ -57,14 +57,7 @@
 export default {
   name: "CalculatorSection",
   data(){
-    computed: {
-      period: function() {
-        return 5 + 5;
-      },
-      hercNeeded: function() {
-        return 5;
-      }
-    }
+
   },
   methods: {
     showCalculatedHerc() {}
