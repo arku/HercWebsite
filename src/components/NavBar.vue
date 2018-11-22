@@ -129,11 +129,6 @@
 </template>
 
 <script>
-//Import and declare jQuery for component scoped use
-
-import JQuery from "jquery";
-let $ = JQuery;
-
 export default {
   name: "NavBar",
   methods: {
