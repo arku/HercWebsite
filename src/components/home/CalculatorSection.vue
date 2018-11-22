@@ -6,18 +6,19 @@
                     <h1>Herc Protocol Cost Calculator</h1>
                 </div>
                 <div class="column">
-                    <select >
+                    <h1>Options:</h1>
+                    <select id="period-select" v-model="period">
                         <option id="day">Day</option>
                         <option id="month">Month</option>
                         <option id="year">Year</option>
                     </select>
-                    <select>
+                    <select id="size-select" v-model="size">
                         <option>KB</option>
                         <option>MB</option>
                         <option>GB</option>
                         <option>TB</option>
                     </select>
-                    <select>
+                    <select id="price-select" v-model="price">
                         <option>BTC</option>
                         <option>ETH</option>
                         <option>USD</option>
@@ -33,7 +34,7 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <h2>Estimated Photo Data Size (kb)</h2>
+                    <h2>Estimated Photo Data Size ({{size}})</h2>
                     <input id="photo-size" placeholder="Enter photo size">
                 </div>
             </div>
@@ -45,8 +46,14 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <h2>Estimated Daily Herc Needed:</h2>
+                    <h2>Estimated Herc Needed per {{period}}:</h2>
                     <input id="herc-needed" disabled value="10">
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column">
+                    <h2>Estimated Herc Cost in {{price}}:</h2>
+                    <input id="herc-price" disabled value="">
                 </div>
             </div>
         </div>
@@ -61,7 +68,19 @@ let $ = JQuery;
 
 export default {
   name: "CalculatorSection",
-
+  data() {
+    return {
+      period: "",
+      size: "",
+      price: "",
+      calculated: ""
+    };
+  },
+  methods: {
+    calculate() {
+        document.getElementById('herc-price').innerText = "5";
+    }
+  }
 };
 // jQuery(function($) {
 function roundUp(num, precision) {
@@ -168,7 +187,8 @@ input {
   text-align: center;
 }
 
-#herc-needed {
+#herc-needed,
+#herc-price {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
