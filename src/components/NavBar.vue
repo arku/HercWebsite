@@ -6,14 +6,14 @@
                     <a href="/" class="navbar-item">
                         <img src="../assets/herc-logo.png" alt="Herc: Decentralized supply chain management software">
                     </a>
-                    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample" @click="toggleMobileMenu">
                     <span></span>
                     <span></span>
                     <span></span>
                     </div>
                 </div>
 
-                <div id="navbarExampleTransparentExample" class="navbar-menu">
+                <div id="navbarExampleTransparentExample" class="navbar-menu" :class="{'is-active':isMobileMenuOpen}">
                     <div class="navbar-start">
                         <a href="/" class="navbar-item">
                             Home
@@ -150,18 +150,31 @@ export default {
         eventAction: "Whitepaper button clicked",
         eventLabel: "NavWhitepaper"
       });
+    },
+    toggleMobileMenu() {
+      this.isMobileMenuOpen = !this.isMobileMenuOpen;
+    },
+    closeMobileMenu() {
+      if (this.isMobileMenuOpen) {
+        this.toggleMobileMenu();
+      }
     }
+  },
+  data() {
+    return {
+      isMobileMenuOpen: false
+    };
   }
 };
 
-$(document).ready(function() {
-  // Check for click events on the navbar burger icon
-  $(".navbar-burger").click(function() {
-    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-    $(".navbar-burger").toggleClass("is-active");
-    $(".navbar-menu").toggleClass("is-active");
-  });
-});
+// $(document).ready(function() {
+//   // Check for click events on the navbar burger icon
+//   $(".navbar-burger").click(function() {
+//     // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+//     $(".navbar-burger").toggleClass("is-active");
+//     $(".navbar-menu").toggleClass("is-active");
+//   });
+// });
 </script>
 
 <style scoped lang="scss">

@@ -7,6 +7,7 @@ import BackToTop from 'vue-backtotop'
 import VueAB from 'vue-a2b';
 import VueAnalytics from 'vue-analytics';
 import VueClipboards from 'vue-clipboards';
+import axios from 'axios';
 
 Vue.use(VueClipboards);
 Vue.use(VueAnalytics, {

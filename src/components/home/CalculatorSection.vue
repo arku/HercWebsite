@@ -56,7 +56,7 @@
 <script>
 export default {
   name: "CalculatorSection",
-  data: {
+  data(){
     computed: {
       period: function() {
         return 5 + 5;
