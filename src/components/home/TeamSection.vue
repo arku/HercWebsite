@@ -187,23 +187,15 @@
                         </a>
                     </div>
                     <div class="column">
-                        <img src="../../assets/team/cule.jpg">
-                        <h2 class="h2-desktop">Danijel Demirovic</h2>
-                        <h3 class="h3-desktop">Browser Experience Developer</h3>
-                        <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
+                        <img src="../../assets/team/mark.jpg">
+                        <h2 class="h2-desktop">Mark Hinojosa</h2>
+                        <h3 class="h3-desktop">Lead Quality Assurance Developer</h3>
+                        <a href="https://www.linkedin.com/in/mark-hinojosa-78a181147/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
                 </div>
                 <div class="columns">
-                    <div class="column">
-                        <img src="../../assets/team/denfeet.jpg">
-                        <h2 class="h2-desktop">Taner Seyt</h2>
-                        <h3 class="h3-desktop">Intern | Lore Master </h3>
-                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
                     <div class="column">
                         <img src="../../assets/team/clement.jpg">
                         <h2 class="h2-desktop">Clement Lahkal</h2>
@@ -213,10 +205,26 @@
                         </a>
                     </div>
                     <div class="column">
-                        
+                        <img src="../../assets/team/denfeet.jpg">
+                        <h2 class="h2-desktop">Taner Seyt</h2>
+                        <h3 class="h3-desktop">Intern | Lore Master </h3>
+                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
+                        <img src="../../assets/team/cule.jpg">
+                        <h2 class="h2-desktop">Danijel Demirovic</h2>
+                        <h3 class="h3-desktop">Browser Experience Developer</h3>
+                        <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                     <div class="column">
                         
+
+
+
                     </div>
                 </div>
                 <h4 class="h4-desktop">Administrative</h4>
@@ -534,23 +542,15 @@
                         </a>
                         </div>
                     <div class="column">
-                        <img src="../../assets/team/cule.jpg">
-                        <h2 class="h2-mobile">Danijel Demirovic</h2>
-                        <h3 class="h3-mobile">Browser Experience Developer</h3>
-                        <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
+                        <img src="../../assets/team/mark.jpg">
+                        <h2 class="h2-mobile">Mark Hinojosa</h2>
+                        <h3 class="h3-mobile">Lead Quality Assurance Developer</h3>
+                        <a href="https://www.linkedin.com/in/mark-hinojosa-78a181147/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
                     </div>
                     <div class="columns is-mobile">
-                    <div class="column">
-                        <img src="../../assets/team/denfeet.jpg">
-                        <h2 class="h2-mobile">Taner Seyt</h2>
-                        <h3 class="h3-mobile">Intern | Lore Master </h3>
-                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
                     <div class="column">
                         <img src="../../assets/team/clement.jpg">
                         <h2 class="h2-mobile">Clement Lakhal</h2>
@@ -559,7 +559,30 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                    <div class="column">
+                       <img src="../../assets/team/denfeet.jpg">
+                        <h2 class="h2-mobile">Taner Seyt</h2>
+                        <h3 class="h3-mobile">Intern | Lore Master </h3>
+                        <a href="https://www.linkedin.com/in/taner-s-2209b6103/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
                 </div>
+                 <div class="columns is-mobile">
+                    <div class="column">
+                         <img src="../../assets/team/cule.jpg">
+                        <h2 class="h2-mobile">Danijel Demirovic</h2>
+                        <h3 class="h3-mobile">Browser Experience Developer</h3>
+                        <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                 </div>
+
+                
+
+
+
                 <h4 class="h4-mobile">Administrative</h4>
                 <div class="columns is-mobile">
                     <div class="column">
