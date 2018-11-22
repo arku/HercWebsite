@@ -21,6 +21,7 @@
         <VideoSection></VideoSection>
         <HiprSection></HiprSection>
         <!-- <TableSection></TableSection> -->
+        <!-- <CalculatorSection></CalculatorSection> -->
         <DappSection></DappSection>
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
@@ -88,6 +89,7 @@ import LandingPageEight from "@/components/LandingPages/LandingPageEight.vue";
 import LandingPageNine from "@/components/LandingPages/LandingPageNine.vue";
 import BuySection from "@/components/home/BuySection.vue";
 import SliderSection from "@/components/home/SliderSection.vue";
+// import CalculatorSection from "@/components/home/CalculatorSection.vue";
 
 export default {
   name: "home",
@@ -121,7 +123,8 @@ export default {
     DappSection,
     HiwSection,
     BuySection,
-    SliderSection
+    SliderSection,
+    // CalculatorSection
   },
   methods: {
     popupAction() {
