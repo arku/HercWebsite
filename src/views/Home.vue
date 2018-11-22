@@ -20,7 +20,7 @@
         <HercSection></HercSection>
         <VideoSection></VideoSection>
         <HiprSection></HiprSection>
-        <TableSection></TableSection>
+        <!-- <TableSection></TableSection> -->
         <DappSection></DappSection>
         <RoadmapHorizontalSection></RoadmapHorizontalSection>
         <RoadmapSection></RoadmapSection>
@@ -61,7 +61,7 @@
 import NavBar from "@/components/NavBar.vue";
 // import TopSection from "@/components/TopSection.vue";
 import BlurbSection from "@/components/home/BlurbSection.vue";
-import TableSection from "@/components/home/TableSection.vue";
+// import TableSection from "@/components/home/TableSection.vue";
 import VideoSection from "@/components/home/VideoSection.vue";
 import RoadmapSection from "@/components/home/RoadmapSection.vue";
 import RoadmapHorizontalSection from "@/components/home/RoadmapHorizontalSection.vue";
@@ -105,7 +105,7 @@ export default {
     CommunitySection,
     BlurbSection,
     HercSection,
-    TableSection,
+    // TableSection,
     VideoSection,
     HiprSection,
     RoadmapHorizontalSection,
