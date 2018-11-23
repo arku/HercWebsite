@@ -606,6 +606,19 @@
                         </a>
                     </div>
                  </div>
+                 <div class="columns is-mobile">
+                    <div class="column">
+                         <img src="../../assets/team/you.png">
+                        <h2 class="h2-mobile"></h2>
+                        <h3 class="h3-mobile"></h3>
+                        <a href="mailto:social@herc.one" target="_blank">
+                            <i class="fas fa-envelope fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
+                         
+                    </div>
+                 </div>
                 <h4 class="h4-mobile">Administrative</h4>
                 <div class="columns is-mobile">
                     <div class="column">
