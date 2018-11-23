@@ -221,10 +221,12 @@
                         </a>
                     </div>
                     <div class="column">
-                        
-
-
-
+                      <img src="../../assets/team/brandon.png">
+                        <h2 class="h2-desktop">Brandon Li</h2>
+                        <h3 class="h3-desktop">Intern | Quality Assurance</h3>
+                        <a href="https://www.linkedin.com/in/brandon-li-363141133/?fbclid=IwAR1537HkQSbrWUUJgMdSGa3vW5w7wd9oiwuhvOZJDFrHD1vNvxPO9O786VQ" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>  
                     </div>
                 </div>
                 <h4 class="h4-desktop">Administrative</h4>
@@ -574,6 +576,14 @@
                         <h2 class="h2-mobile">Danijel Demirovic</h2>
                         <h3 class="h3-mobile">Browser Experience Developer</h3>
                         <a href="https://www.linkedin.com/in/danijel-demirovic-671a79120/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
+                         <img src="../../assets/team/brandon.png">
+                        <h2 class="h2-mobile">Brandon Li</h2>
+                        <h3 class="h3-mobile">Intern | Quality Assurance</h3>
+                        <a href="https://www.linkedin.com/in/brandon-li-363141133/?fbclid=IwAR1537HkQSbrWUUJgMdSGa3vW5w7wd9oiwuhvOZJDFrHD1vNvxPO9O786VQ" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
