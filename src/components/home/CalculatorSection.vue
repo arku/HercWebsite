@@ -78,12 +78,21 @@ export default {
   },
   methods: {
     calculate() {
-        this.calculated = 5;
+      this.calculated = 5;
+    },
+    hercNeeded() {
+        numOfAsset = document.getElementById('asset-num');
+        console.log('Number of assets:' + numOfAsset);
+        console.log('Herc average price right now is:' + hercAvgPrice);
+    //   (numOfAsset x (400usd in hercAvg))+
+    //   (0.00000008 x photoSize)+
+    //   (numberOfDocs x 0.0000128)
+    },
+    hercCost(){
+    
     }
   },
-  mounted(){
-    //   calculate();
-  }
+  mounted() {}
 };
 // jQuery(function($) {
 function roundUp(num, precision) {
@@ -92,6 +101,11 @@ function roundUp(num, precision) {
 }
 
 roundUp(192.168, 1); //=> 192.2
+
+$.getJSON("https://chart.anthemgold.com/bi-1.0-SNAPSHOT/Report"), function(data){
+    var hercAvgPrice = `${data.averagePrice}`; 
+};
+
 $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   data
 ) {
