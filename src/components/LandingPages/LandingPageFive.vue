@@ -17,7 +17,7 @@
                         <button  class="left-button remove-right-border" @click="trackTelegram">Talk With Us</button>
                       </a>
                       <a href="https://purchase.herc.one">
-                        <button @click="trackTokenSale" class="remove-right-border tokensale-button">Buy HERC</button>
+                        <button @click="trackTokenSale" class="remove-right-border tokensale-button animated flash infinite slow">Buy HERC</button>
                       </a>
                       <router-link to="/whitepaper">
                         <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
@@ -197,9 +197,9 @@ span {
   border-radius: 5px;
 }
 
-.tokensale-button {
-  @include flash-animation;
-}
+//.tokensale-button {
+//  @include flash-animation;
+//}
 
 .spacer {
   margin-bottom: 2%;

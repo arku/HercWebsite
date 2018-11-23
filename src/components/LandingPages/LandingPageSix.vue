@@ -14,7 +14,7 @@
                         <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                       </router-link>
                       <a href="https://purchase.herc.one">
-                        <button @click="trackTokenSale" class="tokensale-button">Buy HERC</button>
+                        <button @click="trackTokenSale" class="tokensale-button animated flash infinite slow">Buy HERC</button>
                       </a>
                     </div>
                 </div>
@@ -163,9 +163,9 @@ span {
   margin-bottom: 5%;
 }
 
-.tokensale-button {
-  @include flash-animation;
-}
+//.tokensale-button {
+// @include flash-animation;
+//}
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
