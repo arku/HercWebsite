@@ -229,6 +229,24 @@
                         </a>  
                     </div>
                 </div>
+                    <div class="columns">
+                        <div class="column">
+                        <img src="../../assets/team/you.png">
+                        <a href="mailto:social@herc.one" target="_blank">
+                            <i class="fas fa-envelope icon-large"></i>
+                            </a>
+                    </div>
+                    <div class="column">
+        
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                    </div>
+
                 <h4 class="h4-desktop">Administrative</h4>
                 <div class="columns">
                     <div class="column">
@@ -588,6 +606,7 @@
                         </a>
                     </div>
                  </div>
+                 
 
                 
 
@@ -895,6 +914,7 @@ i:hover {
 .content h3:not(:first-child) {
   margin: auto;
 }
+
 
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
