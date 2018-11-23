@@ -71,7 +71,6 @@
                             <p>Stay updated!</p>
                             <div>
                                 <input v-validate="'required|email'" name="email" type="text" id="maintext">
-
                             </div>
                             <div>
                                 <p id="thanks">{{message}}</p>

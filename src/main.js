@@ -8,7 +8,9 @@ import VueAB from "vue-a2b";
 import VueAnalytics from "vue-analytics";
 import VueClipboards from "vue-clipboards";
 import VeeValidate from "vee-validate";
+import AnimateCSS from "animate.css";
 
+Vue.use(AnimateCSS);
 Vue.use(VeeValidate);
 Vue.use(VueClipboards);
 Vue.use(VueAnalytics, {

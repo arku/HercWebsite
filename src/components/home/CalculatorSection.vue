@@ -6,7 +6,7 @@
                     <h1>Herc Protocol Cost Calculator</h1>
                 </div>
                 <div class="column">
-                    <h1>Options:</h1>
+                    <h1 class="animated infinite bounce">Options:</h1>
                     <select id="period-select" v-model="period">
                         <option id="day">Day</option>
                         <option id="month">Month</option>
