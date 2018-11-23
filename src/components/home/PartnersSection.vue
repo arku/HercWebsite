@@ -91,15 +91,17 @@
                 </div>
                 <div class="columns">
                     <div class="column">
-                        
-                    </div>
-                    <div class="column">
-
+                        <a href="https://www.friedmanllp.com/" target="_blank">
+                            <img src="../../assets/partners/logo_friedman.png">
+                        </a>
                     </div>
                     <div class="column">
                         <a href="mailto:social@herc.one" target="_blank">
                             <img src="../../assets/partners/you.png" style="width:35%">
                         </a>
+                    </div>
+                    <div class="column">
+                        
                     </div>
                     <div class="column">
 
@@ -219,9 +221,16 @@
                         </a>
                     </div>
                     <div class="column">
-                        <a href="mailto:social@herc.one" target="_blank">
-                            <img src="../../assets/partners/you.png">
+                        <a href="https://www.friedmanllp.com/" target="_blank">
+                            <img src="../../assets/partners/logo_friedman.png">
                         </a>
+                    </div>
+                    <div class="columns is-mobile">
+                        <div class="column">
+                            <a href="mailto:social@herc.one" target="_blank">
+                                <img src="../../assets/partners/you.png">
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <h1>International Academic Partners</h1>
