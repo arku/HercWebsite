@@ -28,7 +28,7 @@
                   </div>
                   <!-- PROGRESS BAR HERE -->
                   <a href="https://purchase.herc.one">
-                    <button @click="trackTokenSale" class="tokensale-button">Buy HERC now!</button>
+                    <button @click="trackTokenSale" class="tokensale-button animated flash infinite slow">Buy HERC now!</button>
                   </a>
                 </div>
               </div>
@@ -158,11 +158,11 @@ button:hover {
   border-radius: 5px;
 }
 
-.tokensale-button {
-  border-radius: 5px;
-  margin: 5%;
-  @include flash-animation;
-}
+//.tokensale-button {
+//  border-radius: 5px;
+ // margin: 5%;
+ // @include flash-animation;
+//}
 
 .spacer {
   margin-bottom: 5%;
