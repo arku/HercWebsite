@@ -7,7 +7,9 @@ import BackToTop from "vue-backtotop";
 import VueAB from "vue-a2b";
 import VueAnalytics from "vue-analytics";
 import VueClipboards from "vue-clipboards";
+import VeeValidate from "vee-validate";
 
+Vue.use(VeeValidate);
 Vue.use(VueClipboards);
 Vue.use(VueAnalytics, {
   id: "UA-126354860-1"

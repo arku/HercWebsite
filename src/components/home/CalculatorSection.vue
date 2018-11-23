@@ -53,7 +53,7 @@
             <div class="columns">
                 <div class="column">
                     <h2>Estimated Herc Cost in {{price}}:</h2>
-                    <input id="herc-price" disabled value="">
+                    <input id="herc-price" disabled v-model="calculated">
                 </div>
             </div>
         </div>
@@ -78,8 +78,11 @@ export default {
   },
   methods: {
     calculate() {
-        document.getElementById('herc-price').innerText = "5";
+        this.calculated = 5;
     }
+  },
+  mounted(){
+    //   calculate();
   }
 };
 // jQuery(function($) {

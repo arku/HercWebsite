@@ -66,14 +66,15 @@
                         </div>
                     </div>
                     <div class="column">
-                        <form v-on:submit.prevent = "onSubmit">
+                        <form v-on:submit.prevent>
                             <h3>Subscribe</h3>
                             <p>Stay updated!</p>
                             <div>
-                                <input type="email" id="maintext">
+                                <input v-validate="'required|email'" name="email" type="text" id="maintext">
+
                             </div>
                             <div>
-                                <p id="thanks">Thank you for subscribing!</p>
+                                <p id="thanks">{{message}}</p>
                                 <button id="mainButton" @click="submitClick">Subscribe</button>
                             </div>
                         </form>
@@ -90,17 +91,30 @@ var firebaseRef = firebase.database().ref();
 
 export default {
   name: "FooterSection",
+  data() {
+    return {
+      message: ""
+    };
+  },
   mounted() {
     var maintext = document.getElementById("maintext");
     var mainbtn = document.getElementById("mainButton");
   },
   methods: {
     submitClick() {
-      var email = maintext.value;
-      firebaseRef.push().set(email);
-      document.getElementById("thanks").style.cssText = "display:inherit;";
-      document.getElementById("maintext").style.cssText = "display:none;";
-      document.getElementById("mainButton").style.cssText = "display:none;";
+      this.$validator.validateAll().then(result => {
+        if (result) {
+          var email = maintext.value;
+          firebaseRef.push().set(email);
+          this.message = "Thank you for subscribing!";
+          document.getElementById("maintext").style.cssText = "display:none;";
+          document.getElementById("mainButton").style.cssText = "display:none;";
+          document.getElementById("thanks").style.cssText = "color:green;";
+        } else {
+          this.message = "Please enter a proper email address";
+          document.getElementById("thanks").style.cssText = "color:red;";
+        }
+      });
     }
   }
 };
@@ -185,7 +199,7 @@ button:hover {
 #thanks {
   margin-bottom: 1%;
   font-size: 12px;
-  display: none;
+  margin-bottom: 5%;
 }
 
 #mobile {
