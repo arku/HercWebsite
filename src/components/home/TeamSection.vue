@@ -233,7 +233,7 @@
                         <div class="column">
                         <img src="../../assets/team/you.png">
                         <a href="mailto:social@herc.one" target="_blank">
-                            <i class="fas fa-envelope icon-large"></i>
+                            <i class="fas fa-envelope fa-2x"></i>
                             </a>
                     </div>
                     <div class="column">
