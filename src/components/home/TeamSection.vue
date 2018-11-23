@@ -606,12 +606,6 @@
                         </a>
                     </div>
                  </div>
-                 
-
-                
-
-
-
                 <h4 class="h4-mobile">Administrative</h4>
                 <div class="columns is-mobile">
                     <div class="column">
