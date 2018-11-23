@@ -51,7 +51,7 @@
             <h1>HERC Token has been launched!</h1>
           <p>You are able to buy HERC now at the discounted price!</p>
           <p class="spacer">Purchase 1000 HERC today to Begin Your Supply Chain Legend</p>
-          <a href="https://purchase.herc.one" @click="popupAction">BUY NOW</a>
+          <a href="https://purchase.herc.one" @click="popupAction" class="animated flash infinite slow">BUY NOW</a>
           <span class="close">I want to do some research first</span>
           </div>
         </div>
@@ -246,7 +246,7 @@ export default {
   padding-bottom: 10px;
   font-weight: bold;
   color: #091141;
-  animation-name: flash;
+  /* animation-name: flash;
   animation-duration: 1s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
@@ -259,7 +259,7 @@ export default {
   -moz-animation-name: flash;
   -moz-animation-duration: 1s;
   -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite; */
 }
 
 .modal span {
@@ -276,7 +276,7 @@ export default {
   color: #f3c736;
 }
 
-@keyframes flash {
+/* @keyframes flash {
   0% {
     opacity: 1;
   }
@@ -310,7 +310,7 @@ export default {
   100% {
     opacity: 1;
   }
-}
+} */
 
 .modal a:hover {
   background-color: #091141;
