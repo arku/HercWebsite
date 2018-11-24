@@ -3,14 +3,10 @@
         <h1>HERC's First Internal Control<br> 
 Encrypted Performance Report</h1>
         <div id="content">
-            <div class="columns">
-                <div class="column">
+            
                     <img src="../../assets/cube.png">
-                </div>
-                <div class="column">
                     <img src="../../assets/hipr_perfomance_flow.png">
-                </div>
-            </div>
+            
         </div>
     </div>
 </template>
@@ -42,6 +38,9 @@ img {
   border: 2px solid $herc-gold;
   box-shadow: $herc-shadow;
   border-radius: 5px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 5%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -72,7 +71,7 @@ img {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  h1{
+  h1 {
     font-size: 22px;
   }
 }
