@@ -94,6 +94,7 @@ export default {
   },
   mounted() {}
 };
+
 // jQuery(function($) {
 function roundUp(num, precision) {
   precision = Math.pow(10, precision);
