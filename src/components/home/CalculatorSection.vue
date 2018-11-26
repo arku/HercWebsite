@@ -7,18 +7,18 @@
                 </div>
                 <div class="column">
                     <h1>Options:</h1>
-                    <select id="period-select" v-model="period">
-                        <option id="day">Day</option>
+                    <select id="period-select" v-model="period" v-on:change="hercNeeded">
+                        <option id="day" selected>Day</option>
                         <option id="month">Month</option>
                         <option id="year">Year</option>
                     </select>
-                    <select id="size-select" v-model="size">
-                        <option>KB</option>
+                    <select id="size-select" v-model="size" v-on:change="hercNeeded">
+                        <option selected>KB</option>
                         <option>MB</option>
                         <option>GB</option>
                     </select>
-                    <select id="price-select" v-model="price">
-                        <option>BTC</option>
+                    <select id="price-select" v-model="price" v-on:change="hercNeeded">
+                        <option selected>BTC</option>
                         <option>ETH</option>
                         <option>USD</option>
                         <option>EUR</option>
@@ -28,19 +28,19 @@
             <div class="columns">
                 <div class="column">
                     <h2>Estimated Number of Assets</h2>
-                    <input id="asset-num" placeholder="Enter number of assets">
+                    <input id="asset-num" placeholder="Enter number of assets" v-on:input="hercNeeded">
                 </div>
             </div>
             <div class="columns">
                 <div class="column">
                     <h2>Estimated Photo Data Size ({{size}})</h2>
-                    <input id="photo-size" placeholder="Enter photo size">
+                    <input id="photo-size" placeholder="Enter photo size" v-on:input="hercNeeded">
                 </div>
             </div>
             <div class="columns">
                 <div class="column">
                     <h2>Estimated Number of Documents</h2>
-                    <input id="doc-num" placeholder="Enter number of documents">
+                    <input id="doc-num" placeholder="Enter number of documents" v-on:input="hercNeeded">
                 </div>
             </div>
             <div class="columns">
@@ -52,7 +52,7 @@
             <div class="columns">
                 <div class="column">
                     <h2>Estimated Herc Cost in {{price}} per {{period}}:</h2>
-                    <input id="herc-price" disabled v-model="calculated">
+                    <input id="herc-price" disabled>
                 </div>
             </div>
         </div>
@@ -65,78 +65,6 @@
 import JQuery from "jquery";
 let $ = JQuery;
 
-export default {
-  name: "CalculatorSection",
-  data() {
-    return {
-      period: "",
-      size: "",
-      price: "",
-      calculated: ""
-    };
-  },
-  methods: {
-    calculate() {
-      this.calculated = 5;
-    },
-    hercNeeded() {
-      numOfAsset = document.getElementById("asset-num");
-      photoSize = document.getElementById("photo-size");
-      numOfDocs = document.getElementById("doc-num");
-      measureUnit;
-      hercNeededDaily;
-      hercNeededMonthly;
-      hercNeededYearly;
-
-      switch (measureUnit) {
-        case value:
-          "KB";
-          measureUnit = 1 * 0.00000008;
-          break;
-        case value:
-          "MB";
-          measureUnit = 1024 * 0.00000008;
-          break;
-        case value:
-          "GB";
-          measureUnit = 1048576 * 0.00000008;
-          break;
-        default:
-          measureUnit = 1;
-          break;
-      }
-
-      switch (hercNeeded) {
-        case value:
-          "Day";
-          // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
-          break;
-        case value:
-          "Month";
-        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
-        case value:
-          "Year";
-        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
-        default:
-          // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
-          break;
-      }
-      console.log("Number of assets:" + numOfAsset);
-      console.log("Herc average price right now is:" + hercAvgPrice);
-      // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
-      // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
-      // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
-    },
-    hercCost() {
-      // hercCostDaily =
-    }
-  },
-  mounted() {},
-  beforeMount() {
-    this.hercNeeded();
-  }
-};
-
 // jQuery(function($) {
 function roundUp(num, precision) {
   precision = Math.pow(10, precision);
@@ -144,12 +72,6 @@ function roundUp(num, precision) {
 }
 
 roundUp(192.168, 1); //=> 192.2
-
-$.getJSON("https://chart.anthemgold.com/bi-1.0-SNAPSHOT/Report"),
-  function(data) {
-    var hercAvgPrice = `${data}`;
-    console.log(hercAvgPrice);
-  };
 
 $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   data
@@ -201,7 +123,78 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   $("#ethGasPriceMobile2").html(etheriumNeeded);
   $("#ethGasPriceMobile3").html(etheriumNeeded);
 });
+
+export default {
+  name: "CalculatorSection",
+  data() {
+    return {
+      period: "",
+      size: "",
+      price: ""
+    };
+  },
+  methods: {
+    hercNeeded() {
+      measureUnit;
+      hercNeededDaily;
+      hercNeededMonthly;
+      hercNeededYearly;
+      numOfAsset;
+      photoSize;
+      numOfDocs;
+      console.log("hercNeeded method triggered");
+      console.log(document.getElementById("asset-num").value);
+      numOfAsset = document.getElementById("asset-num").value;
+      photoSize = document.getElementById("photo-size").value;
+      numOfDocs = document.getElementById("doc-num").value;
+
+      switch (measureUnit) {
+        case value:
+          "KB";
+          measureUnit = 1 * 0.00000008;
+          break;
+        case value:
+          "MB";
+          measureUnit = 1024 * 0.00000008;
+          break;
+        case value:
+          "GB";
+          measureUnit = 1048576 * 0.00000008;
+          break;
+        default:
+          measureUnit = 1;
+          break;
+      }
+
+      switch (hercNeeded) {
+        case value:
+          "Day";
+          // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
+          break;
+        case value:
+          "Month";
+        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
+        case value:
+          "Year";
+        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
+        default:
+          // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
+          break;
+      }
+      //   console.log("Number of assets:" + numOfAsset);
+      //   console.log("Herc average price right now is:" + hercAvgPrice);
+      // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
+      // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
+      // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
+    },
+    hercCost() {
+      // hercCostDaily =
+    }
+  },
+  mounted() {}
+};
 </script>
+
 <style scoped lang="scss">
 #calculator-section {
   padding: 50px;
@@ -243,6 +236,8 @@ input {
   border: 2px solid $herc-gold;
   border-radius: 5px;
   height: 35px;
+  text-align: center;
+  font-weight: bold;
 }
 
 ::placeholder {
