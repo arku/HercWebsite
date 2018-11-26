@@ -104,13 +104,16 @@ function roundUp(num, precision) {
 roundUp(192.168, 1); //=> 192.2
 
 $.getJSON("https://chart.anthemgold.com/bi-1.0-SNAPSHOT/Report"), function(data){
-    var hercAvgPrice = `${data.averagePrice}`; 
+    var hercAvgPrice = `${data}`; 
+        console.log(hercAvgPrice);
+
 };
 
 $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   data
 ) {
   var factPrice = `${data.factomPrice}`;
+  console.log(factPrice);
   var storjPrice = `${data.storjPrice}`;
   var etheriumNeeded = `${data.gasPrice}`;
   var hercPrice = 0.6;
