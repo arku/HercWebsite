@@ -367,7 +367,31 @@
                         </a>
                     </div>
                     <div class="column">
-
+                        <img src="../../assets/team/kai.png">
+                        <h2 class="h2-desktop">Kai Nygard</h2>
+                        <h3 class="h3-desktop">Social Entrepreneur</h3>
+                        <a href="https://www.linkedin.com/in/kai-bickle-nygard-79228b5b/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                     <div class="columns">
+                    <div class="column">
+                        <img src="../../assets/team/benjamin.jpg">
+                        <h2 class="h2-desktop">Benjamin Katz</h2>
+                        <h3 class="h3-desktop">Founder, Business Operator</h3>
+                        <a href="https://www.linkedin.com/in/meetbenkatz/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                    <div class="column">
+                        
+                    </div>
+                    <div class="column">
+                        
                     </div>
                 </div>
                         </div>
@@ -737,12 +761,30 @@
                         </a>
                     </div>
                 </div>
-                <div class="columns is-mobile">
-                    <div class="column is-half">
+                 <div class="columns is-mobile">
+                    <div class="column">
                         <img src="../../assets/team/john.jpg">
                         <h2 class="h2-mobile">John Morgridge</h2>
                         <h3 class="h3-mobile">Advisor</h3>
                         <a href="https://www.linkedin.com/in/john-morgridge" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                     <div class="column">
+                        <img src="../../assets/team/kai.png">
+                        <h2 class="h2-mobile">Kai Weeks</h2>
+                        <h3 class="h3-mobile">Social Entrepreneur</h3>
+                        <a href="https://www.linkedin.com/in/kai-bickle-nygard-79228b5b/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="columns is-mobile">
+                    <div class="column is-half">
+                        <img src="../../assets/team/benjamin.jpg">
+                        <h2 class="h2-mobile">Benjamin Katz</h2>
+                        <h3 class="h3-mobile">CEO - Card.com</h3>
+                        <a href="https://www.linkedin.com/in/meetbenkatz/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
