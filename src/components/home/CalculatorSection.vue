@@ -46,7 +46,7 @@
             <div class="columns">
                 <div class="column">
                     <h2>Estimated Herc Needed per {{period}}:</h2>
-                    <input id="herc-needed" disabled value="10">
+                    <input id="herc-needed" disabled>
                 </div>
             </div>
             <div class="columns">
@@ -77,7 +77,6 @@ $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   data
 ) {
   var factPrice = `${data.factomPrice}`;
-  console.log(factPrice);
   var storjPrice = `${data.storjPrice}`;
   var etheriumNeeded = `${data.gasPrice}`;
   var hercPrice = 0.6;
@@ -135,30 +134,51 @@ export default {
   },
   methods: {
     hercNeeded() {
-      measureUnit;
-      hercNeededDaily;
-      hercNeededMonthly;
-      hercNeededYearly;
-      numOfAsset;
-      photoSize;
-      numOfDocs;
+      var hercAvg;
       console.log("hercNeeded method triggered");
-      console.log(document.getElementById("asset-num").value);
+      $.getJSON(
+        "https://chart.anthemgold.com/service-1.0-SNAPSHOT/PRICE?symbol=HERC&range=MINUTE_5",
+        function(data) {
+          var hercOpen = `${data.o}`;
+          hercOpen = Number(hercOpen);
+          console.log("OPEN: " + hercOpen);
+          var hercLow = `${data.l}`;
+          hercLow = Number(hercLow);
+          console.log("LOW: " + hercLow);
+          var hercHigh = `${data.h}`;
+          hercHigh = Number(hercHigh);
+          console.log("HIGH: " + hercHigh);
+          var hercClose = `${data.c}`;
+          hercClose = Number(hercClose);
+          console.log("CLOSE: " + hercClose);
+          var hercAvgPrice = (hercOpen + hercLow + hercHigh + hercClose) / 4;
+          console.log("HERC average price is: " + hercAvgPrice);
+        }
+      );
+      var measureUnit;
+      var hercNeededDaily;
+      var hercNeededMonthly;
+      var hercNeededYearly;
+      var numOfAsset;
+      var photoSize;
+      var numOfDocs;
+      var hercNeeded;
+      var selectedPeriod;
+      measureUnit = document.getElementById("size-select").value;
+      console.log(measureUnit);
       numOfAsset = document.getElementById("asset-num").value;
       photoSize = document.getElementById("photo-size").value;
       numOfDocs = document.getElementById("doc-num").value;
+      selectedPeriod = document.getElementById("period-select").value;
 
       switch (measureUnit) {
-        case value:
-          "KB";
+        case "KB":
           measureUnit = 1 * 0.00000008;
           break;
-        case value:
-          "MB";
+        case "MB":
           measureUnit = 1024 * 0.00000008;
           break;
-        case value:
-          "GB";
+        case "GB":
           measureUnit = 1048576 * 0.00000008;
           break;
         default:
@@ -166,16 +186,18 @@ export default {
           break;
       }
 
-      switch (hercNeeded) {
-        case value:
-          "Day";
-          // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
+      switch (selectedPeriod) {
+        case "Day":
+          hercNeeded =
+            numOfAsset * (400 / hercAvg) +
+            measureUnit * photoSize +
+            numberOfDocs * 0.0000128;
+
+          document.getElementById("herc-needed").value = 55;
           break;
-        case value:
-          "Month";
+        case "Month":
         // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
-        case value:
-          "Year";
+        case "Year":
         // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
         default:
           // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
