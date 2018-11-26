@@ -16,7 +16,6 @@
                         <option>KB</option>
                         <option>MB</option>
                         <option>GB</option>
-                        <option>TB</option>
                     </select>
                     <select id="price-select" v-model="price">
                         <option>BTC</option>
@@ -52,7 +51,7 @@
             </div>
             <div class="columns">
                 <div class="column">
-                    <h2>Estimated Herc Cost in {{price}}:</h2>
+                    <h2>Estimated Herc Cost in {{price}} per {{period}}:</h2>
                     <input id="herc-price" disabled v-model="calculated">
                 </div>
             </div>
@@ -81,18 +80,61 @@ export default {
       this.calculated = 5;
     },
     hercNeeded() {
-        numOfAsset = document.getElementById('asset-num');
-        console.log('Number of assets:' + numOfAsset);
-        console.log('Herc average price right now is:' + hercAvgPrice);
-    //   (numOfAsset x (400usd in hercAvg))+
-    //   (0.00000008 x photoSize)+
-    //   (numberOfDocs x 0.0000128)
+      numOfAsset = document.getElementById("asset-num");
+      photoSize = document.getElementById("photo-size");
+      numOfDocs = document.getElementById("doc-num");
+      measureUnit;
+      hercNeededDaily;
+      hercNeededMonthly;
+      hercNeededYearly;
+
+      switch (measureUnit) {
+        case value:
+          "KB";
+          measureUnit = 1 * 0.00000008;
+          break;
+        case value:
+          "MB";
+          measureUnit = 1024 * 0.00000008;
+          break;
+        case value:
+          "GB";
+          measureUnit = 1048576 * 0.00000008;
+          break;
+        default:
+          measureUnit = 1;
+          break;
+      }
+
+      switch (hercNeeded) {
+        case value:
+          "Day";
+          // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
+          break;
+        case value:
+          "Month";
+        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
+        case value:
+          "Year";
+        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
+        default:
+          // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
+          break;
+      }
+      console.log("Number of assets:" + numOfAsset);
+      console.log("Herc average price right now is:" + hercAvgPrice);
+      // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
+      // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
+      // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
     },
-    hercCost(){
-    
+    hercCost() {
+      // hercCostDaily =
     }
   },
-  mounted() {}
+  mounted() {},
+  beforeMount() {
+    this.hercNeeded();
+  }
 };
 
 // jQuery(function($) {
@@ -103,11 +145,11 @@ function roundUp(num, precision) {
 
 roundUp(192.168, 1); //=> 192.2
 
-$.getJSON("https://chart.anthemgold.com/bi-1.0-SNAPSHOT/Report"), function(data){
-    var hercAvgPrice = `${data}`; 
-        console.log(hercAvgPrice);
-
-};
+$.getJSON("https://chart.anthemgold.com/bi-1.0-SNAPSHOT/Report"),
+  function(data) {
+    var hercAvgPrice = `${data}`;
+    console.log(hercAvgPrice);
+  };
 
 $.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
   data
