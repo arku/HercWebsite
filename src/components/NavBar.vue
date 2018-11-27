@@ -59,7 +59,7 @@
                         <a href="/#team-section" class="navbar-item">
                             Team
                         </a>
-                        <a href="https://purchase.herc.one" class="navbar-item buy-herc">
+                        <a href="https://www.crowdfunder.com/hercules" class="navbar-item buy-herc">
                             Buy HERC
                         </a>
                     </div>

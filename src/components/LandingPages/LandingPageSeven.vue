@@ -10,7 +10,7 @@
                       <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
                         <button  class="left-button" @click="trackTelegram">Talk With Us</button>
                       </a>
-                      <a href="https://purchase.herc.one">
+                      <a href="https://www.crowdfunder.com/hercules">
                         <button @click="trackTokenSale" class="tokensale-button animated flash infinite slow">Buy HERC</button>
                       </a>
                       <router-link to="/whitepaper">

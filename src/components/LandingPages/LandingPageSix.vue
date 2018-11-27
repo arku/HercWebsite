@@ -13,7 +13,7 @@
                       <router-link to="/whitepaper">
                         <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
                       </router-link>
-                      <a href="https://purchase.herc.one">
+                      <a href="https://www.crowdfunder.com/hercules">
                         <button @click="trackTokenSale" class="tokensale-button animated flash infinite slow">Buy HERC</button>
                       </a>
                     </div>
