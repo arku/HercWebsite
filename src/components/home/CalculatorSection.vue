@@ -1,62 +1,62 @@
 <template>
-    <div id="calculator-section">
-        <div id="content">
-            <div class="columns">
-                <div class="column">
-                    <h1>Herc Protocol Cost Calculator</h1>
-                </div>
-                <div class="column">
-                    <h1>Options:</h1>
-                    <select id="period-select" v-model="period" v-on:change="hercNeeded">
-                        <option id="day" selected>Day</option>
-                        <option id="month">Month</option>
-                        <option id="year">Year</option>
-                    </select>
-                    <select id="size-select" v-model="size" v-on:change="hercNeeded">
-                        <option selected>KB</option>
-                        <option>MB</option>
-                        <option>GB</option>
-                    </select>
-                    <select id="price-select" v-model="price" v-on:change="hercNeeded">
-                        <option selected>BTC</option>
-                        <option>ETH</option>
-                        <option>USD</option>
-                        <option>EUR</option>
-                    </select>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                    <h2>Estimated Number of Assets</h2>
-                    <input id="asset-num" placeholder="Enter number of assets" v-on:input="hercNeeded">
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                    <h2>Estimated Photo Data Size ({{size}})</h2>
-                    <input id="photo-size" placeholder="Enter photo size" v-on:input="hercNeeded">
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                    <h2>Estimated Number of Documents</h2>
-                    <input id="doc-num" placeholder="Enter number of documents" v-on:input="hercNeeded">
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                    <h2>Estimated Herc Needed per {{period}}:</h2>
-                    <input id="herc-needed" disabled>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                    <h2>Estimated Herc Cost in {{price}} per {{period}}:</h2>
-                    <input id="herc-price" disabled>
-                </div>
-            </div>
+  <div id="calculator-section">
+    <div id="content">
+      <div class="columns">
+        <div class="column">
+          <h1>Herc Protocol Cost Calculator</h1>
         </div>
+        <div class="column">
+          <h1>Options:</h1>
+          <select id="period-select" v-model="period" v-on:change="hercNeeded">
+            <option id="day" selected>Day</option>
+            <option id="month">Month</option>
+            <option id="year">Year</option>
+          </select>
+          <select id="size-select" v-model="size" v-on:change="hercNeeded">
+            <option selected>KB</option>
+            <option>MB</option>
+            <option>GB</option>
+          </select>
+          <select id="price-select" v-model="price" v-on:change="hercNeeded">
+            <option selected>BTC</option>
+            <option>ETH</option>
+            <option>USD</option>
+            <option>EUR</option>
+          </select>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h2>Estimated Number of Assets</h2>
+          <input id="asset-num" placeholder="Enter number of assets" v-on:input="hercNeeded">
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h2>Estimated Photo Data Size ({{size}})</h2>
+          <input id="photo-size" placeholder="Enter photo size" v-on:input="hercNeeded">
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h2>Estimated Number of Documents</h2>
+          <input id="doc-num" placeholder="Enter number of documents" v-on:input="hercNeeded">
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h2>Estimated Herc Needed per {{period}}:</h2>
+          <input id="herc-needed" disabled>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h2>Estimated Herc Cost in {{price}} per {{period}}:</h2>
+          <input id="herc-price" disabled>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -191,9 +191,7 @@ export default {
           hercNeeded =
             numOfAsset * (400 / hercAvg) +
             measureUnit * photoSize +
-            numberOfDocs * 0.0000128;
-
-          document.getElementById("herc-needed").value = 55;
+            numOfDocs * 0.0000128;
           break;
         case "Month":
         // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
