@@ -1,7 +1,7 @@
 <template>
   <div id="career-section">
     <div id="content">
-        <b-collapse :open="false" id="faq-holder">
+        <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                 <p>What is Hercules (HERC)?</p>
             </div>
