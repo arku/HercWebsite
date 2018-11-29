@@ -8,7 +8,7 @@
         <div class="column">
           <h1>Options:</h1>
           <select id="period-select" v-model="period" v-on:change="hercNeeded">
-            <option id="day" selected>Day</option>
+            <option id="day" selected value='Day'>Day</option>
             <option id="month">Month</option>
             <option id="year">Year</option>
           </select>
@@ -46,7 +46,7 @@
       <div class="columns">
         <div class="column">
           <h2>Estimated Herc Needed per {{period}}:</h2>
-          <input id="herc-needed" disabled>
+          <input id="herc-needed" disabled :value="hercNeededResult">
         </div>
       </div>
       <div class="columns">
@@ -79,15 +79,17 @@ export default {
     return {
       period: "",
       size: "",
-      price: ""
+      price: "",
+      hercNeededResult:0
     };
   },
   methods: {
     hercNeeded() {
       var hercAvg;
       console.log("hercNeeded method triggered");
+      const self = this;
       $.getJSON(
-        "https://chart.anthemgold.com/service-1.0-SNAPSHOT/PRICE?symbol=HERC&range=MINUTE_5",
+        "https://chart.anthemgold.com/service-1.0-SNAPSHOT/PRICE?symbol=HERCUSD&range=MINUTE_5",
         function(data) {
           var hercOpen = `${data.o}`;
           hercOpen = Number(hercOpen);
@@ -129,6 +131,7 @@ export default {
           break;
         case "MB":
           measureUnit = 1024 * 0.00000008;
+          console.log('Eve MB measure ti je: ' + measureUnit);
           break;
         case "GB":
           measureUnit = 1048576 * 0.00000008;
@@ -148,13 +151,30 @@ export default {
         console.log('Photo size is: ' + photoSize);
           hercNeeded = (numOfAsset * (400 / hercAvgPrice)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128);
             console.log('Daily Herc Needed is: ' + hercNeeded);
+            self.hercNeededResult = hercNeeded;
           break;
         case "Month":
-        hercNeeded = (numOfAsset * (400/hercAvg)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128)*31;
+        numOfAsset = Number(numOfAsset);
+        console.log("Number of assets is: " + numOfAsset);
+        numOfDocs = Number(numOfDocs);
+        console.log("Number of docs is: " + numOfDocs);
+        photoSize = Number(photoSize);
+        console.log('Photo size is: ' + photoSize);
+          hercNeeded = ((numOfAsset * (400 / hercAvgPrice)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128))*31;
         console.log('Monthly Herc Needed is: ' + hercNeeded);
+        this.hercNeededResult = hercNeeded;
+        break;
         case "Year":
-        hercNeeded = (numOfAsset * (400/hercAvg)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128)*365
+        numOfAsset = Number(numOfAsset);
+        console.log("Number of assets is: " + numOfAsset);
+        numOfDocs = Number(numOfDocs);
+        console.log("Number of docs is: " + numOfDocs);
+        photoSize = Number(photoSize);
+        console.log('Photo size is: ' + photoSize);
+          hercNeeded = ((numOfAsset * (400 / hercAvgPrice)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128))*365;
         console.log('Yearly Herc Needed is: ' + hercNeeded);
+        this.hercNeededResult = hercNeeded;
+        break;
         default:
           hercNeeded =
             numOfAsset * (400 / hercAvg) +
