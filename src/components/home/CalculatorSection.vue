@@ -73,56 +73,6 @@ function roundUp(num, precision) {
 
 roundUp(192.168, 1); //=> 192.2
 
-$.getJSON("https://jsondata.herc.one/service-1.0-SNAPSHOT/JSON", function(
-  data
-) {
-  var factPrice = `${data.factomPrice}`;
-  var storjPrice = `${data.storjPrice}`;
-  var etheriumNeeded = `${data.gasPrice}`;
-  var hercPrice = 0.6;
-
-  var factNeeded = (0.000128 / factPrice) * 4;
-  var storjNeeded = 0.0007032 / storjPrice;
-  var hercBurned = factNeeded / hercPrice;
-
-  factNeeded = roundUp(factNeeded, 6);
-  storjNeeded = roundUp(storjNeeded, 6);
-
-  var hercNeededFCT = (0.000128 / 0.6) * factPrice * 4;
-  var hercNeededSTORJ = (0.0007032 / 0.6) * storjPrice;
-  var hercNeeded =
-    storjNeeded / hercPrice +
-    factNeeded / hercPrice +
-    etheriumNeeded / hercPrice +
-    hercBurned;
-
-  hercNeededFCT = roundUp(hercNeededFCT, 6);
-  hercNeededSTORJ = roundUp(hercNeededSTORJ, 6);
-
-  $("#factPrice").html(factPrice);
-  $("#factPriceMobile").html(factPrice);
-  $("#storjPrice").html(storjPrice);
-  $("#storjPriceMobile").html(storjPrice);
-
-  $("#factNeeded").html(factNeeded);
-  $("#factNeededMobile").html(factNeeded);
-
-  $("#storjNeeded").html(storjNeeded);
-  $("#storjNeededMobile").html(storjNeeded);
-
-  $("#ethGasPrice").html(etheriumNeeded);
-  $("#ethGasPrice2").html(etheriumNeeded);
-  $("#ethGasPrice3").html(etheriumNeeded);
-
-  $("#hercNeeded").html(hercNeededFCT);
-  $("#hercNeeded2").html(hercNeededSTORJ);
-  $("#hercNeededMobile").html(hercNeededFCT);
-  $("#hercNeededMobile2").html(hercNeededSTORJ);
-  $("#ethGasPriceMobile").html(etheriumNeeded);
-  $("#ethGasPriceMobile2").html(etheriumNeeded);
-  $("#ethGasPriceMobile3").html(etheriumNeeded);
-});
-
 export default {
   name: "CalculatorSection",
   data() {
@@ -153,8 +103,8 @@ export default {
           console.log("CLOSE: " + hercClose);
           var hercAvgPrice = (hercOpen + hercLow + hercHigh + hercClose) / 4;
           console.log("HERC average price is: " + hercAvgPrice);
-        }
-      );
+        
+      var measureType;
       var measureUnit;
       var hercNeededDaily;
       var hercNeededMonthly;
@@ -164,16 +114,18 @@ export default {
       var numOfDocs;
       var hercNeeded;
       var selectedPeriod;
-      measureUnit = document.getElementById("size-select").value;
-      console.log(measureUnit);
+    
+      measureType = document.getElementById("size-select").value;
+      console.log('Current default measure unit is: ' + measureType);
       numOfAsset = document.getElementById("asset-num").value;
       photoSize = document.getElementById("photo-size").value;
       numOfDocs = document.getElementById("doc-num").value;
       selectedPeriod = document.getElementById("period-select").value;
 
-      switch (measureUnit) {
+      switch (measureType) {
         case "KB":
           measureUnit = 1 * 0.00000008;
+          console.log('Eve measure ti je: ' + measureUnit);
           break;
         case "MB":
           measureUnit = 1024 * 0.00000008;
@@ -188,19 +140,30 @@ export default {
 
       switch (selectedPeriod) {
         case "Day":
+        numOfAsset = Number(numOfAsset);
+        console.log("Number of assets is: " + numOfAsset);
+        numOfDocs = Number(numOfDocs);
+        console.log("Number of docs is: " + numOfDocs);
+        photoSize = Number(photoSize);
+        console.log('Photo size is: ' + photoSize);
+          hercNeeded = (numOfAsset * (400 / hercAvgPrice)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128);
+            console.log('Daily Herc Needed is: ' + hercNeeded);
+          break;
+        case "Month":
+        hercNeeded = (numOfAsset * (400/hercAvg)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128)*31;
+        console.log('Monthly Herc Needed is: ' + hercNeeded);
+        case "Year":
+        hercNeeded = (numOfAsset * (400/hercAvg)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128)*365
+        console.log('Yearly Herc Needed is: ' + hercNeeded);
+        default:
           hercNeeded =
             numOfAsset * (400 / hercAvg) +
             measureUnit * photoSize +
             numOfDocs * 0.0000128;
           break;
-        case "Month":
-        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
-        case "Year":
-        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
-        default:
-          // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
-          break;
       }
+      }
+      );
       //   console.log("Number of assets:" + numOfAsset);
       //   console.log("Herc average price right now is:" + hercAvgPrice);
       // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);

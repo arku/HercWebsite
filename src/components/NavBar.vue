@@ -179,6 +179,7 @@ nav {
 
 #navbar {
   border-bottom: 1px solid $herc-gold;
+  background-color: $herc-blue;
 }
 
 .navbar-item img {
