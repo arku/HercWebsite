@@ -46,7 +46,7 @@
       <div class="columns">
         <div class="column">
           <h2>Estimated Herc Needed per {{period}}:</h2>
-          <input id="herc-needed" disabled>
+          <input id="herc-needed" v-model="hercNeededResult" disabled>
         </div>
       </div>
       <div class="columns">
@@ -60,178 +60,179 @@
 </template>
 
 <script>
-//Import and declare jQuery for component scoped use
+  //Import and declare jQuery for component scoped use
 
-import JQuery from "jquery";
-let $ = JQuery;
+  import JQuery from "jquery";
+  let $ = JQuery;
 
-// jQuery(function($) {
-function roundUp(num, precision) {
-  precision = Math.pow(10, precision);
-  return Math.ceil(num * precision) / precision;
-}
+  // jQuery(function($) {
+  function roundUp(num, precision) {
+    precision = Math.pow(10, precision);
+    return Math.ceil(num * precision) / precision;
+  }
 
-roundUp(192.168, 1); //=> 192.2
+  roundUp(192.168, 1); //=> 192.2
 
-export default {
-  name: "CalculatorSection",
-  data() {
-    return {
-      period: "",
-      size: "",
-      price: ""
-    };
-  },
-  methods: {
-    hercNeeded() {
-      var hercAvg;
-      console.log("hercNeeded method triggered");
-      $.getJSON(
-        "https://chart.anthemgold.com/service-1.0-SNAPSHOT/PRICE?symbol=HERC&range=MINUTE_5",
-        function(data) {
-          var hercOpen = `${data.o}`;
-          hercOpen = Number(hercOpen);
-          console.log("OPEN: " + hercOpen);
-          var hercLow = `${data.l}`;
-          hercLow = Number(hercLow);
-          console.log("LOW: " + hercLow);
-          var hercHigh = `${data.h}`;
-          hercHigh = Number(hercHigh);
-          console.log("HIGH: " + hercHigh);
-          var hercClose = `${data.c}`;
-          hercClose = Number(hercClose);
-          console.log("CLOSE: " + hercClose);
-          var hercAvgPrice = (hercOpen + hercLow + hercHigh + hercClose) / 4;
-          console.log("HERC average price is: " + hercAvgPrice);
-        
-      var measureType;
-      var measureUnit;
-      var hercNeededDaily;
-      var hercNeededMonthly;
-      var hercNeededYearly;
-      var numOfAsset;
-      var photoSize;
-      var numOfDocs;
-      var hercNeeded;
-      var selectedPeriod;
-    
-      measureType = document.getElementById("size-select").value;
-      console.log('Current default measure unit is: ' + measureType);
-      numOfAsset = document.getElementById("asset-num").value;
-      photoSize = document.getElementById("photo-size").value;
-      numOfDocs = document.getElementById("doc-num").value;
-      selectedPeriod = document.getElementById("period-select").value;
-
-      switch (measureType) {
-        case "KB":
-          measureUnit = 1 * 0.00000008;
-          console.log('Eve measure ti je: ' + measureUnit);
-          break;
-        case "MB":
-          measureUnit = 1024 * 0.00000008;
-          break;
-        case "GB":
-          measureUnit = 1048576 * 0.00000008;
-          break;
-        default:
-          measureUnit = 1;
-          break;
-      }
-
-      switch (selectedPeriod) {
-        case "Day":
-        numOfAsset = Number(numOfAsset);
-        console.log("Number of assets is: " + numOfAsset);
-        numOfDocs = Number(numOfDocs);
-        console.log("Number of docs is: " + numOfDocs);
-        photoSize = Number(photoSize);
-        console.log('Photo size is: ' + photoSize);
-          hercNeeded = (numOfAsset * (400 / hercAvgPrice)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128);
-            console.log('Daily Herc Needed is: ' + hercNeeded);
-          break;
-        case "Month":
-        hercNeeded = (numOfAsset * (400/hercAvg)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128)*31;
-        console.log('Monthly Herc Needed is: ' + hercNeeded);
-        case "Year":
-        hercNeeded = (numOfAsset * (400/hercAvg)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128)*365
-        console.log('Yearly Herc Needed is: ' + hercNeeded);
-        default:
-          hercNeeded =
-            numOfAsset * (400 / hercAvg) +
-            measureUnit * photoSize +
-            numOfDocs * 0.0000128;
-          break;
-      }
-      }
-      );
-      //   console.log("Number of assets:" + numOfAsset);
-      //   console.log("Herc average price right now is:" + hercAvgPrice);
-      // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
-      // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
-      // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
+  export default {
+    name: "CalculatorSection",
+    data() {
+      return {
+        period: "",
+        size: "",
+        price: "",
+        hercNeededResult: 0,
+      };
     },
-    hercCost() {
-      // hercCostDaily =
-    }
-  },
-  mounted() {}
-};
+    methods: {
+      hercNeeded() {
+        var hercAvg;
+        console.log("hercNeeded method triggered");
+        $.getJSON(
+          "https://chart.anthemgold.com/service-1.0-SNAPSHOT/PRICE?symbol=HERC&range=MINUTE_5",
+          function(data) {
+            var hercOpen = `${data.o}`;
+            hercOpen = Number(hercOpen);
+            console.log("OPEN: " + hercOpen);
+            var hercLow = `${data.l}`;
+            hercLow = Number(hercLow);
+            console.log("LOW: " + hercLow);
+            var hercHigh = `${data.h}`;
+            hercHigh = Number(hercHigh);
+            console.log("HIGH: " + hercHigh);
+            var hercClose = `${data.c}`;
+            hercClose = Number(hercClose);
+            console.log("CLOSE: " + hercClose);
+            var hercAvgPrice = (hercOpen + hercLow + hercHigh + hercClose) / 4;
+            console.log("HERC average price is: " + hercAvgPrice);
+
+            var measureType;
+            var measureUnit;
+            var hercNeededDaily;
+            var hercNeededMonthly;
+            var hercNeededYearly;
+            var numOfAsset;
+            var photoSize;
+            var numOfDocs;
+            var hercNeeded;
+            var selectedPeriod;
+
+            measureType = document.getElementById("size-select").value;
+            console.log('Current default measure unit is: ' + measureType);
+            numOfAsset = document.getElementById("asset-num").value;
+            photoSize = document.getElementById("photo-size").value;
+            numOfDocs = document.getElementById("doc-num").value;
+            selectedPeriod = document.getElementById("period-select").value;
+
+            switch (measureType) {
+              case "KB":
+                measureUnit = 1 * 0.00000008;
+                console.log('Eve measure ti je: ' + measureUnit);
+                break;
+              case "MB":
+                measureUnit = 1024 * 0.00000008;
+                break;
+              case "GB":
+                measureUnit = 1048576 * 0.00000008;
+                break;
+              default:
+                measureUnit = 1;
+                break;
+            }
+
+            switch (selectedPeriod) {
+              case "Day":
+                numOfAsset = Number(numOfAsset);
+                console.log("Number of assets is: " + numOfAsset);
+                numOfDocs = Number(numOfDocs);
+                console.log("Number of docs is: " + numOfDocs);
+                photoSize = Number(photoSize);
+                console.log('Photo size is: ' + photoSize);
+                this.hercNeededResult = (numOfAsset * (400 / hercAvgPrice)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128);
+                console.log('Daily Herc Needed is: ' + hercNeeded);
+                break;
+              case "Month":
+                this.hercNeededResult = (numOfAsset * (400/hercAvg)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128)*31;
+                console.log('Monthly Herc Needed is: ' + hercNeeded);
+              case "Year":
+                this.hercNeededResult = (numOfAsset * (400/hercAvg)) + (measureUnit * photoSize) + (numOfDocs * 0.0000128)*365
+                console.log('Yearly Herc Needed is: ' + hercNeeded);
+              default:
+                this.hercNeededResult =
+                  numOfAsset * (400 / hercAvg) +
+                  measureUnit * photoSize +
+                  numOfDocs * 0.0000128;
+                break;
+            }
+          }
+        );
+        //   console.log("Number of assets:" + numOfAsset);
+        //   console.log("Herc average price right now is:" + hercAvgPrice);
+        // hercNeededDaily = (numOfAsset x (400/hercAvg)) + (measureUnit x photoSize)+ (numberOfDocs x 0.0000128);
+        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))*31;
+        // hercNeededMonthly = ((measureUnit x photoSize) + (numberOfDocs x 0.0000128))* 365;
+      },
+      hercCost() {
+        // hercCostDaily =
+      }
+    },
+    mounted() {}
+  };
 </script>
 
 <style scoped lang="scss">
-#calculator-section {
-  padding: 50px;
-  background-color: #fafafa;
-}
+  #calculator-section {
+    padding: 50px;
+    background-color: #fafafa;
+  }
 
-#content {
-  max-width: 1080px;
-  margin: auto;
-  border: 2px solid $herc-gold;
-  border-radius: 5px;
-  padding: 50px;
-  box-shadow: $herc-shadow;
-  background-color: $herc-blue;
-}
+  #content {
+    max-width: 1080px;
+    margin: auto;
+    border: 2px solid $herc-gold;
+    border-radius: 5px;
+    padding: 50px;
+    box-shadow: $herc-shadow;
+    background-color: $herc-blue;
+  }
 
-h1 {
-  @include herc-gold-h1;
-  font-weight: bold;
-}
+  h1 {
+    @include herc-gold-h1;
+    font-weight: bold;
+  }
 
-h2 {
-  font-size: 20px;
-  color: $herc-gold;
-  margin-bottom: 1%;
-}
+  h2 {
+    font-size: 20px;
+    color: $herc-gold;
+    margin-bottom: 1%;
+  }
 
-select {
-  margin: auto;
-  font-size: 20px;
-  text-transform: uppercase;
-  border-color: $herc-gold;
-  border-width: 2px;
-  border-radius: 5px;
-  margin: 1%;
-}
+  select {
+    margin: auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-color: $herc-gold;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 1%;
+  }
 
-input {
-  border: 2px solid $herc-gold;
-  border-radius: 5px;
-  height: 35px;
-  text-align: center;
-  font-weight: bold;
-}
+  input {
+    border: 2px solid $herc-gold;
+    border-radius: 5px;
+    height: 35px;
+    text-align: center;
+    font-weight: bold;
+  }
 
-::placeholder {
-  color: gray;
-  text-align: center;
-}
+  ::placeholder {
+    color: gray;
+    text-align: center;
+  }
 
-#herc-needed,
-#herc-price {
-  text-align: center;
-  font-size: 20px;
-  font-weight: bold;
-}
+  #herc-needed,
+  #herc-price {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
 </style>
