@@ -1,16 +1,17 @@
 <template>
   <div id="career-section">
     <div id="content">
+        <div class="accordian-holder">
           <h1>Current Opened Positions</h1>
           <h2>Engineering</h2>
                         <hr>
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                 <h3>Community Engineer</h3>
-                        <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                         <p><b>We seek an extraordinary Community Engineer to help
                                              lay the foundation for a more resilient and secure, decentralized version of the web.
                                         </b></p>
@@ -106,14 +107,14 @@
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                 <h3>Infrastructure Engineer</h3>
-                        <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                         <p><b>We seek an outstanding Infrastructure Engineer to help lay
                                              the foundation for a more resilient, more secure, decentralized version of the web.
                                         </b></p>
@@ -196,14 +197,14 @@
         </b-collapse>
     </div>
 
-<div id="content">
+<div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                 <h3>Software Engineer, Blockchain</h3>
-                        <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                         <p><b>We seek an outstanding Software Engineer to help us build the next generation of blockchain technology.
                                         </b></p>
                                         <h5>Engineering at HERC</h5>
@@ -276,14 +277,14 @@
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                 <h3>Software Engineer, Cryptography</h3>
-                        <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                         <p><b>Seeking a seasoned software engineer with a specialization in cryptography to help shape the next generation of network protocols.
                                         </b></p>
                                         <h5>Engineering at HERC</h5>
@@ -362,14 +363,14 @@
         </b-collapse>
     </div>
 
-     <div id="content">
+     <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                 <h3>Software Engineer, Distributed Systems</h3>
-                        <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
+                       <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                                 <p><b>Define and build elegant, performant, and resilient systems for tomorrow's web.
                                         </b></p>
                                         <p>
@@ -466,14 +467,14 @@
         </b-collapse>
     </div>
 
-       <div id="content">
+       <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                <h3>Software Engineer, IPFS Cluster</h3>
-                        <h4><span>Remote</span><span>Engineering</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                                 <p><b>We seek a software engineer to work on the IPFS Cluster project.
                                         </b></p>
                                         <h5>Engineering at HERC</h5>
@@ -555,62 +556,63 @@
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
           <h2>Events</h2>
                         <hr>
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                   <h3>Events Director</h3>
-                        <h4><span>Remote</span><span>Events</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                 <h3>Logistics & Events Assistant</h3>
-                        <h4><span>Remote</span><span>Events</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
          <h2>Finance</h2>
                         <hr>
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                    <h3>Investor Relations Manager</h3>
-                        <h4><span>Remote</span><span>Finance</span><span>Full-time</span></h4>
+                       <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
+
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
          <h2>General</h2>
                         <hr>
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                    <h3>Don't see your role here?</h3>
-                        <h4><span>Remote</span><span>General</span><span>Full-time</span></h4>
+                       <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
@@ -618,134 +620,134 @@
     </div>
 
    
-    <div id="content">
+    <div class="accordian-holder">
         <h2>Operations</h2>
                         <hr>
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                    <h3>Business Operations Specialist</h3>
-                        <h4><span>Remote</span><span>Operations</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                <h3>Community Manager</h3>
-                        <h4><span>Remote</span><span>Operations</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
     
-          <div id="content">
+          <div class="accordian-holder">
           <h2>People</h2>
                         <hr>
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                      <h3>Recruiting Leader</h3>
-                        <h4><span>Remote</span><span>People</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>           
            
-            <div id="content">
+            <div class="accordian-holder">
          <h2>Product</h2>
                         <hr>
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                    <h3>Open Source Product Manager</h3>
-                        <h4><span>Remote</span><span>Product</span><span>Full-time</span></h4>
+                       <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
         
-        <div id="content">
+        <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                  <h3>Product Manager</h3>
-                        <h4><span>Remote</span><span>Product</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
 
-     <div id="content">
+     <div class="accordian-holder">
          <h2>Research</h2>
                         <hr>
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                    <h3>Research Program Manager</h3>
-                        <h4><span>Remote</span><span>Research</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
                <h3>Research Scientist, Cryptography</h3>
-                        <h4><span>Remote</span><span>Research</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
              <h3>Research Scientist, Distributed Systems</h3>
-                        <h4><span>Remote</span> | <span>Research</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
         </b-collapse>
     </div>
 
-    <div id="content">
+    <div class="accordian-holder">
         <b-collapse :open="false" id="job-holder">
             <div slot="trigger" class="question">
               <h3>Research Scientist, Networking</h3>
-                        <h4><span>Remote</span><span>Research</span><span>Full-time</span></h4>
+                        <h4><span>Remote</span> | <span>Research</span> | <span>Full-time</span></h4>
             </div>
                 <div class="notification answer">
-                    <div class="content">
+                    <div class="popup">
                       <a href="mailto:social@herc.one">Apply</a>
                     </div>
                 </div>
@@ -753,7 +755,7 @@
     </div>
 
     </div>
-
+  </div>
  
 </template>
 
@@ -805,6 +807,8 @@ h4 {
   font-size: 20px;
   padding: 10px;
   font-weight: bold;
+  box-shadow: $herc-shadow;
+  border-radius: 5%;
 }
 .answer {
   width: 50%;
@@ -816,7 +820,7 @@ h4 {
   color: $herc-blue;
 }
 
-a {
+.answer .popup a {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
@@ -827,8 +831,18 @@ a {
   color: white !important;
   text-transform: uppercase;
   font-weight: bold;
-  margin: auto;
+  margin: auto !important;
+  text-align: center;
+  
 }
+.accordian-holder {
+    margin: auto;
+}
+.popup {
+    margin: auto;
+   
+}
+
 #content {
   max-width: 1080px;
   margin: auto;
