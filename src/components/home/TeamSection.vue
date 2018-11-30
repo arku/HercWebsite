@@ -385,7 +385,12 @@
                         </a>
                     </div>
                     <div class="column">
-                        
+                        <img src="../../assets/team/bret.jpg">
+                        <h2 class="h2-desktop">Bret Dunnaway</h2>
+                        <h3 class="h3-desktop">Senior Advisor</h3>
+                        <a href="https://www.linkedin.com/in/dunnaway-bret-519a9999/?fbclid=IwAR35bDCTDh3qJmcbNExBchjrM0ptMoSocoHXCCNWaB49Zt7Gg04uYdp59WI" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
                     </div>
                     <div class="column">
                         
@@ -780,11 +785,19 @@
                     </div>
                 </div>
                 <div class="columns is-mobile">
-                    <div class="column is-half">
+                    <div class="column">
                         <img src="../../assets/team/benjamin.jpg">
                         <h2 class="h2-mobile">Benjamin Katz</h2>
                         <h3 class="h3-mobile">CEO - Card.com</h3>
                         <a href="https://www.linkedin.com/in/meetbenkatz/" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                      <div class="column">
+                        <img src="../../assets/team/bret.jpg">
+                        <h2 class="h2-mobile">Bret Dunnaway</h2>
+                        <h3 class="h3-mobile">Senior Advisor</h3>
+                        <a href="https://www.linkedin.com/in/dunnaway-bret-519a9999/?fbclid=IwAR35bDCTDh3qJmcbNExBchjrM0ptMoSocoHXCCNWaB49Zt7Gg04uYdp59WI" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
