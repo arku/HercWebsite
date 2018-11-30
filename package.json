@@ -20,7 +20,7 @@
     "vue-a2b": "^0.2.2",
     "vue-analytics": "^5.16.1",
     "vue-backtotop": "^1.6.1",
-    "vue-carousel": "^0.16.0-rc2",
+    "vue-carousel": "^0.16.0",
     "vue-cli-plugin-s3-deploy": "^2.1.1",
     "vue-clipboards": "^1.2.4",
     "vue-meta": "^1.5.6",
