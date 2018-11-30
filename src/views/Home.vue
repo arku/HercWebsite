@@ -72,7 +72,7 @@ import ContactSection from "@/components/ContactSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import TeamSection from "@/components/home/TeamSection.vue";
 import FeaturedSection from "@/components/home/FeaturedSection.vue";
-import CommunitySection from "@/components/CommunitySection.vue";
+import CommunitySection from "@/components/home/CommunitySection.vue";
 import HercSection from "@/components/home/HercSection.vue";
 import HiprSection from "@/components/home/HiprSection.vue";
 import BubbleSection from "@/components/home/BubbleSection.vue";

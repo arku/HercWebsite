@@ -77,7 +77,7 @@ i {
 }
 
 .cornered--bottom:after {
-  background: url(../assets/gradient-clip.svg);
+  background: url(../../assets/gradient-clip.svg);
   background-size: calc(100vw + 20px);
   overflow: hidden;
   background-repeat: no-repeat;
@@ -100,7 +100,7 @@ i {
   height: 75%;
   bottom: 50px;
   left: 170px;
-  background-image: url(../assets/telegram-icon-white.svg);
+  background-image: url(../../assets/telegram-icon-white.svg);
   background-repeat: no-repeat;
   background-attachment: absolute;
   background-position: center left;
