@@ -89,25 +89,19 @@ export default {
   methods: {
     hercNeeded() {
       var hercAvg;
-      console.log("hercNeeded method triggered");
       const self = this;
       $.getJSON(
         "https://chart.anthemgold.com/service-1.0-SNAPSHOT/PRICE?symbol=HERCUSD&range=MINUTE_5",
         function(data) {
           var hercOpen = `${data.o}`;
           hercOpen = Number(hercOpen);
-          console.log("OPEN: " + hercOpen);
           var hercLow = `${data.l}`;
           hercLow = Number(hercLow);
-          console.log("LOW: " + hercLow);
           var hercHigh = `${data.h}`;
           hercHigh = Number(hercHigh);
-          console.log("HIGH: " + hercHigh);
           var hercClose = `${data.c}`;
           hercClose = Number(hercClose);
-          console.log("CLOSE: " + hercClose);
           var hercAvgPrice = (hercOpen + hercLow + hercHigh + hercClose) / 4;
-          console.log("HERC average price is: " + hercAvgPrice);
 
           var measureType;
           var measureUnit;
@@ -121,7 +115,6 @@ export default {
           var selectedPeriod;
 
           measureType = document.getElementById("size-select").value;
-          console.log("Current default measure unit is: " + measureType);
           numOfAsset = document.getElementById("asset-num").value;
           photoSize = document.getElementById("photo-size").value;
           numOfDocs = document.getElementById("doc-num").value;
@@ -130,11 +123,9 @@ export default {
           switch (measureType) {
             case "KB":
               measureUnit = 1;
-              console.log("Eve measure ti je: " + measureUnit);
               break;
             case "MB":
               measureUnit = 1024;
-              console.log("Eve MB measure ti je: " + measureUnit);
               break;
             case "GB":
               measureUnit = 1048576;
@@ -147,63 +138,47 @@ export default {
           switch (selectedPeriod) {
             case "Day":
               numOfAsset = Number(numOfAsset);
-              console.log("Number of assets is: " + numOfAsset);
               numOfDocs = Number(numOfDocs);
-              console.log("Number of docs is: " + numOfDocs);
               photoSize = Number(photoSize);
-              console.log("Photo size is: " + photoSize);
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
                 measureUnit * photoSize * 0.00000008 +
                 numOfDocs * 0.0000128;
-              console.log("Daily Herc Needed is: " + hercNeeded);
               self.hercNeededResult = hercNeeded;
               break;
             case "Month":
               numOfAsset = Number(numOfAsset);
-              console.log("Number of assets is: " + numOfAsset);
               numOfDocs = Number(numOfDocs);
-              console.log("Number of docs is: " + numOfDocs);
               photoSize = Number(photoSize);
-              console.log("Photo size is: " + photoSize);
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
-                ((measureUnit * photoSize * 0.00000008 + numOfDocs * 0.0000128) *31);
-              console.log("Monthly Herc Needed is: " + hercNeeded);
+                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.0000128) *
+                  31;
               self.hercNeededResult = hercNeeded;
               break;
             case "Year":
               numOfAsset = Number(numOfAsset);
-              console.log("Number of assets is: " + numOfAsset);
               numOfDocs = Number(numOfDocs);
-              console.log("Number of docs is: " + numOfDocs);
               photoSize = Number(photoSize);
-              console.log("Photo size is: " + photoSize);
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
                 (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.0000128) *
                   365;
-              console.log("Yearly Herc Needed is: " + hercNeeded);
               self.hercNeededResult = hercNeeded;
               break;
             default:
               numOfAsset = Number(numOfAsset);
-              console.log("Number of assets is: " + numOfAsset);
               numOfDocs = Number(numOfDocs);
-              console.log("Number of docs is: " + numOfDocs);
               photoSize = Number(photoSize);
-              console.log("Photo size is: " + photoSize);
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
                 measureUnit * photoSize +
                 numOfDocs * 0.0000128;
-              console.log("Daily Herc Needed is: " + hercNeeded);
               self.hercNeededResult = hercNeeded;
               break;
           }
           var hercCostUSD = hercNeeded * hercAvgPrice;
           self.hercCostUSD = hercCostUSD;
-          console.log("Cost of HERC in USD is: " + hercCostUSD);
         }
       );
     },
