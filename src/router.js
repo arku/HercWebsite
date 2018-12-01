@@ -59,11 +59,11 @@ export default new Router({
         name: 'metamask',
         component: Metamask
     },
-    {
-        path: '/careers',
-        name: 'careers',
-        component: CareersSection
-    },
+    // {
+    //     path: '/careers',
+    //     name: 'careers',
+    //     component: CareersSection
+    // },
     {
         path: '/hipr',
         beforeEnter() {
