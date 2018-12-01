@@ -8,11 +8,13 @@
         <div class="column">
           <h1>Options:</h1>
           <select id="period-select" v-model="period" v-on:change="hercNeeded">
+            <option disabled value="">Select period</option>
             <option id="day" selected value="Day">Day</option>
             <option id="month">Month</option>
             <option id="year">Year</option>
           </select>
           <select id="size-select" v-model="size" v-on:change="hercNeeded">
+            <option disabled value="">Select unit</option>
             <option selected>KB</option>
             <option>MB</option>
             <option>GB</option>
@@ -127,18 +129,18 @@ export default {
 
           switch (measureType) {
             case "KB":
-              measureUnit = 1 * 0.00000008;
+              measureUnit = 1;
               console.log("Eve measure ti je: " + measureUnit);
               break;
             case "MB":
-              measureUnit = 1024 * 0.00000008;
+              measureUnit = 1024;
               console.log("Eve MB measure ti je: " + measureUnit);
               break;
             case "GB":
-              measureUnit = 1048576 * 0.00000008;
+              measureUnit = 1048576;
               break;
             default:
-              measureUnit = 1 * 0.00000008;
+              measureUnit = 1;
               break;
           }
 
@@ -164,11 +166,7 @@ export default {
               console.log("Number of docs is: " + numOfDocs);
               photoSize = Number(photoSize);
               console.log("Photo size is: " + photoSize);
-              hercNeeded =
-                (numOfAsset * (400 / hercAvgPrice) +
-                  measureUnit * photoSize +
-                  numOfDocs * 0.0000128) *
-                31;
+              hercNeeded = numOfAsset * (400 / hercAvgPrice) + ((measureUnit * photoSize + numOfDocs * 0.0000128) * 31);
               console.log("Monthly Herc Needed is: " + hercNeeded);
               self.hercNeededResult = hercNeeded;
               break;
@@ -264,6 +262,7 @@ input {
 ::placeholder {
   color: gray;
   text-align: center;
+  font-size: 12px;
 }
 
 #herc-needed,
@@ -271,5 +270,35 @@ input {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+}
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+}
+/*** Responsive Styles Tablet And Below ***/
+@media all and (max-width: 980px) {
+}
+/*** Responsive Styles Tablet Only ***/
+@media all and (min-width: 768px) and (max-width: 980px) {
+}
+/*** Responsive Styles Smartphone Only ***/
+@media all and (max-width: 767px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  #content{
+    padding: 10;
+  }
+
+  #calculator-section{
+    padding: 20px;
+  }
+}
+/*** Responsive Styles Smartphone Portrait ***/
+@media all and (max-width: 479px) {
 }
 </style>
