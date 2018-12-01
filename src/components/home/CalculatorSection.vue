@@ -8,13 +8,13 @@
         <div class="column">
           <h1>Options:</h1>
           <select id="period-select" v-model="period" v-on:change="hercNeeded">
-            <option disabled value="">Select period</option>
+            <option disabled value>Select period</option>
             <option id="day" selected value="Day">Day</option>
             <option id="month">Month</option>
             <option id="year">Year</option>
           </select>
           <select id="size-select" v-model="size" v-on:change="hercNeeded">
-            <option disabled value="">Select unit</option>
+            <option disabled value>Select unit</option>
             <option selected>KB</option>
             <option>MB</option>
             <option>GB</option>
@@ -154,7 +154,7 @@ export default {
               console.log("Photo size is: " + photoSize);
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
-                measureUnit * photoSize +
+                measureUnit * photoSize * 0.00000008 +
                 numOfDocs * 0.0000128;
               console.log("Daily Herc Needed is: " + hercNeeded);
               self.hercNeededResult = hercNeeded;
@@ -166,7 +166,9 @@ export default {
               console.log("Number of docs is: " + numOfDocs);
               photoSize = Number(photoSize);
               console.log("Photo size is: " + photoSize);
-              hercNeeded = numOfAsset * (400 / hercAvgPrice) + ((measureUnit * photoSize + numOfDocs * 0.0000128) * 31);
+              hercNeeded =
+                numOfAsset * (400 / hercAvgPrice) +
+                ((measureUnit * photoSize * 0.00000008 + numOfDocs * 0.0000128) *31);
               console.log("Monthly Herc Needed is: " + hercNeeded);
               self.hercNeededResult = hercNeeded;
               break;
@@ -178,10 +180,9 @@ export default {
               photoSize = Number(photoSize);
               console.log("Photo size is: " + photoSize);
               hercNeeded =
-                (numOfAsset * (400 / hercAvgPrice) +
-                  measureUnit * photoSize +
-                  numOfDocs * 0.0000128) *
-                365;
+                numOfAsset * (400 / hercAvgPrice) +
+                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.0000128) *
+                  365;
               console.log("Yearly Herc Needed is: " + hercNeeded);
               self.hercNeededResult = hercNeeded;
               break;
@@ -290,11 +291,11 @@ input {
     font-size: 24px;
   }
 
-  #content{
+  #content {
     padding: 10;
   }
 
-  #calculator-section{
+  #calculator-section {
     padding: 20px;
   }
 }
