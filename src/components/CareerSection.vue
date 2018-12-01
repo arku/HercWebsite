@@ -70,7 +70,7 @@
                 <br>As a distributed team, we hire anywhere in the world, and at different levels of experience
                 (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
               </p>
-              <div>
+              <div class="center-element">
                 <button>
                   <a href="mailto:social@herc.one">Apply</a>
                 </button>
@@ -141,7 +141,7 @@
                 <br>As a distributed team, we hire anywhere in the world, and at different levels of experience
                 (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
               </p>
-              <div>
+              <div class="center-element">
                 <button>
                   <a href="mailto:social@herc.one">Apply</a>
                 </button>
@@ -204,7 +204,7 @@
                 <br>As a distributed team, we hire anywhere in the world, and at different levels of experience
                 (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
               </p>
-              <div>
+              <div class="center-element">
                 <button>
                   <a href="mailto:social@herc.one">Apply</a>
                 </button>
@@ -271,7 +271,7 @@
                 <br>As a distributed team, we hire anywhere in the world, and at different levels of experience
                 (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
               </p>
-              <div>
+              <div class="center-element">
                 <button>
                   <a href="mailto:social@herc.one">Apply</a>
                 </button>
@@ -352,7 +352,7 @@
                 <br>As a distributed team, we hire anywhere in the world, and at different levels of experience
                 (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
               </p>
-              <div>
+              <div class="center-element">
                 <button>
                   <a href="mailto:social@herc.one">Apply</a>
                 </button>
@@ -420,7 +420,7 @@
                 <br>As a distributed team, we hire anywhere in the world, and at different levels of experience
                 (entry, senior, staff). We look for people with unique perspectives and diverse backgrounds.
               </p>
-              <div>
+              <div class="center-element">
                 <button>
                   <a href="mailto:social@herc.one">Apply</a>
                 </button>
@@ -443,7 +443,7 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
+            <div class="center-element">
               <button>
                 <a href="mailto:social@herc.one">Apply</a>
               </button>
@@ -463,7 +463,7 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
+            <div class="center-element">
               <button>
                 <a href="mailto:social@herc.one">Apply</a>
               </button>
@@ -485,7 +485,7 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
+            <div class="center-element">
               <button>
                 <a href="mailto:social@herc.one">Apply</a>
               </button>
@@ -507,10 +507,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -529,10 +529,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -549,10 +549,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -571,10 +571,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -593,10 +593,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -613,10 +613,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -635,10 +635,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -655,10 +655,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -675,10 +675,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -695,10 +695,10 @@
             </h4>
           </div>
           <div class="notification answer">
-            <div>
-                <button>
-                  <a href="mailto:social@herc.one">Apply</a>
-                </button>
+            <div class="center-element">
+              <button>
+                <a href="mailto:social@herc.one">Apply</a>
+              </button>
             </div>
           </div>
         </b-collapse>
@@ -753,8 +753,12 @@ p {
   margin-bottom: 2%;
 }
 
+.center-element {
+  text-align: center;
+}
+
 .question {
-  width: 50%;
+  width: 80%;
   margin: auto;
   border: 1px solid $herc-gold;
   color: $herc-gold;
@@ -767,7 +771,7 @@ p {
   border-radius: 5px;
 }
 .answer {
-  width: 50%;
+  width: 80%;
   margin: auto;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -796,9 +800,6 @@ p {
 .accordian-holder {
   margin: auto;
 }
-.popup {
-  margin: auto;
-}
 
 #content {
   max-width: 1080px;
@@ -814,11 +815,11 @@ p {
 }
 
 button {
-  margin: 5%;
-  margin-left: 0;
   @include herc-gold-button;
+  margin: 5%;
   border-radius: 5px;
   border: 1px solid $herc-blue;
+  font-size: 20px;
 }
 
 button:hover {
@@ -843,22 +844,22 @@ a {
 @media all and (min-width: 768px) and (max-width: 980px) {
   .question {
     font-size: 18px;
-    width: 60%;
+    width: 90%;
   }
 
   .answer {
-    width: 60%;
+    width: 90%;
   }
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
   .question {
     font-size: 18px;
-    width: 70%;
+    width: 90%;
   }
 
   .answer {
-    width: 70%;
+    width: 90%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
