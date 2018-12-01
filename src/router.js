@@ -139,12 +139,12 @@ export default new Router({
         path: '/news',
         name: 'NewsSection',
         component: NewsSection
+    },
+    {
+        path: '/calculator',
+        name: 'CalculatorSection',
+        component: CalculatorSection
     }
-    // {
-    //     path: '/calculator',
-    //     name: 'CalculatorSection',
-    //     component: CalculatorSection
-    // }
     ],
     scrollBehavior(to, from, savedPosition) {
         return { x: 0, y: 0 }

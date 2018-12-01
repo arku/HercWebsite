@@ -105,9 +105,6 @@ export default {
 
           var measureType;
           var measureUnit;
-          var hercNeededDaily;
-          var hercNeededMonthly;
-          var hercNeededYearly;
           var numOfAsset;
           var photoSize;
           var numOfDocs;
