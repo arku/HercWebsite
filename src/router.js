@@ -6,7 +6,7 @@ import Policy from './views/Policy.vue';
 import Terms from './views/Terms.vue';
 import FAQ from './views/FAQ.vue';
 import Metamask from './views/Metamask.vue';
-import CareersSection from './views/Careers.vue';
+// import CareersSection from './views/Careers.vue';
 import TokenInfo from './views/TokenInfo.vue';
 import Landing from './views/LandingViews/Landing.vue';
 import LandingThree from './views/LandingViews/LandingThree.vue';
@@ -21,7 +21,7 @@ import ContactSectionBig from './views/Contact.vue';
 import DevSourcesSection from './views/DevSources.vue';
 import UtilitySection from './views/UtilityResources.vue';
 import NewsSection from './views/News.vue';
-import CalculatorSection from './views/Calculator.vue'
+// import CalculatorSection from './views/Calculator.vue'
 
 Vue.use(Router);
 
