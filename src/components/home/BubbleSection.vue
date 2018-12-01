@@ -1,36 +1,45 @@
 <template>
-    <div id="bubble-section">
-        <div id="content">
-          <div>
-            <h1 class="title">With Hercules, you get . . .</h1>
+  <div id="bubble-section">
+    <div id="content">
+      <div>
+        <h1 class="title">With Hercules, you get . . .</h1>
+      </div>
+      <div class="columns">
+        <div class="column blurb">
+          <div class="blurb-image hvr-pulse-shrink">
+            <!-- <i class="fas fa-cogs fa-5x"></i> -->
+            <img src="../../assets/bubble/efficiency.png">
           </div>
-            <div class="columns">
-                <div class="column blurb">
-                    <div class="blurb-image hvr-pulse-shrink">
-                        <i class="fas fa-cogs fa-5x"></i>
-                    </div>
-                    <h2 class="blurb-title">Efficiency</h2>
-                    <p class="blurb-text">Today paper and email invoice errors cost $40-$400 to reconcile. Using Hercules $.01-$1.</p>
-                </div>
-                <div class="column blurb">
-                    <div class="blurb-image hvr-pulse-shrink">
-                        <i class="fas fa-rocket fa-5x"></i>
-                    </div>
-                    <h2 class="blurb-title">Speed</h2>
-                    <p class="blurb-text">Today a single paper and email invoice processing takes 10.3 days on average to process. Using Hercules: Same Day.</p>
-                </div>
-                <div class="column blurb">
-                    <div class="blurb-image hvr-pulse-shrink">
-                        <i class="fas fa-balance-scale fa-5x"></i>
-                    </div>
-                    <h2 class="blurb-title">Integrity</h2>
-                    <p class="blurb-text">Today paper, email and off-chain digital records can
-                       be easily tampered with. Using Hercules: irrefutable proof of date, time, or
-                        geolocation can be recorded and stored immutably.</p>
-                </div>
-            </div>
+          <h2 class="blurb-title">Efficiency</h2>
+          <p
+            class="blurb-text"
+          >Today paper and email invoice errors cost $40-$400 to reconcile. Using Hercules $.01-$1.</p>
         </div>
+        <div class="column blurb">
+          <div class="blurb-image hvr-pulse-shrink">
+            <!-- <i class="fas fa-rocket fa-5x"></i> -->
+            <img src="../../assets/bubble/speed.png">
+          </div>
+          <h2 class="blurb-title">Speed</h2>
+          <p
+            class="blurb-text"
+          >Today a single paper and email invoice processing takes 10.3 days on average to process. Using Hercules: Same Day.</p>
+        </div>
+        <div class="column blurb">
+          <div class="blurb-image hvr-pulse-shrink">
+            <!-- <i class="fas fa-balance-scale fa-5x"></i> -->
+            <img src="../../assets/bubble/integrity.png">
+          </div>
+          <h2 class="blurb-title">Integrity</h2>
+          <p class="blurb-text">
+            Today paper, email and off-chain digital records can
+            be easily tampered with. Using Hercules: irrefutable proof of date, time, or
+            geolocation can be recorded and stored immutably.
+          </p>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -76,10 +85,16 @@ h1 {
   font-weight: bold;
 }
 
-i {
-  margin: auto;
-  margin-bottom: 50%;
-  color: $herc-gold;
+// i {
+//   margin: auto;
+//   margin-bottom: 50%;
+//   color: $herc-gold;
+// }
+
+img {
+  height: 128px;
+  width: 128px;
+  margin-bottom: 10%;
 }
 
 .blurb-title {
