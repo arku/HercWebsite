@@ -1,8 +1,10 @@
 <template>
-    <div id="slider-section">
-      <div id="content">
-        <h1>Get Your <span>HERC</span> Tokens Now</h1>
-        <carousel
+  <div id="slider-section">
+    <div id="content">
+      <h1>Get Your
+        <span>HERC</span> Tokens Now
+      </h1>
+      <!-- <carousel
             class="carousel"
             autoplay
             :per-page="3"
@@ -44,19 +46,58 @@
               <img class="imgSize" src="../../assets/exchanges/coingecko.png">
             </a>
           </slide>
-        </carousel>
+      </carousel>-->
+      <div class="columns">
+        <div class="column">
+          <a href="https://www.idax.mn/#/register?inviteCode=z8vqob" target="_blank">
+            <img class="imgSize" src="../../assets/exchanges/idax.png">
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://bit.ly/2Q8fb95" target="_blank">
+            <img class="imgSize" src="../../assets/exchanges/latoken.png">
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.fubt.top" target="_blank">
+            <img class="imgSize" src="../../assets/exchanges/fubt.png">
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.dobitrade.com/" target="_blank">
+            <img class="imgSize" src="../../assets/exchanges/dobi_logo.svg">
+          </a>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <a href="https://sistemkoin.com/" target="_blank">
+            <img class="imgSize" src="../../assets/exchanges/sistemkoin.png">
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://coincodex.com/" target="_blank">
+            <img class="imgSize" src="../../assets/exchanges/coincodex-light.png">
+          </a>
+        </div>
+        <div class="column">
+          <a href="https://www.coingecko.com" target="_blank">
+            <img class="imgSize" src="../../assets/exchanges/coingecko.png">
+          </a>
+        </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
-import { Carousel, Slide } from "vue-carousel";
+// import { Carousel, Slide } from "vue-carousel";
 export default {
-  name: "SliderSection",
-  components: {
-    Carousel,
-    Slide
-  }
+  name: "SliderSection"
+  // components: {
+  //   Carousel,
+  //   Slide
+  // }
 };
 </script>
 
