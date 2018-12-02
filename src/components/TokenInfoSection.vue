@@ -1,47 +1,91 @@
 <template>
-    <div id="token-info-section">
-        <div id="content">
-            <h1>HERC Token Information</h1>
-              <div id="blurb">
-              <h2>Token Name</h2>
-              <p>Hercules</p>
-              <h2>Token Code</h2>
-              <p>HERC</p>
-              <h2>Contract Address</h2>
-              <p>0x6251583e7d997df3604bc73b9779196e94a090ce</p>
-              <p id="info"></p>
-              <button v-clipboard="copyAddress" @success="handleSuccess" @error="handleError">Copy Address</button>
-              <h2>Number of Decimal Places</h2>
-              <p>18</p>
-              <a href="https://etherscan.io/address/0x6251583e7d997df3604bc73b9779196e94a090ce" target="_blank">
-                <button>
-                  View on Etherscan
-                </button>
-              </a>
-            </div>
-            <h1>How to store your HERC on Edge Wallet</h1>
-            <img src="../assets/edge-info.png">
-        </div>
+  <div id="token-info-section">
+    <div id="content">
+      <h1>HERC Token Information</h1>
+      <div id="blurb">
+        <h2>Token Name</h2>
+        <p>Hercules</p>
+        <h2>Token Code</h2>
+        <p>HERC</p>
+        <h2>Contract Address</h2>
+        <p>0x6251583e7d997df3604bc73b9779196e94a090ce</p>
+        <p id="info"></p>
+        <button v-clipboard="copyAddress" @success="handleSuccess" @error="handleError">Copy Address</button>
+        <h2>Number of Decimal Places</h2>
+        <p>18</p>
+        <a
+          href="https://etherscan.io/address/0x6251583e7d997df3604bc73b9779196e94a090ce"
+          target="_blank"
+        >
+          <button>View on Etherscan</button>
+        </a>
+        <h2>Additional Information</h2>
+        <h3>Circulating Supply:</h3>
+        <p>{{circulatingSupply}}</p>
+        <h3>Aggregate Reserves:</h3>
+        <p>{{aggregateReserves}}</p>
+        <h3>Aggregate Supplies:</h3>
+        <p>{{aggregateSupplies}}</p>
+        <h3>Percent of Supply in Circulation:</h3>
+        <p>{{percentOfSupplyInCirculation}}</p>
+        <h3>Market Capitalization:</h3>
+        <p>{{marketCapitalization}}</p>
+        <h3>Average HERC Price:</h3>
+        <p>{{averagePrice}}</p>
+        <h3>Value Held in Reserve:</h3>
+        <p>{{valueHeldInReserve}}</p>
+      </div>
+      <h1>How to store your HERC on Edge Wallet</h1>
+      <img src="../assets/edge-info.png">
     </div>
+  </div>
 </template>
 
 <script>
+import JQuery from "jquery";
+let $ = JQuery;
 export default {
   name: "TokenInfoSection",
   data() {
     return {
-      copyAddress: "0x6251583e7d997df3604bc73b9779196e94a090ce"
+      copyAddress: "0x6251583e7d997df3604bc73b9779196e94a090ce",
+      circulatingSupply: "",
+      aggregateReserves: "",
+      aggregateSupplies: "",
+      percentOfSupplyInCirculation: "",
+      marketCapitalization: "",
+      averagePrice: "",
+      valueHeldInReserve: ""
     };
   },
   methods: {
     handleSuccess(e) {
-      document.getElementById('info').style.cssText = "display:inherit";
-      document.getElementById('info').innerHTML = "Address copied succesfully!"
+      document.getElementById("info").style.cssText = "display:inherit";
+      document.getElementById("info").innerHTML = "Address copied succesfully!";
       console.log(e);
     },
     handleError(e) {
       console.log(e);
+    },
+    showInfo() {
+      const self = this;
+      $.getJSON("https://chart.anthemgold.com/bi-1.0-SNAPSHOT/Report", function(
+        data
+      ) {
+        self.circulatingSupply = `${data.circulatingSupply}`;
+        self.aggregateReserves = `${data.aggregateReserves}`;
+        self.aggregateSupplies = `${data.aggregateSupplies}`;
+        self.percentOfSupplyInCirculation = `${
+          data.percentOfSupplyInCirculation
+        }`;
+        self.marketCapitalization = `${data.marketCapitalization}`;
+        self.averagePrice = `${data.averagePrice}`;
+        self.valueHeldInReserve = `${data.valueHeldInReserve}`;
+      });
     }
+  },
+  beforeMount() {
+    this.showInfo();
   }
 };
 </script>
@@ -72,6 +116,11 @@ h2 {
   font-size: 28px;
 }
 
+h3 {
+  font-size: 26px;
+  color: gray;
+}
+
 p {
   color: $herc-gold;
   font-weight: bold;
@@ -97,7 +146,7 @@ button {
 }
 
 button:hover {
- @include herc-gold-button-hover;
+  @include herc-gold-button-hover;
 }
 
 img {
