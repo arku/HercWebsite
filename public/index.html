@@ -19,6 +19,7 @@
   <meta name="twitter:title" content="Decentralized Supply Chain Management Software" />
   <meta name="twitter:site" content="@HERC_Hercules" />
   <meta name="twitter:creator" content="@HERC_Hercules" />
+  <meta name="google-site-verification" content="py5QUtOmdoE1NpJkcUPxhi3ZykiM-wRFlV86ht7dM6Y" />
   <link rel="icon" href="<%= BASE_URL %>favicon.png">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
     crossorigin="anonymous">
@@ -30,20 +31,10 @@
     <strong>We're sorry but herc doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
   </noscript>
   <div id="app"></div>
-  <!--Global site tag (gtag.js) - Google Analytics -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126354860-1"></script> -->
-  <!-- <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'UA-126354860-1');
-  </script> -->
   <script>
     // console.log(location.hash.substring(0, 2));
     if (location.hash.substring(0, 2) === '#!') {
       history.pushState({}, "Application entry", location.hash.substring(2));
-      // console.log('triggered');
     }
 
   </script>
@@ -63,7 +54,6 @@
     firebase.initializeApp(config);
   </script>
   <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
-  <meta name="google-site-verification" content="py5QUtOmdoE1NpJkcUPxhi3ZykiM-wRFlV86ht7dM6Y" />
 </body>
 <style>
 
