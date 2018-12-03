@@ -782,21 +782,6 @@ p {
   box-shadow: $herc-shadow;
 }
 
-// .answer .popup a {
-//   padding-top: 10px;
-//   padding-bottom: 10px;
-//   padding-left: 20px;
-//   padding-right: 20px;
-//   font-size: 20px;
-//   border-radius: 0;
-//   background-color: $herc-blue;
-//   color: white !important;
-//   text-transform: uppercase;
-//   font-weight: bold;
-//   margin: auto !important;
-//   text-align: center;
-// }
-
 .accordian-holder {
   margin: auto;
 }
@@ -873,5 +858,4 @@ a {
     width: 100%;
   }
 }
-</style>
 </style>
