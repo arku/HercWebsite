@@ -9,7 +9,6 @@ import VueAnalytics from "vue-analytics";
 import VueClipboards from "vue-clipboards";
 import VeeValidate from "vee-validate";
 import AnimateCSS from "animate.css";
-import VueSpinners from "@saeris/vue-spinners";
 
 Vue.use(AnimateCSS);
 Vue.use(VeeValidate);
@@ -24,7 +23,6 @@ Vue.use(Buefy, {
 Vue.use(vueSmoothScroll);
 Vue.use(BackToTop);
 Vue.config.productionTip = false;
-Vue.use(VueSpinners);
 
 new Vue({
   router,

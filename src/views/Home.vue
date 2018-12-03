@@ -20,12 +20,9 @@
     <HercSection></HercSection>
     <VideoSection></VideoSection>
     <HiprSection></HiprSection>
-    <!-- <TableSection></TableSection> -->
     <CalculatorSection></CalculatorSection>
     <DappSection></DappSection>
     <TheRoadmapSection></TheRoadmapSection>
-    <!-- <RoadmapHorizontalSection></RoadmapHorizontalSection>
-    <RoadmapSection></RoadmapSection> -->
     <PartnersSection></PartnersSection>
     <UseCaseSection></UseCaseSection>
     <DocumentsSection></DocumentsSection>
@@ -39,33 +36,13 @@
         <i class="fa fa-chevron-up"></i>
       </button>
     </back-to-top>
-
-    <!-- Trigger/Open The Modal -->
-    <!-- <button id="myBtn">Open Modal</button> -->
-    <!-- The Modal -->
-    <!-- <div id="myModal" class="modal"> -->
-    <!-- Modal content -->
-    <!-- <div class="modal-content"> -->
-    <!-- &times; -->
-    <!-- <div class="modal-main-content">
-            <h1>HERC Token has been launched!</h1>
-          <p>You are able to buy HERC now at the discounted price!</p>
-          <p class="spacer">Purchase 1000 HERC today to Begin Your Supply Chain Legend</p>
-          <a href="https://www.crowdfunder.com/hercules" @click="popupAction" class="animated flash infinite slow">BUY NOW</a>
-          <span class="close">I want to do some research first</span>
-          </div>
-        </div>
-    </div>-->
   </div>
 </template>
 <script>
 import NavBar from "@/components/NavBar.vue";
 // import TopSection from "@/components/TopSection.vue";
 import BlurbSection from "@/components/home/BlurbSection.vue";
-// import TableSection from "@/components/home/TableSection.vue";
 import VideoSection from "@/components/home/VideoSection.vue";
-// import RoadmapSection from "@/components/home/RoadmapSection.vue";
-// import RoadmapHorizontalSection from "@/components/home/RoadmapHorizontalSection.vue";
 import PartnersSection from "@/components/home/PartnersSection.vue";
 import DocumentsSection from "@/components/home/DocumentsSection.vue";
 import ContactSection from "@/components/ContactSection.vue";
@@ -108,11 +85,8 @@ export default {
     CommunitySection,
     BlurbSection,
     HercSection,
-    // TableSection,
     VideoSection,
     HiprSection,
-    // RoadmapHorizontalSection,
-    // RoadmapSection,
     PartnersSection,
     BubbleSection,
     DocumentsSection,
@@ -127,67 +101,7 @@ export default {
     SliderSection,
     CalculatorSection,
     TheRoadmapSection
-  },
-  methods: {
-    popupAction() {
-      this.$ga.event({
-        eventCategory: "Homepage",
-        eventAction: "Popup buy button clicked",
-        eventLabel: "popup"
-      });
-    }
-
-    // showPopup() {
-    //   // Get the modal
-    //   var modal = document.getElementById("myModal");
-
-    //   // Get the button that opens the modal
-    //   var btn = document.getElementById("myBtn");
-
-    //   // Get the <span> element that closes the modal
-    //   var span = document.getElementsByClassName("close")[0];
-
-    //   // When the user clicks the button, open the modal
-    //   btn.onclick = function() {
-    //     modal.style.display = "block";
-    //   };
-
-    //   // When the user clicks on <span> (x), close the modal
-    //   span.onclick = function() {
-    //     modal.style.display = "none";
-    //   };
-
-    //   // When the user clicks anywhere outside of the modal, close it
-    //   window.onclick = function(event) {
-    //     if (event.target == modal) {
-    //       modal.style.display = "none";
-    //     }
-    //   };
-    // }
   }
-  // mounted() {
-  //   // Get the modal
-  //   var modal = document.getElementById("myModal");
-
-  //   // Get the <span> element that closes the modal
-  //   var span = document.getElementsByClassName("close")[0];
-
-  //   // When the user clicks the button, open the modal
-
-  //   modal.style.display = "block";
-
-  //   // When the user clicks on <span> (x), close the modal
-  //   span.onclick = function() {
-  //     modal.style.display = "none";
-  //   };
-
-  //   // When the user clicks anywhere outside of the modal, close it
-  //   window.onclick = function(event) {
-  //     if (event.target == modal) {
-  //       modal.style.display = "none";
-  //     }
-  //   };
-  // }
 };
 </script>
 
@@ -209,152 +123,6 @@ export default {
   color: #091141;
 }
 
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0, 0, 0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity */
-}
-
-.modal h1 {
-  color: #f3c736;
-  font-size: 30px;
-}
-
-.modal p {
-  color: white;
-}
-
-.spacer {
-  margin-bottom: 5%;
-}
-
-.modal a {
-  background-color: #f3c736;
-  border: 2px solid transparent;
-  border-radius: 5px !important;
-  font-size: 16px;
-  text-transform: uppercase;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  font-weight: bold;
-  color: #091141;
-  /* animation-name: flash;
-  animation-duration: 1s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-
-  -webkit-animation-name: flash;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-
-  -moz-animation-name: flash;
-  -moz-animation-duration: 1s;
-  -moz-animation-timing-function: linear;
-  -moz-animation-iteration-count: infinite; */
-}
-
-.modal span {
-  text-align: center;
-  color: white;
-  margin: auto;
-  margin-top: 10%;
-  width: 100%;
-  font-weight: normal;
-  line-height: 1.2em;
-}
-
-.modal span:hover {
-  color: #f3c736;
-}
-
-/* @keyframes flash {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes flash {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes flash {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-
-.modal a:hover {
-  background-color: #091141;
-  color: #f3c736;
-  border: 2px solid #f3c736;
-  box-shadow: 0px 12px 18px -6px #000;
-}
-
-/* Modal Content */
-.modal-content {
-  background-color: #091141;
-  border-radius: 5px;
-  box-shadow: 0px 12px 18px -6px #000;
-  margin: auto;
-  padding: 15px;
-  padding-top: 5px;
-  padding-bottom: 50px;
-  border: 2px solid #f3c736;
-  width: 80%;
-  margin: auto !important;
-}
-
-.modal-main-content {
-  padding: 50px;
-}
-
-/* The Close Button */
-.close {
-  color: #f3c736;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -369,22 +137,6 @@ export default {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  .modal h1 {
-    line-height: 1.2em;
-    margin-bottom: 10%;
-  }
-
-  .spacer {
-    margin-bottom: 10%;
-  }
-
-  .modal-main-content {
-    padding: 20px;
-  }
-
-  .modal-content {
-    width: 90% !important;
-  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
