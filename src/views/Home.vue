@@ -20,7 +20,7 @@
     <HercSection></HercSection>
     <VideoSection></VideoSection>
     <HiprSection></HiprSection>
-    <!-- <CalculatorSection></CalculatorSection> -->
+    <CalculatorSection></CalculatorSection>
     <DappSection></DappSection>
     <TheRoadmapSection></TheRoadmapSection>
     <PartnersSection></PartnersSection>
@@ -66,7 +66,7 @@ import LandingPageEight from "@/components/LandingPages/LandingPageEight.vue";
 import LandingPageNine from "@/components/LandingPages/LandingPageNine.vue";
 import BuySection from "@/components/home/BuySection.vue";
 import SliderSection from "@/components/home/SliderSection.vue";
-// import CalculatorSection from "@/components/home/CalculatorSection.vue";
+import CalculatorSection from "@/components/home/CalculatorSection.vue";
 import TheRoadmapSection from "@/components/home/TheRoadmapSection.vue";
 
 export default {
@@ -99,7 +99,7 @@ export default {
     HiwSection,
     BuySection,
     SliderSection,
-    // CalculatorSection,
+    CalculatorSection,
     TheRoadmapSection
   }
 };
