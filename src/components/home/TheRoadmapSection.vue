@@ -3,6 +3,7 @@
     <div id="content"></div>
     <h1>Roadmap</h1>
     <h2>Click to expand</h2>
+    <h6>2018</h6>
     <div>
       <b-collapse :open="false" id="job-holder">
         <div slot="trigger" class="question">
@@ -45,6 +46,7 @@
         </div>
       </b-collapse>
     </div>
+    <h6>2019</h6>
     <div>
       <b-collapse :open="false" id="job-holder">
         <div slot="trigger" class="question">
@@ -123,6 +125,7 @@
         </div>
       </b-collapse>
     </div>
+    <h6>2020</h6>
     <div>
       <b-collapse :open="false" id="job-holder">
         <div slot="trigger" class="question">
@@ -223,6 +226,7 @@
         </div>
       </b-collapse>
     </div>
+    <h6>2021</h6>
     <div>
       <b-collapse :open="false" id="job-holder">
         <div slot="trigger" class="question">
@@ -294,6 +298,13 @@ h5 {
   text-transform: uppercase;
 }
 
+h6 {
+  color: $herc-gold;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 1px 1px $herc-blue;
+}
+
 #job-holder {
   margin-bottom: 2%;
 }
@@ -352,18 +363,20 @@ h5 {
 }
 /*** Responsive Styles Tablet And Below ***/
 @media all and (max-width: 980px) {
-    .question, .answer{
-        width: 60%;
-    }
+  .question,
+  .answer {
+    width: 60%;
+  }
 }
 /*** Responsive Styles Tablet Only ***/
 @media all and (min-width: 768px) and (max-width: 980px) {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-    .question, .answer{
-        width: 90%;
-    }
+  .question,
+  .answer {
+    width: 90%;
+  }
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
