@@ -278,6 +278,7 @@ export default {
 <style scoped lang="scss">
 #the-roadmap-section {
   padding: 50px;
+  background-color: #fafafa;
 }
 
 #content {

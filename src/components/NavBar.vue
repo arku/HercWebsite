@@ -1,131 +1,119 @@
 <template>
-    <div id="navbar">
-        <div id="content">
-            <nav class="navbar is-transparent">
-                <div class="navbar-brand">
-                    <a href="/" class="navbar-item">
-                        <img src="../assets/herc-logo.png" alt="Herc: Decentralized supply chain management software">
-                    </a>
-                    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample" @click="toggleMobileMenu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    </div>
-                </div>
-
-                <div id="navbarExampleTransparentExample" class="navbar-menu" :class="{'is-active':isMobileMenuOpen}">
-                    <div class="navbar-start">
-                        <a href="/" class="navbar-item">
-                            Home
-                        </a>
-                        <a href="/#blurb-section" class="navbar-item">
-                            About
-                        </a>
-                        <a href="/#horizontal-roadmap" class="navbar-item" id="desktop-roadmap">
-                            Roadmap
-                        </a>
-                        <a href="/#roadmap-section" class="navbar-item" id="mobile-roadmap">
-                            Roadmap
-                        </a>
-                        <a href="/#documents-section" class="navbar-item">
-                            Documents
-                        </a>
-                        <!-- <a href="/news" class="navbar-item">
-                            News
-                        </a> -->
-                        <router-link to="/news" class="navbar-item">
-                          News
-                        </router-link>
-                        <b-dropdown hoverable id="droptro">
-                          <a class="navbar-item" slot="trigger">
-                            <i class="fas fa-angle-down ri"></i> Info
-                          </a>
-                          <b-dropdown-item>
-                            <router-link to="/developer-resources" class="a-reversed">
-                              Developer Resources
-                            </router-link>
-                          </b-dropdown-item>
-                          <b-dropdown-item>
-                            <router-link to="/tokeninfo" class="a-reversed">
-                              Token Info
-                            </router-link>
-                          </b-dropdown-item>
-                          <b-dropdown-item>
-                            <router-link to="utilities" class="a-reversed">
-                              Utilities
-                            </router-link>
-                          </b-dropdown-item>
-                        </b-dropdown>
-                        <a href="/#team-section" class="navbar-item">
-                            Team
-                        </a>
-                        <a href="https://www.crowdfunder.com/hercules" class="navbar-item buy-herc">
-                            Buy HERC
-                        </a>
-                    </div>
-                    
-                    <div id="social-top">
-                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                        <i class="fab fa-telegram fa-2x"></i>
-                      </a>
-                      <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
-                        <i class="fab fa-facebook fa-2x"></i>
-                      </a>
-                      <a href="https://twitter.com/HERC_Hercules" target="_blank">
-                        <i class="fab fa-twitter fa-2x"></i>
-                      </a>
-                      <a href="https://www.instagram.com/herctoken/" target="_blank">
-                        <i class="fab fa-instagram fa-2x"></i>
-                      </a>
-                      <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                      </a>
-                      <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">
-                        <i class="fab fa-youtube fa-2x"></i>
-                      </a>
-                      <a href="https://medium.com/@herc_token" target="_blank">
-                        <i class="fab fa-medium-m fa-2x"></i>
-                      </a>
-                        
-                        
-                    </div>
-
-                    <div class="navbar-end">
-                        <div class="navbar-item">
-                            <div class="field is-grouped" id="two-buttons">
-                                <p class="control" @click="trackTelegram">
-                                    <a class="button is-primary dugme-hover" href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                                    <span class="icon">
-                                        <i class="fab fa-telegram"></i>
-                                    </span>
-                                    <span>
-                                        Telegram
-                                    </span>
-                                    </a>
-                                </p>
-                                <p class="control" @click="trackWhitepaper">
-                                    <router-link to="/whitepaper" class="button is-primary dugme-hover">
-                                    <span class="icon">
-                                        <i class="far fa-file-alt"></i>
-                                    </span>
-                                    <span>Whitepaper</span>
-                                    </router-link>
-                                </p>
-                                <p class="control" id="util">
-                                    <router-link to="/utilities" class="button is-primary dugme-hover">
-                                    <span class="icon">
-                                        <i class="fas fa-wrench"></i>
-                                    </span>
-                                    <span>Utilities</span>
-                                    </router-link>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+  <div id="navbar">
+    <div id="content">
+      <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+          <a href="/" class="navbar-item">
+            <img
+              src="../assets/herc-logo.png"
+              alt="Herc: Decentralized supply chain management software"
+            >
+          </a>
+          <div
+            class="navbar-burger burger"
+            data-target="navbarExampleTransparentExample"
+            @click="toggleMobileMenu"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </div>
+
+        <div
+          id="navbarExampleTransparentExample"
+          class="navbar-menu"
+          :class="{'is-active':isMobileMenuOpen}"
+        >
+          <div class="navbar-start">
+            <a href="/" class="navbar-item">Home</a>
+            <a href="/#blurb-section" class="navbar-item">About</a>
+            <a href="/#the-roadmap-section" class="navbar-item">Roadmap</a>
+            <a href="/#documents-section" class="navbar-item">Documents</a>
+            <!-- <a href="/news" class="navbar-item">
+                            News
+            </a>-->
+            <router-link to="/news" class="navbar-item">News</router-link>
+            <b-dropdown hoverable id="droptro">
+              <a class="navbar-item" slot="trigger">
+                <i class="fas fa-angle-down ri"></i> Info
+              </a>
+              <b-dropdown-item>
+                <router-link to="/developer-resources" class="a-reversed">Developer Resources</router-link>
+              </b-dropdown-item>
+              <b-dropdown-item>
+                <router-link to="/tokeninfo" class="a-reversed">Token Info</router-link>
+              </b-dropdown-item>
+              <b-dropdown-item>
+                <router-link to="utilities" class="a-reversed">Utilities</router-link>
+              </b-dropdown-item>
+            </b-dropdown>
+            <a href="/#team-section" class="navbar-item">Team</a>
+            <a href="https://www.crowdfunder.com/hercules" class="navbar-item buy-herc">Buy HERC</a>
+          </div>
+
+          <div id="social-top">
+            <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+              <i class="fab fa-telegram fa-2x"></i>
+            </a>
+            <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/HERC_Hercules" target="_blank">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/herctoken/" target="_blank">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+            <a href="https://medium.com/@herc_token" target="_blank">
+              <i class="fab fa-medium-m fa-2x"></i>
+            </a>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="field is-grouped" id="two-buttons">
+                <p class="control" @click="trackTelegram">
+                  <a
+                    class="button is-primary dugme-hover"
+                    href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw"
+                    target="_blank"
+                  >
+                    <span class="icon">
+                      <i class="fab fa-telegram"></i>
+                    </span>
+                    <span>Telegram</span>
+                  </a>
+                </p>
+                <p class="control" @click="trackWhitepaper">
+                  <router-link to="/whitepaper" class="button is-primary dugme-hover">
+                    <span class="icon">
+                      <i class="far fa-file-alt"></i>
+                    </span>
+                    <span>Whitepaper</span>
+                  </router-link>
+                </p>
+                <p class="control" id="util">
+                  <router-link to="/utilities" class="button is-primary dugme-hover">
+                    <span class="icon">
+                      <i class="fas fa-wrench"></i>
+                    </span>
+                    <span>Utilities</span>
+                  </router-link>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
+  </div>
 </template>
 
 <script>
@@ -232,10 +220,6 @@ a:hover {
   padding-right: 10px;
 }
 
-#mobile-roadmap {
-  display: none;
-}
-
 .buy-herc {
   font-weight: bold;
 }
@@ -310,14 +294,6 @@ a:hover {
     text-align: center;
     padding: 5px;
     margin-right: 0px !important;
-  }
-
-  #mobile-roadmap {
-    display: inherit;
-  }
-
-  #desktop-roadmap {
-    display: none;
   }
 
   #util {

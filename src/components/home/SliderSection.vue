@@ -144,17 +144,16 @@ span {
 }
 /*** Responsive Styles Smartphone Only ***/
 @media all and (max-width: 767px) {
-  #slider-section {
-    padding: 10px;
-    padding-top: 50px;
-  }
-
   #slide-container {
     margin: auto;
   }
 
   .imgSize {
-    width: 80%;
+    width: 60%;
+  }
+
+  h1{
+    margin-bottom: 15%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/
