@@ -26,7 +26,6 @@
           :class="{'is-active':isMobileMenuOpen}"
         >
           <div class="navbar-start">
-            <!-- <a href="/" class="navbar-item">Home</a> -->
             <router-link to="/" class="navbar-item">Home</router-link>
             <a href="/#blurb-section" class="navbar-item">About</a>
             <a href="/#the-roadmap-section" class="navbar-item">Roadmap</a>
