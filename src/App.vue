@@ -1,18 +1,22 @@
 <template>
   <div id="app">
     <router-view></router-view>
+  
+  <RingLoader class="custom-class" color="#bada55" :loading="true" :size="150" ></RingLoader>
   </div>
 </template>
 
 <script>
 import Home from "./views/Home.vue";
 import Whitepaper from "./views/Whitepaper.vue";
+import  RingLoader  from '@saeris/vue-spinners';
 
 export default {
   name: "app",
   components: {
     Home,
-    Whitepaper
+    Whitepaper,
+    RingLoader
   }
 };
 </script>
