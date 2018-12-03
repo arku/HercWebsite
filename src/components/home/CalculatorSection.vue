@@ -88,7 +88,6 @@ export default {
   },
   methods: {
     hercNeeded() {
-      var hercAvg;
       const self = this;
       $.getJSON(
         "https://chart.anthemgold.com/service-1.0-SNAPSHOT/PRICE?symbol=HERCUSD&range=MINUTE_5",
@@ -105,9 +104,6 @@ export default {
 
           var measureType;
           var measureUnit;
-          var hercNeededDaily;
-          var hercNeededMonthly;
-          var hercNeededYearly;
           var numOfAsset;
           var photoSize;
           var numOfDocs;
@@ -244,7 +240,6 @@ input {
 #herc-needed,
 #herc-price {
   text-align: center;
-  font-size: 20px;
   font-weight: bold;
 }
 

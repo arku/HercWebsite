@@ -1,12 +1,29 @@
 module.exports = {
   pluginOptions: {
+
+    // Main Website
+
+    // s3Deploy: {
+    //   assetPath: 'dist',
+    //   bucket: 'www.herc.one',
+    //   region: 'us-east-2',
+    //   pwa: false,
+    //   enableCloudfront: true,
+    //   cloudfrontId: 'EXLWYOT38MF3W',
+    //   cloudfrontMatchers: '/*',
+    //   uploadConcurrency: 5,
+    //   deployPath: '/'
+    // },
+
+    // Staging Website
+
     s3Deploy: {
       assetPath: 'dist',
-      bucket: 'www.herc.one',
+      bucket: 'staging.herc.one',
       region: 'us-east-2',
       pwa: false,
       enableCloudfront: true,
-      cloudfrontId: 'EXLWYOT38MF3W',
+      cloudfrontId: 'E1OQ6YKIN6R2S5',
       cloudfrontMatchers: '/*',
       uploadConcurrency: 5,
       deployPath: '/'
