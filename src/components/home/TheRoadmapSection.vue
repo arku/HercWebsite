@@ -21,6 +21,21 @@
     <div>
       <b-collapse :open="false" id="job-holder">
         <div slot="trigger" class="question">
+          <h3>Q4 2018</h3>
+          <h4 class="completed">
+            Completed
+            <i class="far fa-check-square"></i>
+          </h4>
+        </div>
+        <div class="notification answer">
+          <h5>HERC Launch & Stabilization</h5>
+        </div>
+      </b-collapse>
+    </div>
+    <h6>2019</h6>
+    <div>
+      <b-collapse :open="false" id="job-holder">
+        <div slot="trigger" class="question">
           <h3>Q1 2019</h3>
           <h4>
             In progress
@@ -29,7 +44,7 @@
         </div>
         <div class="notification answer">
           <h5>
-            <i class="fas fa-code"></i> Minable asset tokens m[AT]
+            <i class="fas fa-code"></i> Mintable asset tokens m[AT]
           </h5>
           <h5>
             <i class="fas fa-code"></i> HERC IGVC Registry
@@ -46,7 +61,6 @@
         </div>
       </b-collapse>
     </div>
-    <h6>2019</h6>
     <div>
       <b-collapse :open="false" id="job-holder">
         <div slot="trigger" class="question">
@@ -111,7 +125,7 @@
         </div>
         <div class="notification answer">
           <h5>
-            <i class="fas fa-code"></i> HERC Grand Control Payload Pilot
+            <i class="fas fa-code"></i> HERC Ground Control Payload Pilot
           </h5>
           <h5>
             <i class="fas fa-code"></i> Permissionless censorship resistant asset marketplace v1.0
@@ -146,7 +160,7 @@
             <i class="fas fa-code"></i> Measure, Verify, Track: The Story of HERC
           </h5>
           <h5>
-            <i class="fas fa-code"></i> HERC-ID Sefl Saving Bio-Verification
+            <i class="fas fa-code"></i> HERC-ID Self Soverign Bio-Verification
           </h5>
         </div>
       </b-collapse>
@@ -168,7 +182,7 @@
             <i class="fas fa-code"></i> Extended IoT Pilots
           </h5>
           <h5>
-            <i class="fas fa-code"></i> HERC Grand Control Payload Pilot 2
+            <i class="fas fa-code"></i> HERC Ground Control Payload Pilot 2
           </h5>
           <h5>
             <i class="fas fa-code"></i> Olympic Prep "Tokyo Bay Pilot"
@@ -187,16 +201,16 @@
         </div>
         <div class="notification answer">
           <h5>
-            <i class="fas fa-code"></i> Tokyo Bay Pilot @ Olympics 2020
+            <i class="fas fa-code"></i> Tokyo Bay Pilot at Olympics 2020
           </h5>
           <h5>
             <i class="fas fa-code"></i> HERC Messier 13 Stage
           </h5>
           <h5>
-            <i class="fas fa-code"></i> Intergalactic Valve Chains Pilot
+            <i class="fas fa-code"></i> Intergalactic Value Chains Pilot
           </h5>
           <h5>
-            <i class="fas fa-code"></i> HERC-Strong RFID/NFCI/QR Container Locks
+            <i class="fas fa-code"></i> HERC-Strong RFID/NFC/QR Container Locks
           </h5>
         </div>
       </b-collapse>
@@ -221,7 +235,7 @@
             <i class="fas fa-code"></i> Geo Orbital Positioning "Send it up here, bring it down there" Pilot
           </h5>
           <h5>
-            <i class="fas fa-code"></i> Waste Management & Respirce Recycling Pilot
+            <i class="fas fa-code"></i> Waste Management & Resource Recycling Pilot
           </h5>
         </div>
       </b-collapse>
@@ -241,7 +255,7 @@
             <i class="fas fa-code"></i> HERC The DAO
           </h5>
           <h5>
-            <i class="fas fa-code"></i> Organized AI Governance Integration
+            <i class="fas fa-code"></i> Orcalized AI Governance Integration
           </h5>
           <h5>
             <i class="fas fa-code"></i> HIPR Engine Relayer Cross Chain Bridge
