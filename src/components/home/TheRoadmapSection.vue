@@ -342,14 +342,6 @@ h6 {
   margin: auto;
 }
 
-.small-spacer {
-  margin-bottom: 2%;
-}
-
-.big-spacer {
-  margin-bottom: 5%;
-}
-
 .completed {
   color: green;
   font-style: italic;
@@ -375,7 +367,7 @@ h6 {
 @media all and (max-width: 767px) {
   .question,
   .answer {
-    width: 90%;
+    width: 100%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

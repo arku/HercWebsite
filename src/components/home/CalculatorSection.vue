@@ -240,7 +240,6 @@ input {
 #herc-needed,
 #herc-price {
   text-align: center;
-  font-size: 20px;
   font-weight: bold;
 }
 
