@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <router-view></router-view>
+    <router-view v-cloak></router-view>
+    <div id="spinner">
+      THIS IS TEST
+  </div>
   </div>
 </template>
 
@@ -126,5 +129,14 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+}
+
+#spinner{
+  font-size: 50px;
+  color: black;
+}
+
+[v-cloak]{
+  display: none;
 }
 </style>
