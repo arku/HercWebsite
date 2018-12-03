@@ -1,53 +1,53 @@
 <template>
-    <div class="home">
-        <NavBar></NavBar>
-        <split-test name="landing-randomizer">
-          <landing-page-one slot="A" chance="1"></landing-page-one>
-          <landing-page-three slot="C" chance="1"></landing-page-three>
-          <landing-page-four slot="D" chance="1"></landing-page-four>
-          <landing-page-five slot="E" chance="1"></landing-page-five>
-          <landing-page-six slot="F" chance="1"></landing-page-six>
-          <landing-page-seven slot="G" chance="1"></landing-page-seven>
-          <landing-page-eight slot="H" chance="1"></landing-page-eight>
-          <landing-page-nine slot="I" chance="1"></landing-page-nine>
-        </split-test>
-        <!-- <TopSection></TopSection> -->
-        <HiwSection></HiwSection>
-        <CommunitySection></CommunitySection>
-        <SliderSection></SliderSection>
-        <BlurbSection></BlurbSection>
-        <FeaturedSection></FeaturedSection>
-        <HercSection></HercSection>
-        <VideoSection></VideoSection>
-        <HiprSection></HiprSection>
-        <!-- <TableSection></TableSection> -->
-        <CalculatorSection></CalculatorSection>
-        <DappSection></DappSection>
-        <RoadmapHorizontalSection></RoadmapHorizontalSection>
-        <RoadmapSection></RoadmapSection>
-        <PartnersSection></PartnersSection>
-        <UseCaseSection></UseCaseSection>
-        <DocumentsSection></DocumentsSection>
-        <BubbleSection></BubbleSection>
-        <TeamSection></TeamSection>
-        <BuySection></BuySection>
-        <ContactSection></ContactSection>
-        <FooterSection></FooterSection>
-        <back-to-top bottom="100px" right="10px">
-          <button type="button" class="btn btn-info btn-to-top"><i class="fa fa-chevron-up"></i></button>
-        </back-to-top>
+  <div class="home">
+    <NavBar></NavBar>
+    <split-test name="landing-randomizer">
+      <landing-page-one slot="A" chance="1"></landing-page-one>
+      <landing-page-three slot="C" chance="1"></landing-page-three>
+      <landing-page-four slot="D" chance="1"></landing-page-four>
+      <landing-page-five slot="E" chance="1"></landing-page-five>
+      <landing-page-six slot="F" chance="1"></landing-page-six>
+      <landing-page-seven slot="G" chance="1"></landing-page-seven>
+      <landing-page-eight slot="H" chance="1"></landing-page-eight>
+      <landing-page-nine slot="I" chance="1"></landing-page-nine>
+    </split-test>
+    <!-- <TopSection></TopSection> -->
+    <HiwSection></HiwSection>
+    <CommunitySection></CommunitySection>
+    <SliderSection></SliderSection>
+    <BlurbSection></BlurbSection>
+    <FeaturedSection></FeaturedSection>
+    <HercSection></HercSection>
+    <VideoSection></VideoSection>
+    <HiprSection></HiprSection>
+    <!-- <TableSection></TableSection> -->
+    <CalculatorSection></CalculatorSection>
+    <DappSection></DappSection>
+    <TheRoadmapSection></TheRoadmapSection>
+    <!-- <RoadmapHorizontalSection></RoadmapHorizontalSection>
+    <RoadmapSection></RoadmapSection> -->
+    <PartnersSection></PartnersSection>
+    <UseCaseSection></UseCaseSection>
+    <DocumentsSection></DocumentsSection>
+    <BubbleSection></BubbleSection>
+    <TeamSection></TeamSection>
+    <BuySection></BuySection>
+    <ContactSection></ContactSection>
+    <FooterSection></FooterSection>
+    <back-to-top bottom="100px" right="10px">
+      <button type="button" class="btn btn-info btn-to-top">
+        <i class="fa fa-chevron-up"></i>
+      </button>
+    </back-to-top>
 
-<!-- Trigger/Open The Modal -->
-<!-- <button id="myBtn">Open Modal</button> -->
-
-<!-- The Modal -->
-      <!-- <div id="myModal" class="modal"> -->
-
-        <!-- Modal content -->
-        <!-- <div class="modal-content"> -->
-          <!-- &times; -->
-          
-          <!-- <div class="modal-main-content">
+    <!-- Trigger/Open The Modal -->
+    <!-- <button id="myBtn">Open Modal</button> -->
+    <!-- The Modal -->
+    <!-- <div id="myModal" class="modal"> -->
+    <!-- Modal content -->
+    <!-- <div class="modal-content"> -->
+    <!-- &times; -->
+    <!-- <div class="modal-main-content">
             <h1>HERC Token has been launched!</h1>
           <p>You are able to buy HERC now at the discounted price!</p>
           <p class="spacer">Purchase 1000 HERC today to Begin Your Supply Chain Legend</p>
@@ -55,8 +55,8 @@
           <span class="close">I want to do some research first</span>
           </div>
         </div>
-      </div> -->
-    </div>
+    </div>-->
+  </div>
 </template>
 <script>
 import NavBar from "@/components/NavBar.vue";
@@ -64,8 +64,8 @@ import NavBar from "@/components/NavBar.vue";
 import BlurbSection from "@/components/home/BlurbSection.vue";
 // import TableSection from "@/components/home/TableSection.vue";
 import VideoSection from "@/components/home/VideoSection.vue";
-import RoadmapSection from "@/components/home/RoadmapSection.vue";
-import RoadmapHorizontalSection from "@/components/home/RoadmapHorizontalSection.vue";
+// import RoadmapSection from "@/components/home/RoadmapSection.vue";
+// import RoadmapHorizontalSection from "@/components/home/RoadmapHorizontalSection.vue";
 import PartnersSection from "@/components/home/PartnersSection.vue";
 import DocumentsSection from "@/components/home/DocumentsSection.vue";
 import ContactSection from "@/components/ContactSection.vue";
@@ -90,6 +90,7 @@ import LandingPageNine from "@/components/LandingPages/LandingPageNine.vue";
 import BuySection from "@/components/home/BuySection.vue";
 import SliderSection from "@/components/home/SliderSection.vue";
 import CalculatorSection from "@/components/home/CalculatorSection.vue";
+import TheRoadmapSection from "@/components/home/TheRoadmapSection.vue";
 
 export default {
   name: "home",
@@ -110,8 +111,8 @@ export default {
     // TableSection,
     VideoSection,
     HiprSection,
-    RoadmapHorizontalSection,
-    RoadmapSection,
+    // RoadmapHorizontalSection,
+    // RoadmapSection,
     PartnersSection,
     BubbleSection,
     DocumentsSection,
@@ -124,7 +125,8 @@ export default {
     HiwSection,
     BuySection,
     SliderSection,
-    CalculatorSection
+    CalculatorSection,
+    TheRoadmapSection
   },
   methods: {
     popupAction() {
@@ -133,7 +135,7 @@ export default {
         eventAction: "Popup buy button clicked",
         eventLabel: "popup"
       });
-    },
+    }
 
     // showPopup() {
     //   // Get the modal
@@ -231,7 +233,7 @@ export default {
   color: white;
 }
 
-.spacer{
+.spacer {
   margin-bottom: 5%;
 }
 

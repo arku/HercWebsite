@@ -88,7 +88,6 @@ export default {
   },
   methods: {
     hercNeeded() {
-      var hercAvg;
       const self = this;
       $.getJSON(
         "https://chart.anthemgold.com/service-1.0-SNAPSHOT/PRICE?symbol=HERCUSD&range=MINUTE_5",
