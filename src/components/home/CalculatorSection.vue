@@ -139,7 +139,7 @@ export default {
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
                 measureUnit * photoSize * 0.00000008 +
-                numOfDocs * 0.0000128;
+                numOfDocs * 0.000032;
               self.hercNeededResult = hercNeeded;
               break;
             case "Month":
@@ -148,7 +148,7 @@ export default {
               photoSize = Number(photoSize);
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
-                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.0000128) *
+                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.000032) *
                   31;
               self.hercNeededResult = hercNeeded;
               break;
@@ -158,7 +158,7 @@ export default {
               photoSize = Number(photoSize);
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
-                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.0000128) *
+                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.000032) *
                   365;
               self.hercNeededResult = hercNeeded;
               break;
@@ -169,7 +169,7 @@ export default {
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
                 measureUnit * photoSize +
-                numOfDocs * 0.0000128;
+                numOfDocs * 0.000032;
               self.hercNeededResult = hercNeeded;
               break;
           }
