@@ -1,5 +1,6 @@
 <template>
   <div id="calculator-section">
+    <h3 v-model="assetCost">Only {{assetCost}} HERC to stake a Value Chain</h3>
     <div id="content">
       <div class="columns">
         <div class="column">
@@ -83,7 +84,8 @@ export default {
       size: "",
       price: "",
       hercNeededResult: 0,
-      hercCostUSD: 0
+      hercCostUSD: 0,
+      assetCost: 0
     };
   },
   methods: {
@@ -175,14 +177,15 @@ export default {
           }
           var hercCostUSD = hercNeeded * hercAvgPrice;
           self.hercCostUSD = hercCostUSD;
+          var assetCost = 400 / hercAvgPrice;
+          self.assetCost = assetCost;
         }
       );
-    },
-    hercCost() {
-      // hercCostDaily =
     }
   },
-  mounted() {}
+  mounted() {
+    this.hercNeeded();
+  }
 };
 </script>
 
@@ -211,6 +214,11 @@ h2 {
   font-size: 20px;
   color: $herc-gold;
   margin-bottom: 1%;
+}
+
+h3 {
+  @include herc-blue-h1;
+  font-weight: bold;
 }
 
 select {
