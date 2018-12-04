@@ -1,4 +1,15 @@
 <template>
+<div id="triangle-divider">
+  <svg
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      width="100%"
+      height="100"
+      viewBox="0 0 100 102"
+      preserveAspectRatio="none"
+    >
+      <path d="M100 60 L100 30 L0 100 Z"></path>
+    </svg>
   <div id="the-roadmap-section">
     <div id="content"></div>
     <h1>Roadmap</h1>
@@ -267,6 +278,8 @@
       </b-collapse>
     </div>
   </div>
+
+</div>
 </template>
 
 <script>
@@ -276,6 +289,16 @@ export default {
 </script>
 
 <style scoped lang="scss">
+#triangle-divider {
+  pointer-events: none;
+  background-color: #fafafa;
+}
+
+#triangle-divider path {
+  fill: $herc-blue;
+  stroke: $herc-blue;
+  stroke-width: 2;
+}
 #the-roadmap-section {
   padding: 50px;
   background-color: #fafafa;

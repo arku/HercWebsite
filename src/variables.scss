@@ -52,3 +52,9 @@ $herc-shadow: 0px 12px 18px -6px #000;
   line-height: 1.2em;
   margin-bottom: 5%;
 }
+@mixin triangle-divider {
+    #triangle-divider {
+        pointer-events: none;
+        margin-top: 20px;
+    }
+}
