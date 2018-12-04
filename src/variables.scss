@@ -55,6 +55,46 @@ $herc-shadow: 0px 12px 18px -6px #000;
 @mixin triangle-divider {
     #triangle-divider {
         pointer-events: none;
-        margin-top: 20px;
+        background-color: #fafafa;
+    }
+    #triangle-divider path{
+        fill: $herc-blue;
+        stroke: $herc-blue;
+        stroke-width: 2;
     }
 }
+//example use triangle divider 
+//<template>
+//  <div id="triangle-divider">
+//    <div id="section-name"></div>
+//        <svg xmlns="http://www.w3.org/2000/svg"version="1.1"width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+//      <path d="M0 0 L50 100 L100 0 Z"></path></svg>
+//    </div>
+//    <template>
+
+@mixin diagonal-divider {
+    #diagonal-divider {
+        pointer-events: none;
+        background-color: #fafafa;
+    }
+    #diagonal-divider path{
+        fill: $herc-blue;
+        stroke: $herc-blue;
+        stroke-width: 2;
+    }
+}
+//example use triangle divider 
+//<template>
+//  <div id="diagonal-divider">
+//    <div id="section-name"></div>
+//        <svg xmlns="http://www.w3.org/2000/svg"
+//      version="1.1"
+//      width="100%"
+//      height="100"
+//      viewBox="0 0 100 102"
+//      preserveAspectRatio="none"
+//    >
+//      <path d="M100 60 L100 30 L0 100 Z"></path>
+//   </svg>
+//    </div>
+//    <template>
