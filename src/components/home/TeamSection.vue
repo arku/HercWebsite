@@ -276,6 +276,9 @@
                 <h5>Senior advisors</h5>
                 <div class="columns">
                     <div class="column">
+                       
+                    </div>
+                    <div class="column">
                         <img src="../../assets/team/mikemc.jpg">
                         <h2 class="h2-desktop">Mike McRoberts</h2>
                         <h3 class="h3-desktop">Senior Advisor</h3>
@@ -290,6 +293,9 @@
                         <a href="https://www.linkedin.com/in/dunnaway-bret-519a9999/?fbclid=IwAR35bDCTDh3qJmcbNExBchjrM0ptMoSocoHXCCNWaB49Zt7Gg04uYdp59WI" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+                    </div>
+                    <div class="column">
+                        
                     </div>
                     </div>
                     <h5>Crypto advisors</h5>
@@ -319,15 +325,18 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                     </div>
-                <div class="columns">
-                    <div class="column">
+                     <div class="column">
                         <img src="../../assets/team/dominik.jpg">
                         <h2 class="h2-desktop">Dominik Zynis</h2>
                         <h3 class="h3-desktop">Co-founder - WINGS</h3>
                         <a href="https://www.linkedin.com/in/everforgetmenot/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+                    </div>
+                     </div>
+                <div class="columns">
+                    <div class="column">
+                        
                     </div>
                     <div class="column">
                         <img src="../../assets/team/andrewy.jpg">
@@ -345,9 +354,15 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                    <div class="column">
+                        
+                    </div>
                     </div>
                     <h5>Technical dvisors</h5>
                     <div class="columns">
+                        <div class="column">
+                       
+                    </div>
                     <div class="column">
                         <img src="../../assets/team/stevencramer.jpg">
                         <h2 class="h2-desktop">Steven Cramer</h2>
@@ -363,6 +378,9 @@
                         <a href="https://www.linkedin.com/in/brockton/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+                    </div>
+                    <div class="column">
+                       
                     </div>
                     </div>
                     <h5>Family office advisors</h5>
@@ -677,7 +695,11 @@
                     </div>
                 </div>
                 <h4 id="advisors-mobile" class="h4-mobile">Advisors</h4>
+                <h5>Senior advisors</h5>
                 <div class="columns is-mobile">
+                    <div class="column">
+                        
+                    </div>
                     <div class="column">
                         <img src="../../assets/team/mikemc.jpg">
                         <h2 class="h2-mobile">Mike McRoberts</h2>
@@ -693,6 +715,9 @@
                         <a href="https://www.linkedin.com/in/billbar/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
+                    </div>
+                    <div class="column">
+                        
                     </div>
                 </div>
                 <div class="columns is-mobile">
@@ -891,7 +916,7 @@ h4 {
   font-size: 28px !important;
   margin-top: 2%;
   margin-bottom: 5%;
-  color: $herc-gold;
+  color: $herc-gold !important;
   font-weight: bold;
 }
 
@@ -915,7 +940,7 @@ h5 {
   font-size: 26px;
   margin-top: 2%;
   margin-bottom: 5%;
-  color: $herc-gold;
+  color: $herc-gold !important;
   font-weight: bold;
 }
 
