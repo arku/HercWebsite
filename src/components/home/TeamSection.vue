@@ -273,6 +273,7 @@
                     </div>
                 </div>
                 <h4 id="advisors">Advisors</h4>
+                <h5>Senior advisors</h5>
                 <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/mikemc.jpg">
@@ -283,6 +284,17 @@
                         </a>
                     </div>
                     <div class="column">
+                        <img src="../../assets/team/bret.jpg">
+                        <h2 class="h2-desktop">Bret Dunnaway</h2>
+                        <h3 class="h3-desktop">Senior Advisor</h3>
+                        <a href="https://www.linkedin.com/in/dunnaway-bret-519a9999/?fbclid=IwAR35bDCTDh3qJmcbNExBchjrM0ptMoSocoHXCCNWaB49Zt7Gg04uYdp59WI" target="_blank">
+                            <i class="fab fa-linkedin fa-2x"></i>
+                        </a>
+                    </div>
+                    </div>
+                    <h5>Crypto advisors</h5>
+                     <div class="columns">
+                    <div class="column">
                         <img src="../../assets/team/billb.jpg">
                         <h2 class="h2-desktop">Bill Barhydt</h2>
                         <h3 class="h3-desktop">Founder/Ceo - Abra</h3>
@@ -290,6 +302,7 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                   
                     <div class="column">
                         <img src="../../assets/team/steve.jpg">
                         <h2 class="h2-desktop">Steve Dakh</h2>
@@ -306,7 +319,7 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                </div>
+                     </div>
                 <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/dominik.jpg">
@@ -324,14 +337,17 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                    <div class="column">
-                        <img src="../../assets/team/wendy.jpg">
-                        <h2 class="h2-desktop">Wendy Craft</h2>
-                        <h3 class="h3-desktop">CEO - Family Offices</h3>
-                        <a href="https://www.linkedin.com/in/wendy-craft-7281176/" target="_blank">
+                     <div class="column">
+                        <img src="../../assets/team/joby.jpeg">
+                        <h2 class="h2-desktop">Joby Weeks</h2>
+                        <h3 class="h3-desktop">Chief Marketer - BitClub Mining</h3>
+                        <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                    </div>
+                    <h5>Technical dvisors</h5>
+                    <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/stevencramer.jpg">
                         <h2 class="h2-desktop">Steven Cramer</h2>
@@ -340,8 +356,6 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                </div>
-                <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/brock.jpg">
                         <h2 class="h2-desktop">Brock Hager</h2>
@@ -350,11 +364,14 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
+                    </div>
+                    <h5>Family office advisors</h5>
+                    <div class="columns">
                     <div class="column">
-                        <img src="../../assets/team/joby.jpeg">
-                        <h2 class="h2-desktop">Joby Weeks</h2>
-                        <h3 class="h3-desktop">Chief Marketer - BitClub Mining</h3>
-                        <a href="https://www.linkedin.com/in/jobyweeks/" target="_blank">
+                        <img src="../../assets/team/wendy.jpg">
+                        <h2 class="h2-desktop">Wendy Craft</h2>
+                        <h3 class="h3-desktop">CEO - Family Offices</h3>
+                        <a href="https://www.linkedin.com/in/wendy-craft-7281176/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
@@ -374,8 +391,6 @@
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
                     </div>
-                </div>
-                     <div class="columns">
                     <div class="column">
                         <img src="../../assets/team/benjamin.jpg">
                         <h2 class="h2-desktop">Benjamin Katz</h2>
@@ -383,20 +398,6 @@
                         <a href="https://www.linkedin.com/in/meetbenkatz/" target="_blank">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </a>
-                    </div>
-                    <div class="column">
-                        <img src="../../assets/team/bret.jpg">
-                        <h2 class="h2-desktop">Bret Dunnaway</h2>
-                        <h3 class="h3-desktop">Senior Advisor</h3>
-                        <a href="https://www.linkedin.com/in/dunnaway-bret-519a9999/?fbclid=IwAR35bDCTDh3qJmcbNExBchjrM0ptMoSocoHXCCNWaB49Zt7Gg04uYdp59WI" target="_blank">
-                            <i class="fab fa-linkedin fa-2x"></i>
-                        </a>
-                    </div>
-                    <div class="column">
-                        
-                    </div>
-                    <div class="column">
-                        
                     </div>
                 </div>
                         </div>
@@ -887,12 +888,13 @@ h3 {
 }
 
 h4 {
-  font-size: 24px;
+  font-size: 28px !important;
   margin-top: 2%;
   margin-bottom: 5%;
   color: $herc-gold;
   font-weight: bold;
 }
+
 
 .h4-desktop {
   font-size: 24px;
@@ -907,6 +909,13 @@ h4 {
   margin-top: 2%;
   margin-bottom: 5%;
   color: white;
+  font-weight: bold;
+}
+h5 {
+  font-size: 26px;
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: $herc-gold;
   font-weight: bold;
 }
 
