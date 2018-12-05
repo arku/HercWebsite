@@ -89,7 +89,7 @@
             <i class="fas fa-code"></i> Permissionless censorship resistant asset marketplace public beta
           </h5>
           <h5>
-            <i class="fas fa-code"></i> HERC Hackaton
+            <i class="fas fa-code"></i> HERC Hackathon
           </h5>
           <h5>
             <i class="fas fa-code"></i> HIPR Engine Relayer ALPHA

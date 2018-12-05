@@ -68,14 +68,6 @@
 import JQuery from "jquery";
 let $ = JQuery;
 
-// jQuery(function($) {
-function roundUp(num, precision) {
-  precision = Math.pow(10, precision);
-  return Math.ceil(num * precision) / precision;
-}
-
-roundUp(192.168, 1); //=> 192.2
-
 export default {
   name: "CalculatorSection",
   data() {
@@ -178,6 +170,7 @@ export default {
           var hercCostUSD = hercNeeded * hercAvgPrice;
           self.hercCostUSD = hercCostUSD;
           var assetCost = 400 / hercAvgPrice;
+          assetCost = Math.trunc(assetCost);
           self.assetCost = assetCost;
         }
       );
