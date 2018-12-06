@@ -936,12 +936,13 @@ h4 {
   font-weight: bold;
 }
 #team-holder h5 {
-  font-size: 26px;
+  font-size: 20px;
   margin-top: 2%;
   margin-bottom: 5%;
   color: $herc-blue ;
   font-weight: bold;
 }
+
 .h5-mobile {
   font-size: 20px;
   margin-top: 2%;

@@ -26,11 +26,11 @@
           :class="{'is-active':isMobileMenuOpen}"
         >
           <div class="navbar-start">
-            <router-link to="/" class="navbar-item">Home</router-link>
+            <router-link to="/" class="navbar-item one current">Home</router-link>
             <a href="/#blurb-section" class="navbar-item">About</a>
             <a href="/#the-roadmap-section" class="navbar-item">Roadmap</a>
             <a href="/#documents-section" class="navbar-item">Documents</a>
-            <router-link to="/news" class="navbar-item">News</router-link>
+            <router-link to="/news" class="navbar-item">News</router-link>    
             <b-dropdown hoverable id="droptro">
               <a class="navbar-item" slot="trigger">
                 <i class="fas fa-angle-down ri"></i> Info
@@ -116,7 +116,18 @@
 <script>
 export default {
   name: "NavBar",
+   head: {
+        script: [
+            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
+        ]
+    },
   methods: {
+     addCurrentClass () {
+       $('a').on('click', function(){
+    $('.navbar-start a.current').removeClass('current');
+    $(this).addClass('current');
+});
+    },
     trackTelegram() {
       this.$ga.event({
         eventCategory: "Navbar",
@@ -166,7 +177,6 @@ nav {
   border-bottom: 1px solid $herc-gold;
   background-color: $herc-blue;
 }
-
 .navbar-item img {
   max-height: 2.6rem;
 }
@@ -183,12 +193,38 @@ a {
   color: $herc-gold;
   text-transform: uppercase;
   font-size: 16px;
+  margin-right: 1%;
+}
+a.navbar-item:before,
+a.navbar-item:after {
+  height: 3px;
+  position: absolute;
+  content: '';
+  -webkit-transition: all 0.35s ease !important;
+  transition: all 0.35s ease !important;
+  background-color:#9b59b6;
+  width: 0;
+}
+a.navbar-item:before {
+  top: 0;
+  left: 0;
+
+}
+a.navbar-item:after {
+  bottom: 0;
+  right: 0;
+
+}
+a:hover:before,
+a.current:before,
+a:hover:after,
+a.current:after, {
+  width: 100%;
 }
 
-a:hover {
-  color: white !important;
+.navbar-start a:hover {
+  color: white;
 }
-
 .a-reversed {
   color: white;
 }
