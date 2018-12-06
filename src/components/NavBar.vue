@@ -116,18 +116,7 @@
 <script>
 export default {
   name: "NavBar",
-   head: {
-        script: [
-            { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
-        ]
-    },
   methods: {
-     addCurrentClass () {
-       $('a').on('click', function(){
-    $('.navbar-start a.current').removeClass('current');
-    $(this).addClass('current');
-});
-    },
     trackTelegram() {
       this.$ga.event({
         eventCategory: "Navbar",
@@ -202,7 +191,7 @@ a.navbar-item:after {
   content: '';
   -webkit-transition: all 0.35s ease !important;
   transition: all 0.35s ease !important;
-  background-color:#9b59b6;
+  background-color: $herc-gold;
   width: 0;
 }
 a.navbar-item:before {
