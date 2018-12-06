@@ -26,7 +26,7 @@
           :class="{'is-active':isMobileMenuOpen}"
         >
           <div class="navbar-start">
-            <router-link to="/" class="navbar-item one current">Home</router-link>
+            <router-link to="/" class="navbar-item">Home</router-link>
             <a href="/#blurb-section" class="navbar-item">About</a>
             <a href="/#the-roadmap-section" class="navbar-item">Roadmap</a>
             <a href="/#documents-section" class="navbar-item">Documents</a>
@@ -195,7 +195,7 @@ a.navbar-item:after {
   content: "";
   -webkit-transition: all 0.35s ease !important;
   transition: all 0.35s ease !important;
-  background-color: #9b59b6;
+  background-color: $herc-gold;
   width: 0;
 }
 a.navbar-item:before {
@@ -207,9 +207,7 @@ a.navbar-item:after {
   right: 0;
 }
 a:hover:before,
-a.current:before,
-a:hover:after,
-a.current:after {
+a:hover:after {
   width: 100%;
 }
 
