@@ -116,20 +116,7 @@
 <script>
 export default {
   name: "NavBar",
-  head: {
-    script: [
-      {
-        src: "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
-      }
-    ]
-  },
   methods: {
-    addCurrentClass() {
-      $("a").on("click", function() {
-        $(".navbar-start a.current").removeClass("current");
-        $(this).addClass("current");
-      });
-    },
     trackTelegram() {
       this.$ga.event({
         eventCategory: "Navbar",
