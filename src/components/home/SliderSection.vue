@@ -104,6 +104,7 @@ export default {
 <style scoped lang="scss">
 #slider-section {
   padding: 50px;
+  
 }
 
 #content {
@@ -126,7 +127,7 @@ span {
 }
 
 .imgSize {
-  width: 40%;
+  width: 60%;
   margin: auto;
 }
 
