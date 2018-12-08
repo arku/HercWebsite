@@ -1,7 +1,8 @@
 <template>
   <div id="slider-section">
     <div id="content">
-      <h1>Get Your
+      <h1>
+        Get Your
         <span>HERC</span> Tokens Now
       </h1>
       <!-- <carousel
@@ -86,6 +87,13 @@
           </a>
         </div>
       </div>
+      <div class="columns">
+        <div class="column">
+          <div class="chart">
+            <coingecko-coin-compare-chart-widget coin-ids="hercules" currency="usd" locale="en"></coingecko-coin-compare-chart-widget>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -104,7 +112,6 @@ export default {
 <style scoped lang="scss">
 #slider-section {
   padding: 50px;
-  
 }
 
 #content {
@@ -131,6 +138,15 @@ span {
   margin: auto;
 }
 
+.chart {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  border: 2px solid $herc-gold;
+  border-radius: 5px;
+  box-shadow: $herc-shadow;
+}
+
 /*** Responsive Styles Large Desktop And Above ***/
 @media all and (min-width: 1405px) {
 }
@@ -153,7 +169,7 @@ span {
     width: 60%;
   }
 
-  h1{
+  h1 {
     margin-bottom: 15%;
   }
 }
