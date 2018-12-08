@@ -89,6 +89,7 @@
       </div>
       <div class="columns">
         <div class="column">
+          <h1 class="spacer"><span id="herc">HERC</span> price chart</h1>
           <div class="chart">
             <coingecko-coin-compare-chart-widget coin-ids="hercules" currency="usd" locale="en"></coingecko-coin-compare-chart-widget>
           </div>
@@ -139,12 +140,19 @@ span {
 }
 
 .chart {
-  width: 80%;
+  width: 90%;
   margin: auto;
-  margin-top: 5%;
   border: 2px solid $herc-gold;
   border-radius: 5px;
   box-shadow: $herc-shadow;
+}
+
+#herc{
+  color: $herc-gold;
+}
+
+.spacer{
+  margin-bottom: 2%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
