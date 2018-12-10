@@ -9,6 +9,18 @@
           <blockquote class="embedly-card">
             <h4>
               <a
+                href="https://www.businesswire.com/news/home/20181115006130/en/HERC-Token-Listed-LATOKEN"
+              >HERC Token Listed on LATOKEN</a>
+            </h4>
+            <p>GEORGETOWN, Cayman Islands--()--HERC, the software access key token used to power Hercules Supply Chain Protocol, is now listed on LATOKEN. HERC's listing on LATOKEN facilitates and finally brings to reality Hercules SEZC's goal of providing 100% visibility into all operations, processes and transactions through supply chain management on blockchain.</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
                 href="https://www.apnews.com/c900c45285e44724bd67a4eb0729ec7e"
               >Hercules's Highly-Anticipated Supply Chain Protocol Lists On Dobitrade</a>
             </h4>
