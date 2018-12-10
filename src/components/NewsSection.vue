@@ -9,6 +9,50 @@
           <blockquote class="embedly-card">
             <h4>
               <a
+                href="http://www.hkitnews.com/BusinessWire.htm?CLANG=ZH-HK&start=0&numresults=100&docid=39193"
+              >Hong Kong I.T. News</a>
+            </h4>
+            <p>null</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://dbpower.com.hk/ch/news/news-finance-news-businesswire/?uid=39193ch&page=1"
+              >財經智珠網 DB Power - 免費股票報價 HK Free Stock Quote - 股票投資大市分析 Financial Information and Data</a>
+            </h4>
+            <p>news_finance_news_businesswire - 財經智珠網為香港綜合財經新聞信息網站, 提供中英文在線財經新聞, 圖表, 圖表分析, 分析工具, 市場資訊, 上市公司概覽, 研究報告, 經濟指標等資訊。</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.chineseworldnet.com/hk/stock/financeNewsGroup/interfax_bus_wire/3572095?cn_tag=no"
+              >null</a>
+            </h4>
+            <p>null</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.businesswirechina.com/hk/news/39193.html"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 美國商業資訊</a>
+            </h4>
+            <p>開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促成並最終實現Hercules SEZC（Hercules協定背後的開發團隊）的目標，即通過區塊鏈上的供應鏈管理，為所有操作、流程和交易提供100%的能見度。 Hercules行政總裁Anthem Hay</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
                 href="https://www.businesswire.com/news/home/20181115006130/en/HERC-Token-Listed-LATOKEN"
               >HERC Token Listed on LATOKEN</a>
             </h4>
