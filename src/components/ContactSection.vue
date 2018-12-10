@@ -1,56 +1,56 @@
 <template>
-    <div id="contact-section">
-        <div id="content">
-            <div>
-                <h1>Get in Touch With Us</h1>
-            </div>
-            <div class="columns">
-                <div class="column" id="social">
-                    <h2>Social Networks</h2>
-                    <span class="icon is-large">
-                      <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
-                        <i class="fab fa-facebook fa-2x"></i>
-                      </a>
-                    </span>
-                    <span class="icon is-large">
-                      <a href="https://twitter.com/HERC_Hercules" target="_blank">
-                        <i class="fab fa-twitter fa-2x"></i>
-                      </a>
-                    </span>
-                    <span class="icon is-large">
-                      <a href="https://www.instagram.com/herctoken/" target="_blank">
-                        <i class="fab fa-instagram fa-2x"></i>
-                      </a>
-                    </span>
-                    <span class="icon is-large">
-                      <a href="https://www.linkedin.com/company/herctoken/" target="_blank">
-                        <i class="fab fa-linkedin fa-2x"></i>
-                      </a>
-                    </span>
-                    <span class="icon is-large">
-                      <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">
-                        <i class="fab fa-youtube fa-2x"></i>
-                      </a>
-                    </span>
-                    <span class="icon is-large">
-                      <a href="https://medium.com/@herc_token" target="_blank">
-                        <i class="fab fa-medium-m fa-2x"></i>
-                      </a>
-                    </span>
-                </div>
-            </div>
-            <div class="columns">
-                    <div class="column">
-                        <h2>Chat With Us</h2>
-                        <div>
-                            <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                              <i class="fab fa-telegram fa-2x"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+  <div id="contact-section">
+    <div id="content">
+      <div>
+        <h1>Get in Touch With Us</h1>
+      </div>
+      <div class="columns">
+        <div class="column" id="social">
+          <h2>Social Networks</h2>
+          <span class="icon is-large">
+            <a href="https://www.facebook.com/HERCTOKEN/" target="_blank">
+              <i class="fab fa-facebook fa-2x"></i>
+            </a>
+          </span>
+          <span class="icon is-large">
+            <a href="https://twitter.com/HERC_Hercules" target="_blank">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+          </span>
+          <span class="icon is-large">
+            <a href="https://www.instagram.com/herctoken/" target="_blank">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+          </span>
+          <span class="icon is-large">
+            <a href="https://www.linkedin.com/company/herctoken/" target="_blank">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+          </span>
+          <span class="icon is-large">
+            <a href="https://www.youtube.com/channel/UCzIicy2PoslRoskXctJzeGw" target="_blank">
+              <i class="fab fa-youtube fa-2x"></i>
+            </a>
+          </span>
+          <span class="icon is-large">
+            <a href="https://medium.com/@herc_token" target="_blank">
+              <i class="fab fa-medium-m fa-2x"></i>
+            </a>
+          </span>
         </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h2>Chat With Us</h2>
+          <div>
+            <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
+              <i class="fab fa-telegram fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
@@ -128,11 +128,11 @@ i:hover {
 }
 /*** Responsive Styles Smartphone Portrait ***/
 @media all and (max-width: 479px) {
-  #contact-section{
+  #contact-section {
     padding: 10px;
   }
 
-  h1{
+  h1 {
     font-size: 24px;
   }
 
