@@ -1,5 +1,6 @@
 <template>
   <div id="calculator-section">
+    <h3 v-model="assetCost">Only {{assetCost}} HERC to stake a Value Chain</h3>
     <div id="content">
       <div class="columns">
         <div class="column">
@@ -67,14 +68,6 @@
 import JQuery from "jquery";
 let $ = JQuery;
 
-// jQuery(function($) {
-function roundUp(num, precision) {
-  precision = Math.pow(10, precision);
-  return Math.ceil(num * precision) / precision;
-}
-
-roundUp(192.168, 1); //=> 192.2
-
 export default {
   name: "CalculatorSection",
   data() {
@@ -83,7 +76,8 @@ export default {
       size: "",
       price: "",
       hercNeededResult: 0,
-      hercCostUSD: 0
+      hercCostUSD: 0,
+      assetCost: 0
     };
   },
   methods: {
@@ -139,7 +133,7 @@ export default {
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
                 measureUnit * photoSize * 0.00000008 +
-                numOfDocs * 0.0000128;
+                numOfDocs * 0.000032;
               self.hercNeededResult = hercNeeded;
               break;
             case "Month":
@@ -148,7 +142,7 @@ export default {
               photoSize = Number(photoSize);
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
-                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.0000128) *
+                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.000032) *
                   31;
               self.hercNeededResult = hercNeeded;
               break;
@@ -158,7 +152,7 @@ export default {
               photoSize = Number(photoSize);
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
-                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.0000128) *
+                (measureUnit * photoSize * 0.00000008 + numOfDocs * 0.000032) *
                   365;
               self.hercNeededResult = hercNeeded;
               break;
@@ -169,20 +163,22 @@ export default {
               hercNeeded =
                 numOfAsset * (400 / hercAvgPrice) +
                 measureUnit * photoSize +
-                numOfDocs * 0.0000128;
+                numOfDocs * 0.000032;
               self.hercNeededResult = hercNeeded;
               break;
           }
           var hercCostUSD = hercNeeded * hercAvgPrice;
           self.hercCostUSD = hercCostUSD;
+          var assetCost = 400 / hercAvgPrice;
+          assetCost = Math.trunc(assetCost);
+          self.assetCost = assetCost;
         }
       );
-    },
-    hercCost() {
-      // hercCostDaily =
     }
   },
-  mounted() {}
+  mounted() {
+    this.hercNeeded();
+  }
 };
 </script>
 
@@ -211,6 +207,11 @@ h2 {
   font-size: 20px;
   color: $herc-gold;
   margin-bottom: 1%;
+}
+
+h3 {
+  @include herc-blue-h1;
+  font-weight: bold;
 }
 
 select {

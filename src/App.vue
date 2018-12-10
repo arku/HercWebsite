@@ -127,4 +127,8 @@ html {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
+#spinner {
+  font-size: 50px;
+  color: black;
+}
 </style>

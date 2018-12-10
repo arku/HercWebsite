@@ -6,7 +6,7 @@ import Policy from './views/Policy.vue';
 import Terms from './views/Terms.vue';
 import FAQ from './views/FAQ.vue';
 import Metamask from './views/Metamask.vue';
-// import CareersSection from './views/Careers.vue';
+import CareersSection from './views/Careers.vue';
 import TokenInfo from './views/TokenInfo.vue';
 import Landing from './views/LandingViews/Landing.vue';
 import LandingThree from './views/LandingViews/LandingThree.vue';
@@ -59,11 +59,11 @@ export default new Router({
         name: 'metamask',
         component: Metamask
     },
-    // {
-    //     path: '/careers',
-    //     name: 'careers',
-    //     component: CareersSection
-    // },
+    {
+        path: '/careers',
+        name: 'careers',
+        component: CareersSection
+    },
     {
         path: '/hipr',
         beforeEnter() {

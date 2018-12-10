@@ -1,16 +1,28 @@
 <template>
+  <div id="triangle-divider">
     <div id="dapp-section">
-        <div id="content">
-            <h1>Check out our mobile dapp</h1>
-            <video controls poster="../../assets/HERC_dAPP.png">
-                <source src="../../assets/videos/dappvideo.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video><br>
-            <router-link to="/utilities">
-              <button>Check out our Utilities</button>
-            </router-link>
-        </div>
+      <div id="content">
+        <h1>Check out our mobile dapp</h1>
+        <video controls poster="../../assets/HERC_dAPP.png">
+          <source src="../../assets/videos/dappvideo.mp4" type="video/mp4">Your browser does not support the video tag.
+        </video>
+        <br>
+        <router-link to="/utilities">
+          <button>Check out our Utilities</button>
+        </router-link>
+      </div>
     </div>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1"
+      width="100%"
+      height="100"
+      viewBox="0 0 100 102"
+      preserveAspectRatio="none"
+    >
+      <path d="M0 0 L50 100 L100 0 Z"></path>
+    </svg>
+  </div>
 </template>
 
 <script>
@@ -20,6 +32,17 @@ export default {
 </script>
 
 <style scoped lang="scss">
+/* Big Triangle */
+#triangle-divider {
+  pointer-events: none;
+  background-color: #fafafa;
+}
+
+#triangle-divider path {
+  fill: $herc-blue;
+  stroke: $herc-blue;
+  stroke-width: 2;
+}
 #dapp-section {
   padding: 50px;
   background-color: $herc-blue;

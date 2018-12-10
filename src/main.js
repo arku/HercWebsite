@@ -9,6 +9,8 @@ import VueAnalytics from "vue-analytics";
 import VueClipboards from "vue-clipboards";
 import VeeValidate from "vee-validate";
 import AnimateCSS from "animate.css";
+import "../node_modules/nprogress/nprogress.css";
+import NProgress from "nprogress";
 
 Vue.use(AnimateCSS);
 Vue.use(VeeValidate);
@@ -28,3 +30,14 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount("#app");
+
+router.beforeResolve((to, from, next) => {
+  if (to.name) {
+    NProgress.start();
+  }
+  next();
+});
+
+router.afterEach((to, from) => {
+  NProgress.done();
+});

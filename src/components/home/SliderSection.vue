@@ -1,7 +1,8 @@
 <template>
   <div id="slider-section">
     <div id="content">
-      <h1>Get Your
+      <h1>
+        Get Your
         <span>HERC</span> Tokens Now
       </h1>
       <!-- <carousel
@@ -86,6 +87,14 @@
           </a>
         </div>
       </div>
+      <div class="columns">
+        <div class="column">
+          <h1 class="spacer"><span id="herc">HERC</span> price chart</h1>
+          <div class="chart">
+            <coingecko-coin-compare-chart-widget coin-ids="hercules" currency="usd" locale="en"></coingecko-coin-compare-chart-widget>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -126,8 +135,24 @@ span {
 }
 
 .imgSize {
-  width: 40%;
+  width: 60%;
   margin: auto;
+}
+
+.chart {
+  width: 90%;
+  margin: auto;
+  border: 2px solid $herc-gold;
+  border-radius: 5px;
+  box-shadow: $herc-shadow;
+}
+
+#herc{
+  color: $herc-gold;
+}
+
+.spacer{
+  margin-bottom: 2%;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -152,7 +177,7 @@ span {
     width: 60%;
   }
 
-  h1{
+  h1 {
     margin-bottom: 15%;
   }
 }
