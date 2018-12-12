@@ -3,7 +3,7 @@
         <div id="content">
             <div>
                 <h1>Whitepaper</h1>
-                <p>In order to open whitepaper, please click on the flag image of your preffered language</p>
+                <p>In order to open whitepaper, please click on the flag image of your preferred language</p>
             </div>
             <div class="columns">
                 <!-- <div class="column">
