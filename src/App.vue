@@ -6,13 +6,11 @@
 
 <script>
 import Home from "./views/Home.vue";
-import Whitepaper from "./views/Whitepaper.vue";
 
 export default {
   name: "app",
   components: {
-    Home,
-    Whitepaper
+    Home
   }
 };
 </script>
