@@ -4,125 +4,339 @@
       <h1>
         <span>HERC</span> News
       </h1>
-          <div class="columns">
+      <div class="columns">
         <div class="column">
-       <blockquote class="embedly-card"><h4><a href="http://www.gpj888.com/wenchuan/20181129/29482.html">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線-股票界</a></h4><p>Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</p></blockquote>
-        </div>
-               <div class="column">
-        <blockquote class="embedly-card"><h4><a href="http://www.chinaccw.com.cn/2018/1130/90807.html">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線_文传商讯_中财网</a></h4><p>開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促成並最終實現Hercules SEZC（He...</p></blockquote>
-        </div>
-      </div>
-          <div class="columns">
-        <div class="column">
-        <blockquote class="embedly-card"><h4><a href="http://www.afinance.cn/new/wzsx/201811/2279856.html">Hercules受期待的供定在Dobitrade交易平上_第一金融网</a></h4><p>曼群治城--(美商)--用於Hercules供定的件存取金代HERC如今已在多比交易平(DOBITRADE)上。HERC在香港多比交易平的上促成最HerculesSEZC（Hercules定背後的）的目，即通文传商讯</p></blockquote>
-        </div>
-               <div class="column">
-        <blockquote class="embedly-card"><h4><a href="http://www.xinjr.com/caijing/redian/2018-11-28/625317.html">Hercules受期待的供定在Dobitrade交易平上-中国新金融网-新金融网-金融银行理财|XINJR.COM</a></h4><p>中国新金融网－金融网络门户网站，开设财经、银行、保险、证券、期货、基金、黄金、理财等栏目，提供银行特色服务信息、银行理财产品推荐，专业金融服务信息、证券资讯、保险资讯、期货资讯、基金资讯等专业理财资讯。</p></blockquote>
-        </div>
-      </div>
-          <div class="columns">
-        <div class="column">
-        <blockquote class="embedly-card"><h4><a href="http://news.zhexunw.com/2018/1130/5436.html">Hercules受期待的供定在Dobitrade交易平上_浙讯网http://www.zhexunw.com/</a></h4><p>浙讯网</p></blockquote>
-        </div>
-               <div class="column">
-         <blockquote class="embedly-card"><h4><a href="http://www.58188.com/invest/2018/11-28/123167.html">Hercules受期待的供定在Dobitrade交易平上_顶尖财经网</a></h4><p>Hercules受期待的供定在Dobitrade交易平上</p></blockquote>
-        </div>
-      </div>
-          <div class="columns">
-        <div class="column">
-        <blockquote class="embedly-card"><h4><a href="http://www.hlwang.net/wcsx/2018-11-29/27800.html">Hercules受期待的供定在Dobitrade交易平上_山东华鲁网</a></h4><p>Hercules受期待的供定在Dobitrade交易平上</p></blockquote>
-        </div>
-               <div class="column">
-         <blockquote class="embedly-card"><h4><a href="http://news.zhdushi.com/2018/1130/5441.html">Hercules受期待的供定在Dobitrade交易平上_文传商讯_珠海都市网</a></h4><p>珠海都市网：http://www.zhdushi.com/</p></blockquote>
-        </div>
-      </div>
-        <div class="columns">
-        <div class="column">
-        <blockquote class="embedly-card"><h4><a href="http://news.bjxinwen.com/2018/1130/5441.html">Hercules受期待的供定在Dobitrade交易平上_北京信息网</a></h4><p>Hercules的去中心化定平用能用功能全、使用人工作量明(HIPR)的，交易行。Hercules供件由 Hercules，期吸了自以太坊、Factom、Storj、Abra Wallet、Edge Security、Wings、Transform和交易所(Blockchain ...</p></blockquote>
-        </div>
-               <div class="column">
-         <blockquote class="embedly-card"><h4><a href="http://www.cnbjw.cn/mgsx/2018/1128/23428.shtml">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 美国商讯 - 聚焦北京网-聚焦北京网,原中国北京网</a></h4><p>開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HE</p></blockquote>
-        </div>
-      </div>
-        <div class="columns">
-        <div class="column">
-        <blockquote class="embedly-card"><h4><a href="http://news.anhuisc.com/2018/1130/5438.html">Hercules受期待的供定在Dobitrade交易平上_文传商讯_安徽视窗</a></h4><p>曼群治城--(美商)--用於Hercules供定的件存取金代HERC如今已在多比交易平(DOBITRADE)上。HERC在香港多比交易平的上促成最Hercules SEZC（He...</p></blockquote>
-        </div>
-               <div class="column">
-         <blockquote class="embedly-card"><h4><a href="http://news.ydunews.com/2018/1130/5440.html">Hercules受期待的供定在Dobitrade交易平上_文传商讯_粤都网</a></h4><p>http://www.ydunews.com/</p></blockquote>
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="https://www.unlock-bc.com/news/2018-12-12/hercules-supply-chain-blockchain-protocol-announces-first-use-case-anthemgold"
+              >Hercules Supply Chain Blockchain Protocol Announces First Use Case: AnthemGold</a>
+            </h4>
+            <p>Hercules SEZC announces that its first use case, AnthemGold, Inc., is using the Hercules Supply Chain Blockchain Protocol to validate the chain of custody of gold kilogram bars backing its gold-backed AGLD asset tokens with indisputable data integrity.The Hercules Blockchain Platform makes AnthemGold's AGLD tokens one of the most innovative, transparent and useful ways of owning pure gold in history.</p>
+          </blockquote>
         </div>
       </div>
       <div class="columns">
         <div class="column">
-        <blockquote class="embedly-card"><h4><a href="http://news.ppzixunw.com/2018/1130/5455.html">Hercules受期待的供定在Dobitrade交易平上_文传商讯_品牌资讯网</a></h4><p>Hercules的去中心化定平用能用功能全、使用人工作量明(HIPR)的，交易行。Hercules供件由 Hercules，期吸了自以太坊、Factom、Storj、Abra Wallet、Edge Security、Wings、Transform和交易所(Blockchain ...</p></blockquote>
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.gpj888.com/wenchuan/20181129/29482.html"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線-股票界</a>
+            </h4>
+            <p>Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</p>
+          </blockquote>
         </div>
-               <div class="column">
-         <blockquote class="embedly-card"><h4><a href="http://www.zgjjdb.com.cn/2018/1130/15021.html">迪士尼彩乐园国际-welcome to 1900</a></h4><p>開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促成並最終實現Hercules SEZC（He...</p></blockquote>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.chinaccw.com.cn/2018/1130/90807.html"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線_文传商讯_中财网</a>
+            </h4>
+            <p>開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促成並最終實現Hercules SEZC（He...</p>
+          </blockquote>
         </div>
       </div>
       <div class="columns">
         <div class="column">
-          <blockquote class="embedly-card"><h4><a href="http://www.zikoo.com/news/5gydkzfnn.html">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 资讯库 - 智库在线</a></h4><p>Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線,资讯新闻</p></blockquote>
-        </div>
-               <div class="column">
-         <blockquote class="embedly-card"><h4><a href="http://info.b2bvip.com/show-21722.html">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線_快讯_资讯_商贸通_全球b2b电子商务贸易平台_国际企业网</a></h4><p>Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促成並最終實現Hercules ...</p></blockquote>
-        </div>
-      </div>
-         <div class="columns">
-        <div class="column">
-             <blockquote class="embedly-card"><h4><a href="http://www.cn-info.net/news/2018-11-28/49759.html">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</a></h4><p>您的位置： 文传商讯 → 全部新闻 → Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</p></blockquote>    
-        </div>
-        <div class="column">
- <blockquote class="embedly-card"><h4><a href="http://www.zhongqinews.com/infoShow.asp?ID=37031">Hercules受期待的供定在Dobitrade交易平上--中企资讯网</a></h4><p>null</p></blockquote>
-        </div>
-      </div>
-       <div class="columns">
-        <div class="column">
-                  <blockquote class="embedly-card"><h4><a href="http://www.iruis.com/News/cninfo/49269.shtml">Hercules受期待的供定在Dobitrade交易平上-文传商讯-睿商网</a></h4><p>Hercules的去中心化定平用能用功能全、使用人工作量明(HIPR)的，交易行。Hercules供件由 Hercules，期吸了自以太坊、Factom、Storj、Abra Wallet、Edge Security、Wings、Transform和交易所(Blockchain ...</p></blockquote>
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.afinance.cn/new/wzsx/201811/2279856.html"
+              >Hercules受期待的供定在Dobitrade交易平上_第一金融网</a>
+            </h4>
+            <p>曼群治城--(美商)--用於Hercules供定的件存取金代HERC如今已在多比交易平(DOBITRADE)上。HERC在香港多比交易平的上促成最HerculesSEZC（Hercules定背後的）的目，即通文传商讯</p>
+          </blockquote>
         </div>
         <div class="column">
-         <blockquote class="embedly-card"><h4><a href="http://www.yunjuu.com/info/1307505.html">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 云聚网</a></h4><p>開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促成並最終實現Hercules SEZC（Hercules協定背後的開發團隊）的目標，即通過區塊鏈上的供應鏈管理，為所有操作、流程和交易提供100%的能見度。 Hercules行政總裁Anthem Hayek ...</p></blockquote>
-        </div>
-      </div>
-       <div class="columns">
-        <div class="column">
-          <blockquote class="embedly-card"><h4><a href="https://www.toutiao.com/i6628894752295092739/">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</a></h4><p>Hercules行政總裁Anthem</p></blockquote>
-        </div>
-        <div class="column">
-          <blockquote class="embedly-card"><h4><a href="http://www.cbinews.com/common/news_v15.jsp?articleid=270644">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線-电脑商情在线-渠道门户商家社区</a></h4><p>null</p></blockquote>
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.xinjr.com/caijing/redian/2018-11-28/625317.html"
+              >Hercules受期待的供定在Dobitrade交易平上-中国新金融网-新金融网-金融银行理财|XINJR.COM</a>
+            </h4>
+            <p>中国新金融网－金融网络门户网站，开设财经、银行、保险、证券、期货、基金、黄金、理财等栏目，提供银行特色服务信息、银行理财产品推荐，专业金融服务信息、证券资讯、保险资讯、期货资讯、基金资讯等专业理财资讯。</p>
+          </blockquote>
         </div>
       </div>
       <div class="columns">
         <div class="column">
-          <blockquote class="embedly-card"><h4><a href="http://businesswire.tranews.com/news.php?id=39193">null</a></h4><p>Hercules的去中心化區塊鏈協定平臺讓用戶能夠運用功能齊全、使用人類工作量證明(HIPR)的區塊鏈，對交易進行驗證。Hercules供應鏈軟件由 Hercules團隊開發，期間吸納了來自以太坊、Factom、Storj、Abra Wallet、Edge Security、Wings、Transform和區塊鏈交易所(Blockchain ...</p></blockquote>
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://news.zhexunw.com/2018/1130/5436.html"
+              >Hercules受期待的供定在Dobitrade交易平上_浙讯网http://www.zhexunw.com/</a>
+            </h4>
+            <p>浙讯网</p>
+          </blockquote>
         </div>
         <div class="column">
-          <blockquote class="embedly-card"><h4><a href="https://www.cmoney.tw/follow/channel/articles-1243606#/feed">CMoney 追訊</a></h4><p>CMoney 追訊,隨時分享你的事</p></blockquote>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column">
-<blockquote class="embedly-card"><h4><a href="https://m.news.sina.com.tw/article/20181128/29033078.html">今日頭條-推薦專題-政治-社會-娛樂-兩岸-國際-生活-旅遊-體育-財經-文教-科技-新聞-新浪新聞中心</a></h4><p>新浪新聞中心提供今日頭條、推薦專題、台灣大陸焦點新聞、最新政治、社會、娛樂、兩岸、國際、生活、旅遊、體育、財經、文教、科技等新聞資訊</p></blockquote>
-        </div>
-        <div class="column">
-          <blockquote class="embedly-card"><h4><a href="http://kc18.com/businesswirechina.php?item=7">KC18 股票論壇 - Powered by Discuz!</a></h4><p>KC18 股票論壇</p></blockquote>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column">
-<blockquote class="embedly-card"><h4><a href="https://hk.morningstar.com/AP/BUSINESSWIRE/DEFAULT.ASPX?CLANG=ZH-HK&start=10&numresults=100&docid=39193">Welcome to Morningstar Asia - 香港</a></h4><p>null</p></blockquote>
-        </div>
-        <div class="column">
-<blockquote class="embedly-card"><h4><a href="https://hei-market.com/viewthread.php?tid=63802&extra=page%3D2">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 美國商業資訊 - 喜市股票討論區 - Powered by Discuz!</a></h4><p>喜市股票討論區 開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促 ... - Discuz! Board</p></blockquote>
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.58188.com/invest/2018/11-28/123167.html"
+              >Hercules受期待的供定在Dobitrade交易平上_顶尖财经网</a>
+            </h4>
+            <p>Hercules受期待的供定在Dobitrade交易平上</p>
+          </blockquote>
         </div>
       </div>
       <div class="columns">
         <div class="column">
-        <blockquote class="embedly-card"><h4><a href="http://www.etnet.com.hk/www/tc/news/interfax_news_detail.php?newsid=39193&page=1">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 經濟通 ET Net</a></h4><p>Copyright 2018 ET Net Limited.</p></blockquote>
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.hlwang.net/wcsx/2018-11-29/27800.html"
+              >Hercules受期待的供定在Dobitrade交易平上_山东华鲁网</a>
+            </h4>
+            <p>Hercules受期待的供定在Dobitrade交易平上</p>
+          </blockquote>
         </div>
         <div class="column">
-            <blockquote class="embedly-card"><h4><a href="https://www.finet.hk/Newscenter/news_content/5bfe9151e4b0e2323832f19f">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</a></h4><p>香港財華網(財華社)作為香港港股第一品牌,向全球投資者提供中港两地的財經股市資訊,名家專欄及投資建議,並向個人及機構用戶提供股票,金融衍生產品,期權及期貨等市場數據。</p></blockquote>
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://news.zhdushi.com/2018/1130/5441.html"
+              >Hercules受期待的供定在Dobitrade交易平上_文传商讯_珠海都市网</a>
+            </h4>
+            <p>珠海都市网：http://www.zhdushi.com/</p>
+          </blockquote>
+        </div>
       </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://news.bjxinwen.com/2018/1130/5441.html"
+              >Hercules受期待的供定在Dobitrade交易平上_北京信息网</a>
+            </h4>
+            <p>Hercules的去中心化定平用能用功能全、使用人工作量明(HIPR)的，交易行。Hercules供件由 Hercules，期吸了自以太坊、Factom、Storj、Abra Wallet、Edge Security、Wings、Transform和交易所(Blockchain ...</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.cnbjw.cn/mgsx/2018/1128/23428.shtml"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 美国商讯 - 聚焦北京网-聚焦北京网,原中国北京网</a>
+            </h4>
+            <p>開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HE</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://news.anhuisc.com/2018/1130/5438.html"
+              >Hercules受期待的供定在Dobitrade交易平上_文传商讯_安徽视窗</a>
+            </h4>
+            <p>曼群治城--(美商)--用於Hercules供定的件存取金代HERC如今已在多比交易平(DOBITRADE)上。HERC在香港多比交易平的上促成最Hercules SEZC（He...</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://news.ydunews.com/2018/1130/5440.html"
+              >Hercules受期待的供定在Dobitrade交易平上_文传商讯_粤都网</a>
+            </h4>
+            <p>http://www.ydunews.com/</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://news.ppzixunw.com/2018/1130/5455.html"
+              >Hercules受期待的供定在Dobitrade交易平上_文传商讯_品牌资讯网</a>
+            </h4>
+            <p>Hercules的去中心化定平用能用功能全、使用人工作量明(HIPR)的，交易行。Hercules供件由 Hercules，期吸了自以太坊、Factom、Storj、Abra Wallet、Edge Security、Wings、Transform和交易所(Blockchain ...</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a href="http://www.zgjjdb.com.cn/2018/1130/15021.html">迪士尼彩乐园国际-welcome to 1900</a>
+            </h4>
+            <p>開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促成並最終實現Hercules SEZC（He...</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.zikoo.com/news/5gydkzfnn.html"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 资讯库 - 智库在线</a>
+            </h4>
+            <p>Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線,资讯新闻</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://info.b2bvip.com/show-21722.html"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線_快讯_资讯_商贸通_全球b2b电子商务贸易平台_国际企业网</a>
+            </h4>
+            <p>Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促成並最終實現Hercules ...</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.cn-info.net/news/2018-11-28/49759.html"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</a>
+            </h4>
+            <p>您的位置： 文传商讯 → 全部新闻 → Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.zhongqinews.com/infoShow.asp?ID=37031"
+              >Hercules受期待的供定在Dobitrade交易平上--中企资讯网</a>
+            </h4>
+            <p>null</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.iruis.com/News/cninfo/49269.shtml"
+              >Hercules受期待的供定在Dobitrade交易平上-文传商讯-睿商网</a>
+            </h4>
+            <p>Hercules的去中心化定平用能用功能全、使用人工作量明(HIPR)的，交易行。Hercules供件由 Hercules，期吸了自以太坊、Factom、Storj、Abra Wallet、Edge Security、Wings、Transform和交易所(Blockchain ...</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.yunjuu.com/info/1307505.html"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 云聚网</a>
+            </h4>
+            <p>開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促成並最終實現Hercules SEZC（Hercules協定背後的開發團隊）的目標，即通過區塊鏈上的供應鏈管理，為所有操作、流程和交易提供100%的能見度。 Hercules行政總裁Anthem Hayek ...</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="https://www.toutiao.com/i6628894752295092739/"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</a>
+            </h4>
+            <p>Hercules行政總裁Anthem</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.cbinews.com/common/news_v15.jsp?articleid=270644"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線-电脑商情在线-渠道门户商家社区</a>
+            </h4>
+            <p>null</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a href="http://businesswire.tranews.com/news.php?id=39193">null</a>
+            </h4>
+            <p>Hercules的去中心化區塊鏈協定平臺讓用戶能夠運用功能齊全、使用人類工作量證明(HIPR)的區塊鏈，對交易進行驗證。Hercules供應鏈軟件由 Hercules團隊開發，期間吸納了來自以太坊、Factom、Storj、Abra Wallet、Edge Security、Wings、Transform和區塊鏈交易所(Blockchain ...</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a href="https://www.cmoney.tw/follow/channel/articles-1243606#/feed">CMoney 追訊</a>
+            </h4>
+            <p>CMoney 追訊,隨時分享你的事</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="https://m.news.sina.com.tw/article/20181128/29033078.html"
+              >今日頭條-推薦專題-政治-社會-娛樂-兩岸-國際-生活-旅遊-體育-財經-文教-科技-新聞-新浪新聞中心</a>
+            </h4>
+            <p>新浪新聞中心提供今日頭條、推薦專題、台灣大陸焦點新聞、最新政治、社會、娛樂、兩岸、國際、生活、旅遊、體育、財經、文教、科技等新聞資訊</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a href="http://kc18.com/businesswirechina.php?item=7">KC18 股票論壇 - Powered by Discuz!</a>
+            </h4>
+            <p>KC18 股票論壇</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="https://hk.morningstar.com/AP/BUSINESSWIRE/DEFAULT.ASPX?CLANG=ZH-HK&start=10&numresults=100&docid=39193"
+              >Welcome to Morningstar Asia - 香港</a>
+            </h4>
+            <p>null</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="https://hei-market.com/viewthread.php?tid=63802&extra=page%3D2"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 美國商業資訊 - 喜市股票討論區 - Powered by Discuz!</a>
+            </h4>
+            <p>喜市股票討論區 開曼群島喬治城--(美國商業資訊)--用於驅動Hercules供應鏈協定的軟件存取金鑰代幣HERC如今已在多比交易平臺(DOBITRADE)上線。HERC在香港多比交易平臺的上線促 ... - Discuz! Board</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.etnet.com.hk/www/tc/news/interfax_news_detail.php?newsid=39193&page=1"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線 - 經濟通 ET Net</a>
+            </h4>
+            <p>Copyright 2018 ET Net Limited.</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="https://www.finet.hk/Newscenter/news_content/5bfe9151e4b0e2323832f19f"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</a>
+            </h4>
+            <p>香港財華網(財華社)作為香港港股第一品牌,向全球投資者提供中港两地的財經股市資訊,名家專欄及投資建議,並向個人及機構用戶提供股票,金融衍生產品,期權及期貨等市場數據。</p>
+          </blockquote>
+        </div>
       </div>
       <div class="columns">
         <div class="column">
@@ -136,8 +350,14 @@
           </blockquote>
         </div>
         <div class="column">
-          <blockquote class="embedly-card"><h4><a href="http://www.chineseworldnet.com/hk/stock/financeNewsGroup/interfax_bus_wire/3572095?cn_tag=no">Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線
-</a></h4><p></p></blockquote>
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="http://www.chineseworldnet.com/hk/stock/financeNewsGroup/interfax_bus_wire/3572095?cn_tag=no"
+              >Hercules備受期待的供應鏈協定在Dobitrade交易平臺上線</a>
+            </h4>
+            <p></p>
+          </blockquote>
         </div>
       </div>
       <div class="columns">

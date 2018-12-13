@@ -34,7 +34,6 @@ export default {
 <style scoped lang="scss">
 /* Big Triangle */
 #triangle-divider {
-  pointer-events: none;
   background-color: #fafafa;
 }
 

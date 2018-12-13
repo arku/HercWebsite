@@ -173,7 +173,7 @@ a {
   color: $herc-gold;
   text-transform: uppercase;
   font-size: 16px;
-  margin-right: 1%;
+  // margin-right: 1%;
 }
 a.navbar-item:before,
 a.navbar-item:after {
@@ -226,7 +226,7 @@ a:hover:after {
 }
 
 #social-top i {
-  padding-right: 10px;
+  padding-right: 5px;
 }
 
 .buy-herc {

@@ -19,7 +19,7 @@
         >
           <button>View on Etherscan</button>
         </a>
-        <h2>Additional Information</h2>
+        <!-- <h2>Additional Information</h2>
         <h3>Circulating Supply:</h3>
         <p>{{circulatingSupply}}</p>
         <h3>Aggregate Reserves:</h3>
@@ -33,7 +33,7 @@
         <h3>Average HERC Price:</h3>
         <p>{{averagePrice}}</p>
         <h3>Value Held in Reserve:</h3>
-        <p>{{valueHeldInReserve}}</p>
+        <p>{{valueHeldInReserve}}</p> -->
       </div>
       <h1>How to store your HERC on Edge Wallet</h1>
       <img src="../assets/edge-info.png">
