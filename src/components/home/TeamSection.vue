@@ -361,7 +361,14 @@
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </div>
-                <div class="column"></div>
+                <div class="column">
+                  <img src="../../assets/team/oliver.jpg">
+                  <h2 class="h2-desktop">Oliver Swig</h2>
+                  <h3 class="h3-desktop">Advisor</h3>
+                  <a href="https://www.linkedin.com/in/oliver-swig-415428a3/" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </div>
               </div>
               <h5>Technical dvisors</h5>
               <div class="columns">
@@ -784,11 +791,19 @@
                 </div>
               </div>
               <div class="columns is-mobile">
-                <div class="column is-half-mobile">
+                <div class="column">
                   <img src="../../assets/team/charles.jpg">
                   <h2 class="h2-mobile">Charles Way</h2>
                   <h3 class="h3-mobile">NY Giants NFL Player</h3>
                   <a href="https://www.linkedin.com/in/charles-way/" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </div>
+                <div class="column">
+                  <img src="../../assets/team/oliver.jpg">
+                  <h2 class="h2-mobile">Oliver Swig</h2>
+                  <h3 class="h3-mobile">Advisor</h3>
+                  <a href="https://www.linkedin.com/in/oliver-swig-415428a3/" target="_blank">
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </div>
