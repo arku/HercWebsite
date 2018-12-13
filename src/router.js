@@ -21,7 +21,7 @@ import ContactSectionBig from './views/Contact.vue';
 import DevSourcesSection from './views/DevSources.vue';
 import UtilitySection from './views/UtilityResources.vue';
 import NewsSection from './views/News.vue';
-// import CalculatorSection from './views/Calculator.vue'
+import CalculatorSection from './views/Calculator.vue'
 
 Vue.use(Router);
 
@@ -139,12 +139,12 @@ export default new Router({
         path: '/news',
         name: 'NewsSection',
         component: NewsSection
+    },
+    {
+        path: '/calculator',
+        name: 'CalculatorSection',
+        component: CalculatorSection
     }
-    // {
-    //     path: '/calculator',
-    //     name: 'CalculatorSection',
-    //     component: CalculatorSection
-    // }
     ],
     scrollBehavior(to, from, savedPosition) {
         return { x: 0, y: 0 }
