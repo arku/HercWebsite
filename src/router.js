@@ -139,12 +139,18 @@ export default new Router({
         path: '/news',
         name: 'NewsSection',
         component: NewsSection
-    }
-    // {
-    //     path: '/calculator',
-    //     name: 'CalculatorSection',
-    //     component: CalculatorSection
-    // }
+    },
+    {
+        path: '/platform',
+        beforeEnter() {
+            location.href = 'https://github.com/hercone/herc-edge-login/releases'
+        }
+    },
+        // {
+        //     path: '/calculator',
+        //     name: 'CalculatorSection',
+        //     component: CalculatorSection
+        // }
     ],
     scrollBehavior(to, from, savedPosition) {
         return { x: 0, y: 0 }
