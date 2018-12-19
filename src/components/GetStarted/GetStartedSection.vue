@@ -8,7 +8,7 @@
         </h1>
         <img src="../../assets/get-started/phone.png">
         <br>
-        <router-link to="/get-started" class="get-started-btn">Get Started</router-link>
+        <router-link to="/disclaimer-one" class="get-started-btn">Get Started</router-link>
         <p>The Hercules platform is decentralized
           <br>and powered by HERC tokens which are
           <br>required to record and validate the
@@ -25,7 +25,7 @@
               <br>Bitcoin & Ethereum
               <br>Public Blockchains
             </h1>
-            <router-link to="/get-started" class="get-started-btn">Get Started</router-link>
+            <router-link to="/disclaimer-one" class="get-started-btn">Get Started</router-link>
           </div>
         </div>
         <p>The Hercules platform is decentralized and

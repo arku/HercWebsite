@@ -1,0 +1,69 @@
+<template>
+  <div id="disclaimer-one-section">
+    <div id="content">
+      <div id="attention-section">
+        <h1>Attention!</h1>
+      </div>
+      <div id="text-content">
+        <p>Augur is a decentralized oracle and peer to peer protocol for prediction markets. Augur is free, public, open source software and a set of smart contracts written in Solidity that can be deployed to the Ethereum blockchain (the “Augur Protocol”). Before using the Augur Protocol, please review the FAQs and documentation (the “Documentation”) for a detailed explanation on how the Augur Protocol works.</p>
+        <p>The Forecast Foundation OU (the “Foundation”) is a not-for-profit entity. It does not own or lead Augur, but rather supports and develops the free, open-source protocol that is Augur. Portions of the Augur Protocol are made available under the GNU General Public License and portions under the MIT license -- and the disclaimers contained therein apply including that the Augur Protocol is provided “AS IS”, “WITH ALL FAULTS” and “AT YOUR OWN RISK”. The Foundation will not be liable for any liability or damages whatsoever associated with your use, inability to use, or your interaction with other users of, the Augur Protocol, including any direct, indirect, incidental, special, exemplary or consequential damages, loss of profits, Reputation (REP) tokens, Ether (ETH) tokens, any other cryptocurrencies or data.</p>
+        <p>You acknowledge that the current version of the Augur Protocol is a beta version and as such has not been fully-tested and may not perform as designed. On the Augur Protocol, Reputation (REP) and Ether (ETH) may be used respectively for staking on outcomes and trading, and in the future, other tokens or cryptocurrencies may be used. While you should always be thoughtful about the REP, ETH or other tokens/cryptocurrencies you stake and trade (and can lose) through the Augur Protocol, the concerns regarding loss of these tokens or cryptocurrencies is particularly acute with beta software that may not perform as designed, including that the beta version of the Augur Protocol may not accurately reflect the intent of the smart contracts, the FAQs or the Documentation. Your use of the Augur Protocol involves various risks, including, but not limited to losing tokens/cryptocurrencies due to invalidation. Careful due diligence should be undertaken as to the amount of REP, ETH or other tokens/cryptocurrencies you stake and trade using the Augur Protocol in beta format with full understanding that any staking and trading of these tokens/cryptocurrencies could be subject to total loss. You assume any and all risk associated with your use of the Augur Protocol.</p>
+        <p>
+          Although the Foundation has not sought to list REP on cryptocurrency exchanges, it is aware that REP has been listed on certain exchanges and in the future it may be delisted on these exchanges and/or listed on others. The Foundation disavows any obligation with respect to the listing of REP on exchanges and it disavows any responsibility with respect to the value or trading of REP on exchanges. Persons trading REP or otherwise engaged in activities involving REP on exchanges assume any and all risk, including that of total loss, associated with such activities.
+          You are solely responsible for compliance with all laws that may apply to your particular use of the Augur Protocol. Cryptocurrencies and blockchain technologies have been the subject of scrutiny by various regulatory bodies around the world. The Foundation makes no representation regarding the application of any laws, including but by no means limited to those relating to gaming, options, derivatives or securities, to your use of the Augur Protocol. Indeed, depending on the jurisdiction and the contemplated use of the Augur Protocol (whether yours or another’s), that use may be considered illegal. You agree that the Foundation is not responsible for determining whether or which laws may apply to your use of the Augur Protocol. You may modify the Augur Protocol under the terms of the applicable open source license to effectuate your compliance with any applicable laws.
+        </p>
+        <router-link to="/disclaimer-two" class="get-started-btn">I Agree and Accept The Above</router-link>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "DisclaimerOneSection"
+};
+</script>
+
+<style scoped lang="scss">
+#attention-section {
+  background-color: $herc-blue;
+  padding: 50px;
+}
+
+#text-content {
+  background-color: white;
+  padding: 50px;
+}
+
+h1 {
+  @include herc-gold-h1;
+  color: white;
+  margin-bottom: 0;
+}
+
+.get-started-btn {
+  color: white;
+  background-color: $herc-blue;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10%;
+}
+
+.get-started-btn:hover {
+  background-color: $herc-gold;
+  color: $herc-blue;
+  box-shadow: $herc-shadow;
+  font-weight: bold;
+}
+
+p {
+  max-width: 1080px;
+  margin: auto;
+  margin-bottom: 2%;
+  font-size: 18px;
+  color: $herc-blue;
+}
+</style>
