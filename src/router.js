@@ -21,6 +21,7 @@ import ContactSectionBig from './views/Contact.vue';
 import DevSourcesSection from './views/DevSources.vue';
 import UtilitySection from './views/UtilityResources.vue';
 import NewsSection from './views/News.vue';
+import GetStartedSection from './views/GetStarted.vue';
 import CalculatorSection from './views/Calculator.vue'
 
 Vue.use(Router);
@@ -139,6 +140,17 @@ export default new Router({
         path: '/news',
         name: 'NewsSection',
         component: NewsSection
+    },
+    {
+        path: '/platform',
+        beforeEnter() {
+            location.href = 'https://github.com/hercone/herc-edge-login/releases'
+        }
+    },
+    {
+        path: '/get-started',
+        name: 'GetStarted',
+        component: GetStartedSection
     },
     {
         path: '/calculator',
