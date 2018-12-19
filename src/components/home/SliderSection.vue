@@ -94,6 +94,8 @@
           </h1>
           <div class="chart">
             <coingecko-coin-compare-chart-widget coin-ids="hercules" currency="usd" locale="en"></coingecko-coin-compare-chart-widget>
+            <h3>Market Capitalization:</h3>
+            <p>{{marketCapitalization}}</p>
           </div>
         </div>
       </div>
@@ -102,13 +104,36 @@
 </template>
 
 <script>
+//Import and declare jQuery for component scoped use
+
+import JQuery from "jquery";
+let $ = JQuery;
+
 // import { Carousel, Slide } from "vue-carousel";
 export default {
-  name: "SliderSection"
+  name: "SliderSection",
   // components: {
   //   Carousel,
   //   Slide
   // }
+  data() {
+    return {
+      marketCapitalization: ""
+    };
+  },
+  methods: {
+    showInfo() {
+      const self = this;
+      $.getJSON("https://chart.anthemgold.com/bi-1.0-SNAPSHOT/Report", function(
+        data
+      ) {
+        self.marketCapitalization = `${data.marketCapitalization}`;
+      });
+    }
+  },
+  beforeMount() {
+    this.showInfo();
+  }
 };
 </script>
 
@@ -126,6 +151,11 @@ h1 {
   @include herc-blue-h1;
   font-weight: bold;
   margin-bottom: 5%;
+}
+
+h3{
+  font-weight: bold;
+  color: $herc-blue;
 }
 
 span {
