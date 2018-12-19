@@ -21,7 +21,7 @@ export default {
   name: "DisclaimerTwoSection",
   mounted() {
     setTimeout(() => {
-      this.$router.push("https://google.com");
+      window.location.href = "https://google.com";
     }, 10000);
   }
 };
