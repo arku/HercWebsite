@@ -21,8 +21,6 @@ import ContactSectionBig from './views/Contact.vue';
 import DevSourcesSection from './views/DevSources.vue';
 import UtilitySection from './views/UtilityResources.vue';
 import NewsSection from './views/News.vue';
-import GetStartedSection from './views/GetStarted.vue';
-import CalculatorSection from './views/Calculator.vue'
 import GetStartedSection from './views/GetStarted/GetStarted.vue';
 import DisclaimerOneSection from './views/GetStarted/DisclaimerOne.vue';
 import DisclaimerTwoSection from './views/GetStarted/DisclaimerTwo.vue';
@@ -157,9 +155,6 @@ export default new Router({
         component: GetStartedSection
     },
     {
-        path: '/calculator',
-        name: 'CalculatorSection',
-        component: CalculatorSection
         path: '/disclaimer-one',
         name: 'DisclaimerOne',
         component: DisclaimerOneSection
@@ -169,6 +164,11 @@ export default new Router({
         name: 'DisclaimerTwo',
         component: DisclaimerTwoSection
     }
+        // {
+        //     path: '/calculator',
+        //     name: 'CalculatorSection',
+        //     component: CalculatorSection
+        // }
     ],
     scrollBehavior(to, from, savedPosition) {
         return { x: 0, y: 0 }
