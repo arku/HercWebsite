@@ -16,12 +16,8 @@
           </h1>
           <div>
             <div id="buttons-lol">
-              <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                <button class="left-button" @click="trackTelegram">Talk With Us</button>
-              </a>
-
               <router-link to="/whitepaper">
-                <button class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
+                <button class="token-button" @click="trackWhitepaper">Read Whitepaper</button>
               </router-link>
             </div>
             <h2 class="center-text">HERC Token was successfully deployed!</h2>
@@ -39,10 +35,7 @@
             </div>
             <!-- PROGRESS BAR HERE -->
             <a href="https://www.crowdfunder.com/hercules">
-              <button
-                @click="trackTokenSale"
-                class="tokensale-button animated flash infinite slow"
-              >Buy HERC now!</button>
+              <button @click="trackTokenSale" class="tokensale-button white">Buy HERC now!</button>
             </a>
           </div>
         </div>
@@ -67,13 +60,6 @@
 export default {
   name: "LandingPageOne",
   methods: {
-    trackTelegram() {
-      this.$ga.event({
-        eventCategory: "LandingPageOne",
-        eventAction: "Telegram button clicked",
-        eventLabel: "1-1"
-      });
-    },
     trackTokenSale() {
       this.$ga.event({
         eventCategory: "LandingPageOne",
@@ -145,6 +131,7 @@ img {
 
 button {
   @include herc-gold-button;
+  border-radius: 5px;
 }
 
 button:hover {
@@ -156,31 +143,22 @@ button:hover {
   width: 100%;
 }
 
-.left-button {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-}
-
-.right-button {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-}
-
 .center-text {
   text-align: center;
 }
 
-.token-button {
-  border-radius: 5px;
-}
-
 .tokensale-button {
- border-radius: 5px;
- margin: 5%;
+  border-radius: 5px;
+  margin: 5%;
 }
 
 .spacer {
   margin-bottom: 5%;
+}
+
+.white {
+  background-color: white;
+  border-color: white;
 }
 
 /*** Responsive Styles Large Desktop And Above ***/
@@ -191,23 +169,11 @@ button:hover {
   button {
     border-radius: 5px !important;
   }
-
-  .left-button,
-  .right-button {
-    border-radius: 0;
-    margin: 5%;
-  }
 }
 
 @media all and (max-width: 1099px) {
   button {
     border-radius: 5px !important;
-  }
-
-  .left-button,
-  .right-button {
-    border-radius: 0;
-    margin: 5%;
   }
 
   br {
@@ -248,12 +214,6 @@ button:hover {
 
   br {
     display: none;
-  }
-
-  .left-button,
-  .right-button {
-    border-radius: 0;
-    margin: 5%;
   }
 }
 /*** Responsive Styles Smartphone Portrait ***/

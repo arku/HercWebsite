@@ -1,63 +1,67 @@
 <template>
-    <div id="landing-four">
-        <div id="content">
-            <div class="columns">
-                <div class="column">
-                    <h1 id="title">Leveraging <span id="btc">Bitcoin</span> & <span id="eth">Ethereum</span><br> Public Blockchains</h1>
-                    <img src="../../assets/herc-logo.png" id="logo">
-                    <h3 id="logo-subtitle">An integrated &<br> multi-layered<br> Supply Chain<br> Software Solution</h3>
-                    <div id="buttons-lol">
-                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                        <button  class="left-button" @click="trackTelegram">Talk With Us</button>
-                      </a>
-                      <a href="https://www.crowdfunder.com/hercules">
-                        <button @click="trackTokenSale" class="tokensale-button animated flash infinite slow">Token Sale</button>
-                      </a>
-                      <router-link to="/whitepaper">
-                        <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
-                      </router-link>
-                    </div>
-                </div>
-                <div class="column">
-                  <div>
-                    <h2 class="center-text">HERC Token was successfully deployed!</h2>
-                    <div class="spacer">
-                      <router-link to="/tokeninfo">
-                        <button class="spacer border-rad">Token Info</button>
-                      </router-link>
-                    </div>
-                    <div>
-                      <router-link to="/developer-resources">
-                        <button class="spacer border-rad">Developer Resources</button>
-                      </router-link>
-                    </div>
-                  </div>
-                  <img src="../../assets/landing-pages/coins.png" id="coins">
-                  <h4>Powered by <span id="herc-bold">HERC</span> tokens</h4>
-                  <h2>About HERC</h2>
-                <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
-                  management software that utilizes public blockchains.
-                </p>
-                <p>The Hercules platform is decentralized and powered by HERC tokens which
-                  are required to record and validate the supply chain data.
-                </p>
-                </div>
-            </div>
+  <div id="landing-four">
+    <div id="content">
+      <div class="columns">
+        <div class="column">
+          <h1 id="title">
+            Leveraging
+            <span id="btc">Bitcoin</span> &
+            <span id="eth">Ethereum</span>
+            <br>Public Blockchains
+          </h1>
+          <img src="../../assets/herc-logo.png" id="logo">
+          <h3 id="logo-subtitle">An integrated &
+            <br>multi-layered
+            <br>Supply Chain
+            <br>Software Solution
+          </h3>
+          <div id="buttons-lol">
+            <a href="https://www.crowdfunder.com/hercules">
+              <button @click="trackTokenSale" class="tokensale-button left-button">Token Sale</button>
+            </a>
+            <router-link to="/whitepaper">
+              <button class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
+            </router-link>
+          </div>
         </div>
+        <div class="column">
+          <div>
+            <h2 class="center-text">HERC Token was successfully deployed!</h2>
+            <div class="spacer">
+              <router-link to="/tokeninfo">
+                <button class="spacer border-rad">Token Info</button>
+              </router-link>
+            </div>
+            <div>
+              <router-link to="/developer-resources">
+                <button class="spacer border-rad">Developer Resources</button>
+              </router-link>
+            </div>
+          </div>
+          <img src="../../assets/landing-pages/coins.png" id="coins">
+          <h4>
+            Powered by
+            <span id="herc-bold">HERC</span> tokens
+          </h4>
+          <h2>About HERC</h2>
+          <p>
+            Hercules, a Special Economic Zone Company (SEZC) develops supply chain
+            management software that utilizes public blockchains.
+          </p>
+          <p>
+            The Hercules platform is decentralized and powered by HERC tokens which
+            are required to record and validate the supply chain data.
+          </p>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: "LandingPageFour",
   methods: {
-    trackTelegram() {
-      this.$ga.event({
-        eventCategory: "LandingPageFour",
-        eventAction: "Telegram button clicked",
-        eventLabel: "4-1"
-      });
-    },
     trackTokenSale() {
       this.$ga.event({
         eventCategory: "LandingPageFour",

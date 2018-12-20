@@ -1,61 +1,60 @@
 <template>
-    <div id="landing-seven">
-        <div id="content">
-            <h1 id="title">Identify the <b>Origin</b> and <b>Characteristics</b> of a Product and <b>Locate Wherever It Is in the Supply Chain</b></h1>
-            <div class="columns">
-                <div class="column">
-                    <img src="../../assets/herc-logo.png">
-                    <h3>Transforming<br> Supply Chain<br> Ecosystems</h3>
-                    <div id="buttons-lol">
-                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                        <button  class="left-button" @click="trackTelegram">Talk With Us</button>
-                      </a>
-                      <a href="https://www.crowdfunder.com/hercules">
-                        <button @click="trackTokenSale" class="tokensale-button animated flash infinite slow">Buy HERC</button>
-                      </a>
-                      <router-link to="/whitepaper">
-                        <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
-                      </router-link>
-                    </div>
-                </div>
-                <div class="column">
-                    <h2>About HERC</h2>
-                    <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
-                    management software that utilizes public blockchains.
-                    </p>
-                    <p class="spacer">The Hercules platform is decentralized and powered by HERC tokens which
-                    are required to record and validate the supply chain data.
-                    </p>
-                    <div>
-                      <h3 class="deployed">HERC Token was successfully deployed!</h3>
-                      <div class="spacer">
-                        <router-link to="/tokeninfo">
-                          <button class="token-button">Token Info</button>
-                        </router-link>
-                      </div>
-                      <div>
-                        <router-link to="/developer-resources">
-                          <button class="token-button">Developer Resources</button>
-                        </router-link>
-                      </div>
-                    </div>
-                </div>
-            </div>
+  <div id="landing-seven">
+    <div id="content">
+      <h1 id="title">Identify the
+        <b>Origin</b> and
+        <b>Characteristics</b> of a Product and
+        <b>Locate Wherever It Is in the Supply Chain</b>
+      </h1>
+      <div class="columns">
+        <div class="column">
+          <img src="../../assets/herc-logo.png">
+          <h3>Transforming
+            <br>Supply Chain
+            <br>Ecosystems
+          </h3>
+          <div id="buttons-lol">
+            <a href="https://www.crowdfunder.com/hercules">
+              <button @click="trackTokenSale" class="tokensale-button left-button">Buy HERC</button>
+            </a>
+            <router-link to="/whitepaper">
+              <button class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
+            </router-link>
+          </div>
         </div>
+        <div class="column">
+          <h2>About HERC</h2>
+          <p>
+            Hercules, a Special Economic Zone Company (SEZC) develops supply chain
+            management software that utilizes public blockchains.
+          </p>
+          <p class="spacer">
+            The Hercules platform is decentralized and powered by HERC tokens which
+            are required to record and validate the supply chain data.
+          </p>
+          <div>
+            <h3 class="deployed">HERC Token was successfully deployed!</h3>
+            <div class="spacer">
+              <router-link to="/tokeninfo">
+                <button class="token-button">Token Info</button>
+              </router-link>
+            </div>
+            <div>
+              <router-link to="/developer-resources">
+                <button class="token-button">Developer Resources</button>
+              </router-link>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: "LandingPageSeven",
   methods: {
-    trackTelegram() {
-      this.$ga.event({
-        eventCategory: "LandingPageSeven",
-        eventAction: "Telegram button clicked",
-        eventLabel: "7-1"
-      });
-    },
     trackTokenSale() {
       this.$ga.event({
         eventCategory: "LandingPageSeven",
