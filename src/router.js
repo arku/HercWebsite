@@ -149,11 +149,11 @@ export default new Router({
             location.href = 'https://github.com/hercone/herc-edge-login/releases'
         }
     },
-    // {
-    //     path: '/get-started',
-    //     name: 'GetStarted',
-    //     component: GetStartedSection
-    // },
+    {
+        path: '/get-started',
+        name: 'GetStarted',
+        component: GetStartedSection
+    },
     // {
     //     path: '/disclaimer',
     //     name: 'DisclaimerOne',
