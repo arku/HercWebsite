@@ -1,77 +1,79 @@
 <template>
-    <div id="landing-eight">
-        <div id="content">
-            <div class="columns">
-                <div class="column is-8">
-                    <h1 id="title">Producing, Manufacturing<br> and Delivering Products<br> Made <b>Efficient</b> and <b>Transparent</b></h1>
-                </div>
-                
-                <div class="column">
-                  <div>
-                      <h3 class="deployed">HERC Token was successfully deployed!</h3>
-                      <div class="spacer">
-                        <router-link to="/tokeninfo">
-                          <button id="token-button">Token Info</button>
-                        </router-link>
-                      </div>
-                      <div>
-                        <router-link to="/developer-resources">
-                          <button >Developer Resources</button>
-                        </router-link>
-                      </div>
-                    </div>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                    <img src="../../assets/herc-logo.png">
-                    <h3>Blockchain Powered<br>Supply Chain Protocol</h3>
-                </div>
-                <div class="column">
-                    <h2>About HERC</h2>
-                    <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
-                    management software that utilizes public blockchains.
-                    </p>
-                    <p>The Hercules platform is decentralized and powered by HERC tokens which
-                    are required to record and validate the supply chain data.
-                    </p>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="column">
-                    <p>*Hercules decentralized supply chain management
-                        software enables users to create a permanent and shared record
-                        that provides immutability, and more importantly, trust for the consumer.</p>
-                </div>
-                <div class="column">
-                    <div id="buttons-lol">
-                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                        <button  class="left-button" @click="trackTelegram">Talk With Us</button>
-                      </a>
-                      <a href="https://www.crowdfunder.com/hercules">
-                        <button @click="trackTokenSale" class="tokensale-button animated flash infinite slow">Buy HERC</button>
-                      </a>
-                      <router-link to="/whitepaper">
-                        <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
-                      </router-link>
-                  </div>
-                </div>
-            </div>
+  <div id="landing-eight">
+    <div id="content">
+      <div class="columns">
+        <div class="column is-8">
+          <h1 id="title">
+            Producing, Manufacturing
+            <br>and Delivering Products
+            <br>Made
+            <b>Efficient</b> and
+            <b>Transparent</b>
+          </h1>
         </div>
+
+        <div class="column">
+          <div>
+            <h3 class="deployed">HERC Token was successfully deployed!</h3>
+            <div class="spacer">
+              <router-link to="/tokeninfo">
+                <button class="token-button">Token Info</button>
+              </router-link>
+            </div>
+            <div>
+              <router-link to="/developer-resources">
+                <button class="token-button">Developer Resources</button>
+              </router-link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <img src="../../assets/herc-logo.png">
+          <h3>Blockchain Powered
+            <br>Supply Chain Protocol
+          </h3>
+        </div>
+        <div class="column">
+          <h2>About HERC</h2>
+          <p>
+            Hercules, a Special Economic Zone Company (SEZC) develops supply chain
+            management software that utilizes public blockchains.
+          </p>
+          <p>
+            The Hercules platform is decentralized and powered by HERC tokens which
+            are required to record and validate the supply chain data.
+          </p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <p>
+            *Hercules decentralized supply chain management
+            software enables users to create a permanent and shared record
+            that provides immutability, and more importantly, trust for the consumer.
+          </p>
+        </div>
+        <div class="column">
+          <div id="buttons-lol">
+            <a href="https://www.crowdfunder.com/hercules">
+              <button @click="trackTokenSale" class="tokensale-button left-button">Buy HERC</button>
+            </a>
+            <router-link to="/whitepaper">
+              <button class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
+            </router-link>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: "LandingPageEight",
   methods: {
-    trackTelegram() {
-      this.$ga.event({
-        eventCategory: "LandingPageEight",
-        eventAction: "Telegram button clicked",
-        eventLabel: "8-1"
-      });
-    },
     trackTokenSale() {
       this.$ga.event({
         eventCategory: "LandingPageEight",
@@ -145,12 +147,12 @@ img {
 
 button {
   @include herc-gold-button;
-  box-shadow: $herc-shadow;
 }
 
 button:hover {
   @include herc-gold-button-hover;
   background-color: $herc-blue;
+  box-shadow: $herc-shadow;
 }
 
 .left-button {
@@ -163,10 +165,9 @@ button:hover {
   border-bottom-right-radius: 10px;
 }
 
-#token-button {
+.token-button {
   margin: 5%;
   border-radius: 5px;
-  box-shadow: $herc-shadow;
 }
 
 // .tokensale-button {

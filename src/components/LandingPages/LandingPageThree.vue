@@ -1,65 +1,59 @@
 <template>
-    <div id="landing-three">
-        <div id="content">
-            <div class="columns">
-                <div class="column">
-                    <h1 id="title">Global Expert Team</h1>
-                    <h1 id="subtitle">Building Worldclass Solutions</h1>
-                    <img src="../../assets/herc-logo.png" id="logo">
-                    <h1 id="logo-subtitle">A Blockchain <br>Supply Chain Solution</h1>
-                    <div id="buttons-lol">
-                      <a href="https://t.me/joinchat/E_FZdg4HNKlqnxKXEEeYxw" target="_blank">
-                        <button  class="left-button" @click="trackTelegram">Talk With Us</button>
-                      </a>
-                      <a href="https://www.crowdfunder.com/hercules">
-                        <button @click="trackTokenSale" class="tokensale-button animated flash infinite slow">Buy HERC</button>
-                      </a>
-                      <router-link to="/whitepaper">
-                        <button  class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
-                      </router-link>
-                  </div>
-                </div>
-                <div class="column">
-                    <img src="../../assets/landing-pages/people-computing.png" id="people">
-                    <h2>About HERC</h2>
-                <p>Hercules, a Special Economic Zone Company (SEZC) develops supply chain
-                  management software that utilizes public blockchains.
-                </p>
-                <p>The Hercules platform is decentralized and powered by HERC tokens which
-                  are required to record and validate the supply chain data.
-                </p>
-                </div>
-            </div>
-            <div class="columns">
-              <div class="column">
-                <h2 class="center-text">HERC Token was successfully deployed!</h2>
-                <div class="spacer">
-                  <router-link to="/tokeninfo">
-                    <button class="border-button">Token Info</button>
-                  </router-link>
-                </div>
-                <div>
-                  <router-link to="/developer-resources">
-                    <button class="border-button">Developer Resources</button>
-                  </router-link>
-                </div>
-              </div>
-            </div>
+  <div id="landing-three">
+    <div id="content">
+      <div class="columns">
+        <div class="column">
+          <h1 id="title">Global Expert Team</h1>
+          <h1 id="subtitle">Building Worldclass Solutions</h1>
+          <img src="../../assets/herc-logo.png" id="logo">
+          <h1 id="logo-subtitle">A Blockchain
+            <br>Supply Chain Solution
+          </h1>
+          <div id="buttons-lol">
+            <a href="https://www.crowdfunder.com/hercules">
+              <button @click="trackTokenSale" class="tokensale-button left-button">Buy HERC</button>
+            </a>
+            <router-link to="/whitepaper">
+              <button class="right-button" @click="trackWhitepaper">Read Whitepaper</button>
+            </router-link>
+          </div>
         </div>
+        <div class="column">
+          <img src="../../assets/landing-pages/people-computing.png" id="people">
+          <h2>About HERC</h2>
+          <p>
+            Hercules, a Special Economic Zone Company (SEZC) develops supply chain
+            management software that utilizes public blockchains.
+          </p>
+          <p>
+            The Hercules platform is decentralized and powered by HERC tokens which
+            are required to record and validate the supply chain data.
+          </p>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h2 class="center-text">HERC Token was successfully deployed!</h2>
+          <div class="spacer">
+            <router-link to="/tokeninfo">
+              <button class="border-button">Token Info</button>
+            </router-link>
+          </div>
+          <div>
+            <router-link to="/developer-resources">
+              <button class="border-button">Developer Resources</button>
+            </router-link>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: "LandingPageThree",
   methods: {
-    trackTelegram() {
-      this.$ga.event({
-        eventCategory: "LandingPageThree",
-        eventAction: "Telegram button clicked",
-        eventLabel: "3-1"
-      });
-    },
     trackTokenSale() {
       this.$ga.event({
         eventCategory: "LandingPageThree",
@@ -151,8 +145,8 @@ button {
 }
 
 button:hover {
-@include herc-gold-button-hover;
-background-color: $herc-blue;
+  @include herc-gold-button-hover;
+  background-color: $herc-blue;
 }
 
 .left-button {
