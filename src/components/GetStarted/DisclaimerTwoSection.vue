@@ -19,11 +19,11 @@
 <script>
 export default {
   name: "DisclaimerTwoSection",
-  mounted() {
-    setTimeout(() => {
-      window.location.href = "https://google.com";
-    }, 10000);
-  }
+  // mounted() {
+  //   setTimeout(() => {
+  //     window.location.href = "https://google.com";
+  //   }, 10000);
+  // }
 };
 </script>
 

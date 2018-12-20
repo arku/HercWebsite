@@ -8,7 +8,17 @@
         </h1>
         <img src="../../assets/get-started/phone.png">
         <br>
-        <router-link to="/disclaimer-one" class="get-started-btn">Get Started</router-link>
+        <div class="columns">
+          <div class="column">
+            <button class="get-started-btn" @click="goToWeb">Web</button>
+          </div>
+          <div class="column">
+            <button class="get-started-btn" @click="goToWeb">iOs</button>
+          </div>
+          <div class="column">
+            <button class="get-started-btn" @click="goToAndroid">Android</button>
+          </div>
+        </div>
         <p>The Hercules platform is decentralized
           <br>and powered by HERC tokens which are
           <br>required to record and validate the
@@ -25,7 +35,17 @@
               <br>Bitcoin & Ethereum
               <br>Public Blockchains
             </h1>
-            <router-link to="/disclaimer-one" class="get-started-btn">Get Started</router-link>
+            <div class="columns">
+              <div class="column">
+                <button class="get-started-btn" @click="goToWeb">Web</button>
+              </div>
+              <div class="column">
+                <button class="get-started-btn" @click="goToWeb">iOs</button>
+              </div>
+              <div class="column">
+                <button class="get-started-btn" @click="goToAndroid">Android</button>
+              </div>
+            </div>
           </div>
         </div>
         <p>The Hercules platform is decentralized and
@@ -39,7 +59,16 @@
 
 <script>
 export default {
-  name: "GetStartedSection"
+  name: "GetStartedSection",
+  methods: {
+    goToWeb() {
+      window.location.href = "https://google.com";
+    },
+    goToAndroid() {
+      window.location.href =
+        "https://github.com/hercone/herc-edge-login/releases";
+    }
+  }
 };
 </script>
 
@@ -65,6 +94,7 @@ img {
 }
 
 .get-started-btn {
+  background-color: transparent;
   color: white;
   border: 2px solid $herc-gold;
   border-radius: 4px;
@@ -72,7 +102,6 @@ img {
   padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-bottom: 10%;
   font-weight: bold;
 }
 

@@ -154,21 +154,21 @@ export default new Router({
         name: 'GetStarted',
         component: GetStartedSection
     },
-        // {
-        //     path: '/disclaimer',
-        //     name: 'DisclaimerOne',
-        //     component: DisclaimerOneSection
-        // },
-        // {
-        //     path: '/apps',
-        //     name: 'DisclaimerTwo',
-        //     component: DisclaimerTwoSection
-        // }
-        //     {
-        //     path: '/calculator',
-        //     name: 'CalculatorSection',
-        //     component: CalculatorSection
-        // }
+    // {
+    //     path: '/disclaimer',
+    //     name: 'DisclaimerOne',
+    //     component: DisclaimerOneSection
+    // },
+    // {
+    //     path: '/apps',
+    //     name: 'DisclaimerTwo',
+    //     component: DisclaimerTwoSection
+    // }
+    //     {
+    //     path: '/calculator',
+    //     name: 'CalculatorSection',
+    //     component: CalculatorSection
+    // }
     ],
     scrollBehavior(to, from, savedPosition) {
         return { x: 0, y: 0 }
