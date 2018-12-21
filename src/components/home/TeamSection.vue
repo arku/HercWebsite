@@ -269,7 +269,7 @@
                 <div class="column">
                   <img src="../../assets/team/katey.jpg">
                   <h2 class="h2-desktop">Katheryn Gunter</h2>
-                  <h3 class="h3-desktop">Accounts Payable Specialist</h3>
+                  <h3 class="h3-desktop">Executive Administrator</h3>
                   <a href="https://www.linkedin.com/in/katey-gunter-606118175/" target="_blank">
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
@@ -706,7 +706,7 @@
                 <div class="column is-half-mobile">
                   <img src="../../assets/team/katey.jpg">
                   <h2 class="h2-mobile">Katheryn Gunter</h2>
-                  <h3 class="h3-mobile">Accounts Payable Specialist</h3>
+                  <h3 class="h3-mobile">Executive Administrator</h3>
                   <a href="https://www.linkedin.com/in/katey-gunter-606118175/" target="_blank">
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
