@@ -1,7 +1,7 @@
 <template>
-  <div class="disclaimer-one">
+  <div class="disclaimer-web">
     <NavBar></NavBar>
-    <DisclaimerOneSection></DisclaimerOneSection>
+    <DisclaimerWebSection></DisclaimerWebSection>
     <ContactSection></ContactSection>
     <FooterSection></FooterSection>
     <back-to-top bottom="100px" right="10px">
@@ -12,16 +12,16 @@
   </div>
 </template>
 <script>
-import DisclaimerOneSection from "@/components/GetStarted/DisclaimerOneSection.vue";
+import DisclaimerWebSection from "@/components/GetStarted/DisclaimerWebSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import NavBar from "@/components/NavBar.vue";
 import ContactSection from "@/components/ContactSection.vue";
 
 export default {
-  name: "faq",
+  name: "disclaimer-web",
   components: {
     NavBar,
-    DisclaimerOneSection,
+    DisclaimerWebSection,
     ContactSection,
     FooterSection
   }

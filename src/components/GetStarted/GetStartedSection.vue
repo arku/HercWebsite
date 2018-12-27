@@ -62,11 +62,13 @@ export default {
   name: "GetStartedSection",
   methods: {
     goToWeb() {
-      window.location.href = "https://google.com";
+      // window.location.href = "https://google.com";
+      window.location.href = "/disclaimer-web";
     },
     goToAndroid() {
-      window.location.href =
-        "https://github.com/hercone/herc-edge-login/releases";
+      // window.location.href =
+      //   "https://github.com/hercone/herc-edge-login/releases";
+      window.location.href = "/disclaimer-android";
     }
   }
 };

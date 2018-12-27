@@ -1,5 +1,5 @@
 <template>
-  <div id="disclaimer-one-section">
+  <div id="disclaimer-web-section">
     <div id="content">
       <div id="attention-section">
         <h1>Attention!</h1>
@@ -10,7 +10,11 @@
         <p>Your use of the Hercules Protocol involves various risks, including, but not limited to losing tokens/cryptocurrencies due to invalidation. You should carefully consider the amount of HERCs you stake and trade using the Hercules Protocol with full understanding that any staking and trading could be subject to total loss. You assume any and all risk associated with your use of the Hercules Protocol.</p>
         <p>Hercules SEZC is aware that HERC has been listed on certain exchanges and in the future it may be delisted on these exchanges and/or listed on others. Hercules SEZC disavows any obligation with respect to the listing of HERC on exchanges and it disavows any responsibility with respect to the value or trading of HERC on exchanges. Persons trading HERC or otherwise engaged in activities involving HERC on exchanges assume any and all risk, including that of total loss, associated with such activities.</p>
         <p>You are solely responsible for compliance with all laws that may apply to your particular use of the Hercules Protocol. Cryptocurrencies and blockchain technologies have been the subject of scrutiny by various regulatory bodies around the world. Hercules SEZC makes no representation regarding the application of any laws, including but by no means limited to those relating to gaming, options, derivatives or securities, to your use of the Hercules Protocol. Indeed, depending on the jurisdiction and the contemplated use of the Hercules Protocol (whether yours or another’s), that use may be considered illegal. You agree that Hercules SEZC is not responsible for determining whether or which laws may apply to your use of the Hercules Protocol. You may modify the Hercules Protocol under the terms to effectuate your compliance with any applicable laws.</p>
-        <router-link to="/apps" class="get-started-btn">I Agree and Accept The Above</router-link>
+        <a
+          href="https://wallet.herc.one"
+          target="_blank"
+          class="get-started-btn"
+        >I Agree and Accept The Above</a>
       </div>
     </div>
   </div>
@@ -18,7 +22,7 @@
 
 <script>
 export default {
-  name: "DisclaimerOneSection"
+  name: "DisclaimerWebSection"
 };
 </script>
 
