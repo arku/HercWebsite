@@ -1,7 +1,7 @@
 <template>
-  <div class="get-started">
+  <div class="disclaimer-android">
     <NavBar></NavBar>
-    <GetStartedSection></GetStartedSection>
+    <DisclaimerAndroidSection></DisclaimerAndroidSection>
     <ContactSection></ContactSection>
     <FooterSection></FooterSection>
     <back-to-top bottom="100px" right="10px">
@@ -12,16 +12,16 @@
   </div>
 </template>
 <script>
-import GetStartedSection from "@/components/GetStarted/GetStartedSection.vue";
+import DisclaimerAndroidSection from "@/components/GetStarted/DisclaimerAndroidSection.vue";
 import FooterSection from "@/components/FooterSection.vue";
 import NavBar from "@/components/NavBar.vue";
 import ContactSection from "@/components/ContactSection.vue";
 
 export default {
-  name: "get-started",
+  name: "disclaimer-android",
   components: {
     NavBar,
-    GetStartedSection,
+    DisclaimerAndroidSection,
     ContactSection,
     FooterSection
   }
