@@ -370,7 +370,7 @@
                   </a>
                 </div>
               </div>
-              <h5>Technical dvisors</h5>
+              <h5>Technical advisors</h5>
               <div class="columns">
                 <div class="column"></div>
                 <div class="column">
