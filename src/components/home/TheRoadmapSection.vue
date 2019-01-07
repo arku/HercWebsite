@@ -43,11 +43,13 @@
           </h4>
         </div>
         <div class="notification answer">
-          <h5>
-            <i class="fas fa-code"></i> Mintable asset tokens m[AT]
-          </h5>
+          <i class="fas fa-code"></i>
+          <a href="https://gitcoin.co"> Gitcoin Bounties</a>
           <h5>
             <i class="fas fa-code"></i> HERC IGVC Registry
+          </h5>
+          <h5>
+            <i class="fas fa-code"></i> HERCHome
           </h5>
           <h5>
             <i class="fas fa-code"></i> Multichain Explorer
@@ -56,7 +58,13 @@
             <i class="fas fa-code"></i> Permissionless censorship resistant marketplace ALPHA
           </h5>
           <h5>
-            <i class="fas fa-code"></i> Bug Bounty
+            <i class="fas fa-code"></i> Mintable asset tokens m[AT]
+          </h5>
+          <h5>
+            <i class="fas fa-code"></i> Purchase Order / Requisition Dapp
+          </h5>
+          <h5>
+            <i class="fas fa-code"></i> RFP / RFI / RFQ Dapp
           </h5>
         </div>
       </b-collapse>
@@ -311,6 +319,13 @@ h4 {
 h5 {
   font-weight: bold;
   text-transform: uppercase;
+}
+
+a {
+  color: $herc-gold !important;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
 }
 
 h6 {
