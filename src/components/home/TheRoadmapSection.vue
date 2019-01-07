@@ -22,8 +22,8 @@
       <b-collapse :open="false" id="job-holder">
         <div slot="trigger" class="question">
           <h3>Q4 2018</h3>
-          <h4>
-            In progress
+          <h4 class="completed">
+            Completed
             <i class="far fa-check-square"></i>
           </h4>
         </div>
