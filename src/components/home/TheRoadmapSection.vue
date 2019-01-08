@@ -44,7 +44,7 @@
         </div>
         <div class="notification answer">
           <i class="fas fa-code"></i>
-          <a href="https://gitcoin.co"> Gitcoin Bounties</a>
+          <a href="https://gitcoin.co">Gitcoin Bounties</a>
           <h5>
             <i class="fas fa-code"></i> HERC IGVC Registry
           </h5>
@@ -108,13 +108,13 @@
         </div>
         <div class="notification answer">
           <h5>
+            <i class="fas fa-code"></i> Extended Vertical Pilots
+          </h5>
+          <h5>
             <i class="fas fa-code"></i> HERC Terminal Operating System Private Beta
           </h5>
           <h5>
             <i class="fas fa-code"></i> Port to Port IoT data integrity pilot
-          </h5>
-          <h5>
-            <i class="fas fa-code"></i> HIPR Engine Relayer Public Beta
           </h5>
           <h5>
             <i class="fas fa-code"></i> HIPR Engine Relayer Public Beta & HERCade Buildout

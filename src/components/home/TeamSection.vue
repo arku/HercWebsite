@@ -227,6 +227,16 @@
                   </a>
                 </div>
                 <div class="column">
+                  <img src="../../assets/team/ahmer.jpg">
+                  <h2 class="h2-desktop">Ahmer Malik</h2>
+                  <h3 class="h3-desktop">UI Developer</h3>
+                  <a href="https://www.linkedin.com/in/ahmermalikm" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="columns">
+                <div class="column">
                   <img src="../../assets/team/brandon.png">
                   <h2 class="h2-desktop">Brandon Li</h2>
                   <h3 class="h3-desktop">Intern | Quality Assurance</h3>
@@ -237,15 +247,12 @@
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </div>
-              </div>
-              <div class="columns">
                 <div class="column">
                   <img src="../../assets/team/you.png">
                   <a href="mailto:social@herc.one" target="_blank">
                     <i class="fas fa-envelope fa-2x"></i>
                   </a>
                 </div>
-                <div class="column"></div>
                 <div class="column"></div>
                 <div class="column"></div>
               </div>
@@ -340,7 +347,7 @@
                 <div class="column">
                   <img src="../../assets/team/charles.jpg">
                   <h2 class="h2-desktop">Charles Way</h2>
-                  <h3 class="h3-desktop">NY Giants NFL Player</h3>
+                  <h3 class="h3-desktop">Former NY Giants NFL Player</h3>
                   <a href="https://www.linkedin.com/in/charles-way/" target="_blank">
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
@@ -663,6 +670,19 @@
                   </a>
                 </div>
                 <div class="column">
+                  <img src="../../assets/team/ahmer.jpg">
+                  <h2 class="h2-mobile">Ahmer Malik</h2>
+                  <h3 class="h3-mobile">UI Developer</h3>
+                  <a
+                    href="https://www.linkedin.com/in/danijel-demirovic-671a79120/"
+                    target="_blank"
+                  >
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+              <div class="columns is-mobile">
+                <div class="column">
                   <img src="../../assets/team/brandon.png">
                   <h2 class="h2-mobile">Brandon Li</h2>
                   <h3 class="h3-mobile">Intern | Quality Assurance</h3>
@@ -673,8 +693,6 @@
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </div>
-              </div>
-              <div class="columns is-mobile">
                 <div class="column">
                   <img src="../../assets/team/you.png">
                   <h2 class="h2-mobile"></h2>
@@ -683,7 +701,6 @@
                     <i class="fas fa-envelope fa-2x"></i>
                   </a>
                 </div>
-                <div class="column"></div>
               </div>
               <h4 class="h4-mobile">Administrative</h4>
               <div class="columns is-mobile">
@@ -794,7 +811,7 @@
                 <div class="column">
                   <img src="../../assets/team/charles.jpg">
                   <h2 class="h2-mobile">Charles Way</h2>
-                  <h3 class="h3-mobile">NY Giants NFL Player</h3>
+                  <h3 class="h3-mobile">Former NY Giants NFL Player</h3>
                   <a href="https://www.linkedin.com/in/charles-way/" target="_blank">
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
