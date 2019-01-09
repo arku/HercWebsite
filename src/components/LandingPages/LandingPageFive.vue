@@ -40,7 +40,7 @@
         </div>
       </div>
       <div id="treca">
-        <h3 class="center-text">HERC Token was successfully deployed!</h3>
+        <h3 class="center-text">HERC Token is on Mainnet!</h3>
         <div class="spacer">
           <router-link to="/tokeninfo">
             <button>Token Info</button>

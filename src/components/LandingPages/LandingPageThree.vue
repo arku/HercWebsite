@@ -33,7 +33,7 @@
       </div>
       <div class="columns">
         <div class="column">
-          <h2 class="center-text">HERC Token was successfully deployed!</h2>
+          <h2 class="center-text">HERC Token is on Mainnet!</h2>
           <div class="spacer">
             <router-link to="/tokeninfo">
               <button class="border-button">Token Info</button>

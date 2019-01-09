@@ -26,7 +26,7 @@
         </div>
         <div class="column">
           <div>
-            <h2 class="center-text">HERC Token was successfully deployed!</h2>
+            <h2 class="center-text">HERC Token is on Mainnet!</h2>
             <div class="spacer">
               <router-link to="/tokeninfo">
                 <button class="spacer border-rad">Token Info</button>

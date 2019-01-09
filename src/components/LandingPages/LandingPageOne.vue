@@ -20,7 +20,7 @@
                 <button class="token-button" @click="trackWhitepaper">Read Whitepaper</button>
               </router-link>
             </div>
-            <h2 class="center-text">HERC Token was successfully deployed!</h2>
+            <h2 class="center-text">HERC Token is on Mainnet!</h2>
             <div class="spacer">
               <router-link to="/tokeninfo">
                 <button class="token-button">Token Info</button>
