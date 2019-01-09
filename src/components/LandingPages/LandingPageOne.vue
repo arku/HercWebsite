@@ -27,10 +27,15 @@
                 <br>
               </router-link>
             </div>
-            <div>
+            <div class="spacer">
               <router-link to="/developer-resources">
                 <button class="token-button">Developer Resources</button>
                 <br>
+              </router-link>
+            </div>
+            <div>
+              <router-link to="/get-started">
+                <button class="token-button" @click="trackWhitepaper">Get Started</button>
               </router-link>
             </div>
             <!-- PROGRESS BAR HERE -->

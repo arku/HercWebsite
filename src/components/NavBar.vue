@@ -104,6 +104,14 @@
                     <span>Utilities</span>
                   </router-link>
                 </p>
+                <p class="control" id="util">
+                  <router-link to="/get-started" class="button is-primary dugme-hover">
+                    <span class="icon">
+                      <i class="fa fa-play" aria-hidden="true"></i>
+                    </span>
+                    <span>Get Started</span>
+                  </router-link>
+                </p>
               </div>
             </div>
           </div>

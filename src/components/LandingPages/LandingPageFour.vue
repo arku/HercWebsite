@@ -32,9 +32,14 @@
                 <button class="spacer border-rad">Token Info</button>
               </router-link>
             </div>
-            <div>
+            <div class="spacer">
               <router-link to="/developer-resources">
                 <button class="spacer border-rad">Developer Resources</button>
+              </router-link>
+            </div>
+            <div>
+              <router-link to="/get-started">
+                <button class="spacer border-rad">Get Started</button>
               </router-link>
             </div>
           </div>

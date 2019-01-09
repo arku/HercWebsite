@@ -46,9 +46,14 @@
             <button>Token Info</button>
           </router-link>
         </div>
-        <div>
+        <div class="spacer">
           <router-link to="/developer-resources">
             <button>Developer Resources</button>
+          </router-link>
+        </div>
+        <div>
+          <router-link to="/get-started">
+            <button>Get Started</button>
           </router-link>
         </div>
       </div>

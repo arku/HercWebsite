@@ -1,7 +1,8 @@
 <template>
   <div id="landing-seven">
     <div id="content">
-      <h1 id="title">Identify the
+      <h1 id="title">
+        Identify the
         <b>Origin</b> and
         <b>Characteristics</b> of a Product and
         <b>Locate Wherever It Is in the Supply Chain</b>
@@ -39,9 +40,14 @@
                 <button class="token-button">Token Info</button>
               </router-link>
             </div>
-            <div>
+            <div class="spacer">
               <router-link to="/developer-resources">
                 <button class="token-button">Developer Resources</button>
+              </router-link>
+            </div>
+            <div>
+              <router-link to="/get-started">
+                <button class="token-button">Get Started</button>
               </router-link>
             </div>
           </div>

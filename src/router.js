@@ -152,21 +152,21 @@ export default new Router({
         location.href = "https://github.com/hercone/herc-edge-login/releases";
       }
     },
-    // {
-    //   path: "/get-started",
-    //   name: "GetStarted",
-    //   component: GetStartedSection
-    // },
-    // {
-    //   path: "/disclaimer-web",
-    //   name: "DisclaimerWeb",
-    //   component: DisclaimerWebSection
-    // },
-    // {
-    //   path: "/disclaimer-android",
-    //   name: "DisclaimerAndroid",
-    //   component: DisclaimerAndroidSection
-    // },
+    {
+      path: "/get-started",
+      name: "GetStarted",
+      component: GetStartedSection
+    },
+    {
+      path: "/disclaimer-web",
+      name: "DisclaimerWeb",
+      component: DisclaimerWebSection
+    },
+    {
+      path: "/disclaimer-android",
+      name: "DisclaimerAndroid",
+      component: DisclaimerAndroidSection
+    },
     // {
     //     path: '/apps',
     //     name: 'DisclaimerTwo',
