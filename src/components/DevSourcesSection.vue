@@ -10,12 +10,12 @@
                         <i class="fas fa-file-pdf"></i>Whitepaper
                     </router-link>
                 </div>
-                <!-- <div class="column">
+                <div class="column">
                     <h2>Academic Paper</h2>
-                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/AcademicPaper.pdf" target="_blank" class="button">
+                    <a href="https://s3.us-east-2.amazonaws.com/hercmedia/AcademicPaperQ1_2019.pdf" target="_blank" class="button">
                         <i class="fas fa-file-pdf"></i>Academic Paper
                     </a>
-                </div> -->
+                </div>
             </div>
             <div class="columns">
                 <div class="column">
