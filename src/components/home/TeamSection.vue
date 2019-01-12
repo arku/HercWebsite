@@ -283,7 +283,7 @@
                 </div>
               </div>
               <h4 id="advisors">Advisors</h4>
-              <h5>Senior advisors</h5>
+              <h5>Senior Advisors</h5>
               <div class="columns">
                 <div class="column"></div>
                 <div class="column">
@@ -307,7 +307,7 @@
                 </div>
                 <div class="column"></div>
               </div>
-              <h5>Crypto advisors</h5>
+              <h5>Advisors</h5>
               <div class="columns">
                 <div class="column">
                   <img src="../../assets/team/billb.jpg">
@@ -377,7 +377,20 @@
                   </a>
                 </div>
               </div>
-              <h5>Technical advisors</h5>
+              <div class="columns">
+                <div class="column">
+                  <img src="../../assets/team/benjamin.jpg">
+                  <h2 class="h2-desktop">Benjamin Katz</h2>
+                  <h3 class="h3-desktop">Founder, Business Operator</h3>
+                  <a href="https://www.linkedin.com/in/meetbenkatz/" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </div>
+                <div class="column"></div>
+                <div class="column"></div>
+                <div class="column"></div>
+              </div>
+              <h5>Technical Advisors</h5>
               <div class="columns">
                 <div class="column"></div>
                 <div class="column">
@@ -398,7 +411,7 @@
                 </div>
                 <div class="column"></div>
               </div>
-              <h5>Family office advisors</h5>
+              <h5>Family Office Advisors</h5>
               <div class="columns">
                 <div class="column">
                   <img src="../../assets/team/wendy.jpg">
@@ -424,14 +437,7 @@
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </div>
-                <div class="column">
-                  <img src="../../assets/team/benjamin.jpg">
-                  <h2 class="h2-desktop">Benjamin Katz</h2>
-                  <h3 class="h3-desktop">Founder, Business Operator</h3>
-                  <a href="https://www.linkedin.com/in/meetbenkatz/" target="_blank">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                  </a>
-                </div>
+                <div class="column"></div>
               </div>
             </div>
           </div>
@@ -730,7 +736,7 @@
                 </div>
               </div>
               <h4 id="advisors-mobile" class="h4-mobile">Advisors</h4>
-              <h5>Senior advisors</h5>
+              <h5>Senior Advisors</h5>
               <div class="columns is-mobile">
                 <div class="column">
                   <img src="../../assets/team/mikemc.jpg">
@@ -752,7 +758,7 @@
                   </a>
                 </div>
               </div>
-              <h5>Crypto advisors</h5>
+              <h5>Advisors</h5>
               <div class="columns is-mobile">
                 <div class="column">
                   <img src="../../assets/team/billb.jpg">
@@ -825,7 +831,17 @@
                   </a>
                 </div>
               </div>
-              <h5>Technical advisors</h5>
+              <div class="columns is-mobile">
+                <div class="column is-half-mobile">
+                  <img src="../../assets/team/benjamin.jpg">
+                  <h2 class="h2-mobile">Benjamin Katz</h2>
+                  <h3 class="h3-mobile">CEO - Card.com</h3>
+                  <a href="https://www.linkedin.com/in/meetbenkatz/" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                  </a>
+                </div>
+              </div>
+              <h5>Technical Advisors</h5>
               <div class="columns is-mobile">
                 <div class="column">
                   <img src="../../assets/team/stevencramer.jpg">
@@ -844,7 +860,7 @@
                   </a>
                 </div>
               </div>
-              <h5>Family office advisors</h5>
+              <h5>Family Office Advisors</h5>
               <div class="columns is-mobile">
                 <div class="column">
                   <img src="../../assets/team/wendy.jpg">
@@ -864,19 +880,11 @@
                 </div>
               </div>
               <div class="columns is-mobile">
-                <div class="column">
+                <div class="column is-half-mobile">
                   <img src="../../assets/team/kai.png">
                   <h2 class="h2-mobile">Kai Weeks</h2>
                   <h3 class="h3-mobile">Social Entrepreneur</h3>
                   <a href="https://www.linkedin.com/in/kai-bickle-nygard-79228b5b/" target="_blank">
-                    <i class="fab fa-linkedin fa-2x"></i>
-                  </a>
-                </div>
-                <div class="column">
-                  <img src="../../assets/team/benjamin.jpg">
-                  <h2 class="h2-mobile">Benjamin Katz</h2>
-                  <h3 class="h3-mobile">CEO - Card.com</h3>
-                  <a href="https://www.linkedin.com/in/meetbenkatz/" target="_blank">
                     <i class="fab fa-linkedin fa-2x"></i>
                   </a>
                 </div>
