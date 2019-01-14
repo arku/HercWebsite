@@ -24,7 +24,8 @@ import NewsSection from "./views/News.vue";
 import GetStartedSection from "./views/GetStarted/GetStarted.vue";
 import DisclaimerWebSection from "./views/GetStarted/DisclaimerWeb.vue";
 import DisclaimerAndroidSection from "./views/GetStarted/DisclaimerAndroid.vue";
-// import DisclaimerTwoSection from './views/GetStarted/DisclaimerTwo.vue';
+import ArticlesSection from "./views/Articles.vue";
+import MentionsSection from "./views/Mentions.vue";
 import CalculatorSection from "./views/Calculator.vue";
 
 Vue.use(Router);
@@ -167,11 +168,16 @@ export default new Router({
       name: "DisclaimerAndroid",
       component: DisclaimerAndroidSection
     },
-    // {
-    //     path: '/apps',
-    //     name: 'DisclaimerTwo',
-    //     component: DisclaimerTwoSection
-    // }
+    {
+      path: "/articles",
+      name: "articles",
+      component: ArticlesSection
+    },
+    {
+      path: "/mentions",
+      name: "mentions",
+      component: MentionsSection
+    }
     // {
     //   path: "/calculator",
     //   name: "CalculatorSection",
