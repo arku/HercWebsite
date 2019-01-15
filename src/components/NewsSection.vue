@@ -16,6 +16,7 @@
           </blockquote>
         </div>
       </div>
+      <!--
       <div class="columns">
         <div class="column">
           <blockquote class="embedly-card">
@@ -382,6 +383,7 @@
           </blockquote>
         </div>
       </div>
+      -->
       <div class="columns">
         <div class="column">
           <blockquote class="embedly-card">
