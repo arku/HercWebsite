@@ -168,16 +168,16 @@ export default new Router({
       name: "DisclaimerAndroid",
       component: DisclaimerAndroidSection
     },
-    {
-      path: "/articles",
-      name: "articles",
-      component: ArticlesSection
-    },
-    {
-      path: "/mentions",
-      name: "mentions",
-      component: MentionsSection
-    }
+    //{
+    // path: "/articles",
+    //name: "articles",
+    //component: ArticlesSection
+    //},
+    //{
+    //path: "/mentions",
+    //name: "mentions",
+    //component: MentionsSection
+    //}
     // {
     //   path: "/calculator",
     //   name: "CalculatorSection",
