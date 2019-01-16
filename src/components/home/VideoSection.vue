@@ -32,7 +32,7 @@
             <p>
           Other blockchain projects with similar use cases have only considered private permissioned blockchain technology as a means to scale. 
           We believe Proof of Human Work will revolutionize the way projects can scale on public blockchain.
-          At 0.001$/kb indexed HERC is >98%+ more cost efficient when compared to Hyperledger's $1000$/month/node model.
+          At 0.001$/kb indexed HERC is >98%+ more cost efficient when compared to Hyperledger's $1000/month/node model.
           HERC's protocol consensus model has built-in pay per supply chain movement.</p>
           </div>
         </div>

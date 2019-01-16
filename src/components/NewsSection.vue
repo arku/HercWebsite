@@ -4,7 +4,7 @@
       <h1>
         <span>HERC</span> News
       </h1>
-      <div class="columns">
+      <!-- <div class="columns">
         <div class="column">
           <blockquote class="embedly-card">
             <h4>
@@ -15,7 +15,7 @@
             <p>Hercules SEZC announces that its first use case, AnthemGold, Inc., is using the Hercules Supply Chain Blockchain Protocol to validate the chain of custody of gold kilogram bars backing its gold-backed AGLD asset tokens with indisputable data integrity.The Hercules Blockchain Platform makes AnthemGold's AGLD tokens one of the most innovative, transparent and useful ways of owning pure gold in history.</p>
           </blockquote>
         </div>
-      </div>
+      </div>-->
       <!--
       <div class="columns">
         <div class="column">
@@ -385,7 +385,7 @@
       </div>
       -->
       <div class="columns">
-        <div class="column">
+        <!-- <div class="column">
           <blockquote class="embedly-card">
             <h4>
               <a
@@ -394,7 +394,7 @@
             </h4>
             <p>GEORGETOWN, Cayman Islands--(BUSINESS WIRE)--Nov 28, 2018--HERC, the software access key token used to power Hercules Supply Chain Protocol, is now listed on DOBITRADE. HERC's listing on Hong Kong-based DOBITRADE facilitates and finally brings to reality Hercules SEZC's (the team behind the Hercules Protocol) goal of providing 100% visibility into all operations, processes and transactions through supply chain management on the blockchain.</p>
           </blockquote>
-        </div>
+        </div> -->
         <div class="column">
           <blockquote class="embedly-card">
             <h4>
