@@ -385,7 +385,19 @@
       </div>
       -->
       <div class="columns">
-        <!-- <div class="column">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="https://www.apnews.com/357b349449104c66a0cca52dc6d5abe5"
+              >Helmsley Spear and Hercules SEZC Collaborate to Secure Commercial Real Estate Records with Blockchain Software</a>
+            </h4>
+            <p>GEORGE TOWN, Grand Cayman--(BUSINESS WIRE)--Jan 10, 2019--Helmsley Spear, LLC, America's oldest continuously operating real estate company founded in 1866, is collaborating with Hercules SEZC, a cutting-edge, blockchain-based supply chain software company, in the initial phase of documenting rent rolls for Helmsley Spear's commercial leases and providing confidentiality and indisputable historical building documentation for two of its properties in Lower Manhattan.</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
           <blockquote class="embedly-card">
             <h4>
               <a
@@ -394,7 +406,7 @@
             </h4>
             <p>GEORGETOWN, Cayman Islands--(BUSINESS WIRE)--Nov 28, 2018--HERC, the software access key token used to power Hercules Supply Chain Protocol, is now listed on DOBITRADE. HERC's listing on Hong Kong-based DOBITRADE facilitates and finally brings to reality Hercules SEZC's (the team behind the Hercules Protocol) goal of providing 100% visibility into all operations, processes and transactions through supply chain management on the blockchain.</p>
           </blockquote>
-        </div> -->
+        </div>
         <div class="column">
           <blockquote class="embedly-card">
             <h4>
