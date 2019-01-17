@@ -395,6 +395,16 @@
             <p>GEORGE TOWN, Grand Cayman--(BUSINESS WIRE)--Jan 10, 2019--Helmsley Spear, LLC, America's oldest continuously operating real estate company founded in 1866, is collaborating with Hercules SEZC, a cutting-edge, blockchain-based supply chain software company, in the initial phase of documenting rent rolls for Helmsley Spear's commercial leases and providing confidentiality and indisputable historical building documentation for two of its properties in Lower Manhattan.</p>
           </blockquote>
         </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a
+                href="https://www.globest.com/2019/01/14/helmsley-spear-adopts-blockchain-technology/?fbclid=IwAR3HlFR3IYRUzdr8eFOgDgJpkLV3lWXL7rAcpQoJaBQGz67PHOKSpBJwllQ&slreturn=20190017090346"
+              >Helmsley Spear Adopts Blockchain Technology | GlobeSt</a>
+            </h4>
+            <p>Don't miss crucial news and insights you need to make informed commercial real estate decisions. Join GlobeSt.com now! Free unlimited access to GlobeSt.com's trusted and independent team of experts who provide commercial real estate owners, investors, developers, brokers and finance professionals with comprehensive coverage, analysis and best practices necessary to innovate and build business.</p>
+          </blockquote>
+        </div>
       </div>
       <div class="columns">
         <div class="column">

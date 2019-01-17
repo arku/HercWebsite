@@ -35,8 +35,8 @@
           </a>
         </slide>
         <slide class="slide-container">
-          <a href="https://sistemkoin.com/" target="_blank">
-            <img class="imgSize" src="../../assets/exchanges/sistemkoin.png">
+          <a href="https://coinmarketcap.com/" target="_blank">
+            <img class="imgSize" src="../../assets/exchanges/coin-market-cap-logo.png">
           </a>
         </slide>
         <slide class="slide-container">
@@ -50,6 +50,7 @@
           </a>
         </slide>
       </carousel>
+
       <div id="desktop-slider">
         <div class="columns">
           <div class="column">
@@ -75,8 +76,8 @@
         </div>
         <div class="columns">
           <div class="column">
-            <a href="https://sistemkoin.com/" target="_blank">
-              <img class="imgSize" src="../../assets/exchanges/sistemkoin.png">
+            <a href="https://coinmarketcap.com/" target="_blank">
+              <img class="imgSize" src="../../assets/exchanges/coin-market-cap-logo.png">
             </a>
           </div>
           <div class="column">
