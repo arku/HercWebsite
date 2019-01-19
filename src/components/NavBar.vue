@@ -29,7 +29,26 @@
             <router-link to="/" class="navbar-item">Home</router-link>
             <a href="/#blurb-section" class="navbar-item">About</a>
             <a href="/#the-roadmap-section" class="navbar-item">Roadmap</a>
-            <a href="/#documents-section" class="navbar-item">Documents</a>
+            <b-dropdown hoverable id="droptro">
+              <a class="navbar-item" slot="trigger">
+                <i class="fas fa-angle-down ri"></i> Documents
+              </a>
+              <b-dropdown-item>
+                <a
+                  href="https://s3.us-east-2.amazonaws.com/hercmedia/herc+media+kit.zip"
+                  target="_blank"
+                >Media Kit</a>
+              </b-dropdown-item>
+              <b-dropdown-item>
+                <router-link to="/whitepaper" class="a-reversed">Whitepaper</router-link>
+              </b-dropdown-item>
+              <b-dropdown-item>
+                <a
+                  href="https://s3.us-east-2.amazonaws.com/hercmedia/AcademicPaperQ1_2019.pdf"
+                  target="_blank"
+                >Academic Whitepaper</a>
+              </b-dropdown-item>
+            </b-dropdown>
             <router-link to="/news" class="navbar-item">News</router-link>
             <b-dropdown hoverable id="droptro">
               <a class="navbar-item" slot="trigger">

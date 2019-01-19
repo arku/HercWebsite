@@ -1,23 +1,36 @@
 <template>
-    <div id="documents-section">
-        <div id="content">
-            <div>
-                <h1>Documents</h1>
-            </div>
-            <div class="columns">
-              <div class="column">
-                <router-link to="/whitepaper/" class="dugme">
-                    <i class="fas fa-file-pdf"></i> Whitepaper
-                </router-link>
-              </div>
-              <div class="column">
-                <a href="https://s3.us-east-2.amazonaws.com/hercmedia/AcademicPaperQ1_2019.pdf" target="_blank" class="dugme">
-                    <i class="fas fa-file-pdf"></i> Academic Paper
-                </a>
-              </div>
-            </div>
+  <div id="documents-section">
+    <div id="content">
+      <div>
+        <h1>Documents</h1>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <router-link to="/whitepaper/" class="dugme">
+            <i class="fas fa-file-pdf"></i> Whitepaper
+          </router-link>
         </div>
+        <div class="column">
+          <a
+            href="https://s3.us-east-2.amazonaws.com/hercmedia/AcademicPaperQ1_2019.pdf"
+            target="_blank"
+            class="dugme"
+          >
+            <i class="fas fa-file-pdf"></i> Academic Paper
+          </a>
+        </div>
+        <div class="column">
+          <a
+            href="https://s3.us-east-2.amazonaws.com/hercmedia/herc+media+kit.zip"
+            target="_blank"
+            class="dugme"
+          >
+            <i class="fas fa-file-pdf"></i> Media Kit
+          </a>
+        </div>
+      </div>
     </div>
+  </div>
 </template>
 
 <script>
