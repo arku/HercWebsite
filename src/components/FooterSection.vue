@@ -23,7 +23,7 @@
                     <div class="column">
                         <h3>Company</h3>
                         <div>
-                            <a href="https://www.crowdfunder.com/hercules">Buy HERC</a>
+                            <a href="https://purchase.herc.one/">Buy HERC</a>
                         </div>
                         <div>
                             <a href="/#team-section">Team</a>

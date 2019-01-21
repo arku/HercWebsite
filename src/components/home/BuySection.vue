@@ -1,12 +1,14 @@
 <template>
-    <div id="buy-section">
-        <div id="content">
-            <h1>Buy <span>HERC</span> now!</h1>
-            <a href="https://www.crowdfunder.com/hercules">
-                <img src="../../assets/pillar-only-small.gif">
-            </a>
-        </div>
+  <div id="buy-section">
+    <div id="content">
+      <h1>Buy
+        <span>HERC</span> now!
+      </h1>
+      <a href="https://purchase.herc.one">
+        <img src="../../assets/pillar-only-small.gif">
+      </a>
     </div>
+  </div>
 </template>
 
 <script>

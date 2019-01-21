@@ -109,7 +109,7 @@
                     <div class="notification answer">
                         <div class="content">
                             <p>You can now purchase HERC tokens: 
-                                <a href="https://www.crowdfunder.com/hercules" target="_blank">https://www.crowdfunder.com/hercules</a>
+                                <a href="https://purchase.herc.one/" target="_blank">https://purchase.herc.one/</a>
                             </p>
                             <p>Learn how to store your HERC tokens: 
                                 <a href="https://herc.one/tokeninfo" target="_blank">https://herc.one/tokeninfo</a>

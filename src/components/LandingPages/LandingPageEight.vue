@@ -62,7 +62,7 @@
         </div>
         <div class="column">
           <div id="buttons-lol">
-            <a href="https://www.crowdfunder.com/hercules">
+            <a href="https://purchase.herc.one">
               <button @click="trackTokenSale" class="tokensale-button left-button">Buy HERC</button>
             </a>
             <router-link to="/whitepaper">

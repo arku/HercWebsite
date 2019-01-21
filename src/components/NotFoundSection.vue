@@ -10,7 +10,7 @@
             <button @click="returnWhitepaper">Whitepaper</button>
           </router-link>
           <button @click="returnTokenSale">
-            <a href="https://www.crowdfunder.com/hercules">Token Sale</a>
+            <a href="https://purchase.herc.one/">Token Sale</a>
           </button>
         </div>
     </div>

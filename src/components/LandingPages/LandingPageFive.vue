@@ -16,7 +16,7 @@
             that provides immutability, and more importantly, trust for the consumer.
           </p>
           <div id="buttons-lol">
-            <a href="https://www.crowdfunder.com/hercules">
+            <a href="https://purchase.herc.one">
               <button
                 @click="trackTokenSale"
                 class="remove-right-border tokensale-button left-button"

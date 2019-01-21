@@ -16,7 +16,7 @@
             <br>Software Solution
           </h3>
           <div id="buttons-lol">
-            <a href="https://www.crowdfunder.com/hercules">
+            <a href="https://purchase.herc.one/">
               <button @click="trackTokenSale" class="tokensale-button left-button">Token Sale</button>
             </a>
             <router-link to="/whitepaper">

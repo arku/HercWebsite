@@ -39,7 +39,7 @@
               </router-link>
             </div>
             <!-- PROGRESS BAR HERE -->
-            <a href="https://www.crowdfunder.com/hercules">
+            <a href="https://purchase.herc.one">
               <button @click="trackTokenSale" class="tokensale-button white">Buy HERC now!</button>
             </a>
           </div>
