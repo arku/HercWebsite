@@ -394,6 +394,15 @@
             <p>Setting up a business in a new country can often be a daunting task. That's exactly what those behind Hercules SEZC found out before getting in touch with the team at Cayman Enterprise City (CEC), an award-winning free zone development project.</p>
           </blockquote>
         </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a href="http://cayman27.ky/2018/01/top-story-blockchain-attraction-and-cayman/">
+               Top Story: Blockchain attraction and Cayman</a>
+            </h4>
+            <p>Reshma Ragoonath Reshma Ragoonath is a Trinidadian journalist with 18 years media experience with a strong background in print with her most recent stint at The Cayman Reporter. She has a BA in Mass Communications, as well as, an Associate degree in Journalism and Public Relations.</p>
+          </blockquote>
+        </div>
       </div>
       <div class="columns">
         <div class="column">
