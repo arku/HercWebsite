@@ -388,6 +388,37 @@
         <div class="column">
           <blockquote class="embedly-card">
             <h4>
+              <a href="https://www.caymanenterprisecity.com/blog/blockchain-business-feels-at-home?fbclid=IwAR1FaKOjFPZiYGbfi20aOr9QRMbazooWenklTcZioLix3YFw6bAJ_A4fVrM%22%3EPioneering">
+               Blockchain Business Feels at Home in Cayman Tech City</a>
+            </h4>
+            <p>Setting up a business in a new country can often be a daunting task. That's exactly what those behind Hercules SEZC found out before getting in touch with the team at Cayman Enterprise City (CEC), an award-winning free zone development project.</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a href="http://www.journal.ky/2018/03/07/cayman-aims-to-capitalize-on-blockchain-boom/">
+               Cayman aims to capitalize on blockchain boomy</a>
+            </h4>
+            <p>Though the price of Bitcoin has fluctuated wildly since its inception - with some economists expecting it and other cryptocurrencies to be speculative bubbles - that uncertainty has not dampened the momentum of the technology that underpins cryptocurrencies: blockchain. In recent months, blockchain companies have been popping up on a nearly daily basis.</p>
+          </blockquote>
+        </div>
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
+              <a href="https://medium.com/authority-magazine/meet-the-women-of-the-blockchain-cynthia-blanchard-co-founder-of-anthem-vault-inc-d36f8c81d4d">
+               Meet The Women Of The Blockchain: Cynthia Blanchard, Co-Founder of Anthem Vault, Inc</a>
+            </h4>
+            <p>"I strive to be a balanced, fair, loving and self assured decision maker, partner, wife, daughter, sister, and friend. I have overcome some challenges in life and have tried to share my story to help others as much as possible." I had the pleasure to interview Cynthia Blanchard.</p>
+          </blockquote>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <blockquote class="embedly-card">
+            <h4>
               <a
                 href="https://www.apnews.com/357b349449104c66a0cca52dc6d5abe5"
               >Helmsley Spear and Hercules SEZC Collaborate to Secure Commercial Real Estate Records with Blockchain Software</a>
