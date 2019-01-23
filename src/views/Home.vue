@@ -105,40 +105,4 @@ export default {
 };
 </script>
 
-<style>
-.btn-to-top {
-  width: 40px;
-  height: 40px;
-  border-color: #f3c736;
-  background-color: transparent;
-  color: #f3c736;
-  font-size: 16px;
-  line-height: 20px;
-  border-radius: 5px;
-}
 
-.btn-to-top:hover {
-  box-shadow: 0px 12px 18px -6px #000;
-  background-color: #f3c736;
-  color: #091141;
-}
-
-/*** Responsive Styles Large Desktop And Above ***/
-@media all and (min-width: 1405px) {
-}
-/*** Responsive Styles Standard Desktop Only ***/
-@media all and (min-width: 1100px) and (max-width: 1405px) {
-}
-/*** Responsive Styles Tablet And Below ***/
-@media all and (max-width: 980px) {
-}
-/*** Responsive Styles Tablet Only ***/
-@media all and (min-width: 768px) and (max-width: 980px) {
-}
-/*** Responsive Styles Smartphone Only ***/
-@media all and (max-width: 767px) {
-}
-/*** Responsive Styles Smartphone Portrait ***/
-@media all and (max-width: 479px) {
-}
-</style>

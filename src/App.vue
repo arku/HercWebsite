@@ -131,4 +131,20 @@ html {
   font-size: 50px;
   color: black;
 }
+.btn-to-top {
+  width: 40px;
+  height: 40px;
+  border-color: $herc-gold;
+  background-color: transparent;
+  color: $herc-gold;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 5px;
+}
+
+.btn-to-top:hover {
+  box-shadow: 0px 12px 18px -6px #000;
+  background-color: $herc-gold;
+  color: $herc-blue;
+}
 </style>

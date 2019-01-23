@@ -27,21 +27,3 @@ export default {
   }
 };
 </script>
-
-<style scoped lang="scss">
-.btn-to-top {
-  width: 40px;
-  height: 40px;
-  border-color: $herc-gold;
-  background-color: transparent;
-  color: $herc-gold;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.btn-to-top:hover {
-  box-shadow: $herc-shadow;
-  background-color: $herc-gold;
-  color: $herc-blue;
-}
-</style>
