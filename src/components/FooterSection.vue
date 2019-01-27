@@ -70,7 +70,7 @@
                             <h3>Subscribe</h3>
                             <p>Stay updated!</p>
                             <div>
-                                <input v-validate="'required|email'" name="email" type="text" id="maintext">
+                                <input v-validate="'required|email'" name="email" type="text" id="maintext" placeholder="Email">
                             </div>
                             <div>
                                 <p id="thanks">{{message}}</p>
@@ -193,6 +193,7 @@ button:hover {
   height: 40px;
   margin-bottom: 5%;
   color: white;
+  padding-left: 6px;
 }
 
 #thanks {
